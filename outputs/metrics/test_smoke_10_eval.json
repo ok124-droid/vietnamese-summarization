@@ -1,0 +1,24 @@
+[
+  {
+    "prediction_file": "lead1.jsonl",
+    "system": "lead1",
+    "total_predictions": 10,
+    "valid_count": 10,
+    "error_count": 0,
+    "rouge_1_f1": 29.4818,
+    "rouge_2_f1": 13.2641,
+    "rouge_l_f1": 21.0347,
+    "compression_ratio_pct": 8.4245
+  },
+  {
+    "prediction_file": "lead3.jsonl",
+    "system": "lead3",
+    "total_predictions": 10,
+    "valid_count": 10,
+    "error_count": 0,
+    "rouge_1_f1": 23.1299,
+    "rouge_2_f1": 9.7538,
+    "rouge_l_f1": 15.9546,
+    "compression_ratio_pct": 24.1813
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "files": {
+    "validation_select": {
+      "path": "D:\\Code\\vietnamese-summarization\\data\\validation_select.jsonl",
+      "sha256": "f7b088f59edf5538ff6eb5343e51dbfc6e148f86f02a562edb4058e3d41475aa",
+      "physical_lines": 2000,
+      "valid_rows": 2000,
+      "errors": {},
+      "warnings": {},
+      "statistics": {
+        "source_words": {
+          "min": 101,
+          "median": 430,
+          "p95": 882,
+          "max": 1172
+        },
+        "reference_words": {
+          "min": 14,
+          "median": 39,
+          "p95": 71,
+          "max": 128
+        }
+      }
+    },
+    "test_smoke_10": {
+      "path": "D:\\Code\\vietnamese-summarization\\data\\test_smoke_10.jsonl",
+      "sha256": "8f1327ac5b6df3881b5562f0aa4f5e0fe1254eb0d88a672e9947e9541910535c",
+      "physical_lines": 10,
+      "valid_rows": 10,
+      "errors": {},
+      "warnings": {},
+      "statistics": {
+        "source_words": {
+          "min": 287,
+          "median": 633,
+          "p95": 816,
+          "max": 816
+        },
+        "reference_words": {
+          "min": 23,
+          "median": 40,
+          "p95": 68,
+          "max": 68
+        }
+      }
+    },
+    "test_core_2000": {
+      "path": "D:\\Code\\vietnamese-summarization\\data\\test_core_2000.jsonl",
+      "sha256": "79a7aac04bc7aa708442bf0112391dae89f37c4432dc5f53dbb45b8ab0664da3",
+      "physical_lines": 2000,
+      "valid_rows": 2000,
+      "errors": {},
+      "warnings": {},
+      "statistics": {
+        "source_words": {
+          "min": 101,
+          "median": 439,
+          "p95": 884,
+          "max": 1193
+        },
+        "reference_words": {
+          "min": 12,
+          "median": 39,
+          "p95": 69,
+          "max": 130
+        }
+      }
+    }
+  },
+  "cross_file_checks": {
+    "errors": {},
+    "warnings": {}
+  }
+}

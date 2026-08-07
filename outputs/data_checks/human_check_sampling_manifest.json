@@ -1,0 +1,144 @@
+{
+  "random_seed": 42,
+  "target_total_per_file": 10,
+  "sampling_methodology": [
+    "1. Lấy tất cả mẫu bị cảnh báo (warning) ở cấp dòng dữ liệu (CONTROL_CHARACTER, OUTER_WHITESPACE, v.v.).",
+    "2. Lấy mẫu có độ dài source_words nhỏ nhất (min_source_words).",
+    "3. Lấy mẫu có độ dài source_words lớn nhất (max_source_words).",
+    "4. Lấy mẫu ngẫu nhiên không hoàn lại từ tập còn lại với random.seed=42 cho đến khi đạt đủ tổng số mẫu mục tiêu (10 mẫu/file)."
+  ],
+  "subsets": {
+    "validation_select_human_check.jsonl": {
+      "source_file": "validation_select.jsonl",
+      "sample_count": 10,
+      "samples": [
+        {
+          "id": "validation_009646",
+          "reason": "min_source_words (101 words)",
+          "source_words": 101,
+          "reference_words": 37
+        },
+        {
+          "id": "validation_017351",
+          "reason": "max_source_words (1172 words)",
+          "source_words": 1172,
+          "reference_words": 37
+        },
+        {
+          "id": "validation_016490",
+          "reason": "random",
+          "source_words": 616,
+          "reference_words": 57
+        },
+        {
+          "id": "validation_003041",
+          "reason": "random",
+          "source_words": 217,
+          "reference_words": 35
+        },
+        {
+          "id": "validation_000681",
+          "reason": "random",
+          "source_words": 186,
+          "reference_words": 31
+        },
+        {
+          "id": "validation_018658",
+          "reason": "random",
+          "source_words": 182,
+          "reference_words": 23
+        },
+        {
+          "id": "validation_007227",
+          "reason": "random",
+          "source_words": 426,
+          "reference_words": 50
+        },
+        {
+          "id": "validation_006438",
+          "reason": "random",
+          "source_words": 651,
+          "reference_words": 69
+        },
+        {
+          "id": "validation_005848",
+          "reason": "random",
+          "source_words": 457,
+          "reference_words": 63
+        },
+        {
+          "id": "validation_003644",
+          "reason": "random",
+          "source_words": 330,
+          "reference_words": 31
+        }
+      ]
+    },
+    "test_core_2000_human_check.jsonl": {
+      "source_file": "test_core_2000.jsonl",
+      "sample_count": 10,
+      "samples": [
+        {
+          "id": "test_023826",
+          "reason": "min_source_words (101 words)",
+          "source_words": 101,
+          "reference_words": 29
+        },
+        {
+          "id": "test_021251",
+          "reason": "max_source_words (1193 words)",
+          "source_words": 1193,
+          "reference_words": 103
+        },
+        {
+          "id": "test_016469",
+          "reason": "random",
+          "source_words": 335,
+          "reference_words": 27
+        },
+        {
+          "id": "test_003041",
+          "reason": "random",
+          "source_words": 338,
+          "reference_words": 38
+        },
+        {
+          "id": "test_000681",
+          "reason": "random",
+          "source_words": 627,
+          "reference_words": 30
+        },
+        {
+          "id": "test_018599",
+          "reason": "random",
+          "source_words": 272,
+          "reference_words": 39
+        },
+        {
+          "id": "test_007227",
+          "reason": "random",
+          "source_words": 382,
+          "reference_words": 29
+        },
+        {
+          "id": "test_006438",
+          "reason": "random",
+          "source_words": 491,
+          "reference_words": 36
+        },
+        {
+          "id": "test_005848",
+          "reason": "random",
+          "source_words": 393,
+          "reference_words": 41
+        },
+        {
+          "id": "test_003644",
+          "reason": "random",
+          "source_words": 115,
+          "reference_words": 16
+        }
+      ]
+    }
+  }
+}

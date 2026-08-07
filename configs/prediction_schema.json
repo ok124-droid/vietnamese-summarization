@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PredictionRecord",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Khớp chính xác với manifest"
+    },
+    "system": {
+      "type": "string",
+      "enum": [
+        "lead1",
+        "lead3",
+        "scratch_transformer",
+        "vit5_large",
+        "vit5_base",
+        "textrank"
+      ],
+      "description": "Tên hệ thống"
+    },
+    "config_id": {
+      "type": "string",
+      "description": "Cấu hình giải mã"
+    },
+    "prediction": {
+      "type": "string",
+      "description": "Tóm tắt được sinh"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "ok",
+        "error"
+      ],
+      "description": "ok hoặc error"
+    },
+    "error": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "null nếu thành công, mô tả nếu lỗi"
+    }
+  },
+  "required": [
+    "id",
+    "system",
+    "config_id",
+    "prediction",
+    "status",
+    "error"
+  ],
+  "additionalProperties": false
+}
