@@ -1,0 +1,53 @@
+{
+  "owner": "member_2",
+  "input_manifest": "data/test_core_2000.jsonl",
+  "output": {
+    "path": "outputs/predictions/scratch_transformer.jsonl",
+    "sha256": "a4c0199d207c5fe4cd9323ae1f1cb67be150289349482a60e81cef149aece8ce",
+    "size_bytes": 726517
+  },
+  "checkpoint": {
+    "path": "scratch_transformer_inference/checkpoints/transformer_base/best_val_loss.pt",
+    "sha256": "1fad56e683fe6c3c91f05cc103033aa5414970dddb2c34a5b2362c5303af26b9",
+    "url": "https://drive.google.com/drive/folders/1a0av9ply94D64jfaShy4ssQb_0osaTxa?usp=sharing"
+  },
+  "tokenizer": {
+    "type": "sentencepiece_unigram",
+    "path": "scratch_transformer_inference/data/tokenizer/vietnamese_spm.model",
+    "sha256": "97d9074002191fed0054ab2be7c59726e06d54ee1da858ecd50c5a7d7b344733"
+  },
+  "model_config_path": "scratch_transformer_inference/configs/transformer_summarization.yaml",
+  "decoding_config_path": "scratch_transformer_inference/configs/decoding_beam4_lp1.1_nr3.json",
+  "decoding": {
+    "strategy": "beam_search",
+    "num_beams": 4,
+    "length_penalty": 1.1,
+    "no_repeat_ngram_size": 3,
+    "max_new_tokens": 96,
+    "min_new_tokens": 10
+  },
+  "config_id": "beam4_lp1.1_nr3",
+  "seed": 2026,
+  "batch_size": 2,
+  "device": "cpu",
+  "precision": "fp32",
+  "num_input": 2000,
+  "num_success": 2000,
+  "num_failed": 0,
+  "run_date": "2026-08-07",
+  "run_duration": "03:22:25",
+  "python_version": "3.14.6",
+  "torch_version": "2.13.0+cpu",
+  "validator": {
+    "exit_code": 0,
+    "duplicate": 0,
+    "missing": 0,
+    "extra": 0,
+    "valid_for_handoff": true
+  },
+  "code_commit_hash": "105af0a5dfd5ed4d2d2deff68999c8d31d6374da",
+  "known_issues": [
+    "Inference was executed on CPU/FP32; runtime is longer than GPU inference.",
+    "The checkpoint is stored externally on Google Drive and is excluded from Git."
+  ]
+}
