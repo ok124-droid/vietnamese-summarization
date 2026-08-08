@@ -1,0 +1,11 @@
+Canonical checkpoint information:
+../scratch_transformer_inference/checkpoint_info.txt
+
+Checkpoint:
+../scratch_transformer_inference/checkpoints/transformer_base/best_val_loss.pt
+
+SHA-256:
+1fad56e683fe6c3c91f05cc103033aa5414970dddb2c34a5b2362c5303af26b9
+
+Download URL:
+https://drive.google.com/drive/folders/1a0av9ply94D64jfaShy4ssQb_0osaTxa?usp=sharing

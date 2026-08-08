@@ -97,5 +97,54 @@ Developed evaluation pipeline in `src/evaluate.py` to calculate ROUGE-1 F1, ROUG
 
 
 
+## 2026-08-07 — Scratch Transformer smoke test
 
+- Người chạy: member_2
+- Input: `data/test_smoke_10.jsonl`
+- Checkpoint: `best_val_loss.pt`
+- Tokenizer: `vietnamese_spm.model`
+- Config ID: `beam4_lp1.1_nr3`
+- Batch size: 2
+- Device/precision: CPU/FP32
+- Input: 10
+- Success: 10
+- Failed: 0
+- Output: `outputs/predictions/scratch_transformer_smoke_10.jsonl`
+- Validator: exit code 0; missing=0; extra=0; duplicate=0
+- Resume test: 10 record thành công được bỏ qua; output vẫn hợp lệ.
+
+## 2026-08-07 — Scratch Transformer validation
+
+- Người chạy: member_2
+- Input: `data/validation_select.jsonl`
+- Checkpoint: `best_val_loss.pt`
+- Tokenizer: `vietnamese_spm.model`
+- Config ID: `beam4_lp1.1_nr3`
+- Batch size: 2
+- Device/precision: CPU/FP32
+- Input: 2000
+- Success: 2000
+- Failed: 0
+- Output: `outputs/predictions/scratch_transformer_validation.jsonl`
+- Validator: exit code 0; missing=0; extra=0; duplicate=0
+- Ghi chú: Cấu hình được đóng băng trước khi chạy test core.
+
+## 2026-08-07 — Scratch Transformer test core
+
+- Người chạy: member_2
+- Input: `data/test_core_2000.jsonl`
+- Checkpoint: `best_val_loss.pt`
+- Tokenizer: `vietnamese_spm.model`
+- Config ID: `beam4_lp1.1_nr3`
+- Batch size: 2
+- Device/precision: CPU/FP32
+- Thời gian: 03:22:25
+- Input: 2000
+- Success: 2000
+- Failed: 0
+- Output: `outputs/predictions/scratch_transformer.jsonl`
+- Output SHA-256: `a4c0199d207c5fe4cd9323ae1f1cb67be150289349482a60e81cef149aece8ce`
+- Validator: exit code 0; missing=0; extra=0; duplicate=0
+- `valid_for_handoff=true`
+- Không điều chỉnh decoding config dựa trên kết quả test.
 

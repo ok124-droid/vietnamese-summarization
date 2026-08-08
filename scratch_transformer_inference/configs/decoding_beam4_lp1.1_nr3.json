@@ -1,0 +1,8 @@
+{
+  "config_id": "beam4_lp1.1_nr3",
+  "strategy": "beam_search",
+  "num_beams": 4,
+  "length_penalty": 1.1,
+  "no_repeat_ngram_size": 3,
+  "max_new_tokens": 96
+}

@@ -25,3 +25,13 @@ ENV/
 .idea/
 .vscode/
 .DS_Store
+
+# Scratch Transformer large artifacts
+scratch_transformer_inference/checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Generated Python files
+__pycache__/
+*.pyc
