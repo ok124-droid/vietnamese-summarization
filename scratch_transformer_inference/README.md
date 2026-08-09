@@ -146,3 +146,43 @@ torchrun --standalone --nproc_per_node=2 scratch_transformer_inference\src\infer
 3. Ghi lệnh, số success/failed và output vào `docs/RUN_LOG.md`.
 4. Không xóa mẫu xấu và không đưa `source`/`reference` vào prediction.
 5. Không chạy test core lại với decoding khác chỉ vì đã xem kết quả test.
+
+## Chạy bổ sung ba cấu hình decoding
+
+Theo yêu cầu đánh giá bổ sung, ba cấu hình cố định được lưu tại:
+
+- `configs/decoding_greedy.json`
+- `configs/decoding_beam4_lp0.8_nr3.json`
+- `configs/decoding_beam4_lp1.0_nr3.json`
+
+Greedy ở đây là greedy tiêu chuẩn (`num_beams=1`,
+`no_repeat_ngram_size=0`). Hai cấu hình beam cùng dùng beam size 4 và
+no-repeat n-gram 3; chỉ thay length penalty.
+
+Từ thư mục gốc repository, chạy smoke và tự động validate cả ba cấu hình:
+
+```powershell
+.\scratch_transformer_inference\scripts\run_decoding_sweep.ps1 `
+  -Split smoke `
+  -Mode overwrite `
+  -BatchSize 2 `
+  -Device cpu `
+  -Precision fp32
+```
+
+Sau khi cả ba smoke output đạt validator và đã kiểm tra thủ công, chạy trên
+validation:
+
+```powershell
+.\scratch_transformer_inference\scripts\run_decoding_sweep.ps1 `
+  -Split validation `
+  -Mode overwrite `
+  -BatchSize 2 `
+  -Device cpu `
+  -Precision fp32
+```
+
+Nếu job bị ngắt, chạy lại cùng lệnh nhưng dùng `-Mode resume`. Các output được
+ghi riêng dưới `outputs/predictions/test_smoke_10/` hoặc
+`outputs/predictions/validation/`; script không ghi đè prediction test core đã
+bàn giao. Chỉ dùng kết quả validation để so sánh cấu hình.
