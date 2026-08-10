@@ -1,0 +1,65 @@
+{
+  "owner": "member_2",
+  "purpose": "corrected_decoding_evaluation",
+  "input_manifest": "data/validation_select.jsonl",
+  "num_input_per_config": 2000,
+  "checkpoint": {
+    "path": "scratch_transformer_inference/checkpoints/transformer_base/best_val_loss.pt",
+    "sha256": "1fad56e683fe6c3c91f05cc103033aa5414970dddb2c34a5b2362c5303af26b9",
+    "url": "https://drive.google.com/drive/folders/1a0av9ply94D64jfaShy4ssQb_0osaTxa?usp=sharing"
+  },
+  "tokenizer": {
+    "type": "sentencepiece_unigram",
+    "path": "scratch_transformer_inference/data/tokenizer/vietnamese_spm.model",
+    "sha256": "97d9074002191fed0054ab2be7c59726e06d54ee1da858ecd50c5a7d7b344733"
+  },
+  "model_config_path": "scratch_transformer_inference/configs/transformer_summarization.yaml",
+  "code_commit_hash": "f6cf77524c3286a317a2b1516a1ed39d3d0bff31",
+  "seed": 2026,
+  "batch_size": 2,
+  "device": "cpu",
+  "precision": "fp32",
+  "python_version": "3.14.6",
+  "torch_version": "2.13.0+cpu",
+  "run_date": "2026-08-09/2026-08-10",
+  "runs": [
+    {
+      "config_id": "greedy",
+      "decoding_config_path": "scratch_transformer_inference/configs/decoding_greedy.json",
+      "output_path": "outputs/predictions/validation/scratch_transformer_greedy.jsonl",
+      "output_sha256": "a2f96331dd084797881d066c0d1152939d805c2ec74d34b7f2daf406a081a7e5",
+      "runtime": "00:23:22",
+      "num_success": 2000,
+      "num_failed": 0,
+      "validator_exit_code": 0
+    },
+    {
+      "config_id": "beam4_lp0.8_nr3",
+      "decoding_config_path": "scratch_transformer_inference/configs/decoding_beam4_lp0.8_nr3.json",
+      "output_path": "outputs/predictions/validation/scratch_transformer_beam4_lp0.8_nr3.jsonl",
+      "output_sha256": "f235f95b7bd4219a163f85aaeed958b6523a10bad100d0b970eab94fb607bd8b",
+      "runtime": "04:06:59",
+      "num_success": 2000,
+      "num_failed": 0,
+      "validator_exit_code": 0
+    },
+    {
+      "config_id": "beam4_lp1.0_nr3",
+      "decoding_config_path": "scratch_transformer_inference/configs/decoding_beam4_lp1.0_nr3.json",
+      "output_path": "outputs/predictions/validation/scratch_transformer_beam4_lp1.0_nr3.jsonl",
+      "output_sha256": "2568c41ca97e6499506e6fbe039214e6193df7b7dfaf508b3b02dc982cf4fd67",
+      "runtime": "03:18:16",
+      "num_success": 2000,
+      "num_failed": 0,
+      "validator_exit_code": 0
+    }
+  ],
+  "evaluation": {
+    "script": "src/evaluate.py",
+    "word_segmenter": "underthesea",
+    "word_segmenter_version": "9.5.0",
+    "comparison_json": "outputs/metrics/validation_scratch_decoding_comparison.json",
+    "comparison_csv": "outputs/metrics/validation_scratch_decoding_comparison.csv"
+  },
+  "selection_status": "pending_team_confirmation"
+}

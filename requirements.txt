@@ -1,1 +1,2 @@
 -r scratch_transformer_inference/requirements.txt
+underthesea==9.5.0

@@ -1,0 +1,5 @@
+config_id,strategy,num_beams,length_penalty,no_repeat_ngram_size,rouge_1_f1,rouge_2_f1,rouge_l_f1,compression_ratio_pct,runtime
+greedy,greedy,1,1.0,0,33.0618,16.9446,27.5080,8.7365,00:23:22
+beam4_lp0.8_nr3,beam_search,4,0.8,3,33.7884,18.2143,28.4245,8.4232,04:06:59
+beam4_lp1.0_nr3,beam_search,4,1.0,3,33.9924,18.1839,28.3486,9.2057,03:18:16
+beam4_lp1.1_nr3,beam_search,4,1.1,3,34.1597,18.2425,28.3899,9.7061,

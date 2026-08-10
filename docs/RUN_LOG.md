@@ -148,3 +148,58 @@ Developed evaluation pipeline in `src/evaluate.py` to calculate ROUGE-1 F1, ROUG
 - `valid_for_handoff=true`
 - Không điều chỉnh decoding config dựa trên kết quả test.
 
+## 2026-08-09–10 — Scratch Transformer corrected decoding sweep
+
+### Phạm vi
+
+- Manifest chính: `data/validation_select.jsonl`
+- Số mẫu mỗi cấu hình: 2.000
+- Checkpoint: `best_val_loss.pt`
+- Tokenizer mô hình: `vietnamese_spm.model`
+- Batch size: 2
+- Device/precision: CPU/FP32
+- Seed: 2026
+- Cả ba cấu hình mới đã qua `test_smoke_10` trước khi chạy validation.
+
+### Kết quả inference và validator
+
+| Config ID | Thời gian | Success | Failed | Missing | Extra | Duplicate |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| `greedy` | 00:23:22 | 2000 | 0 | 0 | 0 | 0 |
+| `beam4_lp0.8_nr3` | 04:06:59 | 2000 | 0 | 0 | 0 | 0 |
+| `beam4_lp1.0_nr3` | 03:18:16 | 2000 | 0 | 0 | 0 | 0 |
+
+Tất cả validator trả exit code 0 và `valid_for_handoff=true`.
+
+SHA-256 prediction validation:
+
+- `greedy`: `a2f96331dd084797881d066c0d1152939d805c2ec74d34b7f2daf406a081a7e5`
+- `beam4_lp0.8_nr3`: `f235f95b7bd4219a163f85aaeed958b6523a10bad100d0b970eab94fb607bd8b`
+- `beam4_lp1.0_nr3`: `2568c41ca97e6499506e6fbe039214e6193df7b7dfaf508b3b02dc982cf4fd67`
+
+### Đánh giá tự động trên validation
+
+Evaluator: `src/evaluate.py`; word segmentation: `underthesea==9.5.0`;
+Unicode normalization: NFC.
+
+| Config ID | ROUGE-1 F1 | ROUGE-2 F1 | ROUGE-L F1 | Compression (%) |
+| --- | ---: | ---: | ---: | ---: |
+| `greedy` | 33.0618 | 16.9446 | 27.5080 | 8.7365 |
+| `beam4_lp0.8_nr3` | 33.7884 | 18.2143 | **28.4245** | 8.4232 |
+| `beam4_lp1.0_nr3` | 33.9924 | 18.1839 | 28.3486 | 9.2057 |
+| `beam4_lp1.1_nr3` | **34.1597** | **18.2425** | 28.3899 | 9.7061 |
+
+Nhận xét: cả ba cấu hình beam vượt Greedy. LP=1.1 cao nhất ở ROUGE-1 và
+ROUGE-2; LP=0.8 cao nhất ở ROUGE-L nhưng chỉ hơn LP=1.1 0,0346 điểm. Chưa tự
+động đổi cấu hình test vì không có một cấu hình thắng tuyệt đối mọi metric;
+quyết định cuối chờ nhóm xác nhận và không dùng test để lựa chọn.
+
+Artifacts:
+
+- `outputs/metrics/validation_scratch_greedy.json`
+- `outputs/metrics/validation_scratch_beam4_lp0.8_nr3.json`
+- `outputs/metrics/validation_scratch_beam4_lp1.0_nr3.json`
+- `outputs/metrics/validation_scratch_beam4_lp1.1_nr3.json`
+- `outputs/metrics/validation_scratch_decoding_comparison.json`
+- `outputs/metrics/validation_scratch_decoding_comparison.csv`
+

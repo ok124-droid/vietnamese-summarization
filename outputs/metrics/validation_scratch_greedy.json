@@ -1,0 +1,13 @@
+[
+  {
+    "prediction_file": "scratch_transformer_greedy.jsonl",
+    "system": "scratch_transformer",
+    "total_predictions": 2000,
+    "valid_count": 2000,
+    "error_count": 0,
+    "rouge_1_f1": 33.0618,
+    "rouge_2_f1": 16.9446,
+    "rouge_l_f1": 27.508,
+    "compression_ratio_pct": 8.7365
+  }
+]

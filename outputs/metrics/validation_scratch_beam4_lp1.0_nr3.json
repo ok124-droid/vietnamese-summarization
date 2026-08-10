@@ -1,0 +1,13 @@
+[
+  {
+    "prediction_file": "scratch_transformer_beam4_lp1.0_nr3.jsonl",
+    "system": "scratch_transformer",
+    "total_predictions": 2000,
+    "valid_count": 2000,
+    "error_count": 0,
+    "rouge_1_f1": 33.9924,
+    "rouge_2_f1": 18.1839,
+    "rouge_l_f1": 28.3486,
+    "compression_ratio_pct": 9.2057
+  }
+]
