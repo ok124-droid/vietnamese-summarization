@@ -148,3 +148,82 @@ Developed evaluation pipeline in `src/evaluate.py` to calculate ROUGE-1 F1, ROUG
 - `valid_for_handoff=true`
 - Không điều chỉnh decoding config dựa trên kết quả test.
 
+## 2026-08-09 — Chuẩn bị deep-evaluation samples
+
+- Người chạy: member_4
+- Input: `data/test_core_2000.jsonl`, `data/validation_select.jsonl`
+- Seed: 2026
+- Phương pháp: bốn tầng bằng nhau theo hạng `(source_words, id)`
+- LLM sample: 200, 50 mẫu/tầng
+- Backup sample: 100, 25 mẫu/tầng và là subset của sample 200
+- Pilot validation: 20, 5 mẫu/tầng
+- Human sample: 50, phân bổ 13/13/12/12
+- Output: `data/llm_judge_sample_200.jsonl`,
+  `data/llm_judge_sample_100.jsonl`, `data/llm_judge_pilot_20.jsonl`,
+  `data/human_sample.jsonl`, `outputs/llm_judge/sampling_manifest.json`
+- API calls: chưa chạy; chỉ chuẩn bị dữ liệu và dry-run
+- Blocker: chưa có `outputs/predictions/vit5.jsonl`, vì vậy candidate run và
+  human evaluation cuối chưa sẵn sàng.
+
+## 2026-08-10 — LLM judge pilot v1
+
+- Người chạy: member_4
+- Provider endpoint: `https://api.deepseek.com/...` (đã che)
+- Model: `deepseek-v4-flash`
+- Response mode: `json_object`
+- Token parameter: `max_completion_tokens`
+- Requested: 50; resume-skipped: 1; success mới: 28; failed: 21
+- Tổng valid v1: 29/50; first-pass valid rate: 0.36
+- Repeat score comparisons: 4; within-one rate: 0.50; max difference: 3
+- Kết luận: `needs_review`, không đủ điều kiện chạy main.
+- Phân tích lỗi: 17 lỗi validation output, chủ yếu `error_types` ngoài enum;
+  4 request cuối bị HTTP 402 `Insufficient Balance`.
+- Khắc phục: chuyển prompt sang v2 để liệt kê enum rõ ràng, tăng khả năng audit
+  response sai schema và tách assessment theo prompt version/model.
+- Blocker ngoài pipeline: cần nạp số dư provider hoặc đổi provider/model rồi chạy
+  lại toàn bộ pilot v2.
+
+## 2026-08-10 — Research-driven hardening trước pilot v2
+
+- Nguồn đối chiếu: SummEval, G-Eval, QuestEval, QAFactEval, nghiên cứu position
+  bias và tài liệu Structured Outputs chính thức.
+- Thay đổi: neo điểm 1–5, JSON data envelope, fail-fast lỗi cấu hình, lặp pilot
+  phân tầng 3/3/2/2, latency/token aggregation, paired bootstrap, ROUGE–LLM
+  diagnostic.
+- Kiểm thử: 28/28 unit/integration test đạt.
+- API calls: 0; không phát sinh chi phí trong bước hardening.
+- Prompt version: vẫn là v2 vì v2 chưa được execute; v1 giữ nguyên để audit.
+- Blocker còn lại: HTTP 402 của provider và thiếu `outputs/predictions/vit5.jsonl`.
+
+## 2026-08-10 — LLM judge pilot v2 đạt ngưỡng
+
+- Người chạy: member_4
+- Model: `gemini/gemma-4-31b-it`
+- Provider endpoint: `http://host-49960de5880e:20128/...` (hostname đã băm)
+- Prompt version: `v2`
+- Response mode: `json_schema`
+- Token parameter: `max_completion_tokens`
+- Requested: 50; capability-probe/resume skipped: 1; success mới: 49; failed: 0
+- Tổng valid v2: 50/50; first-pass valid rate: 1.00
+- Repeat score comparisons: 40; within-one rate: 1.00; max difference: 1
+- Token usage: prompt 204.902; completion 7.140; total 212.042
+- Kết luận: `passed`; đạt toàn bộ ngưỡng pilot và khóa model/provider/prompt.
+- Output: `outputs/llm_judge/pilot_raw.jsonl`, `pilot_scores.jsonl`,
+  `pilot_run.json`, `resolved_config.json`.
+- Pilot v1 đã được xóa theo yêu cầu trước khi chạy v2; không trộn record v1/v2.
+
+## 2026-08-10 — Reference audit chính thức
+
+- Người chạy: member_4
+- Input: `data/llm_judge_sample_200.jsonl`
+- Model/provider/prompt: giữ nguyên resolved config đã khóa từ pilot v2
+- Requested: 200; skipped: 0; success: 200; failed: 0
+- Unique valid records: 200/200
+- Token usage: prompt 790.906; completion 28.698; total 819.604
+- Tổng latency cộng dồn: 5.377,3217 giây; đây không phải wall-clock do concurrency 5.
+- Output: `outputs/llm_judge/reference_raw.jsonl`, `reference_scores.jsonl`,
+  `reference_run.json`.
+- Candidate run chưa phát sinh request vì pipeline dừng trước API khi thiếu
+  `outputs/predictions/vit5.jsonl`.
+- Blocker hiện tại duy nhất của candidate/human evaluation: chưa có ViT5 test prediction.
+

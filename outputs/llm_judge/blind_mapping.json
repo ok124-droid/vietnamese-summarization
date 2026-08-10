@@ -1,0 +1,1202 @@
+{
+  "test_000174": {
+    "A": "lead3",
+    "B": "scratch_transformer",
+    "C": "lead1",
+    "D": "vit5"
+  },
+  "test_000371": {
+    "A": "vit5",
+    "B": "scratch_transformer",
+    "C": "lead1",
+    "D": "lead3"
+  },
+  "test_000442": {
+    "A": "scratch_transformer",
+    "B": "lead3",
+    "C": "vit5",
+    "D": "lead1"
+  },
+  "test_000535": {
+    "A": "lead1",
+    "B": "lead3",
+    "C": "scratch_transformer",
+    "D": "vit5"
+  },
+  "test_000620": {
+    "A": "lead3",
+    "B": "vit5",
+    "C": "scratch_transformer",
+    "D": "lead1"
+  },
+  "test_000713": {
+    "A": "lead1",
+    "B": "lead3",
+    "C": "scratch_transformer",
+    "D": "vit5"
+  },
+  "test_001003": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "scratch_transformer",
+    "D": "lead3"
+  },
+  "test_001135": {
+    "A": "lead1",
+    "B": "scratch_transformer",
+    "C": "vit5",
+    "D": "lead3"
+  },
+  "test_001352": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_001457": {
+    "A": "lead3",
+    "B": "lead1",
+    "C": "scratch_transformer",
+    "D": "vit5"
+  },
+  "test_001463": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_001599": {
+    "A": "scratch_transformer",
+    "B": "vit5",
+    "C": "lead1",
+    "D": "lead3"
+  },
+  "test_001601": {
+    "A": "lead3",
+    "B": "lead1",
+    "C": "scratch_transformer",
+    "D": "vit5"
+  },
+  "test_001629": {
+    "A": "vit5",
+    "B": "scratch_transformer",
+    "C": "lead1",
+    "D": "lead3"
+  },
+  "test_001674": {
+    "A": "vit5",
+    "B": "lead3",
+    "C": "scratch_transformer",
+    "D": "lead1"
+  },
+  "test_001714": {
+    "A": "lead1",
+    "B": "scratch_transformer",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_001793": {
+    "A": "lead3",
+    "B": "lead1",
+    "C": "vit5",
+    "D": "scratch_transformer"
+  },
+  "test_001888": {
+    "A": "lead3",
+    "B": "scratch_transformer",
+    "C": "lead1",
+    "D": "vit5"
+  },
+  "test_002212": {
+    "A": "scratch_transformer",
+    "B": "lead3",
+    "C": "lead1",
+    "D": "vit5"
+  },
+  "test_002250": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_002301": {
+    "A": "lead1",
+    "B": "scratch_transformer",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_002595": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "vit5",
+    "D": "lead3"
+  },
+  "test_002879": {
+    "A": "lead3",
+    "B": "vit5",
+    "C": "scratch_transformer",
+    "D": "lead1"
+  },
+  "test_002984": {
+    "A": "lead3",
+    "B": "scratch_transformer",
+    "C": "lead1",
+    "D": "vit5"
+  },
+  "test_002998": {
+    "A": "lead1",
+    "B": "scratch_transformer",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_003020": {
+    "A": "lead3",
+    "B": "lead1",
+    "C": "scratch_transformer",
+    "D": "vit5"
+  },
+  "test_003041": {
+    "A": "lead3",
+    "B": "scratch_transformer",
+    "C": "vit5",
+    "D": "lead1"
+  },
+  "test_003229": {
+    "A": "lead3",
+    "B": "vit5",
+    "C": "scratch_transformer",
+    "D": "lead1"
+  },
+  "test_003542": {
+    "A": "scratch_transformer",
+    "B": "lead3",
+    "C": "vit5",
+    "D": "lead1"
+  },
+  "test_003594": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "scratch_transformer",
+    "D": "lead3"
+  },
+  "test_003644": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "scratch_transformer",
+    "D": "lead3"
+  },
+  "test_003980": {
+    "A": "vit5",
+    "B": "scratch_transformer",
+    "C": "lead3",
+    "D": "lead1"
+  },
+  "test_004020": {
+    "A": "lead3",
+    "B": "scratch_transformer",
+    "C": "vit5",
+    "D": "lead1"
+  },
+  "test_004102": {
+    "A": "scratch_transformer",
+    "B": "lead3",
+    "C": "vit5",
+    "D": "lead1"
+  },
+  "test_004167": {
+    "A": "lead3",
+    "B": "scratch_transformer",
+    "C": "lead1",
+    "D": "vit5"
+  },
+  "test_004219": {
+    "A": "lead3",
+    "B": "lead1",
+    "C": "vit5",
+    "D": "scratch_transformer"
+  },
+  "test_004269": {
+    "A": "lead3",
+    "B": "lead1",
+    "C": "scratch_transformer",
+    "D": "vit5"
+  },
+  "test_004365": {
+    "A": "lead3",
+    "B": "vit5",
+    "C": "lead1",
+    "D": "scratch_transformer"
+  },
+  "test_004774": {
+    "A": "lead3",
+    "B": "scratch_transformer",
+    "C": "lead1",
+    "D": "vit5"
+  },
+  "test_004901": {
+    "A": "lead3",
+    "B": "scratch_transformer",
+    "C": "lead1",
+    "D": "vit5"
+  },
+  "test_004904": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "vit5",
+    "D": "lead3"
+  },
+  "test_004910": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_004933": {
+    "A": "scratch_transformer",
+    "B": "vit5",
+    "C": "lead1",
+    "D": "lead3"
+  },
+  "test_005107": {
+    "A": "vit5",
+    "B": "lead3",
+    "C": "scratch_transformer",
+    "D": "lead1"
+  },
+  "test_005136": {
+    "A": "vit5",
+    "B": "scratch_transformer",
+    "C": "lead3",
+    "D": "lead1"
+  },
+  "test_005288": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_005537": {
+    "A": "lead3",
+    "B": "lead1",
+    "C": "scratch_transformer",
+    "D": "vit5"
+  },
+  "test_005599": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_006011": {
+    "A": "vit5",
+    "B": "lead3",
+    "C": "scratch_transformer",
+    "D": "lead1"
+  },
+  "test_006202": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_006260": {
+    "A": "scratch_transformer",
+    "B": "lead3",
+    "C": "lead1",
+    "D": "vit5"
+  },
+  "test_006370": {
+    "A": "vit5",
+    "B": "lead3",
+    "C": "scratch_transformer",
+    "D": "lead1"
+  },
+  "test_006735": {
+    "A": "vit5",
+    "B": "lead3",
+    "C": "scratch_transformer",
+    "D": "lead1"
+  },
+  "test_006990": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_007055": {
+    "A": "vit5",
+    "B": "lead3",
+    "C": "scratch_transformer",
+    "D": "lead1"
+  },
+  "test_007095": {
+    "A": "scratch_transformer",
+    "B": "lead3",
+    "C": "vit5",
+    "D": "lead1"
+  },
+  "test_007214": {
+    "A": "lead1",
+    "B": "lead3",
+    "C": "vit5",
+    "D": "scratch_transformer"
+  },
+  "test_007407": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "scratch_transformer",
+    "D": "lead3"
+  },
+  "test_007862": {
+    "A": "lead3",
+    "B": "vit5",
+    "C": "lead1",
+    "D": "scratch_transformer"
+  },
+  "test_007969": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_008243": {
+    "A": "scratch_transformer",
+    "B": "lead3",
+    "C": "vit5",
+    "D": "lead1"
+  },
+  "test_008351": {
+    "A": "lead3",
+    "B": "scratch_transformer",
+    "C": "lead1",
+    "D": "vit5"
+  },
+  "test_008354": {
+    "A": "lead3",
+    "B": "vit5",
+    "C": "scratch_transformer",
+    "D": "lead1"
+  },
+  "test_008422": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_008547": {
+    "A": "scratch_transformer",
+    "B": "vit5",
+    "C": "lead1",
+    "D": "lead3"
+  },
+  "test_008781": {
+    "A": "lead1",
+    "B": "lead3",
+    "C": "scratch_transformer",
+    "D": "vit5"
+  },
+  "test_008966": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "scratch_transformer",
+    "D": "lead3"
+  },
+  "test_009047": {
+    "A": "vit5",
+    "B": "lead3",
+    "C": "scratch_transformer",
+    "D": "lead1"
+  },
+  "test_009403": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "vit5",
+    "D": "lead3"
+  },
+  "test_009713": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "scratch_transformer",
+    "D": "lead3"
+  },
+  "test_009840": {
+    "A": "lead3",
+    "B": "lead1",
+    "C": "vit5",
+    "D": "scratch_transformer"
+  },
+  "test_009903": {
+    "A": "vit5",
+    "B": "scratch_transformer",
+    "C": "lead1",
+    "D": "lead3"
+  },
+  "test_009952": {
+    "A": "lead1",
+    "B": "lead3",
+    "C": "scratch_transformer",
+    "D": "vit5"
+  },
+  "test_010077": {
+    "A": "lead1",
+    "B": "scratch_transformer",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_010177": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_010229": {
+    "A": "lead1",
+    "B": "lead3",
+    "C": "vit5",
+    "D": "scratch_transformer"
+  },
+  "test_010311": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_010631": {
+    "A": "lead3",
+    "B": "scratch_transformer",
+    "C": "lead1",
+    "D": "vit5"
+  },
+  "test_010652": {
+    "A": "lead1",
+    "B": "lead3",
+    "C": "scratch_transformer",
+    "D": "vit5"
+  },
+  "test_011023": {
+    "A": "scratch_transformer",
+    "B": "vit5",
+    "C": "lead1",
+    "D": "lead3"
+  },
+  "test_011170": {
+    "A": "lead3",
+    "B": "lead1",
+    "C": "vit5",
+    "D": "scratch_transformer"
+  },
+  "test_011396": {
+    "A": "lead1",
+    "B": "scratch_transformer",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_011471": {
+    "A": "lead3",
+    "B": "vit5",
+    "C": "lead1",
+    "D": "scratch_transformer"
+  },
+  "test_011474": {
+    "A": "scratch_transformer",
+    "B": "vit5",
+    "C": "lead1",
+    "D": "lead3"
+  },
+  "test_011524": {
+    "A": "vit5",
+    "B": "lead3",
+    "C": "lead1",
+    "D": "scratch_transformer"
+  },
+  "test_011727": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "scratch_transformer",
+    "D": "lead3"
+  },
+  "test_011897": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "scratch_transformer",
+    "D": "lead3"
+  },
+  "test_012215": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "scratch_transformer",
+    "D": "lead3"
+  },
+  "test_012332": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_012491": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "vit5",
+    "D": "lead3"
+  },
+  "test_012734": {
+    "A": "lead1",
+    "B": "scratch_transformer",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_012753": {
+    "A": "vit5",
+    "B": "lead3",
+    "C": "lead1",
+    "D": "scratch_transformer"
+  },
+  "test_012902": {
+    "A": "scratch_transformer",
+    "B": "vit5",
+    "C": "lead1",
+    "D": "lead3"
+  },
+  "test_013501": {
+    "A": "scratch_transformer",
+    "B": "lead3",
+    "C": "vit5",
+    "D": "lead1"
+  },
+  "test_013544": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_013586": {
+    "A": "lead1",
+    "B": "scratch_transformer",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_013608": {
+    "A": "lead1",
+    "B": "scratch_transformer",
+    "C": "vit5",
+    "D": "lead3"
+  },
+  "test_013643": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_013652": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "scratch_transformer",
+    "D": "lead3"
+  },
+  "test_014021": {
+    "A": "scratch_transformer",
+    "B": "vit5",
+    "C": "lead3",
+    "D": "lead1"
+  },
+  "test_014057": {
+    "A": "lead3",
+    "B": "lead1",
+    "C": "scratch_transformer",
+    "D": "vit5"
+  },
+  "test_014082": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "scratch_transformer",
+    "D": "lead3"
+  },
+  "test_014172": {
+    "A": "lead3",
+    "B": "scratch_transformer",
+    "C": "lead1",
+    "D": "vit5"
+  },
+  "test_014268": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_014453": {
+    "A": "vit5",
+    "B": "lead3",
+    "C": "lead1",
+    "D": "scratch_transformer"
+  },
+  "test_014476": {
+    "A": "lead3",
+    "B": "vit5",
+    "C": "scratch_transformer",
+    "D": "lead1"
+  },
+  "test_014551": {
+    "A": "lead1",
+    "B": "scratch_transformer",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_014612": {
+    "A": "lead1",
+    "B": "lead3",
+    "C": "vit5",
+    "D": "scratch_transformer"
+  },
+  "test_014880": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_015009": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "scratch_transformer",
+    "D": "lead3"
+  },
+  "test_015049": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_015053": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_015078": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "scratch_transformer",
+    "D": "lead3"
+  },
+  "test_015108": {
+    "A": "scratch_transformer",
+    "B": "vit5",
+    "C": "lead1",
+    "D": "lead3"
+  },
+  "test_015260": {
+    "A": "vit5",
+    "B": "scratch_transformer",
+    "C": "lead3",
+    "D": "lead1"
+  },
+  "test_015384": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "scratch_transformer",
+    "D": "lead3"
+  },
+  "test_015402": {
+    "A": "lead1",
+    "B": "lead3",
+    "C": "vit5",
+    "D": "scratch_transformer"
+  },
+  "test_015448": {
+    "A": "lead3",
+    "B": "scratch_transformer",
+    "C": "vit5",
+    "D": "lead1"
+  },
+  "test_015498": {
+    "A": "lead1",
+    "B": "scratch_transformer",
+    "C": "vit5",
+    "D": "lead3"
+  },
+  "test_015501": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_015523": {
+    "A": "lead3",
+    "B": "vit5",
+    "C": "scratch_transformer",
+    "D": "lead1"
+  },
+  "test_015666": {
+    "A": "vit5",
+    "B": "lead3",
+    "C": "lead1",
+    "D": "scratch_transformer"
+  },
+  "test_015683": {
+    "A": "lead1",
+    "B": "scratch_transformer",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_015887": {
+    "A": "lead3",
+    "B": "lead1",
+    "C": "scratch_transformer",
+    "D": "vit5"
+  },
+  "test_016022": {
+    "A": "lead3",
+    "B": "vit5",
+    "C": "scratch_transformer",
+    "D": "lead1"
+  },
+  "test_016046": {
+    "A": "lead1",
+    "B": "lead3",
+    "C": "scratch_transformer",
+    "D": "vit5"
+  },
+  "test_016073": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "vit5",
+    "D": "lead3"
+  },
+  "test_016131": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_016332": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_016425": {
+    "A": "scratch_transformer",
+    "B": "lead3",
+    "C": "lead1",
+    "D": "vit5"
+  },
+  "test_016538": {
+    "A": "lead3",
+    "B": "vit5",
+    "C": "lead1",
+    "D": "scratch_transformer"
+  },
+  "test_016601": {
+    "A": "scratch_transformer",
+    "B": "vit5",
+    "C": "lead1",
+    "D": "lead3"
+  },
+  "test_016647": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_016740": {
+    "A": "lead3",
+    "B": "lead1",
+    "C": "scratch_transformer",
+    "D": "vit5"
+  },
+  "test_016786": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_016811": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_016845": {
+    "A": "vit5",
+    "B": "lead3",
+    "C": "scratch_transformer",
+    "D": "lead1"
+  },
+  "test_016905": {
+    "A": "vit5",
+    "B": "lead3",
+    "C": "lead1",
+    "D": "scratch_transformer"
+  },
+  "test_016927": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_017134": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_017213": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "vit5",
+    "D": "lead3"
+  },
+  "test_017276": {
+    "A": "lead3",
+    "B": "scratch_transformer",
+    "C": "vit5",
+    "D": "lead1"
+  },
+  "test_017408": {
+    "A": "scratch_transformer",
+    "B": "lead3",
+    "C": "lead1",
+    "D": "vit5"
+  },
+  "test_017523": {
+    "A": "lead3",
+    "B": "vit5",
+    "C": "lead1",
+    "D": "scratch_transformer"
+  },
+  "test_017581": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_017765": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_017869": {
+    "A": "lead3",
+    "B": "vit5",
+    "C": "scratch_transformer",
+    "D": "lead1"
+  },
+  "test_017908": {
+    "A": "lead3",
+    "B": "scratch_transformer",
+    "C": "lead1",
+    "D": "vit5"
+  },
+  "test_017935": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_017938": {
+    "A": "vit5",
+    "B": "lead3",
+    "C": "lead1",
+    "D": "scratch_transformer"
+  },
+  "test_017961": {
+    "A": "lead3",
+    "B": "vit5",
+    "C": "lead1",
+    "D": "scratch_transformer"
+  },
+  "test_018065": {
+    "A": "vit5",
+    "B": "scratch_transformer",
+    "C": "lead1",
+    "D": "lead3"
+  },
+  "test_018211": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "scratch_transformer",
+    "D": "lead3"
+  },
+  "test_018225": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_018237": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_018243": {
+    "A": "scratch_transformer",
+    "B": "lead3",
+    "C": "lead1",
+    "D": "vit5"
+  },
+  "test_018317": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_018324": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_018343": {
+    "A": "scratch_transformer",
+    "B": "lead3",
+    "C": "lead1",
+    "D": "vit5"
+  },
+  "test_018417": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_018565": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "scratch_transformer",
+    "D": "lead3"
+  },
+  "test_018575": {
+    "A": "lead3",
+    "B": "scratch_transformer",
+    "C": "lead1",
+    "D": "vit5"
+  },
+  "test_018754": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_018882": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_018907": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "vit5",
+    "D": "lead3"
+  },
+  "test_019026": {
+    "A": "scratch_transformer",
+    "B": "lead3",
+    "C": "vit5",
+    "D": "lead1"
+  },
+  "test_019243": {
+    "A": "lead3",
+    "B": "vit5",
+    "C": "lead1",
+    "D": "scratch_transformer"
+  },
+  "test_019374": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "vit5",
+    "D": "lead3"
+  },
+  "test_019519": {
+    "A": "scratch_transformer",
+    "B": "lead3",
+    "C": "vit5",
+    "D": "lead1"
+  },
+  "test_019524": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "scratch_transformer",
+    "D": "lead3"
+  },
+  "test_019571": {
+    "A": "scratch_transformer",
+    "B": "lead3",
+    "C": "vit5",
+    "D": "lead1"
+  },
+  "test_019689": {
+    "A": "lead3",
+    "B": "scratch_transformer",
+    "C": "vit5",
+    "D": "lead1"
+  },
+  "test_019709": {
+    "A": "lead3",
+    "B": "lead1",
+    "C": "scratch_transformer",
+    "D": "vit5"
+  },
+  "test_019920": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_020062": {
+    "A": "vit5",
+    "B": "lead3",
+    "C": "lead1",
+    "D": "scratch_transformer"
+  },
+  "test_020383": {
+    "A": "lead3",
+    "B": "scratch_transformer",
+    "C": "lead1",
+    "D": "vit5"
+  },
+  "test_020387": {
+    "A": "vit5",
+    "B": "lead3",
+    "C": "scratch_transformer",
+    "D": "lead1"
+  },
+  "test_020556": {
+    "A": "lead3",
+    "B": "vit5",
+    "C": "scratch_transformer",
+    "D": "lead1"
+  },
+  "test_020873": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_021083": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "scratch_transformer",
+    "D": "lead3"
+  },
+  "test_021156": {
+    "A": "vit5",
+    "B": "lead3",
+    "C": "scratch_transformer",
+    "D": "lead1"
+  },
+  "test_021230": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_021659": {
+    "A": "scratch_transformer",
+    "B": "lead3",
+    "C": "lead1",
+    "D": "vit5"
+  },
+  "test_021844": {
+    "A": "lead3",
+    "B": "lead1",
+    "C": "vit5",
+    "D": "scratch_transformer"
+  },
+  "test_022057": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_022148": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_022154": {
+    "A": "vit5",
+    "B": "scratch_transformer",
+    "C": "lead1",
+    "D": "lead3"
+  },
+  "test_022287": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_022451": {
+    "A": "vit5",
+    "B": "lead1",
+    "C": "scratch_transformer",
+    "D": "lead3"
+  },
+  "test_022474": {
+    "A": "vit5",
+    "B": "lead3",
+    "C": "scratch_transformer",
+    "D": "lead1"
+  },
+  "test_022722": {
+    "A": "vit5",
+    "B": "lead3",
+    "C": "lead1",
+    "D": "scratch_transformer"
+  },
+  "test_023253": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_023359": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_023386": {
+    "A": "vit5",
+    "B": "lead3",
+    "C": "lead1",
+    "D": "scratch_transformer"
+  },
+  "test_023402": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_023794": {
+    "A": "lead1",
+    "B": "vit5",
+    "C": "lead3",
+    "D": "scratch_transformer"
+  },
+  "test_023953": {
+    "A": "scratch_transformer",
+    "B": "lead1",
+    "C": "lead3",
+    "D": "vit5"
+  },
+  "test_024495": {
+    "A": "lead3",
+    "B": "vit5",
+    "C": "scratch_transformer",
+    "D": "lead1"
+  },
+  "test_024504": {
+    "A": "scratch_transformer",
+    "B": "vit5",
+    "C": "lead1",
+    "D": "lead3"
+  },
+  "test_024620": {
+    "A": "scratch_transformer",
+    "B": "lead3",
+    "C": "vit5",
+    "D": "lead1"
+  }
+}
