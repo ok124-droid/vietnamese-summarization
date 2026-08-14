@@ -20,5 +20,82 @@
     "rouge_2_f1": 10.6417,
     "rouge_l_f1": 17.5409,
     "compression_ratio_pct": 29.7882
+  },
+  {
+    "prediction_file": "scratch_transformer_beam4_lp0.8_nr3.jsonl",
+    "system": "scratch_transformer",
+    "total_predictions": 2000,
+    "valid_count": 2000,
+    "error_count": 0,
+    "rouge_1_f1": 33.7884,
+    "rouge_2_f1": 18.2143,
+    "rouge_l_f1": 28.4245,
+    "compression_ratio_pct": 8.4232
+  },
+  {
+    "prediction_file": "scratch_transformer_beam4_lp1.0_nr3.jsonl",
+    "system": "scratch_transformer",
+    "total_predictions": 2000,
+    "valid_count": 2000,
+    "error_count": 0,
+    "rouge_1_f1": 33.9924,
+    "rouge_2_f1": 18.1839,
+    "rouge_l_f1": 28.3486,
+    "compression_ratio_pct": 9.2057
+  },
+  {
+    "prediction_file": "scratch_transformer_beam4_lp1.1_nr3.jsonl",
+    "system": "scratch_transformer",
+    "total_predictions": 2000,
+    "valid_count": 2000,
+    "error_count": 0,
+    "rouge_1_f1": 34.1597,
+    "rouge_2_f1": 18.2425,
+    "rouge_l_f1": 28.3899,
+    "compression_ratio_pct": 9.7061
+  },
+  {
+    "prediction_file": "scratch_transformer_greedy.jsonl",
+    "system": "scratch_transformer",
+    "total_predictions": 2000,
+    "valid_count": 2000,
+    "error_count": 0,
+    "rouge_1_f1": 33.0618,
+    "rouge_2_f1": 16.9446,
+    "rouge_l_f1": 27.508,
+    "compression_ratio_pct": 8.7365
+  },
+  {
+    "prediction_file": "validation_predictions_beam4_lp0.8_max128_nr3.jsonl",
+    "system": "vit5_base",
+    "total_predictions": 2000,
+    "valid_count": 2000,
+    "error_count": 0,
+    "rouge_1_f1": 31.1089,
+    "rouge_2_f1": 14.1935,
+    "rouge_l_f1": 24.653,
+    "compression_ratio_pct": 8.7852
+  },
+  {
+    "prediction_file": "validation_predictions_beam4_lp1.1_max128_nr3.jsonl",
+    "system": "vit5_base",
+    "total_predictions": 2000,
+    "valid_count": 2000,
+    "error_count": 0,
+    "rouge_1_f1": 31.2495,
+    "rouge_2_f1": 14.2283,
+    "rouge_l_f1": 24.7108,
+    "compression_ratio_pct": 8.9242
+  },
+  {
+    "prediction_file": "validation_predictions_beam4_lp1_max128_nr3.jsonl",
+    "system": "vit5_base",
+    "total_predictions": 2000,
+    "valid_count": 2000,
+    "error_count": 0,
+    "rouge_1_f1": 31.2016,
+    "rouge_2_f1": 14.234,
+    "rouge_l_f1": 24.6987,
+    "compression_ratio_pct": 8.8863
   }
 ]

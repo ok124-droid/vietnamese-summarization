@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-08-10T06:30:25.581313+00:00",
+  "task": "reference",
+  "model": "gemini/gemma-4-31b-it",
+  "base_url": "http://host-49960de5880e:20128/...",
+  "prompt_version": "v2",
+  "counts": {
+    "requested": 200,
+    "skipped": 0,
+    "success": 200,
+    "failed": 0
+  },
+  "aggregate": {
+    "valid_records": 200,
+    "usage": {
+      "completion_tokens": 28698,
+      "prompt_tokens": 790906,
+      "total_tokens": 819604
+    },
+    "elapsed_seconds_sum": 5377.3217
+  }
+}

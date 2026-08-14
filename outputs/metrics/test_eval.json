@@ -20,5 +20,27 @@
     "rouge_2_f1": 11.0348,
     "rouge_l_f1": 17.9164,
     "compression_ratio_pct": 30.1437
+  },
+  {
+    "prediction_file": "scratch_transformer_test_core_2000.jsonl",
+    "system": "scratch_transformer",
+    "total_predictions": 2000,
+    "valid_count": 2000,
+    "error_count": 0,
+    "rouge_1_f1": 33.8438,
+    "rouge_2_f1": 17.8399,
+    "rouge_l_f1": 28.3006,
+    "compression_ratio_pct": 9.4176
+  },
+  {
+    "prediction_file": "vit5_test_core_2000.jsonl",
+    "system": "vit5_base",
+    "total_predictions": 2000,
+    "valid_count": 2000,
+    "error_count": 0,
+    "rouge_1_f1": 31.2188,
+    "rouge_2_f1": 14.508,
+    "rouge_l_f1": 25.0001,
+    "compression_ratio_pct": 8.6309
   }
 ]

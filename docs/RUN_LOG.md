@@ -95,6 +95,56 @@ Developed evaluation pipeline in `src/evaluate.py` to calculate ROUGE-1 F1, ROUG
 - `outputs/metrics/test_eval.json`
 - `outputs/metrics/validation_eval.json`
 
+## 2026-08-08: Scratch Transformer Validation Evaluation
+
+### Overview
+Executed evaluation script `src/evaluate.py` to calculate ROUGE and Compression Ratio metrics for `outputs/predictions/validation/scratch_transformer_beam4_lp1.1_nr3.jsonl` (formerly `scratch_transformer_validation.jsonl`) on `data/validation_select.jsonl` (2,000 samples).
+
+### Results Summary
+- **ROUGE-1 F1**: `34.1597`
+- **ROUGE-2 F1**: `18.2425`
+- **ROUGE-L F1**: `28.3899`
+- **Compression Ratio (%)**: `9.7061`
+- **Valid Predictions**: `2,000 / 2,000` (`0` errors)
+
+### Artifact Updated
+- `outputs/metrics/validation_eval.json`
+
+## 2026-08-10: ViT5 Validation Evaluation (Hyperparameter Tuning)
+
+### Overview
+Evaluated ViT5 model predictions with different decoding length penalties (`lp=0.8`, `lp=1.0`, `lp=1.1`) on `data/validation_select.jsonl` (2,000 samples).
+
+### Results Summary
+- **validation_predictions_beam4_lp0.8_max128_nr3.jsonl**:
+  - ROUGE-1 F1: `31.1089` | ROUGE-2 F1: `14.1935` | ROUGE-L F1: `24.6530` | Comp Ratio: `8.7852%`
+- **validation_predictions_beam4_lp1_max128_nr3.jsonl**:
+  - ROUGE-1 F1: `31.2016` | ROUGE-2 F1: `14.2340` | ROUGE-L F1: `24.6987` | Comp Ratio: `8.8863%`
+- **validation_predictions_beam4_lp1.1_max128_nr3.jsonl**:
+  - ROUGE-1 F1: `31.2495` | ROUGE-2 F1: `14.2283` | ROUGE-L F1: `24.7108` | Comp Ratio: `8.9242%`
+
+### Artifact Updated
+- `outputs/metrics/validation_eval.json`
+
+## 2026-08-11: Test Core 2.000 Evaluation
+
+### Overview
+Executed `src/evaluate.py` to evaluate all candidate systems on the frozen test set `data/test_core_2000.jsonl` (2,000 samples).
+
+### Results Summary
+- **Scratch Transformer** (`scratch_transformer_test_core_2000.jsonl`):
+  - ROUGE-1 F1: `33.8438` | ROUGE-2 F1: `17.8399` | ROUGE-L F1: `28.3006` | Comp Ratio: `9.4176%`
+- **ViT5 Base** (`vit5_test_core_2000.jsonl`):
+  - ROUGE-1 F1: `31.2188` | ROUGE-2 F1: `14.5080` | ROUGE-L F1: `25.0001` | Comp Ratio: `8.6309%`
+- **Lead-1 Baseline** (`lead1.jsonl`):
+  - ROUGE-1 F1: `26.7782` | ROUGE-2 F1: `12.1660` | ROUGE-L F1: `20.8032` | Comp Ratio: `11.5062%`
+- **Lead-3 Baseline** (`lead3.jsonl`):
+  - ROUGE-1 F1: `25.1245` | ROUGE-2 F1: `11.0348` | ROUGE-L F1: `17.9164` | Comp Ratio: `30.1437%`
+
+### Artifact Updated
+- `outputs/metrics/test_eval.json`
+
+
 
 
 

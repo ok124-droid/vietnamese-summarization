@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "seed": 2026,
+  "prompt_version": "v2",
+  "api": {
+    "api_key_env": "OPENAI_API_KEY",
+    "base_url_env": "OPENAI_BASE_URL",
+    "model_env": "OPENAI_MODEL",
+    "default_base_url": "https://api.openai.com/v1",
+    "endpoint": "chat.completions",
+    "response_format_preference": [
+      "json_schema",
+      "json_object",
+      "prompt_json"
+    ],
+    "token_parameter_preference": [
+      "max_completion_tokens",
+      "max_tokens"
+    ],
+    "concurrency": 5,
+    "timeout_seconds": 90,
+    "max_retries": 6,
+    "backoff_seconds": [
+      2,
+      4,
+      8,
+      16,
+      32,
+      60
+    ],
+    "max_output_tokens": 320,
+    "estimated_chars_per_token": 3.0
+  },
+  "sampling": {
+    "num_strata": 4,
+    "test_per_stratum": 50,
+    "backup_per_stratum": 25,
+    "pilot_per_stratum": 5,
+    "human_per_stratum": [
+      13,
+      13,
+      12,
+      12
+    ],
+    "human_repeat_per_stratum": [
+      3,
+      3,
+      2,
+      2
+    ],
+    "minimum_repeat_distance": 15
+  },
+  "statistics": {
+    "bootstrap_resamples": 2000,
+    "confidence_level": 0.95
+  },
+  "systems": {
+    "lead1": {
+      "test": "outputs/predictions/test/lead1.jsonl",
+      "validation": "outputs/predictions/validation/lead1.jsonl"
+    },
+    "lead3": {
+      "test": "outputs/predictions/test/lead3.jsonl",
+      "validation": "outputs/predictions/validation/lead3.jsonl"
+    },
+    "scratch_transformer": {
+      "test": "outputs/predictions/scratch_transformer.jsonl",
+      "validation": "outputs/predictions/scratch_transformer_validation.jsonl"
+    },
+    "vit5": {
+      "test": "outputs/predictions/vit5.jsonl",
+      "validation": "outputs/predictions/vit5_validation.jsonl"
+    }
+  },
+  "paths": {
+    "test_manifest": "data/test_core_2000.jsonl",
+    "validation_manifest": "data/validation_select.jsonl",
+    "sample_200": "data/llm_judge_sample_200.jsonl",
+    "sample_100": "data/llm_judge_sample_100.jsonl",
+    "pilot_20": "data/llm_judge_pilot_20.jsonl",
+    "human_sample": "data/human_sample.jsonl",
+    "output_dir": "outputs/llm_judge",
+    "human_output_dir": "outputs/human"
+  }
+}
