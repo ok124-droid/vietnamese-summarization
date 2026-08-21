@@ -1,0 +1,651 @@
+{
+  "batch_id": "batch_01",
+  "results": [
+    {
+      "sample_id": "test_000174",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 1,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["DATE_TIME", "PREDICATE", "UNSUPPORTED"],
+      "factual_error_evidence": "Candidate nêu “Ngày 15-2 (mùng 6 Tết Kỷ Hợi)” và “đến thăm”; SOURCE không nêu ngày này hay chuyến thăm, chỉ mô tả buổi gặp gỡ và chúc Tết.",
+      "main_missing_information": "Lời chúc Tết, các đề nghị hỗ trợ cộng đồng, phản hồi của bà con và việc tặng quà.",
+      "brief_reason": "Câu gọn, rõ nhưng dựng thêm ngày và hành động thăm; đồng thời chỉ phản ánh rất ít nội dung trọng tâm của SOURCE."
+    },
+    {
+      "sample_id": "test_000174",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các đề nghị hỗ trợ, tôn trọng luật pháp và giữ bản sắc; nguyện vọng của cộng đồng cùng việc tặng quà.",
+      "brief_reason": "Hoàn toàn đúng và tập trung vào lời chúc, sự ghi nhận, quan tâm; tuy nhiên bỏ nhiều nội dung quan trọng ở nửa sau SOURCE."
+    },
+    {
+      "sample_id": "test_000174",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": ["RELATION", "ATTRIBUTION"],
+      "factual_error_evidence": "Chuỗi “các tỉnh hội... nỗ lực cho con em” nhập nhằng chủ thể; SOURCE phân biệt đề nghị của Thủ tướng, việc hỗ trợ của các tổ chức và nỗ lực của bà con.",
+      "main_missing_information": "Nguyện vọng về địa vị pháp lý, yêu cầu tôn trọng luật Campuchia và việc tặng quà cho gia đình khó khăn.",
+      "brief_reason": "Bao quát vài ý lớn nhưng dồn vào một câu dài, ghép lẫn chủ thể và quan hệ hành động, khiến ý nghĩa kém rõ."
+    },
+    {
+      "sample_id": "test_000174",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Sự quan tâm và các đề nghị của Thủ tướng, phản hồi và nguyện vọng của cộng đồng, cùng việc tặng quà.",
+      "brief_reason": "Câu chính xác, rõ và đúng trọng tâm mở đầu, nhưng quá ngắn nên chỉ nêu lời chúc và bỏ phần lớn diễn biến thiết yếu."
+    },
+    {
+      "sample_id": "test_000371",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["CAUSALITY", "UNSUPPORTED"],
+      "factual_error_evidence": "Candidate gắn phản ứng miễn dịch quá mức với “stress kéo dài”; SOURCE nêu đây là cơ chế gây mệt mỏi do COVID-19, còn căng thẳng tinh thần chỉ có thể làm mệt mỏi nặng hơn.",
+      "main_missing_information": "Bối cảnh mệt mỏi do COVID-19, triệu chứng đi kèm, thời gian kéo dài, cách kiểm soát và khi cần gặp bác sĩ.",
+      "brief_reason": "Nêu được cơ chế miễn dịch và nhu cầu nghỉ ngơi nhưng nhập sai quan hệ với stress, bỏ hẳn trọng tâm COVID-19 và phần lớn hướng dẫn."
+    },
+    {
+      "sample_id": "test_000371",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nguyên nhân miễn dịch và tinh thần, thời gian mệt mỏi, cách phục hồi, dấu hiệu hậu COVID và khuyến cáo tiêm chủng.",
+      "brief_reason": "Thông tin hoàn toàn đúng và dễ hiểu, nhưng chỉ mô tả biểu hiện ban đầu, chưa tóm tắt nguyên nhân, diễn tiến hay lời khuyên chính."
+    },
+    {
+      "sample_id": "test_000371",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các biểu hiện, nguyên nhân, thời gian kéo dài, biện pháp kiểm soát và thời điểm cần trợ giúp y tế.",
+      "brief_reason": "Khẳng định mở đầu chính xác và đúng chủ đề, song quá ngắn so với SOURCE nên không truyền tải các nội dung giải thích và hướng dẫn thiết yếu."
+    },
+    {
+      "sample_id": "test_000371",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["ATTRIBUTION", "UNSUPPORTED"],
+      "factual_error_evidence": "SOURCE có nêu COVID-19 ảnh hưởng sức khỏe tinh thần, nhưng không hề quy thông tin này cho “Eat This Not That”.",
+      "main_missing_information": "Trọng tâm mệt mỏi do COVID-19: biểu hiện, cơ chế, thời gian, cách giảm mệt mỏi và khi cần gặp bác sĩ.",
+      "brief_reason": "Mệnh đề về sức khỏe tinh thần có cơ sở, nhưng nguồn quy kết bị bịa và câu gần như bỏ lỡ hoàn toàn chủ đề mệt mỏi do COVID-19."
+    },
+    {
+      "sample_id": "test_000442",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 2
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các chỉ đạo của Trần Văn Lý và Rơ Chăm Long về đại hội, phúc lợi, chăm lo người lao động và củng cố công đoàn.",
+      "brief_reason": "Đúng SOURCE và nêu nhiều kết quả năm 2017, nhưng sao chép dài, dày số liệu, diễn đạt lỗi và thiếu toàn bộ phần chỉ đạo trọng tâm sắp tới."
+    },
+    {
+      "sample_id": "test_000442",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Kết quả phát triển đoàn viên và hoạt động xã hội năm 2017, cùng các chỉ đạo cụ thể cho đại hội và chăm lo người lao động.",
+      "brief_reason": "Nêu đúng mục đích hội nghị và việc chuẩn bị Đại hội X, nhưng còn thiếu thành tựu, số liệu và chỉ đạo; câu nối vụng làm giảm độ trôi chảy."
+    },
+    {
+      "sample_id": "test_000442",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["NUMBER", "DATE_TIME", "RELATION", "UNSUPPORTED"],
+      "factual_error_evidence": "SOURCE không nêu “hội nghị... lần thứ IX” hay khóa IX có nhiệm kỳ 2018-2023; 2018-2023 là nhiệm kỳ của Đại hội X sắp tổ chức.",
+      "main_missing_information": "Nội dung đánh giá năm 2017, kết quả công đoàn, nhiệm vụ năm 2018 và các chỉ đạo tại hội nghị.",
+      "brief_reason": "Câu rõ nhưng gán sai số lần, khóa và nhiệm kỳ hội nghị, đồng thời chỉ liệt kê người tham dự nên bỏ lỡ toàn bộ nội dung chính."
+    },
+    {
+      "sample_id": "test_000442",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["DATE_TIME", "LOCATION", "UNSUPPORTED"],
+      "factual_error_evidence": "Candidate thêm “Ngày 17/12/2017, tại Hà Nội”; SOURCE không cung cấp ngày hay địa điểm này.",
+      "main_missing_information": "Đánh giá thành tựu năm 2017, số liệu chăm lo đoàn viên và các chỉ đạo cụ thể cho Đại hội X cùng nhiệm vụ năm 2018.",
+      "brief_reason": "Nêu đúng tính chất hội nghị triển khai nhiệm vụ 2018, nhưng thêm ngày và địa điểm không được hỗ trợ, đồng thời thiếu gần hết nội dung hội nghị."
+    },
+    {
+      "sample_id": "test_000535",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Đóng góp được vinh danh của David Card, Joshua D. Angrist và Guido W. Imbens.",
+      "brief_reason": "Nêu đúng ba người đoạt giải và cách chia giải, nhưng thiếu lý do trao giải; tên “Guido W.” bị cắt dở làm câu chưa hoàn chỉnh."
+    },
+    {
+      "sample_id": "test_000535",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 1,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["NUMBER"],
+      "factual_error_evidence": "Candidate nói hai giáo sư được trao giải; SOURCE nêu giải Nobel Kinh tế 2021 được trao cho ba nhà kinh tế học.",
+      "main_missing_information": "Ba người nhận giải, cách chia giải và các đóng góp về kinh tế lao động cùng phương pháp phân tích quan hệ nhân quả.",
+      "brief_reason": "Câu ngắn, đúng chủ đề nhưng sai số người đoạt giải—một dữ kiện cốt lõi—và không nêu danh tính hay thành tựu được vinh danh."
+    },
+    {
+      "sample_id": "test_000535",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tên ba nhà kinh tế học, cách chia giải và những đóng góp khiến họ được trao Nobel Kinh tế 2021.",
+      "brief_reason": "Thông tin hoàn toàn đúng và gọn, nhưng chỉ nêu tên chính thức cùng số người đoạt giải, chưa đủ nội dung cốt lõi của tin."
+    },
+    {
+      "sample_id": "test_000535",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tên ba người nhận giải, phần giải của từng người và các đóng góp khoa học được vinh danh.",
+      "brief_reason": "Khẳng định chính xác chủ thể trao giải, năm và số người nhận, nhưng quá khái quát; cụm “nhà kinh tế học kinh tế” hơi vụng và lặp."
+    },
+    {
+      "sample_id": "test_000620",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["ENTITY", "LOCATION", "RELATION", "NEGATION"],
+      "factual_error_evidence": "SOURCE nói mùng 5 là sinh nhật Thần Tài trong văn hóa Trung Quốc, không phải “sinh nhật của người dân Việt Nam”; người Việt lại đổ xô mua vàng vào mùng 10.",
+      "main_missing_information": "Khác biệt phong tục Trung Quốc–Việt Nam, rủi ro mua vàng ngày Thần Tài và lợi ích lớn của doanh nghiệp vàng.",
+      "brief_reason": "Candidate làm sai chủ thể của ngày sinh, nhập nhằng quốc gia và phủ nhận việc mua vàng tại Việt Nam, khiến trọng tâm so sánh bị đảo lộn."
+    },
+    {
+      "sample_id": "test_000620",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["PREDICATE", "LOCATION", "DATE_TIME", "RELATION", "NEGATION"],
+      "factual_error_evidence": "SOURCE khẳng định người Trung Quốc không đổ xô mua vàng mùng 5; cảnh mua sáng, lỗ chiều xảy ra ở Việt Nam vào mùng 10 tháng Giêng.",
+      "main_missing_information": "Tập tục thực tế ở Trung Quốc, nguồn gốc ngày Thần Tài, cảnh báo rủi ro mua vàng tại Việt Nam và doanh thu của doanh nghiệp.",
+      "brief_reason": "Cả hai ý bị gắn sai cho Trung Quốc và mùng 5, trực tiếp đảo ngược đối chiếu cốt lõi của SOURCE dù câu văn rõ ràng."
+    },
+    {
+      "sample_id": "test_000620",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Phong tục mùng 5 ở Trung Quốc và hiện tượng mua vàng mùng 10 tại Việt Nam, gồm rủi ro cho khách và lợi ích doanh nghiệp.",
+      "brief_reason": "Tóm đúng nguồn gốc, sự khác biệt về mua vàng và vai trò Thần Tài, nhưng chưa bao quát các tập tục cùng hệ quả tại Việt Nam."
+    },
+    {
+      "sample_id": "test_000620",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Sự khác nhau giữa Trung Quốc và Việt Nam về ngày Thần Tài, các tập tục, việc mua vàng cùng rủi ro và lợi ích kinh doanh.",
+      "brief_reason": "Câu chính xác nhưng chỉ nêu nguồn gốc quan niệm, bỏ lỡ trọng tâm đối chiếu phong tục và toàn bộ phân tích việc mua vàng."
+    },
+    {
+      "sample_id": "test_000713",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["LOCATION", "DATE_TIME", "PREDICATE", "UNSUPPORTED"],
+      "factual_error_evidence": "SOURCE không nêu Bà Rịa–Vũng Tàu, Tết Nhâm Dần 2022 hay việc LĐLĐ tỉnh “chỉ đạo”; chỉ nêu hoạt động trao quà, phối hợp và hỗ trợ 200.000 phần quà.",
+      "main_missing_information": "Các đoàn trao quà trực tiếp, phối hợp với doanh nghiệp và 200.000 phần quà cho lao động khó khăn, bị ảnh hưởng COVID-19.",
+      "brief_reason": "Ý chăm lo Tết phù hợp chung, nhưng candidate thêm địa phương, năm và quan hệ chỉ đạo không có trong SOURCE, đồng thời bỏ các hành động cụ thể."
+    },
+    {
+      "sample_id": "test_000713",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["DATE_TIME", "LOCATION", "UNSUPPORTED"],
+      "factual_error_evidence": "Candidate thêm ngày 22/12 và tỉnh Cà Mau; SOURCE không nêu thời gian hay địa phương cụ thể này.",
+      "main_missing_information": "Sự phối hợp linh hoạt với doanh nghiệp và 200.000 phần quà cho người lao động khó khăn, ảnh hưởng COVID-19, không thể về quê.",
+      "brief_reason": "Hoạt động đi cơ sở trao quà có cơ sở, nhưng ngày và tỉnh bị dựng thêm; bản tóm tắt cũng bỏ hai ý lớn còn lại của SOURCE."
+    },
+    {
+      "sample_id": "test_000713",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Công đoàn phối hợp doanh nghiệp chăm lo Tết và LĐLĐ tỉnh hỗ trợ 200.000 phần quà cho các nhóm lao động khó khăn.",
+      "brief_reason": "Câu đúng, rõ và súc tích, phản ánh hoạt động trao quà trực tiếp nhưng thiếu phối hợp với doanh nghiệp và quy mô hỗ trợ 200.000 phần quà."
+    },
+    {
+      "sample_id": "test_000713",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Bao quát đầy đủ ba ý thiết yếu, hoàn toàn trung thực với SOURCE, mạch lạc và không có chi tiết thừa hay lặp đáng kể."
+    },
+    {
+      "sample_id": "test_001003",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tổng kinh phí 22,5 tỉ đồng từ tài chính công đoàn tích lũy, phân bổ địa phương và nhóm được hỗ trợ khẩn cấp.",
+      "brief_reason": "Nêu trọn sự kiện chính, quy mô, đơn giá, đối tượng và nguyên nhân hỗ trợ; chỉ thiếu các chi tiết triển khai và nguồn kinh phí."
+    },
+    {
+      "sample_id": "test_001003",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Cách phân bổ, các nhóm ở khu trọ/cách ly/phong tỏa và yêu cầu mua khẩn cấp đúng thủ tục.",
+      "brief_reason": "Tóm tắt chính xác chương trình, quy mô, tổng giá trị và nguồn tiền; phần còn thiếu chủ yếu là đối tượng chi tiết cùng quy trình triển khai."
+    },
+    {
+      "sample_id": "test_001003",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tổng kinh phí 22,5 tỉ đồng từ tài chính công đoàn tích lũy, phân bổ địa phương và nhóm được hỗ trợ khẩn cấp.",
+      "brief_reason": "Nêu đầy đủ sự kiện trung tâm với số phần, đơn giá, đối tượng và bối cảnh COVID-19; thiếu các chi tiết tài chính và thực hiện."
+    },
+    {
+      "sample_id": "test_001003",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 1,
+        "focus_relevance": 3,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["CAUSALITY", "PREDICATE", "UNSUPPORTED"],
+      "factual_error_evidence": "Candidate nói người lao động bị ảnh hưởng bởi “dịch chúc mừng 8-3”; SOURCE nêu rõ họ bị ảnh hưởng bởi dịch COVID-19.",
+      "main_missing_information": "LĐLĐ TPHCM triển khai hỗ trợ do COVID-19, đơn giá 150.000 đồng/phần, tổng 22,5 tỉ đồng, nguồn tiền và cách phân bổ.",
+      "brief_reason": "Giữ đúng con số và nhóm nhận nhưng thay sai nguyên nhân cốt lõi bằng cụm vô nghĩa “dịch chúc mừng 8-3”, làm câu kém mạch lạc."
+    },
+    {
+      "sample_id": "test_001135",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Đoạn Thanh Bình–Bắc Kạn chưa có trong quy hoạch, các bất nhất chiều dài, phương án tài chính và yêu cầu quyết toán dự án.",
+      "brief_reason": "Nêu đúng yêu cầu trung tâm về làm rõ quy mô dự án BOT, nhưng chưa giải thích các vướng mắc quy hoạch, chiều dài và tài chính làm căn cứ."
+    },
+    {
+      "sample_id": "test_001135",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["RELATION", "PREDICATE", "UNSUPPORTED"],
+      "factual_error_evidence": "SOURCE nêu công điện hỏa tốc gửi Văn phòng Chính phủ và yêu cầu Bộ GTVT báo cáo; không nêu Bộ KHĐT có “công văn gửi Bộ GTVT” như candidate.",
+      "main_missing_information": "Yêu cầu làm rõ toàn bộ quy mô dự án, điểm cuối, bất nhất chiều dài, quyết toán vốn và phương án tài chính BOT.",
+      "brief_reason": "Phản ánh được yêu cầu bổ sung đoạn tuyến vào quy hoạch, nhưng mô tả sai loại và nơi nhận văn bản, đồng thời quá hẹp so với vấn đề chính."
+    },
+    {
+      "sample_id": "test_001135",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Chênh lệch đề xuất chiều dài 30–40 km, các khoản vốn và nợ, phương án thu phí, yêu cầu quyết toán và lo ngại tăng chi phí.",
+      "brief_reason": "Trung thực và giải thích rõ vướng mắc điểm cuối cùng quy hoạch, nhưng chưa bao quát các vấn đề tài chính, quyết toán và chiều dài cũng rất quan trọng."
+    },
+    {
+      "sample_id": "test_001135",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Lý do phải làm rõ: đoạn chưa nằm trong quy hoạch, chiều dài bất nhất, thiếu phương án tài chính và chưa quyết toán vốn nhà nước.",
+      "brief_reason": "Nêu đúng yêu cầu cốt lõi và các đoạn dự án, nhưng “Đó là nội dung” thiếu tiền đề nên chưa hiểu độc lập tốt; các căn cứ quan trọng bị lược bỏ."
+    },
+    {
+      "sample_id": "test_001352",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "266 chốt địa phương, lượng phương tiện/người được kiểm tra, mức phạt cập nhật 841 triệu đồng và giấy tờ cần mang.",
+      "brief_reason": "Các số liệu nêu ra đều đúng và sát trọng tâm kiểm soát, xử phạt; tuy nhiên bỏ nhiều quy mô, quy định thiết yếu và có vài lỗi chữ làm câu vụng."
+    },
+    {
+      "sample_id": "test_001352",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["NUMBER", "LOCATION", "RELATION"],
+      "factual_error_evidence": "SOURCE nêu 12 chốt tại cửa ngõ; 266 chốt do Thành phố Thủ Đức và các quận, huyện lập tại địa phương, không phải tại cửa ngõ.",
+      "main_missing_information": "12 chốt cửa ngõ, số phương tiện/người đã kiểm tra, các mức xử phạt và giấy tờ, điều kiện ra đường theo Chỉ thị 16.",
+      "brief_reason": "Ý không phải mọi trường hợp đều bị phạt là đúng, nhưng con số 266 bị gán sai cho chốt cửa ngõ, làm sai dữ kiện trung tâm."
+    },
+    {
+      "sample_id": "test_001352",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các vi phạm và mức phạt, giấy xét nghiệm cùng giấy tờ phải mang, trường hợp được ra ngoài và chủ trương tăng xử phạt.",
+      "brief_reason": "Bao quát chính xác việc lập chốt và khối lượng kiểm tra, nhưng thiếu toàn bộ nội dung xử phạt, giấy tờ; lỗi lặp từ khiến diễn đạt kém trôi chảy."
+    },
+    {
+      "sample_id": "test_001352",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "266 chốt địa phương, số lượt kiểm tra, vi phạm và tiền phạt, giấy tờ cần có cùng các trường hợp được phép ra ngoài.",
+      "brief_reason": "Câu mở đầu chính xác và rõ, nhưng chỉ nêu 12 chốt cửa ngõ nên phản ánh một phần nhỏ của thông tin kiểm soát, xử phạt."
+    },
+    {
+      "sample_id": "test_001457",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["PREDICATE", "UNSUPPORTED"],
+      "factual_error_evidence": "SOURCE nêu giá vàng trong nước và thế giới tăng mạnh tại các mốc cụ thể, không nói giá trong nước “biến động liên tục không ngừng nghỉ”.",
+      "main_missing_information": "Mức giá và mức tăng tại SJC, DOJI, giá vàng thế giới cùng bối cảnh các biện pháp kinh tế trong đại dịch COVID-19.",
+      "brief_reason": "Có nêu xu hướng tăng của vàng thế giới, nhưng thay xu hướng tăng trong nước bằng mô tả biến động liên tục không được hỗ trợ và thiếu toàn bộ số liệu."
+    },
+    {
+      "sample_id": "test_001457",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Giá DOJI, giá vàng thế giới và chênh lệch với SJC, cùng bối cảnh chính sách, thị trường và dự báo kinh tế do COVID-19.",
+      "brief_reason": "Thông tin SJC lúc 9h và mức tăng hoàn toàn chính xác, nhưng chỉ phản ánh một phần thị trường trong nước, chưa bao quát thế giới và bối cảnh."
+    },
+    {
+      "sample_id": "test_001457",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": ["NUMBER"],
+      "factual_error_evidence": "Candidate ghi khoảng tăng “800.000 đồng đến 800.000 đồng/lượng”; SOURCE nêu các mức tăng 800.000, 900.000 và 950.000 đồng/lượng.",
+      "main_missing_information": "Các mức giá mua–bán cụ thể, mức tăng đúng ở từng chiều và bối cảnh chính sách, thị trường liên quan COVID-19.",
+      "brief_reason": "Nắm đúng xu hướng tăng mạnh ở hai thị trường, nhưng khoảng số liệu bị lặp và không bao quát mức 900.000–950.000 đồng; diễn đạt vì thế thiếu tự nhiên."
+    },
+    {
+      "sample_id": "test_001457",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Giá vàng thế giới, chênh lệch với SJC và bối cảnh các biện pháp của Fed, Đức, G20 cùng dự báo GDP Mỹ.",
+      "brief_reason": "Trình bày chính xác và khá đầy đủ giá vàng trong nước tại SJC, DOJI, nhưng thiếu nửa nội dung về thị trường thế giới và bối cảnh kinh tế."
+    }
+  ],
+  "completeness": {
+    "expected_samples": 10,
+    "expected_candidates": 40,
+    "returned_candidates": 40,
+    "missing": []
+  }
+}

@@ -1,0 +1,706 @@
+{
+  "batch_id": "batch_05",
+  "results": [
+    {
+      "sample_id": "test_004904",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nguyên nhân kỷ luật là Phong Phú Hà Nam bỏ thi đấu sau khi phản ứng quyết định phạt đền.",
+      "brief_reason": "Tóm tắt chính xác và gọn các mức kỷ luật quan trọng, nhưng thiếu sự cố bỏ thi đấu dẫn đến các án phạt."
+    },
+    {
+      "sample_id": "test_004904",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Án cấm 5 năm với Nguyễn Thế Cường, đình chỉ Trần Thị Hồng Nhung và nguyên nhân bỏ thi đấu.",
+      "brief_reason": "Nêu đúng án phạt dành cho đội, song bỏ sót hai án phạt cá nhân và bối cảnh trực tiếp của vụ việc."
+    },
+    {
+      "sample_id": "test_004904",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "RELATION",
+        "PREDICATE"
+      ],
+      "factual_error_evidence": "Candidate gán cả phạt 50 triệu và cấm 5 năm cho hai người; source phạt đội 50 triệu, chỉ cấm Nguyễn Thế Cường 5 năm và đình chỉ Hồng Nhung.",
+      "main_missing_information": "Án xử thua 0-3, cảnh cáo đội và việc Hồng Nhung chỉ bị đình chỉ hết lượt đi.",
+      "brief_reason": "Các đối tượng và hình thức kỷ luật bị gộp sai nghiêm trọng, làm biến đổi nội dung chính dù câu văn rõ và ngắn."
+    },
+    {
+      "sample_id": "test_004904",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "PREDICATE",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Source không đình chỉ hay cấm Trung tâm; Hồng Nhung bị đình chỉ hết lượt đi, còn Nguyễn Thế Cường bị cấm 5 năm.",
+      "main_missing_information": "Toàn bộ quyết định xử phạt đúng đối với đội Phong Phú Hà Nam, huấn luyện viên và đội trưởng.",
+      "brief_reason": "Candidate chuyển các án phạt cá nhân sang Trung tâm và tạo quan hệ nối tiếp không có trong source, nên sai trọng tâm."
+    },
+    {
+      "sample_id": "test_004910",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Mục tiêu hội nghị, quy mô hơn 200 người từ 20 đơn vị, nội dung nghiên cứu và hợp tác ba bên.",
+      "brief_reason": "Thông tin đúng nhưng quá khái quát, chỉ nói tính thường niên mà không phản ánh nội dung, quy mô hay ý nghĩa hội nghị."
+    },
+    {
+      "sample_id": "test_004910",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "DATE_TIME",
+        "LOCATION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Các chi tiết ‘24/7’ và ‘tại Hà Nội’ không xuất hiện trong source.",
+      "main_missing_information": "Quy mô, mục tiêu giới thiệu nghiên cứu, chuyển giao công nghệ và thúc đẩy hợp tác trường–viện–doanh nghiệp.",
+      "brief_reason": "Xác định đúng hội nghị lần thứ 13 và đơn vị chủ trì, nhưng thêm ngày, địa điểm không được source hỗ trợ và thiếu nội dung chính."
+    },
+    {
+      "sample_id": "test_004910",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các báo cáo nghiên cứu tại 6 phân ban và kết quả mở ra hướng nghiên cứu, hợp tác mới.",
+      "brief_reason": "Bao quát đúng tính thường niên, mục tiêu và quy mô hội nghị; danh sách đơn vị hơi chi tiết và chưa nêu các kết quả nổi bật."
+    },
+    {
+      "sample_id": "test_004910",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "LOCATION",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Source cho biết Trường Đại học Phenikaa được chọn làm nơi tổ chức sự kiện; Bách khoa Hà Nội chỉ là đơn vị tham gia.",
+      "main_missing_information": "Mục tiêu giới thiệu nghiên cứu, chuyển giao công nghệ và thúc đẩy hợp tác giữa trường, viện, doanh nghiệp.",
+      "brief_reason": "Quy mô người tham dự được nêu đúng, nhưng địa điểm tổ chức bị gán sai cho một trường chỉ tham gia hội nghị."
+    },
+    {
+      "sample_id": "test_004933",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Source nói ‘theo kế hoạch’ sẽ triển khai, không xác nhận kế hoạch ‘vừa ban hành’.",
+      "main_missing_information": "Điều kiện phòng, nhóm được ưu tiên, quy mô tối thiểu 50 máy và thời gian dự kiến lắp đặt.",
+      "brief_reason": "Nêu đúng chủ thể và kế hoạch chung, nhưng thêm sắc thái thời điểm ban hành chưa được hỗ trợ và thiếu nhiều tiêu chí triển khai."
+    },
+    {
+      "sample_id": "test_004933",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Điều kiện phòng, nhóm ưu tiên, ít nhất 50 máy, kinh phí và lịch triển khai trong Tháng Công nhân 2022.",
+      "brief_reason": "Câu tóm tắt trung thực và đúng trọng tâm kế hoạch, song chỉ nêu đối tượng khu trọ mà thiếu quy mô và cách triển khai."
+    },
+    {
+      "sample_id": "test_004933",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Kế hoạch của Liên đoàn Lao động Hải Phòng, đối tượng khu trọ, quy mô, điều kiện phòng và thời gian triển khai.",
+      "brief_reason": "Thông tin ưu tiên hoàn toàn đúng nhưng chỉ là một điều kiện phụ, không nêu hành động chính và quy mô của kế hoạch."
+    },
+    {
+      "sample_id": "test_004933",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Quy mô tối thiểu 50 máy, nguồn kinh phí và thời gian lắp đặt dự kiến trong Tháng Công nhân 2022.",
+      "brief_reason": "Nêu chính xác kế hoạch, điều kiện phòng và nhóm ưu tiên, nhưng chưa bao phủ quy mô, tài chính và lịch lắp đặt."
+    },
+    {
+      "sample_id": "test_005107",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "CPI sáu tháng đầu năm tăng 4,19%, chênh lệch thành thị–nông thôn và lạm phát cơ bản tăng 2,81%.",
+      "brief_reason": "Tóm tắt chính xác diễn biến CPI tháng 6 và hai nguyên nhân chính, nhưng thiếu các chỉ số quan trọng của sáu tháng đầu năm."
+    },
+    {
+      "sample_id": "test_005107",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "NUMBER",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Source: CPI 6 tháng tăng 4,19% so với cùng kỳ; mức 0,66% là CPI tháng 6 tăng so với tháng trước.",
+      "main_missing_information": "Mức tăng đúng của CPI sáu tháng, diễn biến CPI tháng 6, các nguyên nhân và lạm phát cơ bản.",
+      "brief_reason": "Candidate dùng sai mức 0,66% cho kỳ sáu tháng và sai mốc so sánh, khiến thống kê trung tâm của bài bị đảo lẫn."
+    },
+    {
+      "sample_id": "test_005107",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thịt lợn là tác nhân lớn nhất, các yếu tố kìm CPI và mức tăng 2,81% của lạm phát cơ bản.",
+      "brief_reason": "Bao quát chính xác CPI tháng 6, CPI sáu tháng và số liệu thành thị–nông thôn; chỉ thiếu các tác động chi tiết và lạm phát cơ bản."
+    },
+    {
+      "sample_id": "test_005107",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "CPI sáu tháng tăng 4,19%, các yếu tố kìm đà tăng và lạm phát cơ bản tăng 2,81%.",
+      "brief_reason": "Nêu đúng hai động lực và mức tăng CPI tháng 6, nhưng không bao quát các chỉ số sáu tháng cùng những yếu tố giảm áp lực giá."
+    },
+    {
+      "sample_id": "test_005136",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nguồn phát sinh rác, thiệt hại do bồi lấp cảng, trách nhiệm quản lý và biện pháp thu gom, xử lý.",
+      "brief_reason": "Mô tả đúng và khá rõ tình trạng ô nhiễm kéo dài, nhưng dành nhiều chỗ cho cảnh quan, mùa ốc và thiếu hậu quả, giải pháp."
+    },
+    {
+      "sample_id": "test_005136",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tình trạng kéo dài nhiều năm, nguyên nhân từ vỏ ốc và đổ trộm, hậu quả bồi lấp cùng biện pháp xử lý.",
+      "brief_reason": "Mô tả chính xác hiện trạng rác và nước đen hôi tại cảng, nhưng chưa cho thấy thời gian, nguyên nhân, thiệt hại và hướng khắc phục."
+    },
+    {
+      "sample_id": "test_005136",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "DATE_TIME",
+        "PREDICATE",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "‘Những ngày qua’ trái với tình trạng tồn tại nhiều năm; cụm ‘hộ dân dựng cảng, bãi biển’ không có trong source và diễn đạt sai nghĩa.",
+      "main_missing_information": "Nguồn rác cụ thể, quy mô ô nhiễm, hậu quả đối với tàu thuyền và các biện pháp xử lý.",
+      "brief_reason": "Nêu được vấn đề ô nhiễm ở Lạch Vạn nhưng sai thời lượng, diễn đạt nguồn gây rác khó hiểu và chỉ bao phủ một phần nhỏ."
+    },
+    {
+      "sample_id": "test_005136",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "NUMBER",
+        "CAUSALITY",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Source không nêu ‘hàng trăm hộ’; candidate lại khiến việc người dân ngao ngán, bịt mũi trở thành nguyên nhân gây ô nhiễm.",
+      "main_missing_information": "Rác, vỏ ốc, nước thải là nguồn ô nhiễm; hậu quả bồi lấp cảng và các biện pháp của địa phương.",
+      "brief_reason": "Candidate giữ được địa điểm và tình trạng chung, nhưng thêm số lượng hộ không có căn cứ và tạo quan hệ nguyên nhân vô lý."
+    },
+    {
+      "sample_id": "test_005288",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Chức vụ của ba bị can tại Chi nhánh Hải Phòng của Oceanbank.",
+      "brief_reason": "Tóm tắt trung thực quyết định truy nã, tội danh, danh tính và thời điểm bỏ trốn; chỉ thiếu bối cảnh nghề nghiệp của các bị can."
+    },
+    {
+      "sample_id": "test_005288",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Danh tính ba bị can, thời điểm và nơi bỏ trốn cùng vị trí của họ tại Oceanbank Hải Phòng.",
+      "brief_reason": "Nêu đúng cơ quan, ngày truy nã, số bị can và tội danh, nhưng bỏ toàn bộ danh tính và bối cảnh liên quan."
+    },
+    {
+      "sample_id": "test_005288",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "DATE_TIME"
+      ],
+      "factual_error_evidence": "Candidate ghi ngày 15.10; source nêu quyết định truy nã được ban hành ngày 13.9.",
+      "main_missing_information": "Hai bị can còn lại, tội danh lừa đảo chiếm đoạt tài sản và việc cả ba bỏ trốn tháng 9.2017.",
+      "brief_reason": "Đúng cơ quan, hành động, danh tính và chức vụ của Kim Chi, nhưng sai ngày quyết định và bỏ phần lớn vụ truy nã ba người."
+    },
+    {
+      "sample_id": "test_005288",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tội danh, tên hai bị can còn lại, thời điểm bỏ trốn và chức vụ cụ thể của Trần Thị Kim Chi.",
+      "brief_reason": "Thông tin nêu ra được source hỗ trợ và đúng trọng tâm, nhưng chỉ điểm tên một người và không cho biết tội danh hay bối cảnh bỏ trốn."
+    },
+    {
+      "sample_id": "test_005537",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Quy định riêng về nhân sự ở vùng đỏ, cam; hoạt động ở vùng vàng, xanh và điều kiện qua chốt liên huyện.",
+      "brief_reason": "Trình bày đúng hạn chế tại vùng đỏ, cam và điều kiện cho lực lượng thiết yếu, nhưng thiếu các quy định phân vùng còn lại."
+    },
+    {
+      "sample_id": "test_005537",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "RELATION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Yêu cầu ở trong nhà chỉ áp dụng với người dân thôn, tổ dân phố vùng đỏ và vùng cam, không phải toàn TP.Nha Trang.",
+      "main_missing_information": "Phạm vi vùng đỏ, cam, các ngoại lệ và toàn bộ quy định khác nhau theo từng vùng dịch.",
+      "brief_reason": "Candidate khái quát sai một hạn chế theo vùng thành yêu cầu cho toàn thành phố, đồng thời bỏ các điều kiện và quy định phân vùng."
+    },
+    {
+      "sample_id": "test_005537",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các hạn chế, ngoại lệ và điều kiện hoạt động cụ thể tại vùng đỏ, cam, vàng, xanh cùng quy định qua chốt.",
+      "brief_reason": "Câu mở đầu hoàn toàn đúng nhưng chỉ thông báo có văn bản, không tóm lược bất kỳ nội dung chống dịch quan trọng nào."
+    },
+    {
+      "sample_id": "test_005537",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "RELATION",
+        "ATTRIBUTION",
+        "PREDICATE"
+      ],
+      "factual_error_evidence": "Mức 30% chỉ áp dụng cho cơ quan ở vùng cam; phóng viên được đi làm, còn mua đồ ăn mang về là quyền của người dân vùng vàng, xanh.",
+      "main_missing_information": "Quy định chính xác theo từng vùng và các điều kiện xét nghiệm, tiêm vaccine hoặc khỏi bệnh.",
+      "brief_reason": "Candidate gộp sai phạm vi 30% và gán quyền mua đồ ăn của người dân vùng vàng, xanh cho phóng viên, làm méo nội dung."
+    },
+    {
+      "sample_id": "test_005599",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Dung đưa Hữu Nguyện đến nhà Thành Đạt, đối đầu Văn Tài và Thành Đạt nhận ra cậu là con mình.",
+      "brief_reason": "Chi tiết mở đầu được kể đúng, nhưng đây chỉ là phần thiết lập và bỏ toàn bộ quyết định, xung đột cùng cao trào của tập phim."
+    },
+    {
+      "sample_id": "test_005599",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "PREDICATE",
+        "NEGATION",
+        "ATTRIBUTION"
+      ],
+      "factual_error_evidence": "Source không nói Dung hối hận; cô chủ động không chuyển nhà. Văn Tài đe dọa mẹ con cô, còn Thành Đạt nhận Hữu Nguyện là con chứ không đuổi cậu.",
+      "main_missing_information": "Quyết tâm của Dung, cuộc giằng co với Văn Tài và khoảnh khắc Thành Đạt nhận ra Hữu Nguyện.",
+      "brief_reason": "Candidate đảo ngược thái độ của Dung và gán hành động đuổi con cho Thành Đạt, khiến diễn biến trung tâm bị kể sai hoàn toàn."
+    },
+    {
+      "sample_id": "test_005599",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Dung quyết định đưa con đến nhà cha, phản kháng Văn Tài và Thành Đạt nhận ra Hữu Nguyện là con mình.",
+      "brief_reason": "Đoạn tìm và ôm lại con hoàn toàn trung thực, nhưng vẫn chỉ bao phủ cảnh mở đầu, bỏ nút thắt và kết thúc chính của tập."
+    },
+    {
+      "sample_id": "test_005599",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 1,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "RELATION",
+        "ATTRIBUTION",
+        "PREDICATE"
+      ],
+      "factual_error_evidence": "Source nói Ngọc Khuê nghi bà Ngà giả bệnh và sắp xếp Văn Tài lái xe; candidate gán các hành động, quan hệ này cho Thành Đạt theo câu vô nghĩa.",
+      "main_missing_information": "Toàn bộ tuyến chính về Dung đưa Hữu Nguyện đi nhận cha và Thành Đạt nhận ra con.",
+      "brief_reason": "Câu văn trộn lẫn các nhân vật, hành động và quan hệ, gần như không thể hiểu, đồng thời bỏ hoàn toàn diễn biến chính của tập phim."
+    },
+    {
+      "sample_id": "test_006011",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Hồ sơ gồm sổ BHXH, mẫu 14-HSB, giấy tờ tùy trường hợp và xác nhận của Công an khi đổi CMND.",
+      "brief_reason": "Nêu đúng hai câu hỏi của bạn đọc nhưng không cung cấp phần trả lời, vốn là nội dung hữu ích và trọng tâm của bài tư vấn."
+    },
+    {
+      "sample_id": "test_006011",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ATTRIBUTION",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Source chỉ liệt kê bệnh hiểm nghèo như một trường hợp có điều kiện cần trích sao bệnh án; không khẳng định người lao động cụ thể đang mắc bệnh.",
+      "main_missing_information": "Câu hỏi về BHXH một lần, các giấy tờ bắt buộc và cách xử lý khi đã đổi số CMND.",
+      "brief_reason": "Candidate tách một điều kiện phụ khỏi ngữ cảnh và biến nó thành khẳng định về người lao động, đồng thời bỏ toàn bộ thủ tục được hỏi."
+    },
+    {
+      "sample_id": "test_006011",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Danh mục hồ sơ cụ thể và hướng dẫn xin Công an xác nhận việc cấp đổi CMND.",
+      "brief_reason": "Phần nội dung trước điểm cắt đều đúng, nhưng candidate dừng đột ngột ở ‘cụ thể: 1’, khiến câu dang dở và không truyền đạt câu trả lời."
+    },
+    {
+      "sample_id": "test_006011",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Câu hỏi về đổi CMND, hồ sơ nhận BHXH một lần và yêu cầu xác nhận việc cấp đổi.",
+      "brief_reason": "Chỉ nêu đúng câu hỏi thứ nhất, không đề cập vấn đề CMND mới và cũng không tóm tắt bất kỳ hướng dẫn thủ tục nào."
+    },
+    {
+      "sample_id": "test_006202",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "DATE_TIME",
+        "LOCATION",
+        "PREDICATE",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Source không nêu năm sinh hay địa chỉ xã, huyện; bệnh là rối loạn chuyển hóa thể tiêu bào/Pompe, không phải ‘ung thư Pompe’. Chỉ nơi điều trị được nêu đúng.",
+      "main_missing_information": "Bệnh phải điều trị suốt đời, gia đình cận nghèo vay 300 triệu đồng và cần được giúp đỡ.",
+      "brief_reason": "Năm sinh, địa chỉ và loại bệnh đều sai hoặc không được hỗ trợ; chỉ tên bệnh nhân và Bệnh viện Nhi Trung ương là đúng."
+    },
+    {
+      "sample_id": "test_006202",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Chẩn đoán bệnh Pompe, việc điều trị suốt đời và hoàn cảnh cận nghèo, nợ 300 triệu đồng của gia đình.",
+      "brief_reason": "Triệu chứng sơ sinh được nêu chính xác nhưng chỉ là chi tiết mở đầu, chưa phản ánh căn bệnh, hành trình điều trị hay khó khăn tài chính."
+    },
+    {
+      "sample_id": "test_006202",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "LOCATION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Source chỉ nêu thôn Điểm Mới, không cung cấp xã Nam Phương, huyện Nam Đàn làm nơi ở của Phương.",
+      "main_missing_information": "Bệnh phải điều trị suốt đời, chi phí thường xuyên, khoản vay 300 triệu đồng và lời kêu gọi hỗ trợ.",
+      "brief_reason": "Nêu đúng nhân vật và bệnh hiếm nhưng thêm địa chỉ không có trong source, đồng thời thiếu hoàn cảnh điều trị, nợ nần và lời kêu gọi."
+    },
+    {
+      "sample_id": "test_006202",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Điều trị suốt đời, hai lần mỗi tháng; gia đình cận nghèo vay 300 triệu đồng và cần hỗ trợ.",
+      "brief_reason": "Tóm tắt chính xác triệu chứng, nơi khám và chẩn đoán Pompe, nhưng chưa phản ánh gánh nặng điều trị lâu dài và hoàn cảnh gia đình."
+    }
+  ],
+  "completeness": {
+    "expected_samples": 10,
+    "expected_candidates": 40,
+    "returned_candidates": 40,
+    "missing": []
+  }
+}

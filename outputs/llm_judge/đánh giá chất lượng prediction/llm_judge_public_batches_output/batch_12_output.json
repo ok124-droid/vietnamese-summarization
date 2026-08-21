@@ -1,0 +1,685 @@
+{
+  "batch_id": "batch_12",
+  "results": [
+    {
+      "sample_id": "test_015049",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Lễ khánh thành ngày 13.11, chương trình xây ba trụ sở và hoạt động trao gần 120 suất quà.",
+      "brief_reason": "Thông tin kiến trúc hoàn toàn đúng nhưng chỉ là một chi tiết, không nêu sự kiện khánh thành và các hoạt động chính kèm theo."
+    },
+    {
+      "sample_id": "test_015049",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Quy mô chương trình xây dựng, đặc điểm trụ sở và việc trao gần 120 suất quà.",
+      "brief_reason": "Nêu chính xác sự kiện, chủ thể, thời gian và địa điểm, nhưng bỏ phần xây dựng, hợp tác biên giới và hỗ trợ người dân."
+    },
+    {
+      "sample_id": "test_015049",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Định hướng phối hợp bảo đảm an ninh biên giới và việc trao gần 120 suất quà.",
+      "brief_reason": "Bao quát tốt lễ khánh thành, chương trình ba trụ sở và đặc điểm công trình; tuy nhiên khá dài và thiếu các hoạt động cuối bài."
+    },
+    {
+      "sample_id": "test_015049",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Chương trình xây ba trụ sở, quy mô công trình và hoạt động trao quà.",
+      "brief_reason": "Tóm đúng và gọn sự kiện trung tâm, song chưa nêu bối cảnh chương trình, đặc điểm trụ sở và các hoạt động hỗ trợ."
+    },
+    {
+      "sample_id": "test_015053",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nội dung quán triệt Điều lệ Công đoàn khóa XII và mục tiêu nâng cao nghiệp vụ.",
+      "brief_reason": "Danh sách đại biểu chính xác nhưng là thông tin phụ; bản tóm tắt bỏ toàn bộ nội dung và mục tiêu của buổi tập huấn."
+    },
+    {
+      "sample_id": "test_015053",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "NUMBER",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Candidate nêu LĐLĐ tỉnh Phú Thọ và gần 200 cán bộ; source không nêu Phú Thọ và ghi trên 400 đại biểu.",
+      "main_missing_information": "Các nhóm quy định cụ thể của Điều lệ và mục tiêu bảo đảm thực hiện thống nhất, đúng quy định.",
+      "brief_reason": "Nêu đúng chủ đề hội nghị nhưng thêm tỉnh Phú Thọ không có trong source và giảm sai quy mô từ trên 400 xuống gần 200."
+    },
+    {
+      "sample_id": "test_015053",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nội dung khen thưởng, kỷ luật và mục tiêu nâng cao kỹ năng, bảo đảm thực hiện thống nhất.",
+      "brief_reason": "Thông tin đúng và khá đầy đủ, nhưng chép dài danh sách nội dung, có đoạn liên kết vụng và chưa nêu mục tiêu cuối cùng."
+    },
+    {
+      "sample_id": "test_015053",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "DATE_TIME",
+        "LOCATION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Ngày 19-7, Hà Nội và LĐLĐ tỉnh Quảng Nam đều không xuất hiện trong source.",
+      "main_missing_information": "Việc quán triệt Điều lệ Công đoàn khóa XII cho trên 400 đại biểu cùng các nội dung nghiệp vụ cụ thể.",
+      "brief_reason": "Chỉ chủ đề tập huấn là phù hợp; thời gian, địa điểm và đơn vị tổ chức đều được thêm vào không có căn cứ."
+    },
+    {
+      "sample_id": "test_015078",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ATTRIBUTION",
+        "PREDICATE"
+      ],
+      "factual_error_evidence": "Source nêu lãnh đạo Công ty Cresyn ra văn bản ngày 15.2; candidate gán thông báo cho LĐLĐ tỉnh Bắc Ninh.",
+      "main_missing_information": "Yêu cầu tăng lương, phụ cấp, diễn biến ngừng việc và việc công ty chấp thuận ngày 15.2.",
+      "brief_reason": "Có nhắc đúng vụ ngừng việc nhưng gán sai chủ thể ban hành thông báo và không nêu yêu cầu, kết quả hay quy mô vụ việc."
+    },
+    {
+      "sample_id": "test_015078",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Công ty chấp thuận tăng lương, phụ cấp ngày 15.2 và có hơn 2.000 lao động ngừng việc.",
+      "brief_reason": "Trình bày đúng vụ ngừng việc và các yêu cầu chính, nhưng thiếu quá trình xử lý, kết quả đáp ứng yêu cầu và quy mô lao động."
+    },
+    {
+      "sample_id": "test_015078",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nguyên nhân, các yêu cầu của công nhân, phản hồi của công ty và quy mô hơn 2.000 người ngừng việc.",
+      "brief_reason": "Câu mở đầu hoàn toàn chính xác nhưng chỉ xác nhận xảy ra ngừng việc, bỏ hầu hết diễn biến và kết quả quan trọng."
+    },
+    {
+      "sample_id": "test_015078",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ATTRIBUTION",
+        "PREDICATE"
+      ],
+      "factual_error_evidence": "Cơi nới nhà xe là đề nghị của công nhân; source không nói LĐLĐ huyện Yên Phong ra văn bản đề nghị.",
+      "main_missing_information": "Vụ ngừng việc tập thể, yêu cầu tăng lương và phụ cấp, cùng phản hồi chấp thuận của công ty.",
+      "brief_reason": "Biến một yêu cầu phụ của công nhân thành văn bản của công đoàn huyện, đồng thời bỏ hoàn toàn trọng tâm vụ ngừng việc và kết quả."
+    },
+    {
+      "sample_id": "test_015108",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thời gian làm bài, 24 mã đề và gợi ý đáp án Tiếng Anh mã 418.",
+      "brief_reason": "Nêu đúng quy mô và các ngoại ngữ dự thi, nhưng thiếu thông tin tổ chức bài thi và phần gợi ý đáp án là mục đích bài viết."
+    },
+    {
+      "sample_id": "test_015108",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "PREDICATE",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Source nói thi Ngoại ngữ, đa số thi Tiếng Anh; không nói đây là kỳ thi thứ hai hay môn đầu tiên là Tiếng Anh.",
+      "main_missing_information": "Có nhiều ngoại ngữ khác, bài thi 60 phút với 24 mã đề và gợi ý đáp án mã 418.",
+      "brief_reason": "Ngày và số lượng gần đúng, nhưng mô tả sai tính chất, thứ tự kỳ thi và đồng nhất môn Ngoại ngữ với Tiếng Anh."
+    },
+    {
+      "sample_id": "test_015108",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Quy mô 795.216 thí sinh, các ngoại ngữ khác, thời lượng và hình thức mã đề.",
+      "brief_reason": "Tóm đúng phần gợi ý đáp án Tiếng Anh mã 418 và đúng đối tượng, nhưng không cung cấp bối cảnh quan trọng của buổi thi."
+    },
+    {
+      "sample_id": "test_015108",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Đa số thi Tiếng Anh, bài thi 60 phút với 24 mã đề và gợi ý đáp án mã 418.",
+      "brief_reason": "Nêu chính xác sự kiện và quy mô buổi thi, nhưng quá khái quát so với các thông tin thiết yếu còn lại."
+    },
+    {
+      "sample_id": "test_015260",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "182 suất quà trị giá 346 triệu đồng, hỗ trợ Quảng Nam 200 triệu đồng và nhiệm vụ khắc phục giao thông.",
+      "brief_reason": "Tóm đúng hoạt động thăm hỏi và trao quà cho người lao động bị ảnh hưởng, nhưng thiếu quy mô hỗ trợ và bối cảnh khắc phục đường sá."
+    },
+    {
+      "sample_id": "test_015260",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Khoản hỗ trợ 200 triệu đồng cho UBND tỉnh Quảng Nam và phân bổ các suất quà.",
+      "brief_reason": "Bao quát chính xác chuyến thăm, lực lượng khắc phục giao thông và 182 suất quà, nhưng trích dẫn dài và bỏ khoản hỗ trợ địa phương."
+    },
+    {
+      "sample_id": "test_015260",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Hoạt động trao 182 suất quà, tổng 346 triệu đồng và hỗ trợ Quảng Nam 200 triệu đồng.",
+      "brief_reason": "Nêu đúng chuyến thăm người lao động bị thiệt hại tại Quảng Nam, song bỏ toàn bộ quy mô trao quà và khoản hỗ trợ khắc phục hậu quả."
+    },
+    {
+      "sample_id": "test_015260",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "182 suất quà trị giá 346 triệu đồng và khoản hỗ trợ Quảng Nam 200 triệu đồng.",
+      "brief_reason": "Thông tin chuyến thăm và nhiệm vụ các đơn vị đều đúng, nhưng câu quá dài, nhiều viết tắt và thiếu phần hỗ trợ tài chính quan trọng."
+    },
+    {
+      "sample_id": "test_015384",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Kết luận không được tiếp tục đăng ký tại Bệnh viện Tim Hà Nội cơ sở 2 và phương án đổi nơi khám.",
+      "brief_reason": "Mô tả đúng hoàn cảnh của bạn đọc nhưng dừng trước câu hỏi và bỏ hoàn toàn câu trả lời, căn cứ cùng phương án xử lý."
+    },
+    {
+      "sample_id": "test_015384",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Lý do bệnh viện thuộc tuyến thành phố và cách đề nghị đổi sang cơ sở tuyến huyện hoặc xã.",
+      "brief_reason": "Nêu đúng kết luận quan trọng nhất, nhưng thiếu căn cứ phân tuyến và lựa chọn đổi nơi khám tại BHXH Ba Đình hoặc Tây Hồ."
+    },
+    {
+      "sample_id": "test_015384",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 2
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nơi khám cũ và mới, câu hỏi về đăng ký lại, kết luận không được đăng ký cùng phương án đổi nơi khám.",
+      "brief_reason": "Chỉ nêu hình thức tham gia bảo hiểm, gần như không phản ánh vấn đề cụ thể hay câu trả lời nên giá trị tóm tắt rất thấp."
+    },
+    {
+      "sample_id": "test_015384",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Kết luận không được đăng ký tại bệnh viện tuyến thành phố và thủ tục đổi sang cơ sở tuyến huyện hoặc xã.",
+      "brief_reason": "Xác định đúng chủ đề hỏi đáp nhưng diễn đạt quá chung, không cho biết kết luận, lý do hay thủ tục cụ thể."
+    },
+    {
+      "sample_id": "test_015402",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 2,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "RELATION",
+        "PREDICATE"
+      ],
+      "factual_error_evidence": "Candidate ghép việc phê duyệt với dự án ma để lừa đảo; source chỉ đề nghị phê duyệt dự án đủ điều kiện và cảnh báo dự án ma.",
+      "main_missing_information": "Tác động của COVID-19, số liệu suy giảm thị trường, các bất cập giao dịch và nhóm giải pháp minh bạch hóa.",
+      "brief_reason": "Cắt ghép hai ý đối lập khiến đề xuất của Thứ trưởng thành việc phê duyệt dự án ma để lừa đảo; câu cũng rất khó hiểu."
+    },
+    {
+      "sample_id": "test_015402",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Đánh giá thị trường suy giảm, các bất cập gây sốt ảo và những giải pháp của Thứ trưởng Nguyễn Văn Sinh.",
+      "brief_reason": "Nêu đúng thời gian, đơn vị và tên hội thảo nhưng chỉ là thông tin mở đầu, không phản ánh bất kỳ nội dung thực chất nào."
+    },
+    {
+      "sample_id": "test_015402",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Bất cập của sàn và môi giới, tình trạng sốt ảo, cùng các giải pháp tăng cung và minh bạch thông tin.",
+      "brief_reason": "Nêu chính xác hội thảo, tác động của COVID-19 và mức giảm nguồn cung, nhưng thiếu phần lớn thực trạng giao dịch và kiến nghị xử lý."
+    },
+    {
+      "sample_id": "test_015402",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "CAUSALITY",
+        "PREDICATE"
+      ],
+      "factual_error_evidence": "Source quy tác động cho sự bùng phát trở lại của COVID-19, không phải sự bùng phát của dịch vụ môi giới BĐS.",
+      "main_missing_information": "COVID-19 là nguyên nhân, nguồn cung và giao dịch suy giảm, thị trường có nhiều bất cập cùng các giải pháp khắc phục.",
+      "brief_reason": "Thay sai nguyên nhân COVID-19 bằng dịch vụ môi giới BĐS, tạo câu vô lý và bỏ gần như toàn bộ đánh giá cùng giải pháp của bài."
+    },
+    {
+      "sample_id": "test_015448",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Việc cứu sống 13 người, tinh thần hợp tác quốc tế và sự hy sinh của thợ lặn Saman Gunan.",
+      "brief_reason": "Thông tin về sức lan tỏa của cuộc giải cứu phù hợp, nhưng quá chung và không nêu hai mặt được, mất tạo nên trọng tâm bài."
+    },
+    {
+      "sample_id": "test_015448",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 1
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Toàn bộ kết quả cứu 13 người, ý nghĩa nhân văn và mất mát do Saman Gunan hy sinh.",
+      "brief_reason": "Chỉ lặp tiêu đề, không cung cấp sự kiện hay kết luận nào; đây chưa phải một bản tóm tắt có giá trị độc lập."
+    },
+    {
+      "sample_id": "test_015448",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "NUMBER",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Source không nói Saman nổi tiếng trên mạng xã hội hay hình ảnh ông in đậm trong tâm trí hàng triệu người Thái.",
+      "main_missing_information": "13 người được cứu sống, tinh thần hợp tác quốc tế, bài học cứu hộ và việc Saman Gunan hy sinh.",
+      "brief_reason": "Có nhắc đúng Saman và cuộc giải cứu, nhưng thêm mức độ nổi tiếng cùng con số hàng triệu không được source hỗ trợ và bỏ trọng tâm được, mất."
+    },
+    {
+      "sample_id": "test_015448",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Mất mát do thợ lặn Saman Gunan hy sinh và bài học về công tác tìm kiếm, cứu hộ.",
+      "brief_reason": "Tóm đúng phần thành công và ý nghĩa hợp tác của cuộc giải cứu, nhưng thiếu nửa quan trọng về sự hy sinh của Saman Gunan."
+    },
+    {
+      "sample_id": "test_015498",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "PREDICATE",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Source nêu bộ phim được vinh danh, không phải nam diễn viên; cũng không nói đạo diễn chia sẻ trực tiếp với Lao Động.",
+      "main_missing_information": "Giải Phim được khán giả yêu thích nhất dành cho bộ phim, tranh cãi do từng bị tẩy chay và lời giải thích của đạo diễn.",
+      "brief_reason": "Gán giải thưởng của bộ phim cho nam diễn viên và thêm bối cảnh phỏng vấn không được nêu; vì vậy làm sai sự kiện trung tâm."
+    },
+    {
+      "sample_id": "test_015498",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tranh cãi vì phim từng bị tẩy chay, lời giải thích của đạo diễn và nguyên nhân vụ tẩy chay.",
+      "brief_reason": "Nêu chính xác giải thưởng và bối cảnh liên hoan phim, nhưng thiếu toàn bộ tranh cãi cùng phản hồi của đạo diễn là nội dung chính còn lại."
+    },
+    {
+      "sample_id": "test_015498",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "DATE_TIME",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Candidate đặt việc tẩy chay sau giải thưởng; source nói phim đã bị tẩy chay trước đó, còn sau giải là phản ứng nghi ngờ.",
+      "main_missing_information": "Phản ứng nghi ngờ sau khi phim đoạt giải, cách bình chọn và nội dung giải thích cụ thể của Đinh Tuấn Vũ.",
+      "brief_reason": "Bao quát giải thưởng, tẩy chay và việc đạo diễn lên tiếng nhưng đảo ngược trình tự quan trọng giữa tẩy chay và thời điểm đoạt giải."
+    },
+    {
+      "sample_id": "test_015498",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Diễn giải cụ thể về lượng khán giả, cách phát phiếu và nguyên nhân scandal dẫn tới việc tẩy chay.",
+      "brief_reason": "Nêu đúng giải thưởng, phản ứng nghi ngờ và mở đầu lời giải thích của đạo diễn; hơi dài và chưa cho biết đầy đủ căn nguyên, lập luận."
+    },
+    {
+      "sample_id": "test_015501",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các nguyên liệu chính và những bước chế biến salad cá hồi bí ngòi.",
+      "brief_reason": "Tóm đúng mục đích giới thiệu món salad dinh dưỡng cho gia đình, nhưng không nêu bất kỳ nguyên liệu hay bước làm tiêu biểu nào."
+    },
+    {
+      "sample_id": "test_015501",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Danh sách nguyên liệu và quy trình sơ chế, áp chảo cá, làm sốt rồi trộn salad.",
+      "brief_reason": "Nêu đúng dịp 20.3 và món ăn được hướng dẫn, nhưng chỉ dừng ở lời dẫn; lỗi gõ “Mội” làm giảm nhẹ độ trôi chảy."
+    },
+    {
+      "sample_id": "test_015501",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Việc hướng dẫn làm salad cá hồi bí ngòi, các nguyên liệu và toàn bộ quy trình chế biến.",
+      "brief_reason": "Câu văn đúng nhưng chỉ nêu bối cảnh Ngày Quốc tế Hạnh phúc, bỏ hoàn toàn trọng tâm hướng dẫn món salad nên quá ngắn và ít giá trị."
+    },
+    {
+      "sample_id": "test_015501",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các nguyên liệu chính và quy trình làm salad cá hồi bí ngòi.",
+      "brief_reason": "Nêu đúng, tự nhiên và trực tiếp chủ đề công thức món salad, nhưng chưa bao phủ nguyên liệu cùng các bước thực hiện thiết yếu."
+    }
+  ],
+  "completeness": {
+    "expected_samples": 10,
+    "expected_candidates": 40,
+    "returned_candidates": 40,
+    "missing": []
+  }
+}

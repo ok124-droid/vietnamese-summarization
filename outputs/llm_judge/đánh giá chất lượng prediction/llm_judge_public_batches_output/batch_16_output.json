@@ -1,0 +1,672 @@
+{
+  "batch_id": "batch_16",
+  "results": [
+    {
+      "sample_id": "test_017961",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu thời điểm 26.7, cách tổ chức nhận và gửi đồ cùng mức độ thiệt hại tại Lào.",
+      "brief_reason": "Nêu đúng, gọn trọng tâm người dân Đà Nẵng kêu gọi quyên góp quần áo, nhưng lược bỏ một số bối cảnh và chi tiết hỗ trợ."
+    },
+    {
+      "sample_id": "test_017961",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu quy trình đến tận nơi nhận đồ và các số liệu thiệt hại do vỡ đập.",
+      "brief_reason": "Thông tin trung thực và khá đầy đủ về lời kêu gọi, nhưng trích dẫn dài, kết thúc đột ngột và chưa nêu quy mô thảm họa."
+    },
+    {
+      "sample_id": "test_017961",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "PREDICATE"
+      ],
+      "factual_error_evidence": "Candidate nói người dân “đã quyên góp”; source chỉ nêu họ kêu gọi mọi người cùng quyên góp.",
+      "main_missing_information": "Thiếu người đứng ra vận động, cách tiếp nhận đồ và mức độ thiệt hại tại Lào.",
+      "brief_reason": "Câu gọn và đúng chủ đề, nhưng biến hành động kêu gọi quyên góp thành việc quyên góp đã hoàn tất."
+    },
+    {
+      "sample_id": "test_017961",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu người tổ chức tiếp nhận, cách gửi đồ và các số liệu thiệt hại do vỡ đập.",
+      "brief_reason": "Tóm tắt chính xác, rõ ràng lời kêu gọi trên Facebook và đúng trọng tâm, song chưa bao quát bối cảnh cứu trợ rộng hơn."
+    },
+    {
+      "sample_id": "test_018065",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "RELATION"
+      ],
+      "factual_error_evidence": "Candidate gắn mọi biến động toàn cầu với vòng loại khu vực Châu Á; source chỉ nói vòng loại World Cup nói chung.",
+      "main_missing_information": "Thiếu việc tuyển Việt Nam bị trừ 16,76 điểm, tụt ba bậc xuống hạng 95 thế giới.",
+      "brief_reason": "Chỉ nêu bối cảnh chung, không thể hiện kết quả nổi bật của tuyển Việt Nam; câu mở đầu còn bị tách vụn."
+    },
+    {
+      "sample_id": "test_018065",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu toàn bộ thay đổi thứ hạng, đặc biệt tuyển Việt Nam tụt ba bậc xuống vị trí 95.",
+      "brief_reason": "Câu hoàn toàn đúng nhưng chỉ thông báo FIFA công bố bảng xếp hạng, chưa nêu bất kỳ kết quả đáng chú ý nào."
+    },
+    {
+      "sample_id": "test_018065",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu việc tuyển Việt Nam mất điểm, tụt xuống hạng 95 và các thay đổi đáng chú ý của các đội.",
+      "brief_reason": "Thông tin công bố và số trận chính xác, nhưng dành chỗ cho bối cảnh phụ mà bỏ kết quả xếp hạng trọng tâm."
+    },
+    {
+      "sample_id": "test_018065",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu kết quả tuyển Việt Nam tụt ba bậc xuống hạng 95 thế giới và đứng thứ 15 Châu Á.",
+      "brief_reason": "Nêu đúng nguyên nhân tuyển Việt Nam mất 16,76 điểm, nhưng bỏ kết quả thứ hạng; cụm “bị trừ điểm 16,76 điểm” hơi lặp."
+    },
+    {
+      "sample_id": "test_018211",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "CAUSALITY",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Candidate quy việc thắt chặt chi tiêu cho “dịch vụ nước ngoài”; source nêu nguyên nhân là COVID-19 và ít khách quốc tế.",
+      "main_missing_information": "Thiếu mức giảm sức mua 20-30%, biến động giá, xu hướng chuộng hàng thủ công và sức mua sát lễ.",
+      "brief_reason": "Đúng chủ đề mua sắm Giáng sinh nhưng nêu sai nguyên nhân chính và diễn đạt “tích cực mua sắm” quá mức so với thị trường ảm đạm."
+    },
+    {
+      "sample_id": "test_018211",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu mức giảm sức mua 20-30%, mức tăng giá 5-10% và sự lên ngôi của hàng thủ công.",
+      "brief_reason": "Nắm được COVID-19 làm sức mua giảm và nhà hàng, khách sạn khó khăn, nhưng câu ghép sai cấu trúc nên quan hệ ý rất khó theo dõi."
+    },
+    {
+      "sample_id": "test_018211",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu mức giảm 20-30%, mức tăng giá, xu hướng chuộng đồ thủ công và diễn biến sức mua sát lễ.",
+      "brief_reason": "Tóm tắt trung thực hai mặt: cửa hàng rực rỡ nhưng sức mua giảm do dịch; phần liệt kê địa điểm và dẫn nguồn hơi dài."
+    },
+    {
+      "sample_id": "test_018211",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu trọng tâm sức mua giảm vì COVID-19, mức giảm 20-30%, biến động giá và xu hướng hàng thủ công.",
+      "brief_reason": "Mô tả đúng không khí và hàng hóa Giáng sinh, nhưng bỏ hoàn toàn nghịch lý sức mua suy giảm vốn là trọng tâm bài."
+    },
+    {
+      "sample_id": "test_018225",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "NUMBER",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Candidate nói 805 khách hàng được trao cả quà và học bổng; source tách 805 phần hỗ trợ và 76 học bổng cho con em khách hàng.",
+      "main_missing_information": "Thiếu 76 suất học bổng, giá trị từng phần quà, kinh phí và các hoạt động hỗ trợ khác của CEP.",
+      "brief_reason": "Nêu đúng đơn vị và nhóm khó khăn, nhưng gộp sai hai chương trình, khiến con số 805 bị gắn cho cả quà lẫn học bổng."
+    },
+    {
+      "sample_id": "test_018225",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu quy mô 805 phần hỗ trợ, 76 học bổng cùng giá trị và kinh phí của hai chương trình.",
+      "brief_reason": "Nêu chính xác hoạt động và đối tượng thụ hưởng, nhưng quá khái quát, chưa cho thấy quy mô hỗ trợ đáng kể."
+    },
+    {
+      "sample_id": "test_018225",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu chương trình 805 phần quà trị giá 285 triệu đồng và giá trị, kinh phí của 76 học bổng.",
+      "brief_reason": "Con số 76 học bổng và đối tượng nhận được nêu đúng, song bỏ mất chương trình trao quà lớn hơn; quan hệ bổ nghĩa hơi nhập nhằng."
+    },
+    {
+      "sample_id": "test_018225",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Bao quát chính xác hai hoạt động chính, số người, số học bổng và kinh phí; hơi dài nhưng mọi chi tiết đều hữu ích."
+    },
+    {
+      "sample_id": "test_018237",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Nêu đủ kết quả hòa, vé tứ kết và ý nghĩa lịch sử; chi tiết thay người ở cuối ít quan trọng hơn diễn biến quyết định."
+    },
+    {
+      "sample_id": "test_018237",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "PREDICATE",
+        "DATE_TIME",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Source nêu hiệp một hòa 0-0 và chung cuộc hòa; candidate nói U23 Việt Nam thắng hiệp một, thêm chức vô địch và ngày 15/1 không có trong source.",
+      "main_missing_information": "Thiếu kết quả hòa 0-0 với U23 Syria và việc U23 Việt Nam giành vé vào tứ kết cùng U23 Hàn Quốc.",
+      "brief_reason": "Nội dung chính trái source và bổ sung nhiều chi tiết không được hỗ trợ; câu thứ hai cũng tối nghĩa, khó xác định quan hệ."
+    },
+    {
+      "sample_id": "test_018237",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu ý nghĩa lịch sử của tấm vé thứ hai và việc U23 Hàn Quốc cùng đi tiếp.",
+      "brief_reason": "Tóm tắt rất gọn, chính xác kết quả và hệ quả quan trọng nhất, chỉ thiếu bối cảnh về cột mốc lịch sử."
+    },
+    {
+      "sample_id": "test_018237",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "PREDICATE",
+        "NUMBER",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Source nêu U23 Việt Nam hòa Syria 0-0 và vào tứ kết; candidate nói thắng 3-0, đồng thời thêm bảng A, lượt hai và SEA Games 31 không được nêu.",
+      "main_missing_information": "Thiếu toàn bộ kết quả thực: hòa 0-0, giành vé tứ kết và cùng U23 Hàn Quốc đi tiếp.",
+      "brief_reason": "Câu trôi chảy nhưng sai hoàn toàn tỷ số, kết quả và giải đấu, nên không phản ánh sự kiện của source."
+    },
+    {
+      "sample_id": "test_018243",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu các nhóm thu nhập phải đóng, điều kiện với khoản bổ sung và toàn bộ nhóm thu nhập không tính đóng.",
+      "brief_reason": "Dẫn đúng căn cứ luật nhưng hầu như không tóm tắt nội dung quy định; từ “bắt buộc” bị lặp làm câu vụng."
+    },
+    {
+      "sample_id": "test_018243",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu danh sách phụ cấp, điều kiện của khoản bổ sung và các khoản chế độ, phúc lợi không tính đóng.",
+      "brief_reason": "Nêu đúng ba cấu phần tiền lương đóng bảo hiểm, rõ và gọn, nhưng chỉ bao quát nguyên tắc chung của một nửa nội dung."
+    },
+    {
+      "sample_id": "test_018243",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu điều kiện khoản bổ sung phải xác định được mức tiền và toàn bộ danh sách khoản không tính đóng bảo hiểm.",
+      "brief_reason": "Liệt kê chính xác phần thu nhập tính đóng, nhưng dài, mở câu vụng và bỏ hẳn nửa nội dung về các khoản không tính đóng."
+    },
+    {
+      "sample_id": "test_018243",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu các loại phụ cấp cụ thể, điều kiện của khoản bổ sung và toàn bộ nhóm khoản không tính đóng.",
+      "brief_reason": "Đúng căn cứ và nguyên tắc về khoản tính đóng, nhưng chưa nêu danh mục cụ thể hay phần thu nhập được loại trừ."
+    },
+    {
+      "sample_id": "test_018317",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu việc bệnh nhân để xương mắc một tuần vì chữa mẹo, nguy cơ biến chứng và quá trình lấy dị vật.",
+      "brief_reason": "Nêu đúng kết quả phẫu thuật và loại dị vật, nhưng quá khái quát, chưa thể hiện diễn biến nguy hiểm và nguyên nhân trì hoãn."
+    },
+    {
+      "sample_id": "test_018317",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "RELATION",
+        "PREDICATE"
+      ],
+      "factual_error_evidence": "Candidate nói bệnh nhân nhập viện để điều trị bằng phương pháp dân gian; source nêu cô chữa mẹo trước khi vào viện, còn bệnh viện phẫu thuật lấy xương.",
+      "main_missing_information": "Thiếu ca phẫu thuật thành công, thời gian dị vật mắc một tuần, nguy cơ biến chứng và dự kiến xuất viện.",
+      "brief_reason": "Đảo sai trình tự và phương pháp điều trị, đồng thời cụm “một phụ nữ nguy hiểm” khiến câu tối nghĩa."
+    },
+    {
+      "sample_id": "test_018317",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu bệnh nhân bị hóc xương gà, vị trí dị vật, diễn biến chữa mẹo, mức độ nguy hiểm và kết quả lấy xương.",
+      "brief_reason": "Thông tin đúng nhưng “trường hợp trên” không có tham chiếu trong candidate, khiến bản tóm tắt không thể hiểu độc lập và quá thiếu nội dung."
+    },
+    {
+      "sample_id": "test_018317",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu việc bệnh nhân chữa mẹo suốt một tuần, nguy cơ áp xe, nhiễm trùng và chi tiết lấy mảnh xương chữ L.",
+      "brief_reason": "Bao quát đúng ca phẫu thuật, bệnh nhân, vị trí và triệu chứng; phần dẫn bác sĩ khá dài và chưa nêu nguyên nhân làm ca bệnh nguy hiểm."
+    },
+    {
+      "sample_id": "test_018324",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu sơ tuyển khoảng 10.000 thí sinh, ba địa điểm thi và cấu trúc, độ khó của đề thi riêng.",
+      "brief_reason": "Nêu đúng ngày thi, bối cảnh COVID-19 và mục tiêu, nhưng phần dẫn nguồn dài và bỏ nhiều thông tin tổ chức, nội dung thi."
+    },
+    {
+      "sample_id": "test_018324",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu ngày thi 25.7, ba địa điểm, quy mô sơ tuyển, mục tiêu và nội dung đề thi riêng.",
+      "brief_reason": "Chỉ nêu người cung cấp thông tin mà không cho biết thông tin đó là gì; từ “Đây” không có tham chiếu nên không đứng độc lập được."
+    },
+    {
+      "sample_id": "test_018324",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu ngày 25.7, sơ tuyển 10.000 thí sinh, ba tỉnh tổ chức và cấu trúc đề thi riêng.",
+      "brief_reason": "Nêu đúng kỳ thi và bối cảnh, mục tiêu chung nhưng quá khái quát; cấu trúc “vừa giúp” thiếu vế song hành nên hơi vụng."
+    },
+    {
+      "sample_id": "test_018324",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu ngày thi 25.7, quy mô sơ tuyển khoảng 10.000 thí sinh, lý do và cấu trúc đề thi.",
+      "brief_reason": "Nêu chính xác thay đổi quan trọng về ba địa điểm thi, rõ và gọn, nhưng chỉ phản ánh một phần kế hoạch tuyển sinh riêng."
+    },
+    {
+      "sample_id": "test_018343",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu công điện khẩn yêu cầu nhà đầu tư BOT xả trạm và các biện pháp bảo đảm giao thông, di dân.",
+      "brief_reason": "Số liệu vị trí, cấp gió chính xác, nhưng candidate chỉ mô tả cơn bão và bỏ hành động ứng phó là trọng tâm bài."
+    },
+    {
+      "sample_id": "test_018343",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu điều kiện xả trạm theo yêu cầu, phương án phân luồng và việc không cho xe xuất bến khi bão đổ bộ.",
+      "brief_reason": "Bao quát đúng mức độ bão, công điện xả trạm và yêu cầu phòng chống thiên tai; hơi dài nhưng vẫn tập trung vào các ý chính."
+    },
+    {
+      "sample_id": "test_018343",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu vị trí, cường độ bão và các điều kiện, biện pháp phối hợp khi xả trạm.",
+      "brief_reason": "Tóm đúng và rất gọn chỉ đạo trọng tâm về xả trạm phục vụ di dân, tránh bão và vận tải, nhưng thiếu bối cảnh cơn bão."
+    },
+    {
+      "sample_id": "test_018343",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu yêu cầu trọng tâm là xả trạm thu phí, cùng vị trí, cường độ bão và các phương án điều tiết giao thông.",
+      "brief_reason": "Nêu đúng yêu cầu lập kế hoạch phòng chống, nhưng bỏ hành động xả trạm nên chưa phản ánh trọng tâm của công điện."
+    },
+    {
+      "sample_id": "test_018417",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu việc điều hòa chỉ bật vài giờ mỗi đêm, ảnh hưởng bệnh nhân, phản hồi và biện pháp chấn chỉnh của giám đốc.",
+      "brief_reason": "Thông tin đúng nhưng chỉ là lời dẫn chung, không nói rõ hành vi bị phản ánh hay phản ứng của bệnh viện."
+    },
+    {
+      "sample_id": "test_018417",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu hậu quả mất ngủ, giảm sức khỏe, sự thừa nhận của giám đốc và việc cho bật lại điều hòa.",
+      "brief_reason": "Nêu đúng phản ánh về việc chỉ bật điều hòa vài giờ, nhưng trích dẫn bệnh nhân bị cắt dở, làm bản tóm tắt dài và thiếu kết luận."
+    },
+    {
+      "sample_id": "test_018417",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu lý do một số người tự tắt để tiết kiệm và việc giám đốc đã chấn chỉnh, cho bật lại điều hòa.",
+      "brief_reason": "Nêu rõ, đúng vấn đề, người thừa nhận và hậu quả đối với bệnh nhân; chỉ thiếu nguyên nhân cùng biện pháp khắc phục."
+    },
+    {
+      "sample_id": "test_018417",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu việc điều hòa bị tắt phần lớn thời gian ban đêm, hậu quả với bệnh nhân, lý do tiết kiệm và biện pháp chấn chỉnh.",
+      "brief_reason": "Có nêu phản ánh và sự thừa nhận, nhưng cụm “tình trạng điều hòa nhiệt độ” không nói rõ điều hòa bị tắt, khiến ý chính mơ hồ."
+    }
+  ],
+  "completeness": {
+    "expected_samples": 10,
+    "expected_candidates": 40,
+    "returned_candidates": 40,
+    "missing": []
+  }
+}

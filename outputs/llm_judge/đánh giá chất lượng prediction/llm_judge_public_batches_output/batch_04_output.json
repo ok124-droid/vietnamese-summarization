@@ -1,0 +1,689 @@
+{
+  "batch_id": "batch_04",
+  "results": [
+    {
+      "sample_id": "test_003644",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Chép đúng và bao quát đủ cả ba quyết định bổ nhiệm; chỉ hơi dài và lặp cấu trúc so với một bản tóm tắt cô đọng."
+    },
+    {
+      "sample_id": "test_003644",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Candidate nêu \"Nguyễn Xuân Phúc\", trong khi SOURCE chỉ nêu \"Thủ tướng\" và không xác định tên.",
+      "main_missing_information": "Danh tính ba người được bổ nhiệm và ba chức Thứ trưởng tương ứng.",
+      "brief_reason": "Nêu đúng hành động chung nhưng tự thêm tên Thủ tướng và quá khái quát, bỏ toàn bộ nhân sự, quyết định cùng chức vụ cụ thể."
+    },
+    {
+      "sample_id": "test_003644",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Candidate nêu \"Nguyễn Xuân Phúc\", nhưng SOURCE không cho biết tên Thủ tướng.",
+      "main_missing_information": "Hai bổ nhiệm tại Bộ Y tế và Bộ Nông nghiệp và Phát triển Nông thôn, cùng tên các nhân sự.",
+      "brief_reason": "Chỉ đề cập khái quát một trong ba bổ nhiệm, không nêu người được bổ nhiệm và còn thêm tên Thủ tướng không có trong SOURCE."
+    },
+    {
+      "sample_id": "test_003644",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Việc bổ nhiệm Nguyễn Trường Sơn và Phùng Đức Tiến vào hai chức Thứ trưởng còn lại.",
+      "brief_reason": "Thông tin về Lê Hải An hoàn toàn chính xác và súc tích, nhưng chỉ bao phủ một trong ba quyết định có tầm quan trọng ngang nhau."
+    },
+    {
+      "sample_id": "test_003980",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các cáo buộc lừa đảo, cưỡng đoạt, đánh bạc, làm giấy tờ giả và kết quả điều tra.",
+      "brief_reason": "Tóm đúng vụ bắt Nguyễn Anh Tuấn cùng đồng bọn và thủ đoạn núp bóng doanh nghiệp, nhưng bỏ nhiều hành vi bị điều tra cùng diễn biến quan trọng."
+    },
+    {
+      "sample_id": "test_003980",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "ATTRIBUTION"
+      ],
+      "factual_error_evidence": "Nhận định \"Cả gia đình Tuấn đều có lý lịch bất hảo...\" là lời Chủ tịch xã, nhưng candidate nêu như sự thật không dẫn nguồn.",
+      "main_missing_information": "Các hành vi cụ thể của ổ nhóm, chứng cứ thu giữ và việc các đối tượng thừa nhận hành vi.",
+      "brief_reason": "Có hai ý đáng chú ý về vụ bắt và gia đình Tuấn, nhưng lược mất nguồn phát ngôn, mở đầu vụng và thiếu phần lớn diễn biến điều tra."
+    },
+    {
+      "sample_id": "test_003980",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Quy mô bắt giữ, các hành vi cưỡng đoạt, đánh bạc, giấy tờ giả và chứng cứ thu được.",
+      "brief_reason": "Trung thực về vụ bắt và nhận xét của Chủ tịch xã, song dành nhiều chỗ cho lý lịch, địa chỉ và lời kể trong khi thiếu diễn biến điều tra chính."
+    },
+    {
+      "sample_id": "test_003980",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các hành vi khác của ổ nhóm, chứng cứ bắt giữ và thông tin điều tra mở rộng.",
+      "brief_reason": "Nêu đúng, gọn sự kiện khởi tố và hai hành vi chính, nhưng chưa bao quát các tội danh, chứng cứ và diễn biến điều tra; có lỗi chữ \"chiếm đạo\"."
+    },
+    {
+      "sample_id": "test_004020",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "RELATION",
+        "ATTRIBUTION"
+      ],
+      "factual_error_evidence": "Candidate nói chúc mừng \"nhà lãnh đạo Triều Tiên\"; SOURCE nêu Vương Nghị chúc mừng người đồng cấp Ri Yong-ho.",
+      "main_missing_information": "Trung Quốc ủng hộ phi hạt nhân hóa, phát triển kinh tế và kỳ vọng đối thoại Triều Tiên–Mỹ thành công.",
+      "brief_reason": "Nêu đúng cam kết đóng góp cho giải pháp chính trị nhưng xác định sai người được chúc mừng, đồng thời bỏ các lập trường quan trọng khác của Trung Quốc."
+    },
+    {
+      "sample_id": "test_004020",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Lập trường ủng hộ phi hạt nhân hóa, kỳ vọng đối thoại Triều Tiên–Mỹ và vai trò chính trị Trung Quốc muốn tiếp tục đảm nhiệm.",
+      "brief_reason": "Tóm chính xác lời chúc mừng và đúng các chủ thể, nhưng chỉ phản ánh một phần của tuyên bố và bỏ các thông điệp ngoại giao thiết yếu."
+    },
+    {
+      "sample_id": "test_004020",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Cam kết tiếp tục đóng vai trò tích cực của Trung Quốc và lo ngại Bắc Kinh bị gạt khỏi tiến trình.",
+      "brief_reason": "Bao quát chính xác lời chúc mừng, lập trường phi hạt nhân hóa và kỳ vọng hội nghị Mỹ–Triều, nhưng còn dài và thiếu vai trò Trung Quốc muốn duy trì."
+    },
+    {
+      "sample_id": "test_004020",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Lập trường về phi hạt nhân hóa, đối thoại Mỹ–Triều và vai trò của Trung Quốc trong giải pháp chính trị.",
+      "brief_reason": "Thông tin hoàn toàn chính xác và rõ chủ thể, thời điểm, nhưng chỉ chép phần mở đầu nên bỏ phần lớn nội dung quan trọng của tuyên bố."
+    },
+    {
+      "sample_id": "test_004102",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "NUMBER",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Candidate ghép sai \"Cảng hàng không quốc tế Vân Đồn - Hải Phòng\" và gán 25.000 tỉ, 59 km cho dự án này; SOURCE gán 25.000 tỉ cho ba dự án và 59 km cho cao tốc Hạ Long–Vân Đồn.",
+      "main_missing_information": "Ba dự án thực tế gồm cao tốc Hạ Long–Vân Đồn, sân bay Vân Đồn và cảng tàu khách Hòn Gai cùng tác động của chúng.",
+      "brief_reason": "Candidate trộn sân bay với cao tốc, gán sai quy mô đầu tư, chiều dài và quan hệ kết nối, khiến sự kiện chính bị trình bày sai gần như toàn bộ."
+    },
+    {
+      "sample_id": "test_004102",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tên ba dự án, tổng vốn khoảng 25.000 tỉ đồng và kế hoạch đưa vào vận hành cuối tháng 12.2018.",
+      "brief_reason": "Nêu đúng tác động tổng quát đối với kết nối của Quảng Ninh, nhưng hoàn toàn thiếu danh tính, quy mô, tiến độ và thời điểm vận hành của ba dự án."
+    },
+    {
+      "sample_id": "test_004102",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tên và đặc điểm của cao tốc Hạ Long–Vân Đồn, sân bay Vân Đồn và cảng tàu khách Hòn Gai.",
+      "brief_reason": "Đúng về mục tiêu, tổng vốn, chủ đầu tư và tiến độ chung, nhưng dài dòng ở phần dẫn nhập trong khi không nêu tên bất kỳ dự án nào."
+    },
+    {
+      "sample_id": "test_004102",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tên ba dự án và kế hoạch cơ bản hoàn thành, đưa vào vận hành cuối tháng 12.2018.",
+      "brief_reason": "Tóm đúng, gọn quy mô, thời điểm khởi động và ý nghĩa kết nối, nhưng thiếu tên ba công trình cùng mốc vận hành quan trọng."
+    },
+    {
+      "sample_id": "test_004167",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "NUMBER",
+        "ENTITY",
+        "PREDICATE",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Candidate nói giải được trao cho 331 ứng viên; SOURCE nêu 331 là tổng số ứng viên và hai người chiến thắng là Denis Mukwege, Nadia Murad.",
+      "main_missing_information": "Hai người đoạt giải và lý do họ được vinh danh vì chống bạo lực tình dục trong chiến tranh.",
+      "brief_reason": "Biến số lượng ứng viên thành người đoạt giải, không nêu hai chủ nhân thực tế hay lý do trao giải; câu còn lặp và khó hiểu."
+    },
+    {
+      "sample_id": "test_004167",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Nêu chính xác hai người đoạt giải, lý do vinh danh, nhận định của Ủy ban cùng thời gian và địa điểm công bố; chỉ hơi dài."
+    },
+    {
+      "sample_id": "test_004167",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Tóm tắt đầy đủ và chính xác hạt nhân sự kiện: hai người đoạt Nobel Hòa bình 2018 và đóng góp khiến họ được trao giải."
+    },
+    {
+      "sample_id": "test_004167",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Nêu đúng hai người đoạt giải, hoàn cảnh khái quát của Nadia Murad và lý do trao giải, với độ dài phù hợp và không có chi tiết thừa."
+    },
+    {
+      "sample_id": "test_004219",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Cảnh báo mưa kéo dài đến hết 12.9 và nguy cơ lốc, sét, gió giật mạnh; tình hình Hà Nội.",
+      "brief_reason": "Dự báo và lượng mưa ngày 10.9 đều chính xác, nhưng liệt kê quá nhiều địa phương trong khi bỏ cảnh báo kéo dài và các hiện tượng nguy hiểm."
+    },
+    {
+      "sample_id": "test_004219",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Mưa còn kéo dài đến hết 12.9, lượng mưa dự báo và nguy cơ lốc, sét, gió giật mạnh.",
+      "brief_reason": "Nêu gọn, đúng dự báo chính cho Bắc Bộ và vùng núi, trung du trong ngày 10.9, nhưng thiếu thời hạn kéo dài cùng cảnh báo nguy hiểm."
+    },
+    {
+      "sample_id": "test_004219",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Mưa to đến rất to ở vùng núi, trung du, lượng mưa, thời gian đến 12.9 và nguy cơ thời tiết nguy hiểm.",
+      "brief_reason": "Đúng về nguyên nhân và mưa dông ngày 10.9, nhưng bỏ mức độ mưa nghiêm trọng, khu vực trọng điểm, thời gian kéo dài và toàn bộ cảnh báo rủi ro."
+    },
+    {
+      "sample_id": "test_004219",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Dự báo mưa to đến rất to, thời gian kéo dài đến 12.9 và cảnh báo lốc, sét, gió giật mạnh.",
+      "brief_reason": "Chỉ nêu chính xác tình trạng mưa dông hiện tại, không phản ánh dự báo, mức độ mưa, các khu vực trọng điểm hay cảnh báo nguy hiểm."
+    },
+    {
+      "sample_id": "test_004269",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các quỹ hỗ trợ cụ thể, kết quả giúp hàng trăm lao động và hoạt động văn hóa, thể thao.",
+      "brief_reason": "Khái quát đúng hoạt động chăm lo người lao động khó khăn của Liên đoàn Lao động Cát Tiên, nhưng thiếu mô hình, kết quả và mảng chăm lo tinh thần."
+    },
+    {
+      "sample_id": "test_004269",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "PREDICATE",
+        "RELATION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "SOURCE nói Liên đoàn tổ chức giải bóng chuyền hơi nữ để chào mừng hai sự kiện, không nói tổ chức lễ kỷ niệm hay Đại hội Đảng bộ.",
+      "main_missing_information": "Các quỹ và hoạt động hỗ trợ vật chất, tinh thần cho đoàn viên, người lao động khó khăn.",
+      "brief_reason": "Biến dịp chào mừng thành hai sự kiện do Liên đoàn tổ chức, trong khi bỏ toàn bộ trọng tâm về hỗ trợ đời sống đoàn viên và người lao động."
+    },
+    {
+      "sample_id": "test_004269",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Kết quả giúp hàng trăm đoàn viên mỗi năm và các hoạt động thể thao, gồm giải bóng chuyền cùng ba sân được trao tặng.",
+      "brief_reason": "Trình bày đúng bối cảnh và ba mô hình quỹ hỗ trợ, nhưng quá dài, dành nhiều chỗ cho địa lý và bỏ kết quả cùng hoạt động chăm lo tinh thần."
+    },
+    {
+      "sample_id": "test_004269",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Toàn bộ hoạt động của Liên đoàn Lao động Cát Tiên nhằm hỗ trợ vật chất, tinh thần cho đoàn viên và người lao động.",
+      "brief_reason": "Thông tin địa lý và hoàn cảnh khó khăn đều đúng nhưng chỉ là bối cảnh; candidate bỏ hoàn toàn chủ thể, hoạt động và kết quả chính của bài."
+    },
+    {
+      "sample_id": "test_004365",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Ba tin còn lại về nguyên Phó Giám đốc Sở, các bản án ma túy và vụ đâm hai vợ chồng hàng xóm.",
+      "brief_reason": "Nêu đúng và gọn hai tin pháp luật nổi bật, nhưng nguồn là bản điểm năm vụ nên mức bao phủ còn thấp."
+    },
+    {
+      "sample_id": "test_004365",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Bốn vụ việc khác trong bản tin và nguyên nhân, thủ đoạn cưỡng đoạt của nhóm bốn người.",
+      "brief_reason": "Thông tin khởi tố nhóm cưỡng đoạt tại Bắc Kạn chính xác, nhưng chỉ chép phần mở của một trong năm tin và ghép tiêu đề với câu sau hơi vụng."
+    },
+    {
+      "sample_id": "test_004365",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Vụ bắt nguyên Phó Giám đốc Sở VHTTDL Thanh Hóa và vụ dùng dùi đục đâm hai vợ chồng hàng xóm.",
+      "brief_reason": "Liệt kê chính xác ba trong năm tin và giữ được dạng điểm tin súc tích, nhưng còn thiếu hai vụ việc quan trọng; dấu câu hơi vụng."
+    },
+    {
+      "sample_id": "test_004365",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Bốn vụ việc pháp luật còn lại trong bản tin tổng hợp.",
+      "brief_reason": "Mô tả đúng vụ cưỡng đoạt tại Bắc Kạn, nhưng dành toàn bộ dung lượng cho một trong năm tin, lặp tiêu đề và giữ câu dẫn \"Xem chi tiết\" thừa."
+    },
+    {
+      "sample_id": "test_004774",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "DATE_TIME",
+        "PREDICATE",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Candidate ghi \"sáng ngày 19.4\" thay vì chiều 19.4 và ghép sai \"đơn vị đã hoàn thiện hồ sơ là của UBND cấp huyện, thành phố\" từ hai phát biểu riêng.",
+      "main_missing_information": "Đến 27.4, 51 công nhân đủ điều kiện vẫn chưa nhận hỗ trợ dù hồ sơ đã bổ sung và từng được hứa chi trong 2–3 ngày.",
+      "brief_reason": "Có đúng bối cảnh chính sách và doanh nghiệp, nhưng sai thời điểm, chắp nối hai quan hệ khác nhau thành câu vô nghĩa và bỏ kết quả chậm chi trả."
+    },
+    {
+      "sample_id": "test_004774",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "51 công nhân thuộc diện hỗ trợ, quá trình bổ sung hồ sơ và việc tiền vẫn chưa được chi sau cam kết 2–3 ngày.",
+      "brief_reason": "Nắm đúng kết luận trung tâm là công nhân SampoVina chờ hỗ trợ nhiều tháng, nhưng quá chung chung và thiếu các diễn biến chứng minh sự chậm trễ."
+    },
+    {
+      "sample_id": "test_004774",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Việc 51 công nhân vẫn chưa nhận tiền đến 27.4 dù hồ sơ đã hoàn thiện và cơ quan chức năng từng hẹn chi sau 2–3 ngày.",
+      "brief_reason": "Đúng về chị Thủy, nguyên nhân nghỉ 21 ngày và chính sách hỗ trợ, nhưng dài ở phần nền, chưa nêu rõ quá trình hồ sơ cùng kết quả vẫn chưa được chi."
+    },
+    {
+      "sample_id": "test_004774",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Lý do chị Thủy đủ điều kiện, số tiền hỗ trợ, 51 công nhân liên quan và việc chi trả vẫn chậm đến 27.4.",
+      "brief_reason": "Trung thực về người phản ánh, doanh nghiệp và chính sách, nhưng mới dừng ở lời dẫn nên chưa thể hiện đầy đủ nguyên nhân, quy mô hay diễn biến chậm hỗ trợ."
+    },
+    {
+      "sample_id": "test_004901",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "PREDICATE",
+        "RELATION"
+      ],
+      "factual_error_evidence": "SOURCE nói U23 Bahrain từ cuối bảng E vươn lên nhóm bốn đội hạng ba tốt nhất; candidate gọi đội này là \"đại diện của U23 Việt Nam\" và \"một trong 4 đội mạnh nhất\".",
+      "main_missing_information": "U23 Bahrain là đối thủ của U23 Việt Nam ở vòng 1/8 sau khi thắng U23 Malaysia 3-2.",
+      "brief_reason": "Candidate nhầm chủ thể và biến nhóm bốn đội hạng ba tốt nhất thành bốn đội mạnh nhất giải, đồng thời bỏ kết luận về cặp đấu vòng 1/8."
+    },
+    {
+      "sample_id": "test_004901",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "NUMBER",
+        "PREDICATE",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Candidate gán 4 điểm và tư cách đội Tây Á đi tiếp cho U23 Việt Nam; SOURCE gắn dữ kiện này với U23 Saudi Arabia và U23 Bahrain, còn Việt Nam nhất bảng D.",
+      "main_missing_information": "Kết luận U23 Bahrain sẽ gặp U23 Việt Nam ở vòng 1/8.",
+      "brief_reason": "Câu trộn U23 Việt Nam với các đại diện Tây Á, gán sai điểm số và thành tích, không nêu được đối thủ vòng 1/8 nên sai trọng tâm."
+    },
+    {
+      "sample_id": "test_004901",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "U23 Bahrain giành quyền đi tiếp và sẽ là đối thủ của U23 Việt Nam tại vòng 1/8.",
+      "brief_reason": "Nêu chính xác thể thức và vị trí nhất bảng của Việt Nam, nhưng chỉ cung cấp tiền đề, bỏ kết luận trung tâm về đối thủ Bahrain."
+    },
+    {
+      "sample_id": "test_004901",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "U23 Bahrain thắng U23 Malaysia, vào nhóm bốn đội hạng ba tốt nhất và gặp U23 Việt Nam ở vòng 1/8.",
+      "brief_reason": "Các diễn biến bảng B và F đều đúng, nhưng candidate dành nhiều dung lượng cho bước sàng lọc và bỏ toàn bộ kết quả bảng E cùng đối thủ cuối cùng."
+    }
+  ],
+  "completeness": {
+    "expected_samples": 10,
+    "expected_candidates": 40,
+    "returned_candidates": 40,
+    "missing": []
+  }
+}

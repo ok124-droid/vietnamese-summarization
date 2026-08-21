@@ -1,0 +1,693 @@
+{
+  "batch_id": "batch_07",
+  "results": [
+    {
+      "sample_id": "test_008243",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các nghệ sĩ Việt ở Singapore trở nên thân thiết, thường cùng tập thể thao, nấu ăn và tụ tập.",
+      "brief_reason": "Tóm tắt đúng việc gia đình Đoan Trang sang Singapore, nguyên nhân và những nghệ sĩ cô gặp; chỉ thiếu các hoạt động gắn kết của nhóm."
+    },
+    {
+      "sample_id": "test_008243",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Lý do chuyển đến Singapore và mối quan hệ, sinh hoạt chung với cộng đồng nghệ sĩ Việt tại đây.",
+      "brief_reason": "Câu tóm tắt hoàn toàn đúng nhưng quá ngắn, chỉ nêu việc định cư và bỏ qua phần lớn nội dung về nguyên nhân cùng đời sống của Đoan Trang tại Singapore."
+    },
+    {
+      "sample_id": "test_008243",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Lý do chuyển đến Singapore và mối quan hệ, sinh hoạt chung với cộng đồng nghệ sĩ Việt tại đây.",
+      "brief_reason": "Thông tin chính xác nhưng chỉ phản ánh việc gia đình Đoan Trang định cư, chưa tóm lược nguyên nhân chuyển đi và sự gắn bó với các nghệ sĩ Việt."
+    },
+    {
+      "sample_id": "test_008243",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ATTRIBUTION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Candidate gán việc tập luyện, ăn uống cho Đoan Trang và chồng; SOURCE nêu đó là hoạt động của Đoan Trang cùng nhóm nghệ sĩ Việt.",
+      "main_missing_information": "Gia đình Đoan Trang định cư tại Singapore đầu năm 2021 vì chồng có cơ hội công việc mới và cô kết nối với nhiều nghệ sĩ Việt.",
+      "brief_reason": "Candidate đổi chủ thể của các hoạt động chung sang hai vợ chồng, thêm ý “hiện vẫn” không được hỗ trợ và bỏ lỡ toàn bộ sự kiện định cư."
+    },
+    {
+      "sample_id": "test_008351",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Phân tích trách nhiệm của tài xế, đơn vị quản lý cao tốc và việc xử phạt hành chính người đốt rơm rạ.",
+      "brief_reason": "Nêu chính xác vụ tai nạn, thiệt hại và nguyên nhân ban đầu, nhưng bỏ qua trọng tâm pháp lý về trách nhiệm của các bên liên quan."
+    },
+    {
+      "sample_id": "test_008351",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Kết luận cụ thể về trách nhiệm của người gây tai nạn, ban quản lý cao tốc và chế tài đối với người đốt rơm rạ.",
+      "brief_reason": "Thông tin đúng và có thêm nguyên tắc trách nhiệm của tài xế, song chưa bao quát các kết luận pháp lý; cụm chuyển đoạn thiếu dấu câu làm câu văn hơi vụng."
+    },
+    {
+      "sample_id": "test_008351",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Vụ tai nạn, nguyên nhân khói đốt đồng, thiệt hại và trách nhiệm của tài xế cùng người đốt rơm rạ.",
+      "brief_reason": "Nhận định về trách nhiệm của đơn vị quản lý cao tốc là chính xác nhưng chỉ là một nhánh của bài, thiếu cả sự kiện nền và các bên liên quan khác."
+    },
+    {
+      "sample_id": "test_008351",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nguyên nhân khói đốt đồng và phân tích trách nhiệm pháp lý của tài xế, ban quản lý cao tốc, người đốt rơm rạ.",
+      "brief_reason": "Tóm tắt đúng thời gian, địa điểm và hậu quả vụ tai nạn nhưng quá ngắn, không nêu nguyên nhân hay trọng tâm xem xét trách nhiệm pháp lý."
+    },
+    {
+      "sample_id": "test_008354",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nguy cơ Grab gần như độc chiếm thị trường, có thể tăng giá và làm tổn hại quyền lợi người tiêu dùng.",
+      "brief_reason": "Nêu đúng sự kiện Uber rời Việt Nam và Đông Nam Á để hợp nhất vào Grab, nhưng chưa thể hiện luận điểm chính về suy giảm cạnh tranh và rủi ro độc quyền."
+    },
+    {
+      "sample_id": "test_008354",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Uber rời Đông Nam Á, Grab gần như độc chiếm thị trường và nguy cơ giá tăng, quyền lợi người tiêu dùng bị ảnh hưởng.",
+      "brief_reason": "Câu hỏi về khả năng Grab dùng mức cước Uber được SOURCE hỗ trợ, nhưng đây chỉ là một chi tiết suy đoán giá và không tóm lược luận điểm bao quát."
+    },
+    {
+      "sample_id": "test_008354",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Việc mất cạnh tranh khiến Grab có nguy cơ độc quyền, tăng giá và ảnh hưởng quyền lợi người tiêu dùng.",
+      "brief_reason": "Tóm tắt đúng việc Uber rút lui, tình cảnh tài xế và chênh lệch cước, nhưng thiếu kết luận quan trọng nhất về độc quyền Grab và hệ quả với người dùng."
+    },
+    {
+      "sample_id": "test_008354",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Grab sẽ gần như độc chiếm thị trường; câu hỏi cần nêu rõ liệu hãng dùng giá Uber hay tiếp tục bảng giá của mình.",
+      "brief_reason": "Các ý đều bắt nguồn từ SOURCE và có nhắc lợi ích cạnh tranh, nhưng câu hỏi “dại dột hay hào phóng” bị lược mất đối tượng nên khó hiểu, kết luận còn thiếu."
+    },
+    {
+      "sample_id": "test_008422",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "DATE_TIME",
+        "ENTITY",
+        "RELATION"
+      ],
+      "factual_error_evidence": "SOURCE không nêu chiều 20/7 và không nói Bí thư làm việc với Ban chấp hành Công đoàn tỉnh; thành phần gồm Công đoàn các Khu kinh tế, công ty và CĐCS Formosa.",
+      "main_missing_information": "Bí thư Tỉnh ủy đánh giá kết quả của công ty, CĐCS và đề nghị tổ chức thi đua, chăm lo người lao động, xây dựng quan hệ lao động hài hòa.",
+      "brief_reason": "Candidate nắm được chủ đề việc làm và chính sách lao động nhưng tự thêm ngày, đồng thời xác định sai đối tượng làm việc, làm lệch sự kiện chính."
+    },
+    {
+      "sample_id": "test_008422",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nội dung buổi làm việc, đánh giá của Bí thư Tỉnh ủy và các đề nghị đối với công ty cùng CĐCS về phong trào, chế độ lao động.",
+      "brief_reason": "Câu trích dẫn chính xác nhưng chỉ liệt kê một phần người tham dự, không cho biết buổi làm việc bàn gì hay đưa ra đánh giá, yêu cầu nào."
+    },
+    {
+      "sample_id": "test_008422",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các đề nghị của Bí thư Tỉnh ủy về phong trào thi đua, công trình chào mừng đại hội, chế độ lao động và quan hệ lao động hài hòa.",
+      "brief_reason": "Nêu đúng thành phần và đánh giá tích cực của Bí thư Tỉnh ủy, bao quát phần lớn nội dung; danh sách người dự hơi dài và thiếu các yêu cầu trong thời gian tới."
+    },
+    {
+      "sample_id": "test_008422",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ATTRIBUTION",
+        "RELATION",
+        "ENTITY"
+      ],
+      "factual_error_evidence": "Candidate nói Ban Thường vụ Công đoàn các Khu kinh tế tổ chức buổi làm việc; SOURCE chỉ nêu Thường trực đơn vị này tham dự và Bí thư Tỉnh ủy phát biểu.",
+      "main_missing_information": "Đánh giá và đề nghị cụ thể của Bí thư Tỉnh ủy đối với lãnh đạo công ty, CĐCS về thi đua, công trình đại hội và quan hệ lao động.",
+      "brief_reason": "Nội dung chăm lo người lao động có trong SOURCE, nhưng candidate dựng sai bên tổ chức, quan hệ giữa các đơn vị và dùng tên gọi “Công đoàn Hà Tĩnh” không rõ, sai ngữ cảnh."
+    },
+    {
+      "sample_id": "test_008547",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các hoạt động đa dạng, lượng khách ở những mùa trước và cảnh hoa tại núi lửa Chư Đăng Ya.",
+      "brief_reason": "Tóm tắt đúng đơn vị, thời điểm tổ chức và mục đích quảng bá của lễ hội; chỉ thiếu những hoạt động, sức hút và bối cảnh danh thắng cụ thể."
+    },
+    {
+      "sample_id": "test_008547",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Mục đích quảng bá văn hóa, con người Chư Păh và sức hút hiện tại của núi lửa Chư Đăng Ya.",
+      "brief_reason": "Thông tin chính xác, bao quát thời điểm, mùa hoa, hoạt động và lượng khách; hơi thiên về liệt kê và chưa nêu rõ ý nghĩa quảng bá cùng danh thắng."
+    },
+    {
+      "sample_id": "test_008547",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 2,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "DATE_TIME",
+        "PREDICATE",
+        "RELATION"
+      ],
+      "factual_error_evidence": "SOURCE không nêu ngày 8.11 hay “huyện Chư Đăng Ya”, chỉ nói UBND huyện dự kiến tổ chức; Chư Đăng Ya là núi lửa nổi tiếng cùng Biển Hồ, không phải một thời điểm.",
+      "main_missing_information": "Lễ hội diễn ra khi hoa nở rộ, có nhiều hoạt động, từng thu hút hàng nghìn khách và quảng bá văn hóa, con người Chư Păh.",
+      "brief_reason": "Candidate giữ được ý lễ hội giữa tháng 11 nhưng thêm ngày, gọi sai đơn vị hành chính, biến kế hoạch thành quyết định và ghép sai quan hệ giữa Chư Đăng Ya với Biển Hồ."
+    },
+    {
+      "sample_id": "test_008547",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Hoạt động lễ hội, lượng khách, mục đích quảng bá và sức hút của núi lửa Chư Đăng Ya.",
+      "brief_reason": "Nêu chính xác kế hoạch tổ chức giữa tháng 11 đúng mùa hoa nở, nhưng chỉ bao phủ phần mở đầu và bỏ qua các hoạt động cùng giá trị du lịch."
+    },
+    {
+      "sample_id": "test_008781",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "NUMBER",
+        "PREDICATE",
+        "NEGATION"
+      ],
+      "factual_error_evidence": "Candidate nói USD tự do giảm và USD tăng 40–50 đồng; SOURCE nói USD tự do không đổi, còn mức tăng 41/43 đồng thuộc Euro, không phải USD.",
+      "main_missing_information": "Tỷ giá trung tâm giảm 2 đồng xuống 22.913 VND/USD, các mức niêm yết trong nước và diễn biến thị trường quốc tế.",
+      "brief_reason": "Cả hai biến động chính đều trái hoặc gán sai đồng tiền so với SOURCE; hai câu còn tạo cảm giác USD vừa giảm vừa tăng mà không phân biệt rõ thị trường."
+    },
+    {
+      "sample_id": "test_008781",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "RELATION"
+      ],
+      "factual_error_evidence": "Mức 96,90 điểm là của chỉ số DXY đo USD với sáu đồng tiền; câu candidate khiến sáu đồng tiền trở thành chủ thể mang mức điểm này.",
+      "main_missing_information": "Tỷ giá trung tâm VND/USD, các mức mua bán trong nước và tác động dự kiến của đàm phán Mỹ–Trung.",
+      "brief_reason": "Có hai dữ kiện quốc tế từ SOURCE nhưng ghép chúng vụng và sai quan hệ ngữ pháp; đồng thời bỏ qua trọng tâm tỷ giá VND/USD trong nước."
+    },
+    {
+      "sample_id": "test_008781",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Giá USD tại Sở giao dịch, thị trường tự do, các ngân hàng thương mại và diễn biến quốc tế.",
+      "brief_reason": "Nêu đúng ngày, tỷ giá trung tâm và mức giảm, thể hiện một dữ kiện chủ chốt nhưng chưa bao quát bức tranh tỷ giá trong nước lẫn quốc tế."
+    },
+    {
+      "sample_id": "test_008781",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Niêm yết tại các ngân hàng thương mại, biến động Euro và Bảng Anh, cùng diễn biến USD quốc tế và đàm phán Mỹ–Trung.",
+      "brief_reason": "Tóm tắt chính xác tỷ giá trung tâm, tỷ giá tại Sở giao dịch và USD tự do; bao quát tốt phần trong nước nhưng chưa đề cập ngân hàng thương mại và thị trường quốc tế."
+    },
+    {
+      "sample_id": "test_008966",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "DATE_TIME"
+      ],
+      "factual_error_evidence": "Candidate nói mâu thuẫn xảy ra “trong lúc đi hát karaoke”; SOURCE chỉ nói sau karaoke hai người đi ăn và trong quá trình đó xảy ra xích mích.",
+      "main_missing_information": "Anh Đ. dùng dao chém vào đầu anh P. khiến nạn nhân tử vong; hung thủ đã bị bắt để điều tra.",
+      "brief_reason": "Nêu đúng hai người mâu thuẫn và có người tử vong nhưng xác định thời điểm quá cụ thể, đồng thời bỏ mất hành vi dùng dao và việc bắt giữ hung thủ."
+    },
+    {
+      "sample_id": "test_008966",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Hai người mâu thuẫn sau khi uống rượu; anh Đ. dùng dao chém anh P. tử vong và đã bị công an bắt giữ.",
+      "brief_reason": "Thông tin xác nhận vụ án mạng hoàn toàn đúng nhưng quá chung chung, không nêu diễn biến, hung thủ, cách gây án hay kết quả điều tra ban đầu."
+    },
+    {
+      "sample_id": "test_008966",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Mâu thuẫn, hành vi anh Đ. dùng dao chém anh P. tử vong và việc công an bắt giữ hung thủ.",
+      "brief_reason": "Các dữ kiện được nêu đều đúng, nhưng bản tóm tắt dừng đột ngột ở tên anh L.V.P., thiếu vị ngữ và bỏ toàn bộ diễn biến gây án quan trọng."
+    },
+    {
+      "sample_id": "test_008966",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Địa điểm, thời gian vụ án và việc công an đã bắt giữ hung thủ để tiếp tục điều tra.",
+      "brief_reason": "Tóm tắt trung thực, rõ và súc tích chuỗi uống rượu, mâu thuẫn, chém dao và tử vong; chỉ thiếu bối cảnh địa điểm, thời gian cùng việc bắt giữ."
+    },
+    {
+      "sample_id": "test_009047",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "DATE_TIME",
+        "RELATION"
+      ],
+      "factual_error_evidence": "SOURCE nói ngày 5.8 có 500 máy được trao Bộ Y tế; không nói lễ bàn giao cho BVĐK Trung ương Cần Thơ diễn ra ngày đó.",
+      "main_missing_information": "Đợt hiện tại trao 50 trong 540 máy cho các địa phương, cùng hoạt động tập huấn và hỗ trợ sử dụng máy thở.",
+      "brief_reason": "Candidate gắn sai ngày 5.8 với người nhận là Bệnh viện Cần Thơ, làm lệch sự kiện bàn giao; đồng thời bỏ các số lượng và mục tiêu dự án."
+    },
+    {
+      "sample_id": "test_009047",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Công dụng của máy thở, việc tập huấn tại chỗ và nền tảng hỗ trợ trực tuyến 24/24 cho nhân viên y tế.",
+      "brief_reason": "Nêu chính xác số máy ở hai đợt, đơn vị trao tặng, người nhận và ý nghĩa cộng đồng; chỉ thiếu phần vận hành, đào tạo và hỗ trợ kỹ thuật."
+    },
+    {
+      "sample_id": "test_009047",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "RELATION"
+      ],
+      "factual_error_evidence": "SOURCE phân biệt 50/540 máy trao các địa phương trong đợt này và 500 máy đợt đầu trao Bộ Y tế; candidate trộn hai nhóm người nhận.",
+      "main_missing_information": "Đợt hiện tại trao 50 trong tổng số 540 máy cho các địa phương, mục tiêu chống dịch và hoạt động đào tạo, hỗ trợ vận hành.",
+      "brief_reason": "Số 500, hai đơn vị tài trợ và Bộ Y tế đều có trong SOURCE, nhưng candidate ghép sai người nhận “các địa phương” với đợt đầu, tạo phát biểu mâu thuẫn."
+    },
+    {
+      "sample_id": "test_009047",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Đợt đầu 500 máy trao Bộ Y tế, dự án sản xuất 2.000 máy, công dụng điều trị và hoạt động tập huấn, hỗ trợ kỹ thuật.",
+      "brief_reason": "Nêu đúng sự kiện trao 50 trong 540 máy cho các địa phương để chống dịch, nhưng chỉ phản ánh câu mở đầu và bỏ phần lớn bối cảnh dự án."
+    },
+    {
+      "sample_id": "test_009403",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu bãi đỗ xe công cộng gây chặt chém, mất trật tự, cản trở du lịch và đòi hỏi địa phương đầu tư thêm bãi đỗ xe.",
+      "brief_reason": "Câu văn đúng nhưng chỉ nêu tiền đề số xe cá nhân tăng, hoàn toàn chưa thể hiện vấn đề thiếu bãi đỗ, hậu quả với du lịch hay giải pháp được đề xuất."
+    },
+    {
+      "sample_id": "test_009403",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Bãi tự phát gây chặt chém, mất trật tự và ảnh hưởng du lịch; chính quyền cần đầu tư thêm bãi đỗ công cộng thuận tiện.",
+      "brief_reason": "Nêu đúng vấn đề trung tâm là thiếu bãi đỗ công cộng tại các điểm du lịch, nhưng chưa bao quát hậu quả cụ thể và giải pháp đầu tư được bài nhấn mạnh."
+    },
+    {
+      "sample_id": "test_009403",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Hệ quả của bãi tự phát đối với trật tự và du lịch, cùng đề xuất chính quyền xây thêm bãi đỗ công cộng.",
+      "brief_reason": "Tóm tắt đúng xu hướng xe cá nhân, nhu cầu đi xa và tình trạng thiếu bãi đỗ; phần dẫn hơi dài, trong khi hệ quả và kiến nghị cốt lõi bị bỏ sót."
+    },
+    {
+      "sample_id": "test_009403",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "LOCATION",
+        "PREDICATE",
+        "NEGATION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Candidate nói bãi đỗ tại TP.HCM tăng sau kỳ nghỉ; SOURCE không nêu TP.HCM và khẳng định nhiều địa phương đang thiếu bãi đỗ công cộng.",
+      "main_missing_information": "Tình trạng thiếu bãi đỗ, các bãi tự phát chặt chém, tác động xấu đến du lịch và yêu cầu địa phương đầu tư thêm bãi công cộng.",
+      "brief_reason": "Mở đầu bịa địa điểm, thời điểm và đảo ngược tình trạng thiếu bãi đỗ; các câu sau rối, quan hệ nguyên nhân không rõ và không trình bày đúng kiến nghị chính."
+    },
+    {
+      "sample_id": "test_009713",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "LOCATION",
+        "PREDICATE",
+        "ATTRIBUTION",
+        "DATE_TIME"
+      ],
+      "factual_error_evidence": "SOURCE chỉ nói sáng 22.3 ông Trần Văn Tuý trình tờ trình; không nói phiên họp khai mạc tại Hà Nội hay do ông chủ trì.",
+      "main_missing_information": "UBTVQH xem xét việc lấy phiếu tín nhiệm, khả năng tổ chức sớm ở kỳ họp 5, các dự luật và phiên chất vấn hai bộ trưởng.",
+      "brief_reason": "Candidate biến hoạt động trình tờ trình thành khai mạc phiên họp, thêm địa điểm và gán sai vai trò chủ trì cho ông Trần Văn Tuý, đồng thời bỏ toàn bộ chương trình nghị sự."
+    },
+    {
+      "sample_id": "test_009713",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "DATE_TIME",
+        "PREDICATE"
+      ],
+      "factual_error_evidence": "SOURCE nói sáng 22.3 UBTVQH dự kiến nghe trình tờ trình, còn việc cho ý kiến được nêu chung tại phiên họp 22; candidate gộp thành cho ý kiến đúng sáng đó.",
+      "main_missing_information": "Quy định lấy phiếu ở kỳ họp 6, đề xuất chuyển sớm sang kỳ họp 5 và các nội dung khác của phiên họp 22.",
+      "brief_reason": "Tóm đúng chủ đề trung tâm nhưng gộp nhẹ thời điểm nghe tờ trình với hành động cho ý kiến; còn thiếu tranh luận về thời điểm lấy phiếu và các nghị sự khác."
+    },
+    {
+      "sample_id": "test_009713",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Quy định lấy phiếu tại kỳ họp 6, đề xuất đẩy lên kỳ họp 5, cùng các nội dung lập pháp và chất vấn tại phiên họp 22.",
+      "brief_reason": "Câu tóm tắt chính xác và đúng trọng tâm lấy phiếu tín nhiệm, nhưng mới nêu chủ đề chung, chưa có điểm tranh luận về thời điểm hay các nghị sự quan trọng khác."
+    },
+    {
+      "sample_id": "test_009713",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Đề xuất đưa việc lấy phiếu tín nhiệm lên kỳ họp 5 và các nội dung lập pháp, nhân sự, chất vấn khác tại phiên họp 22.",
+      "brief_reason": "Thông tin đúng về nội dung, thời điểm trình và quy định kỳ họp 6, nhưng bỏ mất đề xuất tổ chức sớm ở kỳ họp 5 cùng phần nghị sự còn lại."
+    }
+  ],
+  "completeness": {
+    "expected_samples": 10,
+    "expected_candidates": 40,
+    "returned_candidates": 40,
+    "missing": []
+  }
+}

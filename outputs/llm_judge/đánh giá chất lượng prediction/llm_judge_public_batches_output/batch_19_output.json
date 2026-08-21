@@ -1,0 +1,651 @@
+{
+  "batch_id": "batch_19",
+  "results": [
+    {
+      "sample_id": "test_021156",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["NUMBER", "RELATION"],
+      "factual_error_evidence": "Candidate gắn gần 10.000 người và 37,27 tỉ đồng với nhóm tai nạn, bệnh nghề nghiệp; source nêu 119.344 lượt, còn gần 10.000 là lao động nữ bị ảnh hưởng COVID-19.",
+      "main_missing_information": "Hội nghị tổng kết 10 năm cùng các kết quả về đoàn viên nữ, lãnh đạo, nhà trẻ và vốn vay CEP.",
+      "brief_reason": "Nêu một hoạt động chăm lo nhưng ghép sai số người với nhóm thụ hưởng, đồng thời bỏ sót phần lớn kết quả tổng kết 10 năm."
+    },
+    {
+      "sample_id": "test_021156",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các kết quả về nữ lãnh đạo, đào tạo, hỗ trợ 119.344 lượt lao động, nhà trẻ và vốn vay CEP.",
+      "brief_reason": "Thông tin chính xác và có bối cảnh hội nghị, nhưng mới nêu quy mô đoàn viên, chưa bao quát phần lớn thành quả hỗ trợ trong 10 năm."
+    },
+    {
+      "sample_id": "test_021156",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Toàn bộ kết quả thực hiện 10 năm, gồm số đoàn viên nữ, công tác chăm lo, giữ trẻ và hỗ trợ vay vốn.",
+      "brief_reason": "Chính xác nhưng chỉ thông báo hội nghị và tên hai văn bản, không tóm lược bất kỳ kết quả thực chất nào của giai đoạn 10 năm."
+    },
+    {
+      "sample_id": "test_021156",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 1,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["NUMBER", "DATE_TIME", "RELATION"],
+      "factual_error_evidence": "Source nêu cuối năm 2019 có 256/1.139 lãnh đạo nữ, tỷ lệ 22,47%; 54,11% là tỷ lệ nữ đoàn viên tính đến 31.5.2020.",
+      "main_missing_information": "Hội nghị tổng kết và các kết quả chính về đoàn viên, đào tạo, chăm lo, giữ trẻ và vốn vay.",
+      "brief_reason": "Ghép tỷ lệ nữ đoàn viên vào số lãnh đạo nữ và đổi mốc cuối năm 2019 thành cả giai đoạn 10 năm; nội dung còn quá hẹp."
+    },
+    {
+      "sample_id": "test_021230",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": ["PREDICATE"],
+      "factual_error_evidence": "Candidate gán xu hướng “hoạt động mạnh dần” cho thời tiết tháng 10; source gán xu hướng này cho không khí lạnh từ phía Bắc.",
+      "main_missing_information": "Xu hướng mưa thiếu hụt, nhiệt độ cao hơn trung bình và khả năng xuất hiện một xoáy thuận nhiệt đới trên Biển Đông.",
+      "brief_reason": "Nêu đúng trọng tâm không khí lạnh tác động mạnh hơn vào nửa cuối tháng, nhưng chủ thể diễn đạt chưa chuẩn và bỏ các xu thế thời tiết lớn khác."
+    },
+    {
+      "sample_id": "test_021230",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 2,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Không khí lạnh mạnh dần và tập trung tác động miền Bắc trong nửa cuối tháng 10, cùng dự báo mưa và nhiệt độ.",
+      "brief_reason": "Chỉ trình bày bối cảnh và câu hỏi dẫn nhập, không đưa ra nhận định dự báo là nội dung chính của source."
+    },
+    {
+      "sample_id": "test_021230",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Dự báo tháng 10: không khí lạnh mạnh vào nửa cuối tháng, mưa thấp hơn trung bình và nhiệt độ cao hơn trung bình.",
+      "brief_reason": "Câu rõ và đúng, nhưng chỉ nêu thời tiết sau ngày 21.9, bỏ toàn bộ dự báo tháng 10 là trọng tâm bài viết."
+    },
+    {
+      "sample_id": "test_021230",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Mọi nội dung dự báo cụ thể về không khí lạnh, mưa, nhiệt độ, dông và xoáy thuận nhiệt đới trong tháng 10.",
+      "brief_reason": "Chỉ nói cơ quan khí tượng đã đưa ra nhận định mà không nêu bất kỳ kết luận dự báo nào, nên gần như không có giá trị tóm tắt."
+    },
+    {
+      "sample_id": "test_021659",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Đoạn qua TPHCM ùn tắc, dự án mở rộng chậm 20 năm và kế hoạch triển khai trước 2025 với vốn gần 10.000 tỉ đồng.",
+      "brief_reason": "Thông tin nền chính xác nhưng chỉ nêu vai trò và chiều dài quốc lộ, không phản ánh vấn đề trì hoãn mở rộng và phương án đầu tư."
+    },
+    {
+      "sample_id": "test_021659",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Việc chuyển từ BOT sang vốn ngân sách và kế hoạch triển khai trước năm 2025 với tổng vốn gần 10.000 tỉ đồng.",
+      "brief_reason": "Bao quát đúng vai trò tuyến đường, 20 năm trì hoãn và tình trạng ùn tắc, nhưng thiếu phương án vốn và kế hoạch triển khai mới."
+    },
+    {
+      "sample_id": "test_021659",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["DATE_TIME", "CAUSALITY"],
+      "factual_error_evidence": "Source không nêu kế hoạch mở rộng năm 2018; bốn làn xe gây ùn tắc, còn dự án chậm do vốn và phải chuyển hình thức đầu tư.",
+      "main_missing_information": "Kế hoạch triển khai trước năm 2025, vốn gần 10.000 tỉ đồng và tác dụng kết nối, giảm ùn tắc.",
+      "brief_reason": "Có nhắc đúng dự án chưa thực hiện và hiện trạng bốn làn, nhưng thêm mốc 2018 không có trong source và diễn đạt sai quan hệ nguyên nhân."
+    },
+    {
+      "sample_id": "test_021659",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["DATE_TIME", "RELATION"],
+      "factual_error_evidence": "Candidate gắn vốn gần 10.000 tỉ đồng với mốc triển khai từ 2001; source nêu kế hoạch hiện tại dự kiến trước 2025, còn 2001 là mốc dự án thành phần.",
+      "main_missing_information": "Mốc dự kiến trước năm 2025, nguyên nhân chuyển từ BOT sang vốn ngân sách và tình trạng ùn tắc hiện nay.",
+      "brief_reason": "Nêu đúng dự án, quy mô vốn mới và việc chưa triển khai, nhưng trộn mốc năm 2001 với kế hoạch gần 10.000 tỉ đồng hiện tại."
+    },
+    {
+      "sample_id": "test_021844",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nạn nhân 60 tuổi va chạm với cánh quạt tàu cao tốc ngoài khơi Corfu; thi thể do du khách phát hiện.",
+      "brief_reason": "Tóm đúng sự kiện tử vong, quốc tịch, ngày và bối cảnh bơi ngoài khơi, nhưng lược mất nguyên nhân tai nạn đặc trưng và địa điểm cụ thể."
+    },
+    {
+      "sample_id": "test_021844",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nạn nhân 60 tuổi bị cánh quạt tàu cao tốc va phải ngày 31.8 khi bơi ngoài khơi Corfu.",
+      "brief_reason": "Giữ được quan hệ tàu cao tốc gây tử vong và việc du khách phát hiện thi thể, nhưng diễn đạt khá mơ hồ và thiếu nhiều chi tiết nhận diện cốt lõi."
+    },
+    {
+      "sample_id": "test_021844",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Tóm lược đầy đủ và chính xác sự kiện chính, gồm tuổi, quốc tịch, nguyên nhân, thời gian, địa điểm, hậu quả và việc phát hiện thi thể."
+    },
+    {
+      "sample_id": "test_021844",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Đầy đủ, chính xác và mạch lạc; ngoài sự kiện chính còn nêu thương tích, vị trí Avlaki và cuộc điều tra mà không sa vào phần COVID-19 phụ."
+    },
+    {
+      "sample_id": "test_022057",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Bốn tin còn lại về Wendy Phạm, MV chống dịch, Phương Loan tưởng nhớ Chí Tài và lịch chiếu “Rừng thế mạng”.",
+      "brief_reason": "Tóm đúng và khá đủ tin Thu Quỳnh phủ nhận chuyện tình cảm, nhưng source là bản tin tổng hợp năm mục nên mức bao phủ tổng thể thấp."
+    },
+    {
+      "sample_id": "test_022057",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các tin về MV “Bài ca thắng giặc Corona”, Phương Loan nhớ Chí Tài và phim “Rừng thế mạng” ra rạp 31.12.2021.",
+      "brief_reason": "Nêu đúng hai tin đầu nhưng quá sơ lược, dùng dấu chấm lửng và bỏ ba nội dung còn lại của bản tin tổng hợp."
+    },
+    {
+      "sample_id": "test_022057",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["RELATION", "ATTRIBUTION"],
+      "factual_error_evidence": "Candidate biến việc Wendy Phạm ôm di ảnh mẹ đi du lịch thành nội dung Thu Quỳnh nói khi giải đáp tin “phim giả tình thật”; source trình bày đây là hai tin độc lập.",
+      "main_missing_information": "Phản hồi thực tế của Thu Quỳnh và ba tin còn lại về MV chống dịch, Phương Loan, cùng phim “Rừng thế mạng”.",
+      "brief_reason": "Ghép sai hai câu chuyện độc lập thành một phát ngôn, tạo quan hệ và quy kết không có trong source; đồng thời bỏ gần hết bản tin."
+    },
+    {
+      "sample_id": "test_022057",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Lời phủ nhận tin tình cảm của Thu Quỳnh và toàn bộ bốn tin còn lại trong bản tin tổng hợp.",
+      "brief_reason": "Chỉ nêu phần dẫn của tin đầu, dừng trước phản hồi quan trọng của Thu Quỳnh và không đề cập bốn câu chuyện còn lại."
+    },
+    {
+      "sample_id": "test_022148",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Bối cảnh cưỡng chế đất trái phép và việc Chủ tịch xã Tóc Tiên gửi đơn đề nghị xử lý các phát ngôn.",
+      "brief_reason": "Tóm đúng và rõ sự kiện cốt lõi: cơ quan công an mời đích danh Nguyễn Thái Luyện làm việc ngày 4.7 vì các phát ngôn miệt thị."
+    },
+    {
+      "sample_id": "test_022148",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thời gian làm việc ngày 4.7, yêu cầu ông Luyện trực tiếp có mặt và bối cảnh dẫn đến các phát ngôn.",
+      "brief_reason": "Chính xác, trực tiếp và nêu đủ chủ thể, người được mời cùng lý do; chỉ thiếu thời gian làm việc và một số bối cảnh quan trọng."
+    },
+    {
+      "sample_id": "test_022148",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["ENTITY", "RELATION", "ATTRIBUTION"],
+      "factual_error_evidence": "Source nói Phòng An ninh chính trị nội bộ, Công an tỉnh gửi giấy mời; Chủ tịch xã Tóc Tiên chỉ gửi đơn đến các cơ quan đề nghị xử lý.",
+      "main_missing_information": "Công an tỉnh là bên mời ông Luyện làm việc ngày 4.7 và giấy mời yêu cầu ông trực tiếp có mặt.",
+      "brief_reason": "Nêu đúng người được mời và vấn đề phát ngôn, nhưng đổi sai chủ thể gửi giấy mời từ cơ quan công an thành Chủ tịch xã."
+    },
+    {
+      "sample_id": "test_022148",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Ngày làm việc cụ thể là 4.7, yêu cầu ông Luyện không được ủy quyền người khác và bối cảnh vụ cưỡng chế.",
+      "brief_reason": "Truyền đạt đúng cơ quan mời, đối tượng, thời điểm tương đối và lý do, nhưng cấu trúc bổ nghĩa hơi vướng và thiếu vài chi tiết."
+    },
+    {
+      "sample_id": "test_022154",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Bộ Tài chính phát hiện CMC có mặt trong hai liên danh, nguy cơ cả hai bị loại và quan điểm trái ngược của CMC với FPT.",
+      "brief_reason": "Các dữ kiện đều đúng, nhưng chỉ nêu quan điểm CMC và giá trị gói thầu; phần chú thích ảnh, tiêu đề chen giữa làm bản tóm tắt rời và kém gọn."
+    },
+    {
+      "sample_id": "test_022154",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["NEGATION", "RELATION"],
+      "factual_error_evidence": "Candidate nói CMC không có tên trong hai liên danh; source nói Bộ Tài chính phát hiện hai liên danh đều có CMC là thành viên.",
+      "main_missing_information": "Tranh chấp về liên danh FPT–CMC, khả năng loại cả hai hồ sơ và giải thích đối lập của hai doanh nghiệp.",
+      "brief_reason": "Mệnh đề chính đảo ngược hoàn toàn phát hiện trung tâm của source, nên dù nhắc đúng gói thầu và quy mô tiền, bản tóm tắt vẫn sai trọng tâm."
+    },
+    {
+      "sample_id": "test_022154",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["ENTITY", "PREDICATE", "RELATION", "UNSUPPORTED"],
+      "factual_error_evidence": "Source chỉ nêu Phó Cục trưởng trả lời báo chí ngày 20.9; không có việc Cục ký thỏa thuận hợp tác với CMC hay gói thầu “CNMC”.",
+      "main_missing_information": "Việc CMC xuất hiện trong hai liên danh, tranh cãi giữa CMC và FPT, cùng hệ quả pháp lý có thể loại cả hai.",
+      "brief_reason": "Dựng nên sự kiện ký hợp tác không có trong source, sai vai trò các bên và diễn đạt lặp, khó hiểu; gần như không phản ánh vụ đấu thầu."
+    },
+    {
+      "sample_id": "test_022154",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "CMC xuất hiện trong hai liên danh, nguy cơ hai hồ sơ cùng bị loại và quan điểm phản bác của FPT.",
+      "brief_reason": "Câu chính xác và súc tích nhưng chỉ phản ánh một lập luận của CMC, chưa nêu sự cố hai liên danh là nội dung trung tâm."
+    },
+    {
+      "sample_id": "test_022287",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Aguero giải nghệ vì vấn đề tim và sức khỏe không cho phép tiếp tục thi đấu.",
+      "brief_reason": "Nêu đúng việc giải nghệ, họp báo, 18 năm thi đấu và vị thế của Aguero, nhưng bỏ nguyên nhân sức khỏe và lặp từ “sau” gây câu vụng."
+    },
+    {
+      "sample_id": "test_022287",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Bao quát đầy đủ thời điểm, quyết định giải nghệ, nguyên nhân sức khỏe và sự nghiệp 18 năm; phần trích dẫn cuối hơi thừa và thiếu dấu ngoặc kép đóng."
+    },
+    {
+      "sample_id": "test_022287",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Vấn đề cụ thể là tim và Aguero khép lại sự nghiệp đỉnh cao kéo dài 18 năm.",
+      "brief_reason": "Tóm chính xác, tự nhiên và trực tiếp sự kiện Aguero tuyên bố giải nghệ vì sức khỏe, chỉ thiếu vài chi tiết quan trọng về nguyên nhân và sự nghiệp."
+    },
+    {
+      "sample_id": "test_022287",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["DATE_TIME", "RELATION"],
+      "factual_error_evidence": "Source nói Aguero chuyển đến Camp Nou rồi mới gặp vấn đề tim; candidate diễn đạt việc chuyển nhượng tự do xảy ra sau vấn đề tim.",
+      "main_missing_information": "Aguero tuyên bố giải nghệ ngày 15.12 vì sức khỏe sau 18 năm thi đấu đỉnh cao.",
+      "brief_reason": "Chỉ nêu chi tiết phụ về chuyển nhượng, bỏ hoàn toàn sự kiện giải nghệ và gắn sai trình tự thời gian giữa việc đến Barcelona với vấn đề tim."
+    },
+    {
+      "sample_id": "test_022451",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Mục đích phòng dịch và các giới hạn đối với xe hợp đồng, xe du lịch, tuyến liên tỉnh cùng số hành khách.",
+      "brief_reason": "Nêu chính xác, đầy đủ quyết định trung tâm về tạm dừng toàn bộ xe buýt công cộng, gồm người phê duyệt và khoảng thời gian áp dụng."
+    },
+    {
+      "sample_id": "test_022451",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các hạn chế đồng thời đối với xe hợp đồng, xe du lịch, tuyến liên tỉnh và số lượng hành khách.",
+      "brief_reason": "Tóm đúng hành động, địa bàn, thời hạn và mục đích phòng dịch, nhưng lặp mốc 1.4 và chưa bao quát các biện pháp vận tải khác."
+    },
+    {
+      "sample_id": "test_022451",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các quy định cụ thể về dừng xe trên 9 chỗ, giới hạn chuyến liên tỉnh, số hành khách và khai báo y tế.",
+      "brief_reason": "Chính xác và có bối cảnh phòng dịch, nhưng dành nhiều dung lượng cho văn bản chỉ đạo trong khi không nêu các hạn chế vận tải cụ thể."
+    },
+    {
+      "sample_id": "test_022451",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Mục đích phòng COVID-19 và các giới hạn áp dụng cho xe hợp đồng, xe du lịch, tuyến liên tỉnh cùng lượng hành khách.",
+      "brief_reason": "Tóm đúng và gọn quyết định chính về xe buýt cùng thời hạn; cách gọi chính quyền TPHCM phù hợp nhưng các biện pháp vận tải liên quan chưa được nêu."
+    },
+    {
+      "sample_id": "test_022474",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["PREDICATE", "DATE_TIME", "UNSUPPORTED"],
+      "factual_error_evidence": "Source không nêu Malaysia thắng Việt Nam ở vòng bảng Asian Cup 2019; source nêu đội thua Việt Nam tại SEA Games 2017 và thua Thái Lan, Palestine ở vòng loại Asian Cup 2021.",
+      "main_missing_information": "Lý do không dự SEA Games 31 là cơ hội huy chương thấp do thành tích quá khứ và phong độ hiện tại.",
+      "brief_reason": "Nêu đúng quyết định không tham dự, nhưng thêm một chiến thắng, đối thủ và giải đấu không được source hỗ trợ, làm sai bối cảnh năng lực đội."
+    },
+    {
+      "sample_id": "test_022474",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["NEGATION", "PREDICATE"],
+      "factual_error_evidence": "Source nói cơ hội giành huy chương của Malaysia là rất khó; candidate nói việc không giành được huy chương là rất khó, đảo nghĩa nhận định.",
+      "main_missing_information": "FAM và OCM quyết định không cử tuyển nữ Malaysia dự SEA Games 31 vì khả năng cạnh tranh huy chương thấp.",
+      "brief_reason": "Câu thiếu chủ thể “cơ hội”, dùng phủ định làm đảo nghĩa đánh giá năng lực và không nêu quyết định quan trọng là đội không tham dự."
+    },
+    {
+      "sample_id": "test_022474",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Giải thích ngày 5.3 rằng cơ hội huy chương thấp, nên FAM và OCM thống nhất không cử đội tham dự.",
+      "brief_reason": "Nêu chính xác thông báo không dự SEA Games 31 và việc ban đầu chưa giải thích, nhưng bỏ lý do cốt lõi được công bố sau đó."
+    },
+    {
+      "sample_id": "test_022474",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Tóm đầy đủ, chính xác và có trình tự: thông báo không tham dự, thời điểm giải thích, người giải thích và nguyên nhân là cơ hội huy chương rất thấp."
+    }
+  ],
+  "completeness": {
+    "expected_samples": 10,
+    "expected_candidates": 40,
+    "returned_candidates": 40,
+    "missing": []
+  }
+}

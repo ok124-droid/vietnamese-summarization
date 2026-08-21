@@ -1,0 +1,688 @@
+{
+  "batch_id": "batch_14",
+  "results": [
+    {
+      "sample_id": "test_016538",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tác động của COVID-19 lên doanh nghiệp, sự khởi sắc cuối năm và dự báo 280.000-300.000 việc làm năm 2021, gồm 140.000 việc mới.",
+      "brief_reason": "Thông tin EVFTA được nguồn hỗ trợ nhưng chỉ là một yếu tố phụ, không tóm được diễn biến thị trường lao động năm 2020 và nhu cầu nhân lực năm 2021."
+    },
+    {
+      "sample_id": "test_016538",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Khó khăn do COVID-19, tín hiệu phục hồi cuối năm và dự báo nhu cầu 280.000-300.000 việc làm năm 2021.",
+      "brief_reason": "Bản tóm tắt trung thực nhưng sa vào danh sách ngành nghề năm 2020, trong khi bỏ phần tác động dịch bệnh, phục hồi và dự báo việc làm năm 2021."
+    },
+    {
+      "sample_id": "test_016538",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "DATE_TIME",
+        "PREDICATE",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Candidate nói “Hai năm trở lại đây… hết sức khả quan”; nguồn chỉ nêu cuối năm 2020 có tín hiệu khởi sắc và mô tả cả năm đầy biến động.",
+      "main_missing_information": "Khó khăn của doanh nghiệp năm 2020 và dự báo nhu cầu nhân lực TPHCM năm 2021.",
+      "brief_reason": "Khẳng định khái quát hai năm khả quan không được nguồn hỗ trợ và trái với trọng tâm năm 2020 đầy biến động; các số liệu và dự báo chính đều bị bỏ qua."
+    },
+    {
+      "sample_id": "test_016538",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Sự khởi sắc cuối năm 2020, tác động của EVFTA và dự báo 280.000-300.000 việc làm năm 2021, gồm 140.000 việc mới.",
+      "brief_reason": "Nêu đúng nhóm nghề và khó khăn của hơn 70% doanh nghiệp, nhưng danh sách dài và chỉ bao phủ nửa đầu bài, bỏ phần phục hồi cùng dự báo 2021."
+    },
+    {
+      "sample_id": "test_016601",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Kết quả bỏ phiếu 94-1 ngày 22.4, bước bỏ phiếu tại Hạ viện và các biện pháp cụ thể của dự luật.",
+      "brief_reason": "Tóm đúng và gọn sự kiện trung tâm là Thượng viện thông qua dự luật, nhưng thiếu kết quả bỏ phiếu, lộ trình tại Hạ viện và nội dung thực thi."
+    },
+    {
+      "sample_id": "test_016601",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Dự luật còn được đưa ra Hạ viện và đề ra hướng dẫn báo cáo, giáo dục cộng đồng, hỗ trợ nạn nhân.",
+      "brief_reason": "Thông tin chính, ngày và tỉ lệ phiếu đều chính xác; tuy vậy bản tóm tắt chưa đề cập bước tiếp theo và những biện pháp quan trọng của dự luật."
+    },
+    {
+      "sample_id": "test_016601",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các biện pháp của dự luật và bối cảnh bạo lực chống người Mỹ gốc Á gia tăng.",
+      "brief_reason": "Bao quát chính xác việc thông qua, tỉ lệ phiếu, tính lưỡng đảng và bước bỏ phiếu tại Hạ viện; chỉ thiếu nội dung cụ thể cùng bối cảnh của dự luật."
+    },
+    {
+      "sample_id": "test_016601",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "DATE_TIME",
+        "OTHER"
+      ],
+      "factual_error_evidence": "Candidate ghi “kilomet 21.4”; nguồn nêu dự luật được thông qua ngày 22.4 và không có từ “kilomet” trong mốc thời gian.",
+      "main_missing_information": "Tỉ lệ phiếu 94-1, bước bỏ phiếu tại Hạ viện và nội dung cụ thể của dự luật.",
+      "brief_reason": "Sự kiện trung tâm vẫn đúng, nhưng mốc ngày sai và cụm “kilomet 21.4” làm câu hỏng nghĩa; phần lớn thông tin thiết yếu khác cũng bị thiếu."
+    },
+    {
+      "sample_id": "test_016647",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Số lượng 1.000 bộ Elixir trị giá 550 triệu đồng và nhiệm vụ điều trị COVID-19 của hai bệnh viện.",
+      "brief_reason": "Nêu đúng bên phối hợp, hai bệnh viện nhận quà và mục đích hỗ trợ, nhưng thiếu quy mô, giá trị cụ thể cùng vai trò tuyến điều trị của các đơn vị."
+    },
+    {
+      "sample_id": "test_016647",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ATTRIBUTION",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Candidate quy việc trao tặng cho “Ngành Y tế Yên Bái”; nguồn nêu Công ty Thiên Nam Loyal là bên trao, Công đoàn ngành Y tế phối hợp.",
+      "main_missing_information": "Tên hai bệnh viện, vai trò phối hợp của Công đoàn và mục đích hỗ trợ phòng, điều trị COVID-19.",
+      "brief_reason": "Số lượng và giá trị quà đúng, nhưng bản tóm tắt đổi chủ thể trao tặng, một quan hệ trung tâm của sự kiện; đồng thời thiếu tên đơn vị nhận và mục đích."
+    },
+    {
+      "sample_id": "test_016647",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "ENTITY"
+      ],
+      "factual_error_evidence": "Candidate gọi đơn vị là “Công đoàn ngành Y tế Yên Bái”, trong khi nguồn chỉ nêu “Công đoàn ngành Y tế”.",
+      "main_missing_information": "Bệnh viện Đa khoa tỉnh Yên Bái cũng nhận quà; tổng số là 1.000 bộ trị giá 550 triệu đồng.",
+      "brief_reason": "Nội dung cốt lõi nhìn chung đúng nhưng tự bổ sung địa danh vào tên công đoàn, chỉ nêu một trong hai bệnh viện và bỏ quy mô, giá trị trao tặng."
+    },
+    {
+      "sample_id": "test_016647",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Bao quát chính xác bên phối hợp, hai bệnh viện, nhiệm vụ tiếp nhận bệnh nhân, số lượng và giá trị quà; nội dung tập trung, mạch lạc và không có chi tiết thừa đáng kể."
+    },
+    {
+      "sample_id": "test_016740",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Việc Hà Nội chuẩn bị đón học sinh trở lại ngày 2.3 và kế hoạch ôn tập, ưu tiên học sinh cuối cấp.",
+      "brief_reason": "Quy định xử lý học sinh có triệu chứng được nêu đúng và rõ, nhưng đây chỉ là một phần nhỏ; bản tóm tắt bỏ công tác chuẩn bị và kế hoạch dạy học."
+    },
+    {
+      "sample_id": "test_016740",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Quy trình theo dõi, xử lý triệu chứng và kế hoạch ôn tập, bảo đảm tiến độ cho học sinh cuối cấp.",
+      "brief_reason": "Nêu đúng thời điểm trở lại trường và các biện pháp vệ sinh, khử khuẩn, nhưng chỉ bao quát phần chuẩn bị ban đầu; phần dạy học và hỗ trợ cuối cấp bị bỏ."
+    },
+    {
+      "sample_id": "test_016740",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các biện pháp phòng dịch cụ thể và kế hoạch ôn tập, hoàn thành chương trình, đặc biệt cho học sinh cuối cấp.",
+      "brief_reason": "Tóm đúng hai ý nổi bật là quy định nghỉ ở nhà khi có triệu chứng và việc trở lại trường ngày 2.3, nhưng thiếu nhiều biện pháp cùng kế hoạch học tập."
+    },
+    {
+      "sample_id": "test_016740",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các biện pháp phòng dịch, quy định khi có triệu chứng và phương án bảo đảm tiến độ học tập cho học sinh cuối cấp.",
+      "brief_reason": "Thông tin đúng và tập trung nhưng quá khái quát, chỉ cho biết kế hoạch trở lại trường mà không nêu nội dung an toàn phòng dịch hay tổ chức dạy học."
+    },
+    {
+      "sample_id": "test_016786",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Diễn biến, vị trí và dự báo của Teddy, Wilfred, Beta cùng các vùng áp thấp ngày 20.9.",
+      "brief_reason": "Khái quát đúng mức độ nghiêm trọng và số bão vượt trung bình, nhưng quá ngắn so với bài nguồn, không nêu bất kỳ hệ thống bão hoặc dự báo cụ thể nào."
+    },
+    {
+      "sample_id": "test_016786",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "LOCATION",
+        "PREDICATE"
+      ],
+      "factual_error_evidence": "Candidate đặt Teddy ở “đông bắc Thái Bình Dương” và cho đi về hướng đông nam; nguồn đặt bão ở tây Đại Tây Dương, di chuyển về phía bắc.",
+      "main_missing_information": "Mùa bão nghiêm trọng, vị trí và diễn biến đúng của Teddy, Wilfred, Beta cùng các vùng áp thấp.",
+      "brief_reason": "Câu tóm tắt sai cả khu vực lẫn hướng di chuyển của Teddy và diễn đạt phương hướng mâu thuẫn; gần như không phản ánh nội dung chính của nguồn."
+    },
+    {
+      "sample_id": "test_016786",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "NUMBER",
+        "LOCATION",
+        "PREDICATE",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Nguồn không nói có 6 cơn bão trái mùa ở Đại Tây Dương; chỉ nêu ba bão cùng nhiều áp thấp ở cả Đại Tây Dương và Thái Bình Dương.",
+      "main_missing_information": "Diễn biến thực tế của Teddy, Wilfred, Beta và các áp thấp tại nhiều khu vực.",
+      "brief_reason": "Candidate biến các hệ thống bão và áp thấp thành sáu cơn bão trái mùa cùng ở Đại Tây Dương, làm sai nghiêm trọng số lượng, tính chất và phạm vi địa lý."
+    },
+    {
+      "sample_id": "test_016786",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Diễn biến của bão Wilfred, Beta và các vùng áp thấp ở Đại Tây Dương, Florida và đông Bắc Thái Bình Dương.",
+      "brief_reason": "Nêu đúng bối cảnh mùa bão và các dữ kiện chính về Teddy, nhưng dành chỗ cho chi tiết bản đồ trong khi bỏ toàn bộ những hệ thống thời tiết còn lại."
+    },
+    {
+      "sample_id": "test_016811",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Hà Nội được chọn tổ chức ngày 27-28.2 và ba lý do Việt Nam vượt Thái Lan.",
+      "brief_reason": "Danh sách địa điểm tiềm năng là đúng nhưng chỉ là phần dẫn nhập; candidate bỏ kết quả lựa chọn Hà Nội và toàn bộ phân tích nguyên nhân quyết định."
+    },
+    {
+      "sample_id": "test_016811",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thời gian, địa điểm cụ thể tại Hà Nội và ba yếu tố quyết định: chính trị Thái Lan, ô nhiễm Bangkok, mô hình kinh tế Việt Nam.",
+      "brief_reason": "Nêu đúng Việt Nam được chọn và Bangkok đẹp, nhưng chi tiết về vẻ đẹp là thứ yếu; candidate không giải thích những lý do chính khiến Hà Nội vượt Bangkok."
+    },
+    {
+      "sample_id": "test_016811",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Ba yếu tố giúp Việt Nam vượt Thái Lan: bất ổn chính trị, ô nhiễm Bangkok và mô hình kinh tế thành công của Việt Nam.",
+      "brief_reason": "Bao quát chính xác các phương án, lựa chọn Hà Nội, ngày tổ chức và cơ hội ban đầu của Thái Lan, nhưng thiếu phần phân tích nguyên nhân vốn là trọng tâm bài."
+    },
+    {
+      "sample_id": "test_016811",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "NUMBER",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Nguồn nói Thái Lan là nơi tốt nhất ban đầu và Singapore đăng cai thượng đỉnh lần 1; candidate gộp Thái Lan với Việt Nam và gọi Singapore là chủ nhà lần 2.",
+      "main_missing_information": "Hà Nội được chọn ngày 27-28.2 và ba yếu tố quyết định giúp Việt Nam vượt Thái Lan.",
+      "brief_reason": "Candidate sai số thứ tự hội nghị Singapore đăng cai và làm lệch nhận định ban đầu của Kavi; đồng thời không nêu quyết định cuối cùng hoặc các nguyên nhân chính."
+    },
+    {
+      "sample_id": "test_016845",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Gin đứng đầu bình chọn Giải cứu với 35,55%, vào chung kết nhưng cơ hội vô địch không cao.",
+      "brief_reason": "Nêu đúng xuất phát điểm, màn trình diễn và đánh giá phong cách của Gin, nhưng bỏ kết quả bình chọn đưa anh vào chung kết và nhận định về cơ hội quán quân."
+    },
+    {
+      "sample_id": "test_016845",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Màn trình diễn Giải cứu, kết quả 35,55% giúp Gin vào chung kết và đánh giá cơ hội giành quán quân.",
+      "brief_reason": "Câu mở đầu chính xác nhưng chỉ nêu tiền đề về năng lực và lượng fan, không phản ánh diễn biến Giải cứu, kết quả bình chọn hay triển vọng chung kết."
+    },
+    {
+      "sample_id": "test_016845",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Lượng fan, màn Giải cứu, vị trí đứng đầu bình chọn và việc Gin trở lại chung kết.",
+      "brief_reason": "Thông tin bị loại là đúng nhưng chỉ là một chi tiết nền rất nhỏ; câu quá ngắn và bỏ hoàn toàn sự trở lại nhờ bình chọn, trọng tâm của bài."
+    },
+    {
+      "sample_id": "test_016845",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "PREDICATE",
+        "RELATION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Nguồn nói Gin từng bị loại rồi đứng đầu vòng Giải cứu để vào chung kết; candidate nói anh vượt đối thủ để “tiến thẳng” và thêm nội dung tập 1 không có nguồn.",
+      "main_missing_information": "Kết quả vòng Giải cứu 35,55%, đánh giá của huấn luyện viên và cơ hội quán quân không cao.",
+      "brief_reason": "Nội dung chính sai cơ chế Gin vào chung kết và thêm bối cảnh tập 1, gương mặt nổi tiếng không được nguồn nêu; vì vậy bản tóm tắt xuyên tạc sự kiện trung tâm."
+    },
+    {
+      "sample_id": "test_016905",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Hai mục tiêu của tọa đàm và định hướng dòng sách Thiên nhiên – Môi trường của Nhã Nam từ năm 2016.",
+      "brief_reason": "Nêu chính xác sự kiện, thời gian, đơn vị tổ chức và chủ đề, nhưng dừng ở thông báo tọa đàm, chưa tóm mục tiêu giáo dục môi trường và giới thiệu sách."
+    },
+    {
+      "sample_id": "test_016905",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "DATE_TIME",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Candidate nói 2017 là năm đầu và sách thể hiện sự quan tâm của độc giả quốc tế; nguồn nói Nhã Nam xuất bản từ 2016 và không nêu nhận định về độc giả quốc tế.",
+      "main_missing_information": "Tọa đàm ngày 15.4.2022, hai mục tiêu giáo dục môi trường và hai mảng Tình yêu thiên nhiên, Ý thức bảo vệ môi trường.",
+      "brief_reason": "Sai mốc bắt đầu xuất bản và thêm nhận định không có nguồn; câu còn lặp “tủ sách sách” và bỏ hẳn sự kiện tọa đàm cùng các mục tiêu chính."
+    },
+    {
+      "sample_id": "test_016905",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tọa đàm “Sách và giáo dục môi trường”, hai mục tiêu và quá trình phát triển dòng sách của Nhã Nam.",
+      "brief_reason": "Phát biểu hy vọng của Nhã Nam được phản ánh chính xác và tự nhiên, nhưng đây chỉ là ý kết; bản tóm tắt bỏ sự kiện, mục tiêu và thông tin dòng sách."
+    },
+    {
+      "sample_id": "test_016905",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Quá trình Nhã Nam xuất bản sách môi trường từ năm 2016 và nguồn phát triển, chuyển ngữ các đầu sách.",
+      "brief_reason": "Bao quát đúng sự kiện và cả hai mục tiêu cốt lõi của tọa đàm, diễn đạt tập trung; chỉ thiếu bối cảnh phát triển dòng sách và nguồn sách."
+    },
+    {
+      "sample_id": "test_016927",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "ATTRIBUTION"
+      ],
+      "factual_error_evidence": "Candidate gán nội dung cho “Báo Lao Động”, nhưng SOURCE không nêu tên cơ quan báo chí này.",
+      "main_missing_information": "Các giải đấu, những kết quả ngày 19.4 và lịch các trận ngày 20.4.",
+      "brief_reason": "Tóm đúng tính chất cập nhật kết quả và lịch bóng đá nhưng quá chung chung, không nêu giải hay trận đáng chú ý; tên Báo Lao Động không được nguồn xác nhận."
+    },
+    {
+      "sample_id": "test_016927",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "RELATION",
+        "ATTRIBUTION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "SOURCE liệt kê các CLB ở Premier League, La Liga, Serie A và cúp quốc gia; không có đội U23 châu Á, Champions League hay Báo Người Đưa Tin.",
+      "main_missing_information": "Kết quả và lịch thi đấu thực tế của các giải Anh, Tây Ban Nha, Italia, cúp Đức và cúp Pháp.",
+      "brief_reason": "Candidate trộn đội U23 châu Á với Ngoại hạng Anh và Champions League, đồng thời bịa nguồn báo; nội dung không tương ứng danh sách kết quả, lịch đấu trong SOURCE."
+    },
+    {
+      "sample_id": "test_016927",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 2
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Sao chép đầy đủ và chính xác toàn bộ lịch, kết quả nên không thiếu dữ kiện, nhưng gần như không tóm lược; chuỗi liệt kê dài, dày đặc làm giảm độ tập trung và dễ đọc."
+    },
+    {
+      "sample_id": "test_016927",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 2
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Nội dung trùng khớp SOURCE và bao phủ mọi trận đấu, nhưng là bản chép nguyên danh sách thay vì tóm tắt; độ dài và cách trình bày nối tiếp khiến thông tin khó quét."
+    },
+    {
+      "sample_id": "test_017134",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tên tàu Ever Given, mức bồi thường khoảng 916 triệu USD và các khoản chi phí làm căn cứ yêu cầu.",
+      "brief_reason": "Nêu đúng quyết định giữ tàu đến khi giải quyết bồi thường và rất súc tích, nhưng thiếu nhận diện con tàu, số tiền yêu cầu cùng căn cứ bồi thường."
+    },
+    {
+      "sample_id": "test_017134",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Yêu cầu bồi thường khoảng 916 triệu USD, lý do tạm giữ và các khoản phí liên quan.",
+      "brief_reason": "Tóm chính xác nguồn tin, người thông báo, danh tính tàu và điều kiện được rời Ai Cập; còn thiếu mức bồi thường và bối cảnh pháp lý, cứu hộ."
+    },
+    {
+      "sample_id": "test_017134",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Điều kiện tàu được rời Ai Cập, số tiền khoảng 916 triệu USD và các chi phí trong yêu cầu bồi thường.",
+      "brief_reason": "Phản ánh đúng việc Ever Given bị tạm giữ và lý do được người đứng đầu cơ quan nêu, nhưng thiếu điều kiện giải phóng tàu, số tiền cùng căn cứ bồi thường."
+    },
+    {
+      "sample_id": "test_017134",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Mức bồi thường khoảng 916 triệu USD, các khoản phí được yêu cầu và lệnh tòa án ngày 10.5.",
+      "brief_reason": "Bao quát chính xác việc giữ tàu, chủ sở hữu và phát biểu của Osama Rabie; hơi dài hơn cần thiết nhưng vẫn thiếu số tiền, căn cứ bồi thường và lệnh tòa."
+    }
+  ],
+  "completeness": {
+    "expected_samples": 10,
+    "expected_candidates": 40,
+    "returned_candidates": 40,
+    "missing": []
+  }
+}

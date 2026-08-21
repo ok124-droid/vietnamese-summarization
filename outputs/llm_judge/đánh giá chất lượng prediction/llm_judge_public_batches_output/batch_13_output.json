@@ -1,0 +1,680 @@
+{
+  "batch_id": "batch_13",
+  "results": [
+    {
+      "sample_id": "test_015523",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Chưa nêu mức thu, tổng tiền, việc hoàn trả và các bước xử lý trách nhiệm.",
+      "brief_reason": "Nêu đúng và gọn sự kiện đình chỉ cùng nguyên nhân, nhưng mới phản ánh phần cốt lõi ban đầu của vụ việc."
+    },
+    {
+      "sample_id": "test_015523",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Chưa nêu mức thu 20.000 đồng, tổng tiền 19.660.000 đồng và việc đã hoàn trả.",
+      "brief_reason": "Bao quát đúng quyết định đình chỉ, mục đích làm rõ vi phạm và việc khiển trách tập thể; chỉ thiếu diễn biến tài chính và hoàn trả."
+    },
+    {
+      "sample_id": "test_015523",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu mục đích đình chỉ để làm rõ vi phạm, việc khiển trách, số tiền thu và hoàn trả.",
+      "brief_reason": "Thông tin hoàn toàn đúng và tập trung vào quyết định đình chỉ, nhưng chỉ tóm lược một phần của quá trình xử lý vụ thu tiền."
+    },
+    {
+      "sample_id": "test_015523",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu mục đích đình chỉ để làm rõ vi phạm, việc khiển trách, số tiền thu và hoàn trả.",
+      "brief_reason": "Nêu chính xác, tự nhiên sự kiện chính và lý do đình chỉ; chưa bao quát các biện pháp xử lý, khắc phục tiếp theo."
+    },
+    {
+      "sample_id": "test_015666",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu kết quả tiêu chí, mức tăng thu nhập, giảm nghèo và sáu nhóm giải pháp giai đoạn 2021-2025.",
+      "brief_reason": "Đúng về hội nghị và bốn mô hình thí điểm, nhưng dài ở phần bối cảnh trong khi bỏ qua hầu hết kết quả và định hướng quan trọng."
+    },
+    {
+      "sample_id": "test_015666",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "RELATION",
+        "PREDICATE"
+      ],
+      "factual_error_evidence": "Candidate gán mô hình “Sản xuất hàng hóa nông nghiệp bền vững” cho cả 4 huyện; SOURCE nêu 4 mô hình khác nhau và chỉ Xuân Lộc thực hiện mô hình này.",
+      "main_missing_information": "Thiếu kết quả sau hai năm về tiêu chí, thu nhập, giảm nghèo và sáu nhóm giải pháp.",
+      "brief_reason": "Câu văn lộn xộn, sai quan hệ giữa các huyện và mô hình, đồng thời gần như bỏ toàn bộ kết quả cùng giải pháp chính."
+    },
+    {
+      "sample_id": "test_015666",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu bốn mô hình, tiến độ tiêu chí, kết quả tăng thu nhập, giảm nghèo và sáu nhóm giải pháp.",
+      "brief_reason": "Nêu đúng đánh giá chung về triển khai đề án, nhưng dừng ở phần dẫn nhập và không làm rõ các kết quả hay định hướng trọng tâm."
+    },
+    {
+      "sample_id": "test_015666",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Chưa nêu mức giảm nghèo, tiến độ tiêu chí của từng huyện và sáu nhóm giải pháp.",
+      "brief_reason": "Tóm đúng một kết quả nổi bật là thu nhập tăng sau hai năm, song còn thiếu kết quả giảm nghèo và phần giải pháp lớn của bài."
+    },
+    {
+      "sample_id": "test_015683",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Cụm “không thể rời mắt” là mức độ phản ứng mạnh hơn SOURCE, vốn chỉ nói nhiều người khen ngợi và xuýt xoa.",
+      "main_missing_information": "Chưa nêu cách Đông Nhi chọn và phối các trang phục bầu rộng rãi, thoải mái.",
+      "brief_reason": "Bắt đúng trọng tâm về vẻ xinh đẹp, rạng rỡ trong ảnh mặc đồ bầu; chỉ hơi cường điệu phản ứng của người xem và thiếu chi tiết trang phục."
+    },
+    {
+      "sample_id": "test_015683",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu vẻ ngoài ngày càng rạng rỡ và các lựa chọn trang phục bầu cụ thể của Đông Nhi.",
+      "brief_reason": "Đúng về việc mang thai con đầu lòng và khả năng phối đồ, nhưng dành nhiều chỗ cho thông báo mang thai hơn trọng tâm thời trang, nhan sắc."
+    },
+    {
+      "sample_id": "test_015683",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Bỏ toàn bộ trọng tâm về nhan sắc rạng rỡ và cách chọn, phối trang phục bầu của Đông Nhi.",
+      "brief_reason": "Thông tin đúng nhưng chỉ là bối cảnh mang thai; quá ngắn và không phản ánh nội dung chính về hình ảnh cùng phong cách thời trang bầu."
+    },
+    {
+      "sample_id": "test_015683",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Chưa nói rõ nhan sắc rạng rỡ, vóc dáng ít thay đổi và các trang phục bầu được lựa chọn.",
+      "brief_reason": "Phản ánh đúng sự xuýt xoa của công chúng, nhưng diễn đạt khái quát và đặt trọng tâm vào nhận xét phụ về phụ nữ mang thai."
+    },
+    {
+      "sample_id": "test_015887",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu chỉ đạo UBND Hà Nội khắc phục bất cập cấp giấy đi đường, tránh chờ đợi, tụ tập và ùn tắc.",
+      "brief_reason": "Nêu đúng chỉ đạo chung cùng hai nhiệm vụ cho Bộ Y tế và Bộ Giáo dục, nhưng bỏ một trong ba nhánh chỉ đạo quan trọng."
+    },
+    {
+      "sample_id": "test_015887",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu cả ba chỉ đạo cụ thể về xét nghiệm tài xế, học trực tuyến và cấp giấy đi đường tại Hà Nội.",
+      "brief_reason": "Đúng về công văn, người chỉ đạo và ba cơ quan thực hiện, nhưng quá chung chung nên chưa truyền tải nội dung thực chất của công văn."
+    },
+    {
+      "sample_id": "test_015887",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu chỉ đạo về phương tiện học trực tuyến và khắc phục bất cập cấp giấy đi đường tại Hà Nội.",
+      "brief_reason": "Nêu chính xác một chỉ đạo quan trọng cho Bộ Y tế, song chỉ bao phủ một trong ba nội dung chính của công văn."
+    },
+    {
+      "sample_id": "test_015887",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu chỉ đạo về phương tiện học trực tuyến và khắc phục bất cập cấp giấy đi đường tại Hà Nội.",
+      "brief_reason": "Giữ đúng ý xem xét xét nghiệm tài xế đã tiêm đủ hai mũi, nhưng diễn đạt “vaccine phòng ngừa dịch” mơ hồ và bỏ hai nội dung lớn khác."
+    },
+    {
+      "sample_id": "test_016022",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu kết quả xét nghiệm âm tính và việc tạm giữ chờ Công an Thuận An nhận bàn giao do dịch phức tạp.",
+      "brief_reason": "Bao quát chính xác việc phát hiện, lai lịch truy nã, tội danh cũ và bắt giữ; hơi dài vì nhiều địa chỉ, mốc và số quyết định."
+    },
+    {
+      "sample_id": "test_016022",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "PREDICATE",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Candidate nói đối tượng bị truy nã về “hành vi rút Sarc-CoV-2”; SOURCE nêu bị truy nã vì trộm cắp, còn truy vết dịch chỉ là hoàn cảnh phát hiện.",
+      "main_missing_information": "Thiếu danh tính, tội trộm cắp, quá trình phát hiện khi truy vết, kết quả âm tính và việc chờ bàn giao.",
+      "brief_reason": "Gắn sai hoàn toàn lý do truy nã với SARS-CoV-2 và tạo câu vô nghĩa, làm sai trọng tâm dù có nhắc việc bắt người bị truy nã."
+    },
+    {
+      "sample_id": "test_016022",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "RELATION",
+        "ATTRIBUTION"
+      ],
+      "factual_error_evidence": "Candidate nói Phạm Thế Thỉnh bị Công an Chí Linh truy nã; SOURCE nêu Công an Thuận An ra quyết định truy nã, còn Công an Chí Linh phát hiện và bắt giữ.",
+      "main_missing_information": "Thiếu việc bị truy nã về tội trộm cắp và hoàn cảnh bị phát hiện trong quá trình truy vết F1, F2.",
+      "brief_reason": "Tóm gọn đúng tình trạng âm tính, tạm giữ và chờ bàn giao, nhưng gán sai cơ quan truy nã, làm thay đổi quan hệ pháp lý quan trọng."
+    },
+    {
+      "sample_id": "test_016022",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Chưa nêu việc bắt giữ, tội trộm cắp, kết quả xét nghiệm âm tính và tình trạng chờ bàn giao.",
+      "brief_reason": "Thông tin phát hiện đối tượng truy nã và cơ quan truy nã đều chính xác, nhưng dừng trước các diễn biến bắt giữ, xét nghiệm và bàn giao."
+    },
+    {
+      "sample_id": "test_016046",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu việc chỉ Trạm y tế Quảng Hòa áp dụng, đã bị yêu cầu dừng, cùng nguyên nhân cán bộ soạn giấy.",
+      "brief_reason": "Trình bày đúng kết luận cách làm trái luật và khó khăn của biện pháp cưỡng chế, nhưng chưa bao quát địa điểm, nguyên nhân và xử lý sau đó."
+    },
+    {
+      "sample_id": "test_016046",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "LOCATION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Candidate gọi Đắk Glong là “vùng biên giới”; SOURCE chỉ nêu Quảng Hòa thuộc Đắk Glong, địa hình trắc trở và xa trung tâm huyện.",
+      "main_missing_information": "Thiếu kết luận giấy cam kết trái luật và chỉ đạo Trạm y tế Quảng Hòa dừng, không tái diễn.",
+      "brief_reason": "Nêu được việc người dân ký cam kết và lý do cán bộ đối phó sau vận động bất thành, nhưng thêm đặc điểm địa lý không được nguồn xác nhận."
+    },
+    {
+      "sample_id": "test_016046",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu việc chỉ Trạm y tế Quảng Hòa thực hiện, nguyên nhân soạn giấy và chỉ đạo dừng cách làm.",
+      "brief_reason": "Nêu đúng, trực diện kết luận quan trọng của Giám đốc CDC rằng giấy cam kết trái luật; phạm vi còn hẹp và dấu trích dẫn chưa khép."
+    },
+    {
+      "sample_id": "test_016046",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "RELATION",
+        "ATTRIBUTION"
+      ],
+      "factual_error_evidence": "Candidate nói cán bộ tỉnh chỉ đạo CDC tỉnh soạn giấy; SOURCE nêu Trưởng trạm y tế xã Quảng Hòa chỉ đạo soạn, còn CDC tỉnh chỉ đạo trạm dừng.",
+      "main_missing_information": "Thiếu đúng chủ thể soạn giấy, nguyên nhân, phạm vi chỉ xảy ra tại Quảng Hòa và yêu cầu chấm dứt.",
+      "brief_reason": "Có nhắc kết luận trái luật nhưng đảo sai chủ thể và chiều chỉ đạo giữa CDC tỉnh với trạm y tế xã, làm biến dạng sự kiện chính."
+    },
+    {
+      "sample_id": "test_016073",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu việc thu hồi xe và lời khai về động cơ do thất nghiệp, thua trò chơi trực tuyến, nợ nần.",
+      "brief_reason": "Bao quát chính xác quyết định tố tụng, thủ đoạn thuê xe rồi cầm cố và số tiền; chỉ thiếu kết quả thu hồi cùng động cơ phạm tội."
+    },
+    {
+      "sample_id": "test_016073",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu việc Trung bị khởi tố, bắt tạm giam, số tiền cầm cố 60 triệu đồng và chiếc xe đã được thu hồi.",
+      "brief_reason": "Nêu đúng, gọn thủ đoạn và động cơ phạm tội, nhưng bỏ kết quả tố tụng và các diễn biến quan trọng sau vụ cầm cố."
+    },
+    {
+      "sample_id": "test_016073",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu thủ đoạn thuê xe rồi cầm cố 60 triệu đồng, việc thu hồi xe và động cơ do nợ trò chơi trực tuyến.",
+      "brief_reason": "Nêu đầy đủ và chính xác quyết định tố tụng cùng danh tính bị can, nhưng chưa giải thích hành vi cụ thể và nguyên nhân vụ lừa đảo."
+    },
+    {
+      "sample_id": "test_016073",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu thủ đoạn thuê xe rồi cầm cố 60 triệu đồng, việc thu hồi xe và động cơ phạm tội.",
+      "brief_reason": "Tóm đúng, rất gọn kết quả khởi tố và bắt tạm giam, nhưng chỉ là thông báo tố tụng nên chưa bao quát bản chất vụ việc."
+    },
+    {
+      "sample_id": "test_016131",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 2,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "RELATION"
+      ],
+      "factual_error_evidence": "Candidate nói Công đoàn phối hợp Sở Y tế tổ chức hội thi năm 2019; SOURCE chỉ nêu Công đoàn tổ chức hội thi, còn phối hợp Sở Y tế ở cuộc thi viết năm 2020.",
+      "main_missing_information": "Thiếu các hoạt động nâng y đức, cải thiện phục vụ và mức tăng hài lòng của bệnh nhân nội trú, ngoại trú.",
+      "brief_reason": "Chỉ chọn một ví dụ phụ và thêm quan hệ đồng tổ chức chưa được nguồn nêu; không phản ánh trọng tâm nâng chất lượng phục vụ, sự hài lòng."
+    },
+    {
+      "sample_id": "test_016131",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu các biện pháp cụ thể và kết quả hài lòng nội trú 96,6%, ngoại trú 98,3%, cùng kế hoạch khảo sát độc lập.",
+      "brief_reason": "Nêu đúng quy mô công đoàn, phong trào thi đua và mục tiêu hài lòng người bệnh, nhưng chưa có hoạt động, kết quả đo lường hay kế hoạch tiếp theo."
+    },
+    {
+      "sample_id": "test_016131",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 2
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Bỏ toàn bộ hoạt động thi đua, cải thiện y đức, phục vụ, kết quả hài lòng người bệnh và kế hoạch khảo sát.",
+      "brief_reason": "Số liệu tổ chức chính xác nhưng chỉ là chi tiết mở đầu, quá ngắn và không thể hiện chủ đề cải thiện phong cách phục vụ, sự hài lòng."
+    },
+    {
+      "sample_id": "test_016131",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 2
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "DATE_TIME",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Candidate nói “Nhiều năm qua”; SOURCE chỉ nói “Thời gian qua”, không xác định kéo dài nhiều năm.",
+      "main_missing_information": "Thiếu chủ thể, các hoạt động cụ thể, kết quả tăng hài lòng người bệnh và kế hoạch khảo sát độc lập.",
+      "brief_reason": "Câu đúng hướng nhưng quá chung chung, thiếu chủ thể và toàn bộ kết quả chính; còn kéo dài mốc thời gian vượt điều nguồn nêu."
+    },
+    {
+      "sample_id": "test_016332",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu quá trình học lặn, cảnh nhịn thở 7 phút và thông tin phát hành Avatar 2.",
+      "brief_reason": "Nêu đúng vai diễn quan trọng của Kate Winslet trong Avatar 2, nhưng chưa bao quát nỗ lực dưới nước là điểm nổi bật của bài."
+    },
+    {
+      "sample_id": "test_016332",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Chưa nêu khóa học lặn, cảnh nhịn thở 7 phút và thời điểm phát hành phim.",
+      "brief_reason": "Bao quát đúng vai diễn, cảm xúc với James Cameron và mức độ tốn công sức, nhưng bỏ chi tiết cụ thể nổi bật nhất về cảnh quay dưới nước."
+    },
+    {
+      "sample_id": "test_016332",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "DATE_TIME",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Candidate nói cảnh nhịn thở diễn ra ở “buổi quay đầu tiên”; SOURCE chỉ nêu có một cảnh Kate Winslet phải nhịn thở 7 phút.",
+      "main_missing_information": "Thiếu vai diễn của Kate Winslet, việc học lặn chuyên nghiệp và thông tin phát hành Avatar 2.",
+      "brief_reason": "Chọn đúng chi tiết ấn tượng về bảy phút dưới nước, nhưng tự thêm thời điểm buổi quay đầu tiên và chỉ phản ánh một lát cắt."
+    },
+    {
+      "sample_id": "test_016332",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Bỏ trọng tâm về vai diễn của Kate Winslet, khóa học lặn và cảnh nhịn thở 7 phút dưới nước.",
+      "brief_reason": "Thời điểm phát hành tháng 12 là đúng, nhưng đây chỉ là chi tiết phụ và không phản ánh câu chuyện chính về Kate Winslet."
+    },
+    {
+      "sample_id": "test_016425",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu mức án của sáu bị cáo còn lại, thủ đoạn đa cấp và quy mô hơn 703 tỉ đồng của 36.000 người.",
+      "brief_reason": "Nêu chính xác phiên tòa và mức án hai bị cáo chính, nhưng chưa bao quát toàn bộ nhóm, quy mô chiếm đoạt và thủ đoạn lôi kéo."
+    },
+    {
+      "sample_id": "test_016425",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu các mức án, thủ đoạn kích thích lòng tham, số 36.000 người và hơn 703 tỉ đồng bị chiếm đoạt.",
+      "brief_reason": "Nhận định về hậu quả phù hợp nguồn nhưng quá chung chung, không nêu phán quyết hay quy mô, phương thức của vụ lừa đảo đa cấp."
+    },
+    {
+      "sample_id": "test_016425",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Chưa nêu thủ đoạn lôi kéo và quy mô hơn 703 tỉ đồng chiếm đoạt của 36.000 người.",
+      "brief_reason": "Bao quát đúng mức án của cả tám bị cáo và đánh giá hậu quả; thiếu quy mô cùng thủ đoạn, đồng thời phần tiêu đề nối câu hơi vụng."
+    },
+    {
+      "sample_id": "test_016425",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "NUMBER",
+        "ENTITY"
+      ],
+      "factual_error_evidence": "Candidate nói chiếm đoạt “hàng nghìn tỷ đồng” và coi cả nhóm là cựu lãnh đạo; SOURCE nêu hơn 703 tỉ đồng và chỉ xác định chức vụ cũ của Quang, Tuân.",
+      "main_missing_information": "Thiếu các mức án, con số 36.000 người và thủ đoạn lôi kéo qua mạng lưới đa cấp.",
+      "brief_reason": "Nêu được bản chất lừa đảo nhưng phóng đại nghiêm trọng số tiền và khái quát sai tư cách của cả nhóm, đồng thời bỏ kết quả xét xử."
+    }
+  ],
+  "completeness": {
+    "expected_samples": 10,
+    "expected_candidates": 40,
+    "returned_candidates": 40,
+    "missing": []
+  }
+}

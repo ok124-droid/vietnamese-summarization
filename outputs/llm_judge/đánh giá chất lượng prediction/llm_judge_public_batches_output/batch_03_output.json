@@ -1,0 +1,692 @@
+{
+  "batch_id": "batch_03",
+  "results": [
+    {
+      "sample_id": "test_002301",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các tỷ giá USD/VND trong nước, diễn biến các ngoại tệ khác và giá vàng.",
+      "brief_reason": "Hai diễn biến đều được source hỗ trợ, nhưng bản tóm tắt chỉ phản ánh phần thị trường quốc tế và bỏ hầu hết thông tin tỷ giá trong nước."
+    },
+    {
+      "sample_id": "test_002301",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "DATE_TIME",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Candidate thêm ngày “26.3” và nhận định USD tự do “tiếp tục neo cao”; source không nêu ngày hay xu hướng này.",
+      "main_missing_information": "Mức tỷ giá trung tâm, Vietcombank, USD chợ đen và diễn biến USD giảm trên thị trường quốc tế.",
+      "brief_reason": "Giá vàng bán ra 55,70 triệu đồng/lượng đúng, nhưng ngày và xu hướng USD tự do không được source hỗ trợ; độ bao phủ rất hạn chế."
+    },
+    {
+      "sample_id": "test_002301",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 2
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Câu trả lời về tỷ giá USD/VND cùng toàn bộ diễn biến tỷ giá và giá vàng.",
+      "brief_reason": "Đây chỉ là câu hỏi chủ đề được lấy từ source, không cung cấp bất kỳ thông tin tóm tắt hay câu trả lời nào."
+    },
+    {
+      "sample_id": "test_002301",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tỷ giá Vietcombank, xu hướng USD quốc tế và các mức giá vàng.",
+      "brief_reason": "Nêu đúng tỷ giá trung tâm và giá mua-bán USD chợ đen, nhưng bỏ các tỷ giá ngân hàng, ngoại tệ khác và phần thị trường quốc tế."
+    },
+    {
+      "sample_id": "test_002595",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Ba thời điểm nên uống, lợi ích theo từng thời điểm và các lưu ý về liều lượng.",
+      "brief_reason": "Câu mở đầu hoàn toàn đúng nhưng chỉ nêu công dụng chung, bỏ trọng tâm hướng dẫn thời điểm và cách uống an toàn."
+    },
+    {
+      "sample_id": "test_002595",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 1,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Nhận định “không phải ai cũng biết cách uống” không được source nêu; cụm “chanh mật mật ong” còn bị lặp từ.",
+      "main_missing_information": "Các thời điểm sau bữa ăn, sau khi thức dậy, trước khi ngủ và những giới hạn liều dùng.",
+      "brief_reason": "Chỉ giới thiệu chung, thêm một nhận định không được chứng minh và không cung cấp các hướng dẫn cụ thể là trọng tâm của source."
+    },
+    {
+      "sample_id": "test_002595",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ATTRIBUTION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Source không nói nhiều người coi sau bữa ăn là tốt nhất, cũng không quy cho chuyên gia nhận định đây là phương pháp phổ biến.",
+      "main_missing_information": "Lợi ích thực tế của uống sau bữa ăn, hai thời điểm còn lại và các cảnh báo bảo vệ dạ dày.",
+      "brief_reason": "Có nhắc một thời điểm phù hợp nhưng bóp lệch phát biểu của chuyên gia, dùng liên từ không hợp lý và bỏ phần lớn hướng dẫn."
+    },
+    {
+      "sample_id": "test_002595",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các thời điểm uống cụ thể sau bữa ăn, sau khi thức dậy, trước khi ngủ cùng liều lượng an toàn.",
+      "brief_reason": "Tóm lược đúng lợi ích và cảnh báo chung, nhưng mới dừng ở lời dẫn, chưa nêu bất kỳ thời điểm hay cách pha cụ thể nào."
+    },
+    {
+      "sample_id": "test_002879",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "PREDICATE",
+        "DATE_TIME"
+      ],
+      "factual_error_evidence": "Candidate nói Kane không thể thi đấu trong đêm chung kết; source cho biết chung kết chưa diễn ra và việc cho Kane đá chính vẫn đang được cân nhắc.",
+      "main_missing_information": "Quyết định chưa ngã ngũ về việc Kane đá chính, tuyên bố đã bình phục của anh và các yếu tố Pochettino cân nhắc.",
+      "brief_reason": "Biến tình trạng nghỉ từ sau chấn thương thành việc vắng mặt ở trận chung kết, làm sai sự kiện trung tâm và diễn đạt khá vụng."
+    },
+    {
+      "sample_id": "test_002879",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Quyết định cụ thể là có cho Kane đá chính, cùng tuyên bố bình phục và tiền sử trở lại chậm của anh.",
+      "brief_reason": "Thông tin chính xác và nêu được sự thận trọng của Pochettino, nhưng dài dòng, chưa chỉ rõ quyết định về Kane và bỏ các lập luận hai chiều."
+    },
+    {
+      "sample_id": "test_002879",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "DATE_TIME",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Source chỉ nêu 9.4 là ngày Kane chấn thương, không hề nói đây là bản tin thể thao sáng 9.4.",
+      "main_missing_information": "Bài toán có sử dụng Kane ở chung kết, tình trạng thể lực của anh và quan điểm của Pochettino, Salah.",
+      "brief_reason": "Phần Kane nghỉ thi đấu là đúng, nhưng candidate tự tạo bối cảnh bản tin và gán sai ngày, đồng thời gần như bỏ toàn bộ trọng tâm."
+    },
+    {
+      "sample_id": "test_002879",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Pochettino đang cân nhắc có cho Kane đá chính ở chung kết dù tiền đạo tuyên bố đã hoàn toàn khỏe mạnh.",
+      "brief_reason": "Câu tóm tắt đúng về chấn thương và tác động trước đó, nhưng chỉ là bối cảnh, chưa thể hiện vấn đề trung tâm của trận chung kết."
+    },
+    {
+      "sample_id": "test_002984",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nội dung tố cáo các đáp án trắc nghiệm bị sửa từ sai thành đúng để nâng điểm cho học sinh lớp 12A9.",
+      "brief_reason": "Nêu đúng việc Sở hướng dẫn thẩm tra, nhưng không giải thích “vụ việc trên” là gì nên thiếu trọng tâm và khó hiểu độc lập."
+    },
+    {
+      "sample_id": "test_002984",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Chi tiết phiếu trả lời nhiều môn bị sửa và việc Sở GDĐT yêu cầu trường đẩy nhanh thẩm tra.",
+      "brief_reason": "Tóm tắt đúng tố cáo gian lận và người xác nhận, nhưng bỏ bằng chứng sửa đáp án, mức nâng điểm và động thái của Sở GDĐT."
+    },
+    {
+      "sample_id": "test_002984",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Bản chất tố cáo sửa bài nâng điểm, quá trình xác minh và yêu cầu thẩm tra của Sở.",
+      "brief_reason": "Thông tin đúng nhưng quá ngắn và dùng tham chiếu “vụ việc trên” không có tiền đề, nên không truyền tải được sự kiện chính."
+    },
+    {
+      "sample_id": "test_002984",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "PREDICATE",
+        "DATE_TIME"
+      ],
+      "factual_error_evidence": "Candidate gọi đây là bài thi THPT quốc gia và ấn định buổi làm việc ngày 21.4; source nói kiểm tra giữa học kỳ 2 ngày 11–13.3 và không nêu ngày buổi làm việc.",
+      "main_missing_information": "Các đáp án trắc nghiệm bị sửa để nâng điểm và hướng dẫn, yêu cầu thẩm tra cụ thể của Sở.",
+      "brief_reason": "Nhận đúng trường và cơ quan làm việc nhưng xác định sai kỳ thi trung tâm, đồng thời thêm ngày không được source hỗ trợ."
+    },
+    {
+      "sample_id": "test_002998",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tiền sửa chữa có nhưng phải qua đề xuất, dự toán và phê duyệt, khiến cư dân chờ đợi kéo dài.",
+      "brief_reason": "Nêu đúng thang máy hỏng và bối cảnh Thông tư 124, nhưng phần thủ tục gây chậm chưa được giải thích rõ, còn nhiều chi tiết hành chính."
+    },
+    {
+      "sample_id": "test_002998",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ATTRIBUTION",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Source nói Nghị định 99 quy định chi tiết Luật Nhà ở; candidate gán chức năng này cho Thông tư 124 và diễn đạt sai quan hệ các khoản tiền.",
+      "main_missing_information": "Sự cố thang máy, nguyên nhân sửa chữa chậm vì phải xin phê duyệt và phản ứng của cư dân.",
+      "brief_reason": "Tập trung vào mô tả văn bản pháp lý thay vì sự cố, lại gán sai vai trò giữa Thông tư và Nghị định nên không phải bản tóm tắt hữu ích."
+    },
+    {
+      "sample_id": "test_002998",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nguyên nhân thủ tục phê duyệt làm việc sửa chữa chậm, cam kết của công ty và bức xúc của cư dân.",
+      "brief_reason": "Chỉ xác nhận sự cố thang máy, hoàn toàn chưa tóm lược nguyên nhân chậm sửa là nội dung trọng tâm; tiêu đề ghép vào câu cũng hơi vụng."
+    },
+    {
+      "sample_id": "test_002998",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "PREDICATE",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Source nói việc sửa thang máy chậm vì chi tiêu phải được duyệt; không nói tiền thuê bị chậm hay công ty đang thu tiền riêng để sửa.",
+      "main_missing_information": "Thang máy đã hỏng kéo dài, tiền có nhưng chưa được phê duyệt chi và cư dân phản đối sự chậm trễ.",
+      "brief_reason": "Đảo sai đối tượng bị chậm từ sửa chữa sang tiền thuê và dựng thêm mục đích thu tiền, dù vẫn nhắc đúng chủ đề thang máy."
+    },
+    {
+      "sample_id": "test_003020",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Hậu quả sự cố cá chết đối với gia đình giáo viên, nguy cơ học sinh bỏ học và khoản hỗ trợ của Quỹ.",
+      "brief_reason": "Chỉ nêu hoàn cảnh gia đình chị Yến trước sự cố, không mô tả khó khăn phát sinh hay hoạt động hỗ trợ là trọng tâm bài viết."
+    },
+    {
+      "sample_id": "test_003020",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Khó khăn của các giáo viên, học sinh khác và chương trình hỗ trợ 2 tỉ đồng của Quỹ Tấm Lòng Vàng Lao Động.",
+      "brief_reason": "Mô tả đúng một gia đình bị ảnh hưởng nhưng quá sa vào trường hợp riêng, bỏ nửa sau về hỗ trợ; câu cuối còn dang dở, khó hiểu."
+    },
+    {
+      "sample_id": "test_003020",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Mức hỗ trợ cụ thể và khó khăn sinh kế khiến giáo viên, học sinh vùng biển có nguy cơ không thể đến trường.",
+      "brief_reason": "Nêu đúng địa bàn, nhóm bị ảnh hưởng và sự hỗ trợ của Quỹ, nhưng bỏ quy mô, hoàn cảnh cụ thể và diễn đạt lặp “hỗ trợ, giúp đỡ”."
+    },
+    {
+      "sample_id": "test_003020",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "PREDICATE",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Source nói chồng các cô giáo mất sinh kế biển; không có giáo viên thất nghiệp hay bất kỳ ai “vướng vòng lao lý”.",
+      "main_missing_information": "Nguy cơ học sinh bỏ học và các khoản hỗ trợ của Quỹ dành cho giáo viên, học sinh vùng biển.",
+      "brief_reason": "Gán thất nghiệp sai cho giáo viên và bịa chi tiết vòng lao lý, làm sai hoàn cảnh nhân vật lẫn trọng tâm hỗ trợ cộng đồng."
+    },
+    {
+      "sample_id": "test_003041",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ATTRIBUTION",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Source nói Trung Quốc ban hành danh sách phản ánh nghị quyết LHQ; candidate biến nghị quyết thành lệnh cấm trực tiếp xuất khẩu của Trung Quốc.",
+      "main_missing_information": "Trung Quốc công bố 32 loại vật liệu, công nghệ, thiết bị liên quan vũ khí và đang siết thực thi trừng phạt.",
+      "brief_reason": "Đúng các bên liên quan nhưng gán sai hành động cho Hội đồng Bảo an; câu còn mắc lỗi lặp từ “xuất khẩu khẩu”."
+    },
+    {
+      "sample_id": "test_003041",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Danh sách gồm 32 loại vật liệu, công nghệ, thiết bị có thể liên quan vũ khí hủy diệt và vũ khí thông thường.",
+      "brief_reason": "Tóm tắt chính xác quan hệ giữa lệnh cấm của Trung Quốc và nghị quyết LHQ, nhưng chưa nêu quy mô, loại hàng hay bối cảnh thực thi."
+    },
+    {
+      "sample_id": "test_003041",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Bao quát chính xác lệnh cấm, căn cứ nghị quyết, số lượng và tính chất hàng hóa; chỉ thiếu bối cảnh Trung Quốc siết thực thi trừng phạt."
+    },
+    {
+      "sample_id": "test_003041",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "DATE_TIME"
+      ],
+      "factual_error_evidence": "Mốc “hôm nay 26/1” không xuất hiện trong source.",
+      "main_missing_information": "",
+      "brief_reason": "Nêu đúng Trung Quốc, 32 loại hàng và hai ví dụ tiêu biểu, nhưng tự thêm ngày 26/1 và không nói căn cứ nghị quyết LHQ."
+    },
+    {
+      "sample_id": "test_003229",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Caveat Bộ Quốc phòng Hàn Quốc chưa thể xác nhận và thông tin chưa rõ thời gian, nơi tên lửa được chuyển tới.",
+      "brief_reason": "Nêu đúng phát hiện được KBS đưa tin và bối cảnh lo ngại khiêu khích; thiếu các giới hạn xác minh và khả năng về loại tên lửa."
+    },
+    {
+      "sample_id": "test_003229",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "PREDICATE",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Source nói tình báo Hàn-Mỹ phát hiện tên lửa được vận chuyển; candidate lại nói Triều Tiên “đang chuẩn bị phát hiện” tên lửa.",
+      "main_missing_information": "Việc tên lửa bị phát hiện di chuyển khỏi Sanum-dong và nghi ngờ Triều Tiên chuẩn bị hành động khiêu khích.",
+      "brief_reason": "Cấu trúc câu làm đảo hoàn toàn chủ thể và hành động, tạo một thông tin vô nghĩa, không phản ánh đúng phát hiện được KBS đưa tin."
+    },
+    {
+      "sample_id": "test_003229",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ATTRIBUTION"
+      ],
+      "factual_error_evidence": "Source nói quan chức tình báo Hàn Quốc và Mỹ phát hiện, còn KBS chỉ đưa tin; candidate gán hành động phát hiện cho truyền hình Hàn Quốc.",
+      "main_missing_information": "Nguồn phát hiện thực tế, sự chưa xác nhận của Bộ Quốc phòng và bối cảnh lo ngại hành động khiêu khích.",
+      "brief_reason": "Sự kiện vận chuyển tên lửa và địa điểm cơ bản đúng, nhưng gán sai chủ thể phát hiện, đồng thời bỏ nguồn tin, bất định và bối cảnh."
+    },
+    {
+      "sample_id": "test_003229",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Bao quát chính xác sự kiện, nguồn phát hiện, địa điểm và giới hạn thông tin về thời gian, đích đến; độ dài vẫn phù hợp với nội dung."
+    },
+    {
+      "sample_id": "test_003542",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Nêu đúng lượng gạo mới mua, tổng kế hoạch và phương án hủy, đấu thầu lại tại 22 cục; chỉ thiếu nguyên nhân doanh nghiệp bỏ hợp đồng."
+    },
+    {
+      "sample_id": "test_003542",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Việc hủy đợt thầu, tổ chức đấu thầu lại và nguyên nhân các doanh nghiệp trúng thầu từ chối ký hợp đồng.",
+      "brief_reason": "Con số 7.700 trên 190.000 tấn hoàn toàn chính xác và quan trọng, nhưng chưa nêu nguyên nhân thiếu hụt hay biện pháp đấu thầu lại."
+    },
+    {
+      "sample_id": "test_003542",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Mới mua 7.700/190.000 tấn, nhiều nhà thầu từ chối hợp đồng và kế hoạch đấu thầu lại tại 22 cục.",
+      "brief_reason": "Phát biểu được source hỗ trợ nhưng quá chung chung, không có số liệu, quy mô, nguyên nhân hay thông tin triển khai đợt thầu mới."
+    },
+    {
+      "sample_id": "test_003542",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Tóm tắt đúng việc nhà thầu bỏ ký hợp đồng, quy mô 9.200 tấn và kế hoạch thầu mới; thiếu tổng mức mua chỉ đạt 7.700/190.000 tấn."
+    },
+    {
+      "sample_id": "test_003594",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Bao quát đầy đủ bối cảnh COVID-19, tổng tài sản gần như không đổi, người tăng mạnh nhất, mức tăng và nguyên nhân; thông tin đều chính xác."
+    },
+    {
+      "sample_id": "test_003594",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tổng tài sản của 50 tỉ phú và mức tăng nổi bật của Kim Beom-su cùng các tỉ phú Internet.",
+      "brief_reason": "Câu hoàn toàn đúng nhưng chỉ là bối cảnh dịch bệnh, không đề cập chủ đề chính về biến động tài sản của các tỉ phú Hàn Quốc."
+    },
+    {
+      "sample_id": "test_003594",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tổng tài sản 50 người gần như không đổi, mức tăng 5,2 tỉ USD và nguyên nhân từ nhu cầu dịch vụ trực tuyến.",
+      "brief_reason": "Nêu đúng nhân vật và vị trí tăng tài sản mạnh nhất, nhưng thiếu con số, nguyên nhân và bức tranh tổng thể của 50 tỉ phú."
+    },
+    {
+      "sample_id": "test_003594",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "NUMBER",
+        "RELATION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Source chỉ nói một người mới, Huh Jae-myung, đứng đầu công ty linh kiện điện tử và pin; không có 5 tỉ phú như candidate nêu hay “cuộc chạy đua”.",
+      "main_missing_information": "Tổng tài sản gần như không đổi và Kim Beom-su tăng mạnh nhất 5,2 tỉ USD nhờ nhu cầu dịch vụ trực tuyến.",
+      "brief_reason": "Bịa khái niệm cuộc chạy đua và gán sai năm người cho một mô tả doanh nghiệp, khiến nội dung chính về biến động tài sản bị sai hoàn toàn."
+    }
+  ],
+  "completeness": {
+    "expected_samples": 10,
+    "expected_candidates": 40,
+    "returned_candidates": 40,
+    "missing": []
+  }
+}

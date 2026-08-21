@@ -1,0 +1,651 @@
+{
+  "batch_id": "batch_20",
+  "results": [
+    {
+      "sample_id": "test_022722",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": ["NUMBER"],
+      "factual_error_evidence": "Candidate nêu mức tăng từ 200.000 đồng; SOURCE chỉ nêu mức tăng 330.000-400.000 đồng, còn 200.000 đồng là chênh lệch mua-bán.",
+      "main_missing_information": "Giá vàng vượt 50 triệu đồng/lượng; triển vọng, nguyên nhân tăng và khuyến nghị đầu tư thận trọng của chuyên gia.",
+      "brief_reason": "Nêu đúng xu hướng tăng ở hai thị trường, nhưng dùng sai cận dưới mức tăng và bỏ qua mốc giá cùng khuyến nghị đầu tư quan trọng."
+    },
+    {
+      "sample_id": "test_022722",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Việc vàng vượt mốc 50 triệu đồng/lượng, diễn biến giá thế giới, dự báo và lời khuyên đầu tư của chuyên gia.",
+      "brief_reason": "Các mức giá và biến động SJC, DOJI đều chính xác, song bản tóm tắt chỉ bao quát phần giá trong nước và hơi nặng số liệu."
+    },
+    {
+      "sample_id": "test_022722",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["DATE_TIME"],
+      "factual_error_evidence": "Candidate nói vàng tăng trong phiên hôm qua; SOURCE mô tả giá mở cửa sáng nay tăng so với mở cửa hôm qua.",
+      "main_missing_information": "Mức tăng và mốc 50 triệu đồng/lượng hiện tại, giá vàng thế giới, triển vọng và các nguyên tắc đầu tư.",
+      "brief_reason": "Ý vàng là tài sản trú ẩn được hỗ trợ, nhưng thời điểm tăng bị chuyển sang hôm qua và nội dung quá khái quát."
+    },
+    {
+      "sample_id": "test_022722",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Giá DOJI, việc vàng vượt 50 triệu đồng/lượng, diễn biến thế giới và phân tích, khuyến nghị đầu tư của chuyên gia.",
+      "brief_reason": "Thông tin SJC hoàn toàn chính xác và rõ ràng, nhưng chỉ phản ánh một phần nhỏ của bài về xu hướng và đầu tư vàng."
+    },
+    {
+      "sample_id": "test_023253",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Hậu quả của thử thách vỡ đầu, ba thử thách nguy hiểm khác và cảnh báo giới trẻ tránh các trào lưu độc hại.",
+      "brief_reason": "Mô tả đúng phần đầu của thử thách vỡ đầu, nhưng sa vào một ví dụ và bỏ qua phần lớn nội dung cùng cảnh báo chung."
+    },
+    {
+      "sample_id": "test_023253",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["ATTRIBUTION", "UNSUPPORTED"],
+      "factual_error_evidence": "Cụm “Một nghiên cứu mới cho thấy” không có trong SOURCE; SOURCE là bài mô tả và cảnh báo về nhiều thử thách TikTok.",
+      "main_missing_information": "Bốn thử thách cụ thể, cách thức và hậu quả nguy hiểm của chúng, cùng lời khuyên giới trẻ tránh xa.",
+      "brief_reason": "Gán thông tin cho một nghiên cứu không tồn tại trong nguồn, diễn đạt lặp và không nêu được bất kỳ thử thách hay sự kiện cụ thể nào."
+    },
+    {
+      "sample_id": "test_023253",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Cách thực hiện và hậu quả của skullbreaker, các thử thách không áo ngực, đồng xu, ngũ cốc và cảnh báo an toàn.",
+      "brief_reason": "Tên và nguồn gốc thử thách vỡ đầu đúng, nhưng bản tóm tắt dừng ở lời giới thiệu, bỏ lỡ gần như toàn bộ trọng tâm cảnh báo."
+    },
+    {
+      "sample_id": "test_023253",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["PREDICATE", "RELATION"],
+      "factual_error_evidence": "Candidate ghép “ngũ cốc vào điện”; SOURCE nói sữa và ngũ cốc được đổ vào miệng người nằm, còn đồng xu mới được đưa sát ổ điện.",
+      "main_missing_information": "Thử thách vỡ đầu, nguy cơ chấn thương hoặc tử vong của từng trò và cảnh báo giới trẻ tránh xa.",
+      "brief_reason": "Có cố gắng khái quát nhiều trào lưu TikTok, nhưng ghép sai hành động của thử thách ngũ cốc và chưa thể hiện rõ mức độ nguy hiểm."
+    },
+    {
+      "sample_id": "test_023359",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": ["RELATION"],
+      "factual_error_evidence": "Candidate nói “nhiều đoàn” chung của hai đơn vị vào TP.HCM; SOURCE mô tả một đoàn hiện tại gồm 134 người, còn các đợt trước thuộc Đại học Y Hà Nội.",
+      "main_missing_information": "Quy mô 134 người, cơ cấu 117 bác sĩ nội trú và 17 cán bộ Bạch Mai, điểm đến Bệnh viện dã chiến số 16.",
+      "brief_reason": "Nêu đúng nhiệm vụ hỗ trợ TP.HCM, nhưng số đoàn bị khái quát thiếu chính xác, diễn đạt vụng và thiếu quy mô, điểm đến cụ thể."
+    },
+    {
+      "sample_id": "test_023359",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Cơ cấu 117 bác sĩ nội trú và 17 cán bộ, điểm đến Bệnh viện dã chiến số 16, yêu cầu an toàn và mục tiêu giảm tử vong.",
+      "brief_reason": "Trình bày chính xác lễ xuất quân và 134 nhân sự, nhưng dài, liệt kê nhiều đại biểu và chưa nêu nhiệm vụ, điểm đến trọng yếu."
+    },
+    {
+      "sample_id": "test_023359",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Bệnh viện Bạch Mai là đơn vị phối hợp, đoàn có 134 người và sẽ làm nhiệm vụ tại Bệnh viện dã chiến số 16.",
+      "brief_reason": "Tóm lược đúng sự kiện xuất quân và mục tiêu chống dịch, nhưng thiếu đơn vị phối hợp được nêu tên, lực lượng và địa điểm nhận nhiệm vụ."
+    },
+    {
+      "sample_id": "test_023359",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Đoàn gồm 134 người, trong đó 117 bác sĩ nội trú và 17 cán bộ Bạch Mai, đến Bệnh viện dã chiến số 16.",
+      "brief_reason": "Câu tóm tắt chính xác, rõ và đúng trọng tâm lễ xuất quân, song chưa bao quát quy mô, cơ cấu đoàn và nhiệm vụ cụ thể."
+    },
+    {
+      "sample_id": "test_023386",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Bao quát chính xác thời gian, người, phương tiện, địa điểm, va chạm và hậu quả; tuy nhiên quá nhiều biển số, nơi cư trú làm giảm độ súc tích."
+    },
+    {
+      "sample_id": "test_023386",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thời gian 13h45 ngày 21.12 và địa điểm trên đường Nguyễn Văn Linh, gần cầu Bà Bộ, quận Ninh Kiều.",
+      "brief_reason": "Nêu đúng diễn biến cốt lõi, hậu quả và phản ứng của công an, nhưng thiếu cả thời gian lẫn địa điểm để hiểu sự kiện độc lập đầy đủ."
+    },
+    {
+      "sample_id": "test_023386",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Va chạm giữa xe máy và xe tải gần cầu Bà Bộ, việc chị P tử vong tại chỗ và công an điều tra.",
+      "brief_reason": "Thông tin hành trình ban đầu đúng, nhưng bản tóm tắt kết thúc trước vụ va chạm và cái chết, nên bỏ lỡ hoàn toàn trọng tâm bản tin."
+    },
+    {
+      "sample_id": "test_023386",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": ["ATTRIBUTION"],
+      "factual_error_evidence": "Candidate nói Công an quận Ninh Kiều “cho biết”; SOURCE chỉ nói lực lượng này nhận tin báo, đến điều tra và điều tiết giao thông.",
+      "main_missing_information": "Hai phương tiện va chạm, danh tính nạn nhân và địa điểm cụ thể gần cầu Bà Bộ trên đường Nguyễn Văn Linh.",
+      "brief_reason": "Khái quát đúng một vụ tai nạn chết người tại Cần Thơ, nhưng thêm nguồn phát ngôn chưa được nêu và thiếu hoàn cảnh va chạm."
+    },
+    {
+      "sample_id": "test_023402",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tình trạng hành khách hủy, lùi chuyến khiến lượng xe và khách giảm mạnh; các biện pháp phát khẩu trang, vệ sinh và khử trùng xe.",
+      "brief_reason": "Nêu chính xác chủ thể, thời điểm, nguyên nhân và chính sách đổi, hoàn vé; chỉ thiếu tác động thực tế và một số biện pháp phòng dịch."
+    },
+    {
+      "sample_id": "test_023402",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": ["ENTITY", "RELATION"],
+      "factual_error_evidence": "Candidate quy việc đổi, hoàn vé trực tiếp cho bến xe; SOURCE nói Sở GTVT đề nghị và bến xe yêu cầu các doanh nghiệp vận tải thực hiện.",
+      "main_missing_information": "Dịch nCoV là bối cảnh, lượng xe và khách giảm mạnh, cùng các biện pháp phát khẩu trang và khử trùng.",
+      "brief_reason": "Phản ánh được hủy chuyến và hoàn vé, nhưng phân vai chưa chuẩn giữa bến xe với doanh nghiệp, đồng thời thiếu bối cảnh và tác động chính."
+    },
+    {
+      "sample_id": "test_023402",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Hành khách đồng loạt hủy hoặc lùi chuyến, hoạt động bến xe giảm sút và các biện pháp phòng dịch tại bến, trên xe.",
+      "brief_reason": "Tóm tắt chính xác chính sách trọng tâm và bối cảnh dịch bệnh, nhưng chưa cho thấy mức sụt giảm vận tải hay hoạt động phòng dịch cụ thể."
+    },
+    {
+      "sample_id": "test_023402",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Mức giảm còn hơn 100 lượt xe mỗi ngày và các biện pháp phát khẩu trang, vệ sinh, khử trùng phương tiện.",
+      "brief_reason": "Bao quát đúng chính sách và thực trạng hủy, lùi chuyến do nCoV, song hơi dài và chưa nêu quy mô suy giảm cùng biện pháp phòng dịch."
+    },
+    {
+      "sample_id": "test_023794",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Lễ hội văn hóa dân gian đường phố, sự tham gia của các huyện, triển lãm, hội thi, thể thao và các điểm trình diễn Hát Xoan.",
+      "brief_reason": "Nêu đúng thời gian, các nghi lễ và mục tiêu tôn vinh di sản, nhưng liệt kê lễ khá dài và bỏ qua nhiều hoạt động hội đặc sắc."
+    },
+    {
+      "sample_id": "test_023794",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các nghi lễ chính, hoạt động phần hội và mục tiêu tôn vinh tín ngưỡng thờ cúng Hùng Vương cùng Hát Xoan.",
+      "brief_reason": "Thời gian, sự kiện và địa điểm được nêu gọn, đúng, nhưng bản tóm tắt chỉ cho biết lịch tổ chức mà không phản ánh chương trình lễ hội."
+    },
+    {
+      "sample_id": "test_023794",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nội dung phần lễ, các hoạt động phần hội và việc tôn vinh hai di sản văn hóa tiêu biểu của Phú Thọ.",
+      "brief_reason": "Thông tin thời gian hoàn toàn chính xác và súc tích, nhưng không nêu bất kỳ hoạt động hay giá trị văn hóa nào của lễ hội."
+    },
+    {
+      "sample_id": "test_023794",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["RELATION"],
+      "factual_error_evidence": "Candidate gán “Lễ hội và tín ngưỡng vùng đất Tổ” làm chủ đề toàn lễ hội; SOURCE chỉ nêu đây là chủ đề của một hoạt động trưng bày tư liệu, hiện vật.",
+      "main_missing_information": "Thời gian năm ngày, các nghi lễ tưởng niệm, rước kiệu và phần lớn hoạt động hội, triển lãm, thể thao.",
+      "brief_reason": "Nêu đúng mục tiêu tôn vinh di sản và lễ hội đường phố, nhưng gán sai chủ đề của triển lãm cho toàn lễ hội và thiếu phần lễ."
+    },
+    {
+      "sample_id": "test_023953",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["ENTITY", "RELATION", "LOCATION"],
+      "factual_error_evidence": "Candidate biến Đặng Ngọc Vạn thành người thân đang túc trực chăm gia đình tại Hoàn Mỹ; SOURCE nói Đ.T là người thân túc trực chăm anh Vạn tại một bệnh viện Đà Nẵng.",
+      "main_missing_information": "Dấu hiệu phục hồi của anh Vạn, lịch trình chưa rõ trước khi cả gia đình mệt choáng và việc cơ quan chức năng điều tra nguyên nhân.",
+      "brief_reason": "Nhầm hoàn toàn người chăm sóc với bệnh nhân, gán sai quan hệ và địa điểm hiện tại; câu còn là một mảnh thông tin thiếu vị ngữ rõ ràng."
+    },
+    {
+      "sample_id": "test_023953",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các biểu hiện phục hồi cụ thể, lịch trình trước sự việc chưa xác định và việc điều tra nguyên nhân cả gia đình mệt, choáng.",
+      "brief_reason": "Nêu chính xác cập nhật quan trọng về sự phục hồi và nguồn tin, nhưng chưa có dấu hiệu cụ thể hay bối cảnh vụ việc đang được điều tra."
+    },
+    {
+      "sample_id": "test_023953",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": ["ATTRIBUTION"],
+      "factual_error_evidence": "Candidate quy thông tin cho cả người thân và đồng nghiệp; SOURCE chỉ dẫn lời anh Đ.T, một người thân của anh Vạn.",
+      "main_missing_information": "Việc anh Vạn còn có thể gật đầu, lịch trình chưa rõ và quá trình điều tra nguyên nhân khiến cả gia đình mệt, choáng.",
+      "brief_reason": "Các dấu hiệu hồi phục được tóm lược đúng, nhưng thêm đồng nghiệp làm nguồn thông tin và câu cuối hơi nhập nhằng về phản ứng của bệnh nhân."
+    },
+    {
+      "sample_id": "test_023953",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Lịch trình của gia đình trước sự việc chưa rõ và các cơ quan đang điều tra nguyên nhân khiến cả nhà mệt, choáng.",
+      "brief_reason": "Cập nhật đầy đủ, chính xác tình trạng phục hồi và các biểu hiện cụ thể; phần trích dẫn hơi dài và chưa đề cập bí ẩn nguyên nhân vụ việc."
+    },
+    {
+      "sample_id": "test_024495",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Yêu cầu vệ sinh, tách biệt nhà tang lễ theo quy định và đề xuất chuyển dịch vụ tang lễ khỏi khuôn viên bệnh viện.",
+      "brief_reason": "Bao quát chính xác hai lý do dừng tang lễ và tình trạng ồn, đông người; chỉ thiếu khía cạnh vệ sinh, quy định và kiến nghị rộng hơn."
+    },
+    {
+      "sample_id": "test_024495",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["CAUSALITY", "NEGATION", "RELATION"],
+      "factual_error_evidence": "Candidate nói cảnh tiễn đưa tác động tích cực đến chữa bệnh; SOURCE nói hoạt động tang lễ tác động xấu đến tâm lý, còn tinh thần lạc quan mới hỗ trợ chữa bệnh.",
+      "main_missing_information": "Lý do dừng hoạt động tang lễ, hạn chế tụ tập khi có dịch, yêu cầu vệ sinh và kiến nghị đưa dịch vụ ra khỏi bệnh viện.",
+      "brief_reason": "Đảo ngược kết luận cốt lõi về tác động tâm lý, gán việc chữa bệnh cho bệnh viện thay vì bệnh nhân và tạo thành câu khó hiểu."
+    },
+    {
+      "sample_id": "test_024495",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["DATE_TIME", "UNSUPPORTED"],
+      "factual_error_evidence": "Ngày 15/8 và chi tiết bệnh viện “vừa có thông báo” không xuất hiện trong SOURCE.",
+      "main_missing_information": "Tiếng kèn trống ảnh hưởng tâm lý người bệnh, mục tiêu hạn chế tụ tập, yêu cầu vệ sinh và đề xuất di dời dịch vụ tang lễ.",
+      "brief_reason": "Nêu đúng việc dừng hoạt động nhưng thêm ngày và hình thức thông báo không được nguồn hỗ trợ, đồng thời bỏ toàn bộ lý do và kiến nghị."
+    },
+    {
+      "sample_id": "test_024495",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Mục tiêu hạn chế tụ tập trong dịch bệnh, các yêu cầu vệ sinh và kiến nghị chuyển dịch vụ tang lễ khỏi khuôn viên bệnh viện.",
+      "brief_reason": "Nêu chính xác lý do tâm lý quan trọng nhất và rất súc tích, nhưng chỉ bao quát một lý do, thiếu vấn đề dịch bệnh, vệ sinh và giải pháp."
+    },
+    {
+      "sample_id": "test_024504",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thành tích 56 giây 31 và ý nghĩa đây là huy chương vàng cá nhân SEA Games đầu tiên của Lan sau năm lần tham dự.",
+      "brief_reason": "Nêu hoàn toàn đúng chiến thắng, đối thủ, nội dung và thời điểm, nhưng thiếu thành tích cùng dấu mốc cá nhân quan trọng của Quách Thị Lan."
+    },
+    {
+      "sample_id": "test_024504",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Ngày thi đấu, thành tích 56 giây 31 và việc đây là huy chương vàng cá nhân đầu tiên sau năm kỳ SEA Games.",
+      "brief_reason": "Tóm lược chính xác và rất gọn kết quả 400m vượt rào nữ, nhưng chưa nêu thời điểm, thông số thành tích và ý nghĩa lịch sử cá nhân."
+    },
+    {
+      "sample_id": "test_024504",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Huy chương thuộc SEA Games 31, nội dung 400m vượt rào nữ, thời gian thi đấu và thành tích 56 giây 31.",
+      "brief_reason": "Nêu đúng việc Lan thắng Huyền và giành vàng sau năm lần dự SEA Games, nhưng thiếu tên nội dung, kỳ đại hội và thành tích cụ thể."
+    },
+    {
+      "sample_id": "test_024504",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Bao quát đầy đủ và chính xác chiến thắng, đối thủ, nội dung, thành tích cùng ý nghĩa huy chương vàng cá nhân đầu tiên; diễn đạt rõ và gọn."
+    },
+    {
+      "sample_id": "test_024620",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tổ góp vốn không lãi, đóng góp phòng chống COVID-19, chương trình sáng kiến và việc khen thưởng tập thể, cá nhân xuất sắc.",
+      "brief_reason": "Thông tin chăm lo đoàn viên và các số liệu đều chính xác, nhưng tập trung dài vào quà tặng, chưa bao quát hỗ trợ COVID-19, sáng kiến và khen thưởng."
+    },
+    {
+      "sample_id": "test_024620",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các khoản thăm hỏi, quà tặng, góp vốn, đóng góp chống dịch, tám sáng kiến được thông qua và thành tích khen thưởng.",
+      "brief_reason": "Khẳng định chung về hoạt động chăm lo là đúng, nhưng quá khái quát, không nêu bất kỳ kết quả, chương trình hay con số tiêu biểu nào."
+    },
+    {
+      "sample_id": "test_024620",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["LOCATION", "PREDICATE", "UNSUPPORTED"],
+      "factual_error_evidence": "SOURCE không nêu tỉnh Tây Ninh, không nói tổ chức hội nghị tổng kết hay triển khai nhiệm vụ năm 2021.",
+      "main_missing_information": "Toàn bộ hoạt động chăm lo đoàn viên, hỗ trợ COVID-19, chương trình sáng kiến và kết quả khen thưởng trong năm 2021.",
+      "brief_reason": "Hầu hết nội dung đều không có trong nguồn, gồm địa phương, hội nghị và nhiệm vụ triển khai; mốc tổng kết rồi triển khai cùng năm còn thiếu logic."
+    },
+    {
+      "sample_id": "test_024620",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["LOCATION", "ENTITY"],
+      "factual_error_evidence": "Candidate xác định Công đoàn Viên chức tỉnh Cà Mau; SOURCE không nêu tên tỉnh nào.",
+      "main_missing_information": "Quy mô và số tiền hỗ trợ, các hoạt động góp vốn, phòng chống COVID-19, sáng kiến và khen thưởng năm 2021.",
+      "brief_reason": "Hoạt động thăm, tặng quà người khó khăn được hỗ trợ, nhưng gán địa phương Cà Mau không có căn cứ và chỉ phản ánh một phần rất nhỏ."
+    }
+  ],
+  "completeness": {
+    "expected_samples": 10,
+    "expected_candidates": 40,
+    "returned_candidates": 40,
+    "missing": []
+  }
+}

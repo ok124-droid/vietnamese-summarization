@@ -1,0 +1,651 @@
+{
+  "batch_id": "batch_06",
+  "results": [
+    {
+      "sample_id": "test_006260",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": ["NUMBER"],
+      "factual_error_evidence": "Candidate thêm ‘ít nhất’ vào mức 2-3 lần/tuần; SOURCE chỉ nêu 39% đặt món 2-3 lần/tuần.",
+      "main_missing_information": "Các tiêu chí lựa chọn dịch vụ và kết quả GrabFood dẫn đầu về tốc độ, mức độ hài lòng.",
+      "brief_reason": "Nêu đúng một thống kê đáng chú ý nhưng thêm sắc thái định lượng nhỏ và bỏ phần lớn kết quả khảo sát."
+    },
+    {
+      "sample_id": "test_006260",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Toàn bộ kết quả chính về tần suất sử dụng, tiêu chí lựa chọn và thứ hạng hài lòng của các ứng dụng.",
+      "brief_reason": "Thông tin công bố nghiên cứu hoàn toàn đúng nhưng quá khái quát, không nêu bất kỳ phát hiện quan trọng nào."
+    },
+    {
+      "sample_id": "test_006260",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các phát hiện của khảo sát, nhất là tần suất đặt món, tiêu chí hàng đầu và vị trí dẫn đầu của GrabFood.",
+      "brief_reason": "Diễn đạt đúng chủ đề nghiên cứu, song chỉ là câu giới thiệu và bỏ lỡ trọng tâm kết quả."
+    },
+    {
+      "sample_id": "test_006260",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Kết quả định lượng, năm tiêu chí lựa chọn và đánh giá GrabFood, Foody/Now.vn cùng các ứng dụng khác.",
+      "brief_reason": "Mô tả đúng phạm vi, đối tượng và mục đích khảo sát nhưng dành nhiều chỗ cho phương pháp mà không nêu kết quả cốt lõi."
+    },
+    {
+      "sample_id": "test_006370",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các biện pháp sắp xếp cụ thể trong giáo dục, văn hóa, nông nghiệp và thời hạn hoàn thành quý IV/2019.",
+      "brief_reason": "Nêu chính xác việc ban hành nghị quyết và mục tiêu chung, nhưng không tóm tắt các nhiệm vụ triển khai quan trọng."
+    },
+    {
+      "sample_id": "test_006370",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Việc sắp xếp giáo dục nghề nghiệp, văn hóa-thể thao, nông nghiệp và các đầu mối sự nghiệp tương ứng.",
+      "brief_reason": "Bao quát đúng nghị quyết và các nhiệm vụ giáo dục phổ thông, song bỏ ba nhóm lĩnh vực lớn còn lại."
+    },
+    {
+      "sample_id": "test_006370",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": ["ENTITY"],
+      "factual_error_evidence": "SOURCE nêu sáp nhập ba loại trung tâm thành một cơ sở giáo dục nghề nghiệp, không nêu chung là sáp nhập ‘trung tâm giáo dục nghề nghiệp’.",
+      "main_missing_information": "Nghị quyết 09/NQ-CP và toàn bộ chương trình sắp xếp các đơn vị sự nghiệp trong nhiều lĩnh vực.",
+      "brief_reason": "Chỉ nêu một nhiệm vụ cấp huyện và gọi chưa chính xác các đầu mối được sáp nhập; phạm vi tóm tắt rất hẹp."
+    },
+    {
+      "sample_id": "test_006370",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": ["ATTRIBUTION"],
+      "factual_error_evidence": "SOURCE giao UBND các tỉnh, thành phố rà soát trường và lớp; candidate quy trực tiếp hành động cho Chính phủ.",
+      "main_missing_information": "Mục tiêu chung của nghị quyết, thời hạn quý IV/2019 và các nhiệm vụ ở giáo dục nghề nghiệp, văn hóa, nông nghiệp.",
+      "brief_reason": "Nêu đúng một biện pháp nhưng gán chủ thể triển khai chưa chính xác và bỏ hầu hết chương trình hành động."
+    },
+    {
+      "sample_id": "test_006735",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Kế hoạch 20 lớp cho 1.000 lao động miền Nam và mục tiêu đào tạo lại, chuyển đổi nghề, nâng chất lượng nhân lực.",
+      "brief_reason": "Tóm tắt chính xác kế hoạch đào tạo miền Bắc, miền Trung và phân chia chi phí, nhưng bỏ toàn bộ kế hoạch miền Nam cùng mục tiêu chung."
+    },
+    {
+      "sample_id": "test_006735",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 1,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["PREDICATE", "UNSUPPORTED"],
+      "factual_error_evidence": "SOURCE chỉ nói Công đoàn dự kiến ký với trường Vinatex TP.HCM về đào tạo; candidate khẳng định ‘vừa ký’ và mở rộng thành ‘nhiều lĩnh vực’.",
+      "main_missing_information": "Các kế hoạch đào tạo cụ thể: 20 lớp, khoảng 1.000 lao động ở miền Bắc, miền Trung và kế hoạch tương ứng tại miền Nam.",
+      "brief_reason": "Biến một kế hoạch dự kiến thành sự kiện đã ký và mô tả sai phạm vi hợp tác; không nêu nội dung đào tạo cốt lõi."
+    },
+    {
+      "sample_id": "test_006735",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["ENTITY", "OTHER"],
+      "factual_error_evidence": "SOURCE không nêu Trường Cao đẳng kinh tế kỹ thuật Hải Dương; danh sách chuyên đề bị biến thành cụm sai ‘Kỹ năng mềm cho tổ chức, ăn ở đi lại’.",
+      "main_missing_information": "Kế hoạch hợp tác miền Nam, cơ chế chi phí và mục tiêu đào tạo lại, chuyển đổi nghề trong bối cảnh COVID-19.",
+      "brief_reason": "Có đúng quy mô đào tạo miền Bắc, miền Trung nhưng thêm trường không được SOURCE nêu, làm sai chuyên đề và diễn đạt câu cuối khó hiểu."
+    },
+    {
+      "sample_id": "test_006735",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Quy mô, địa bàn, chuyên đề, phân chia chi phí của các lớp và kế hoạch hợp tác tại miền Nam.",
+      "brief_reason": "Câu khái quát hoàn toàn đúng nhưng không cung cấp bất kỳ kế hoạch đào tạo cụ thể hay mục tiêu nhân lực nào."
+    },
+    {
+      "sample_id": "test_006990",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Việc ký thỏa ước với 7 doanh nghiệp, 15 nội dung, các mức lương, thưởng, phụ cấp và phúc lợi cho người lao động.",
+      "brief_reason": "Chỉ liệt kê hai người tham dự mà không nêu họ tham dự sự kiện gì; bỏ hoàn toàn nội dung và quyền lợi trong thỏa ước."
+    },
+    {
+      "sample_id": "test_006990",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các mức quyền lợi cụ thể về lương thử việc, thưởng tháng 13, bữa ăn, đi lại, nhà ở, con nhỏ và phúc lợi khác.",
+      "brief_reason": "Nêu đúng sự kiện, quy mô thỏa ước và quá trình đàm phán; phần người tham dự hơi phụ, còn các quyền lợi cụ thể đều bị thiếu."
+    },
+    {
+      "sample_id": "test_006990",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["DATE_TIME", "LOCATION"],
+      "factual_error_evidence": "SOURCE không nêu ngày 22/7 hoặc địa điểm Hà Nội.",
+      "main_missing_information": "Thỏa ước ký với 7 doanh nghiệp, gồm 15 nội dung và các mức quyền lợi cụ thể dành cho người lao động.",
+      "brief_reason": "Nêu được sự kiện ký thỏa ước nhưng thêm ngày, địa điểm không có căn cứ và chỉ mô tả nội dung một cách chung chung."
+    },
+    {
+      "sample_id": "test_006990",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": ["OTHER"],
+      "factual_error_evidence": "Nhóm thứ tư trong SOURCE là ‘cơ chế phối hợp’, không phải ‘các sản phẩm phụ cấp’.",
+      "main_missing_information": "Các mức lương, thưởng, bữa ăn, trợ cấp và phúc lợi cụ thể mà 7 doanh nghiệp cam kết.",
+      "brief_reason": "Tóm đúng chủ thể, 7 doanh nghiệp và quy mô 15 nội dung, nhưng làm sai nhóm nội dung cuối và không nêu quyền lợi cụ thể."
+    },
+    {
+      "sample_id": "test_007055",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Bối cảnh hai cán bộ thuộc tổ bị tố nhận 6 triệu đồng từ thầy lang sau khi dọa phạt.",
+      "brief_reason": "Tóm tắt chính xác và súc tích quyết định khởi tố, tạm giam, số bị can, đơn vị và tội danh; chỉ thiếu bối cảnh vụ việc."
+    },
+    {
+      "sample_id": "test_007055",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Hai bị can bị tạm giam 4 tháng để điều tra tội lạm dụng chức vụ, quyền hạn nhằm chiếm đoạt tài sản.",
+      "brief_reason": "Nêu đúng việc khởi tố hai cán bộ và nguyên nhân từ tố cáo tống tiền, nhưng thiếu thời hạn tạm giam cùng tội danh chính thức."
+    },
+    {
+      "sample_id": "test_007055",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Bao quát đầy đủ quyết định tố tụng, danh tính, tội danh và nguồn cơn tố cáo; chi tiết tuổi, nơi ở của thầy lang hơi phụ."
+    },
+    {
+      "sample_id": "test_007055",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tội danh bị điều tra và bối cảnh tổ quản lý thị trường bị tố tống tiền 6 triệu đồng.",
+      "brief_reason": "Nêu chính xác thời điểm, hai bị can và quyết định tạm giam, nhưng không cho biết lý do bắt hay diễn biến dẫn đến vụ án."
+    },
+    {
+      "sample_id": "test_007095",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Quy mô 89.357 nhà ngập, 4 người chết, 6 người bị thương, giao thông tê liệt và hoạt động cứu hộ khẩn cấp.",
+      "brief_reason": "Phản ánh đúng tình trạng thiệt hại do mưa lũ ở Quảng Bình nhưng quá chung chung, không thể hiện quy mô hay ứng phó."
+    },
+    {
+      "sample_id": "test_007095",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Chỉ đạo cứu hộ khẩn cấp, việc hoãn Đại hội Đảng bộ tỉnh và cuộc giải cứu 18 hành khách.",
+      "brief_reason": "Bao quát chính xác quy mô ngập, thương vong, giao thông và khó khăn cứu dân; hơi dài, có tiêu đề dính câu và thiếu các biện pháp ứng phó."
+    },
+    {
+      "sample_id": "test_007095",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["DATE_TIME", "LOCATION", "UNSUPPORTED"],
+      "factual_error_evidence": "SOURCE không nói mưa chỉ kéo dài từ đêm qua đến sáng 19.10; cụm ‘các tỉnh từ Quảng Bình đến Quảng Bình’ vừa sai phạm vi vừa vô nghĩa.",
+      "main_missing_information": "Số nhà ngập, thương vong, các tuyến giao thông tê liệt, tình trạng cứu hộ và chỉ đạo ứng phó của tỉnh.",
+      "brief_reason": "Chỉ nêu khái quát nhà ngập nhưng thêm diễn biến thời gian không được hỗ trợ và mô tả địa bàn mâu thuẫn, khó hiểu."
+    },
+    {
+      "sample_id": "test_007095",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nỗ lực cứu dân, chỉ đạo huy động lực lượng, hoãn Đại hội Đảng bộ tỉnh và cứu 18 hành khách.",
+      "brief_reason": "Tóm đúng các số liệu thiệt hại cốt lõi và tình trạng giao thông; chỉ thiếu phản ứng cứu hộ và một số diễn biến quan trọng sau đó."
+    },
+    {
+      "sample_id": "test_007214",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Cách xử lý dốc thấp, vừa, cao, đường quanh co, xuống dốc và mặt đường trơn trượt.",
+      "brief_reason": "Nêu đúng nguyên tắc chọn số khi leo dốc nhưng chỉ là câu mở đầu, thiếu gần như toàn bộ hướng dẫn an toàn cụ thể."
+    },
+    {
+      "sample_id": "test_007214",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Mọi hướng dẫn thực chất về chọn số, lấy đà, dùng phanh, giữ khoảng cách và xử lý dốc quanh co, trơn trượt.",
+      "brief_reason": "Chỉ là câu dẫn chung, không chứa nội dung hướng dẫn; từ ‘dưới đây’ bị lặp khiến câu vụng và kém súc tích."
+    },
+    {
+      "sample_id": "test_007214",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": ["PREDICATE"],
+      "factual_error_evidence": "SOURCE chỉ khuyên tăng tốc lấy đà với dốc trung bình khoảng 5%; candidate nêu ‘có thể chủ động tăng tốc’ không kèm điều kiện.",
+      "main_missing_information": "Cách về số theo độ dốc, nguyên tắc xuống dốc, dùng phanh, giữ khoảng cách và xử lý đường trơn trượt.",
+      "brief_reason": "Gợi được hai lưu ý khi leo dốc nhưng khái quát hóa việc tăng tốc, diễn đạt mơ hồ và bỏ toàn bộ phần xuống dốc."
+    },
+    {
+      "sample_id": "test_007214",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Cách leo dốc trên 10%, xử lý đường quanh co, xuống dốc, dùng phanh và mặt đường trơn trượt.",
+      "brief_reason": "Trình bày đúng hướng dẫn cho dốc thấp và trung bình, nhưng bỏ các tình huống nguy hiểm hơn vốn chiếm phần lớn SOURCE."
+    },
+    {
+      "sample_id": "test_007407",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["CAUSALITY", "DATE_TIME", "RELATION", "UNSUPPORTED"],
+      "factual_error_evidence": "SOURCE nói 137 người bị ảnh hưởng bởi COVID-19 được thăm ngày 2.7; kế hoạch 2-3.7 dành cho 776 người. Candidate đổi thành dịch tả heo và thêm cụm vô nghĩa.",
+      "main_missing_information": "Bà Phan Thị Diễm dẫn đoàn, mỗi người nhận 500.000 đồng và kế hoạch toàn tỉnh hỗ trợ 776 đoàn viên, người lao động.",
+      "brief_reason": "Sai nguyên nhân hỗ trợ, ghép nhầm thời gian của kế hoạch 776 người vào nhóm 137 người và chứa cụm tiếng Anh không liên quan."
+    },
+    {
+      "sample_id": "test_007407",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Mức hỗ trợ 500.000 đồng mỗi người và kế hoạch trong hai ngày trao hỗ trợ cho 776 lao động trên toàn tỉnh.",
+      "brief_reason": "Nêu đúng người dẫn đoàn, thời gian, 137 người thụ hưởng và bốn điểm đến; danh sách đơn vị khá dài trong khi thiếu mức tiền và quy mô kế hoạch."
+    },
+    {
+      "sample_id": "test_007407",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Mỗi người được hỗ trợ 500.000 đồng; đây là khởi đầu kế hoạch ngày 2-3.7 dành cho tổng cộng 776 người.",
+      "brief_reason": "Tóm đúng, gọn nhóm 137 người được hỗ trợ vì COVID-19 tại Long Xuyên, nhưng thiếu mức tiền, người dẫn đoàn và chương trình rộng hơn."
+    },
+    {
+      "sample_id": "test_007407",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Kế hoạch hậu COVID-19 kéo dài ngày 2-3.7, dự kiến thăm và hỗ trợ tổng cộng 776 người trên toàn tỉnh.",
+      "brief_reason": "Bao quát chính xác chuyến thăm, người thụ hưởng, nguyên nhân và mức 500.000 đồng; hơi dài do liệt kê địa điểm và thiếu quy mô toàn kế hoạch."
+    },
+    {
+      "sample_id": "test_007862",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["ENTITY", "PREDICATE", "NEGATION", "RELATION"],
+      "factual_error_evidence": "SOURCE không nêu tên Nguyễn Văn Thể hay việc đã ký các văn bản; SOURCE yêu cầu không phát sinh điều kiện gây khó doanh nghiệp, candidate lại nói các cục bố trí các điều kiện đó.",
+      "main_missing_information": "384 điều kiện được cắt giảm, tỷ lệ theo từng lĩnh vực và yêu cầu trình văn bản thực thi trước 30.10.2018.",
+      "brief_reason": "Mô tả sai hành động của Bộ trưởng, đảo ngược yêu cầu bảo vệ doanh nghiệp và ghép các mệnh đề thành quan hệ vô nghĩa; bỏ trọng tâm số liệu."
+    },
+    {
+      "sample_id": "test_007862",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["UNSUPPORTED"],
+      "factual_error_evidence": "Quyết định áp dụng cho nhiều lĩnh vực giao thông vận tải; candidate thu hẹp thành quyết định chỉ về giao thông đường bộ.",
+      "main_missing_information": "Tổng số 384 điều kiện, tỷ lệ cắt giảm ở hàng không, đường sắt và các lĩnh vực khác, cùng thời hạn thực thi.",
+      "brief_reason": "Nêu đúng hướng cắt giảm điều kiện kinh doanh nhưng làm sai phạm vi quyết định và không có bất kỳ số liệu hay yêu cầu triển khai nào."
+    },
+    {
+      "sample_id": "test_007862",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tỷ lệ của các lĩnh vực còn lại và yêu cầu soạn thảo, lấy ý kiến doanh nghiệp, trình Chính phủ trước 30.10.2018.",
+      "brief_reason": "Nêu chính xác tổng số điều kiện và hai lĩnh vực dẫn đầu, nhưng chưa bao quát các tỷ lệ còn lại hay kế hoạch thực thi quyết định."
+    },
+    {
+      "sample_id": "test_007862",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Yêu cầu soạn văn bản, tham vấn doanh nghiệp, không phát sinh điều kiện mới và trình Chính phủ trước ngày 30.10.2018.",
+      "brief_reason": "Bao quát chính xác toàn bộ số liệu cắt giảm theo lĩnh vực; danh sách hơi dày và chưa nêu phần chỉ đạo triển khai, giám sát."
+    },
+    {
+      "sample_id": "test_007969",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nguyễn Hưng hát ‘Lầm’, Lâm Hùng hát ‘Tình bơ vơ’, các câu chuyện tình cảm và những nét chính về cuộc đời Lam Phương.",
+      "brief_reason": "Nêu đúng bối cảnh chương trình tưởng nhớ các bản hit, nhưng chỉ là giới thiệu chung và thiếu toàn bộ nội dung cụ thể."
+    },
+    {
+      "sample_id": "test_007969",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Lâm Hùng biểu diễn ‘Tình bơ vơ’, chia sẻ chuyện tình cũ và những dấu mốc cuộc đời, sự nghiệp của Lam Phương.",
+      "brief_reason": "Tóm đúng chương trình, người thể hiện ‘Lầm’ và nguồn cảm hứng hôn nhân tan vỡ; lặp ‘Cụ thể’ và mới bao quát một nhánh nội dung."
+    },
+    {
+      "sample_id": "test_007969",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nội dung chương trình về các ca khúc Lam Phương, người biểu diễn, chuyện tình của Lâm Hùng và tiểu sử nhạc sĩ.",
+      "brief_reason": "Chi tiết về thời làm thuyền viên của Lâm Hùng đúng nhưng rất phụ, không thể hiện chủ đề hay sự kiện chính của bài."
+    },
+    {
+      "sample_id": "test_007969",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["ENTITY", "ATTRIBUTION"],
+      "factual_error_evidence": "SOURCE cho biết Lâm Hùng là người trải lòng trong chương trình; không có việc cố nhạc sĩ Lam Phương trực tiếp chia sẻ tại đó.",
+      "main_missing_information": "Các tiết mục ‘Lầm’, ‘Tình bơ vơ’, câu chuyện của Lâm Hùng và những thông tin tiểu sử, sự nghiệp Lam Phương.",
+      "brief_reason": "Gán lời trải lòng của khách mời Lâm Hùng cho cố nhạc sĩ Lam Phương, làm sai chủ thể và bỏ gần như toàn bộ nội dung bài."
+    }
+  ],
+  "completeness": {
+    "expected_samples": 10,
+    "expected_candidates": 40,
+    "returned_candidates": 40,
+    "missing": []
+  }
+}

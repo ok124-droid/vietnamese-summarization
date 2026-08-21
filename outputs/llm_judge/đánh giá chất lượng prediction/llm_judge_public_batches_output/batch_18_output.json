@@ -1,0 +1,709 @@
+{
+  "batch_id": "batch_18",
+  "results": [
+    {
+      "sample_id": "test_019571",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Lý do hồ sơ trợ cấp bị từ chối, mong muốn giám định ở Trung ương và hướng dẫn của Sở.",
+      "brief_reason": "Đúng về người gửi đơn và mong muốn giám định, nhưng chỉ là phần dẫn nhập; thiếu diễn biến hồ sơ, kết luận y khoa và hướng dẫn giải quyết."
+    },
+    {
+      "sample_id": "test_019571",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "PREDICATE",
+        "RELATION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Candidate gán ông Tường là Giám đốc Sở và nói Thủ tướng lập hội đồng; SOURCE chỉ nêu ông là người làm đơn và Sở đã chuyển hồ sơ đến hội đồng thành phố.",
+      "main_missing_information": "Quá trình xin chế độ phơi nhiễm, kết luận bệnh không thuộc danh mục và hướng dẫn liên hệ địa phương.",
+      "brief_reason": "Dựng sai chức vụ, hành động của Thủ tướng và quan hệ giữa các hội đồng; không phản ánh quá trình xin trợ cấp hay phản hồi của Sở."
+    },
+    {
+      "sample_id": "test_019571",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Việc ba lần bị trả hồ sơ, chưa được trợ cấp, mong muốn giám định Trung ương và phản hồi của Sở.",
+      "brief_reason": "Các chi tiết về đơn đề nghị, thời gian nhập ngũ và huân chương đều đúng, nhưng phần lớn dành cho lý lịch, bỏ lỡ vấn đề trợ cấp và cách giải quyết."
+    },
+    {
+      "sample_id": "test_019571",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ATTRIBUTION",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Candidate nói Bệnh viện 103 trả hồ sơ; SOURCE chỉ nói hồ sơ có bệnh án của Quân Y viện 103, 105 rồi bị trả lại, không xác định các viện là bên trả.",
+      "main_missing_information": "Kết luận bệnh không thuộc danh mục, nguyện vọng được giám định Trung ương và hướng dẫn của Sở.",
+      "brief_reason": "Nêu đúng việc ông Tường chưa hưởng trợ cấp nhưng gán sai chủ thể trả hồ sơ cho Bệnh viện 103 và thiếu nguyện vọng cùng phản hồi chính thức."
+    },
+    {
+      "sample_id": "test_019689",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "ATTRIBUTION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Mức không khí “Xấu” và “Rất xấu” được SOURCE hỗ trợ, nhưng SOURCE không nêu Hoàng Trung Hải hay chức danh “Phó tổng cục trưởng Chi cục”.",
+      "main_missing_information": "Không khí kém hơn cùng kỳ, nguyên nhân khí tượng bất lợi và các giải pháp giảm ô nhiễm của Hà Nội.",
+      "brief_reason": "Phản ánh đúng mức ô nhiễm nghiêm trọng nhưng bịa tên và chức danh người đánh giá; đồng thời chỉ bao quát một phần nhỏ của bài phỏng vấn."
+    },
+    {
+      "sample_id": "test_019689",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "So sánh PM2.5 với cùng kỳ, nguyên nhân tích tụ ô nhiễm và các biện pháp cải thiện không khí.",
+      "brief_reason": "Thông tin từ 10 trạm và mức “Xấu”, “Rất xấu” hoàn toàn đúng, song phần hỏi đáp hơi dài và bỏ qua nguyên nhân, so sánh cùng kỳ cùng giải pháp."
+    },
+    {
+      "sample_id": "test_019689",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "ATTRIBUTION",
+        "PREDICATE",
+        "RELATION"
+      ],
+      "factual_error_evidence": "SOURCE không nêu Nguyễn Đức Hùng. SOURCE nói điều kiện khí tượng bất lợi cho khuếch tán; candidate lại gán đặc tính này cho các nguồn thải nhân tạo.",
+      "main_missing_information": "Mức ô nhiễm “Xấu”, “Rất xấu”, số liệu PM2.5, đúng nguyên nhân khí tượng và các giải pháp của thành phố.",
+      "brief_reason": "Bịa người phát ngôn và nhập nhằng nguồn phát thải với điều kiện khí tượng, làm sai quan hệ nguyên nhân; cũng không nêu thực trạng hay giải pháp chính."
+    },
+    {
+      "sample_id": "test_019689",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Số liệu so với năm trước, nguyên nhân thời tiết làm tích tụ chất ô nhiễm và các giải pháp của Hà Nội.",
+      "brief_reason": "Đúng về dữ liệu quan trắc, cảnh báo và mức ô nhiễm nghiêm trọng, nhưng còn lặp nhẹ và không bao quát nguyên nhân, so sánh cùng kỳ hay giải pháp."
+    },
+    {
+      "sample_id": "test_019709",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 2
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Điều kiện đủ 20 năm đóng BHXH và tuổi nghỉ hưu, cùng khả năng và mức đóng BHXH tự nguyện.",
+      "brief_reason": "Chỉ chép phần giới thiệu điều luật rồi dừng ở “1.”, không đưa ra bất kỳ điều kiện hưởng lương hưu hay kết luận tư vấn nào."
+    },
+    {
+      "sample_id": "test_019709",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 2
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Điều kiện hưởng lương hưu, lộ trình tuổi nghỉ hưu và quy định đóng BHXH tự nguyện.",
+      "brief_reason": "Nội dung chỉ nói chung rằng luật sư trả lời và Luật Lao động có quy định, kết thúc bằng dấu hai chấm, nên không truyền đạt được câu trả lời."
+    },
+    {
+      "sample_id": "test_019709",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 2
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Phải đủ 20 năm đóng BHXH và đủ tuổi nghỉ hưu; người hỏi có thể tiếp tục BHXH tự nguyện với mức đóng theo luật.",
+      "brief_reason": "Các số hiệu văn bản được chép đúng nhưng đoạn dừng ngay trước nội dung điều kiện; phần pháp lý dài mà không có kết luận tư vấn, nên gần như vô dụng."
+    },
+    {
+      "sample_id": "test_019709",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "SOURCE không nêu người hỏi là lao động nữ hay đang đóng BHXH tự nguyện hằng tháng; candidate còn nói đang đóng nhưng lại hỏi có thể tham gia hay không.",
+      "main_missing_information": "Toàn bộ câu trả lời về điều kiện 20 năm đóng, tuổi nghỉ hưu và mức đóng BHXH tự nguyện.",
+      "brief_reason": "Dựng thêm hoàn cảnh người hỏi, tự mâu thuẫn giữa đang đóng và hỏi có được tham gia, đồng thời không tóm tắt câu trả lời pháp lý."
+    },
+    {
+      "sample_id": "test_019920",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 1,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "NEGATION",
+        "PREDICATE",
+        "RELATION",
+        "DATE_TIME"
+      ],
+      "factual_error_evidence": "SOURCE nói đã lấy mẫu tất cả hành khách và người âm tính được rời tàu từ 19.2; candidate biến thành lấy mẫu tất cả hành khách dương tính từ ngày đó.",
+      "main_missing_information": "Người âm tính được rời tàu từ 19.2, người dương tính phải nhập viện và tình hình ca nhiễm trên tàu.",
+      "brief_reason": "Trộn sai đối tượng, hành động và mốc thời gian, làm mất thông tin cốt lõi về việc cho người âm tính rời tàu và xử lý người dương tính."
+    },
+    {
+      "sample_id": "test_019920",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Ít nhất 523 ca dương tính tại Nhật Bản, gồm 454 người trên tàu, cùng các đợt sơ tán công dân.",
+      "brief_reason": "Tóm tắt chính xác và gọn quy trình rời tàu, hoàn tất lấy mẫu và nhập viện; chỉ thiếu bối cảnh số ca cùng các diễn biến sơ tán, phòng dịch."
+    },
+    {
+      "sample_id": "test_019920",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nhật Bản đã lấy mẫu toàn bộ hành khách, người dương tính phải nhập viện và số ca nhiễm trên tàu.",
+      "brief_reason": "Nêu đúng quyết định quan trọng và mốc 19.2, nhưng chỉ có một câu nên thiếu quy trình xét nghiệm, xử lý ca dương tính và bối cảnh dịch."
+    },
+    {
+      "sample_id": "test_019920",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "NEGATION",
+        "PREDICATE",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Candidate nói người “dương tính với thuốc men” được rời tàu; SOURCE nói người âm tính được rời tàu, còn người dương tính với virus phải nhập viện.",
+      "main_missing_information": "Quy định đúng cho hành khách âm tính và dương tính, việc hoàn tất lấy mẫu cùng các diễn biến dịch liên quan.",
+      "brief_reason": "Khẳng định chính đảo ngược SOURCE và cụm “dương tính với thuốc men” vô nghĩa; câu chung về cách ly không cứu được trọng tâm bị sai."
+    },
+    {
+      "sample_id": "test_020062",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Kiến nghị cho thôi quyền Cục trưởng, bố trí vị trí không lãnh đạo, nhân sự thay thế và tố cáo nhận 100 triệu đồng đang được xác minh.",
+      "brief_reason": "Mô tả đúng các vi phạm về hợp đồng, vắng mặt và việc thẩm tra, nhưng thiếu kiến nghị xử lý chức vụ, người thay thế cùng tố cáo mới."
+    },
+    {
+      "sample_id": "test_020062",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "RELATION"
+      ],
+      "factual_error_evidence": "SOURCE hỗ trợ việc Tổng cục kiến nghị cho thôi quyền Cục trưởng, nhưng không nói văn bản đề nghị chấm dứt chức vụ là “để trao đổi” về sai phạm.",
+      "main_missing_information": "Các vi phạm cụ thể, tố cáo nhận tiền, quá trình xác minh và phương án bố trí nhân sự thay thế.",
+      "brief_reason": "Nắm được kiến nghị chấm dứt quyền Cục trưởng, nhưng diễn đạt sai nhẹ quan hệ mục đích của văn bản và không nêu căn cứ vi phạm hay tiến trình xử lý."
+    },
+    {
+      "sample_id": "test_020062",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nội dung các vi phạm, tố cáo nhận tiền, hoạt động xác minh và kiến nghị cho thôi quyền Cục trưởng.",
+      "brief_reason": "Khẳng định tổng quát là đúng và liên quan, nhưng quá chung chung: không cho biết ông Hải vi phạm gì, bị xác minh ra sao hay được đề xuất xử lý thế nào."
+    },
+    {
+      "sample_id": "test_020062",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "ENTITY"
+      ],
+      "factual_error_evidence": "Candidate gọi ông Hải là “Cục trưởng”; SOURCE xác định ông là “quyền Cục trưởng” Cục QLTT tỉnh Hải Dương.",
+      "main_missing_information": "Các sai phạm cụ thể, tố cáo mới, quá trình xác minh và kiến nghị cho thôi quyền Cục trưởng.",
+      "brief_reason": "Tóm đúng nhận định chung về sai phạm nhưng ghi thiếu chữ “quyền” trong chức danh và không cung cấp hành vi, tiến trình xác minh hay đề xuất kỷ luật."
+    },
+    {
+      "sample_id": "test_020383",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Giá WTI, các yếu tố tác động đến thị trường dầu và mức giá trần xăng dầu trong nước.",
+      "brief_reason": "Số liệu Brent và mức giảm hoàn toàn chính xác, nhưng chỉ phản ánh một chỉ báo; thiếu WTI, nguyên nhân thị trường và toàn bộ phần giá xăng dầu trong nước."
+    },
+    {
+      "sample_id": "test_020383",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "RELATION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "SOURCE nêu Brent giảm 0,4% và WTI giảm 0,3% so với phiên trước, không nói dầu thô “giảm mạnh hơn”; “kỳ điều chỉnh” 17.5 thuộc phần giá xăng trong nước.",
+      "main_missing_information": "Các mức giá và mức giảm cụ thể của Brent, WTI, diễn biến cung dầu và giá bán xăng dầu trong nước.",
+      "brief_reason": "Đúng khi nêu chiến tranh thương mại tạo áp lực giảm giá, nhưng thêm so sánh “giảm mạnh hơn” và nhập nhằng kỳ điều chỉnh, làm sai đáng kể diễn biến."
+    },
+    {
+      "sample_id": "test_020383",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "SOURCE hỗ trợ giá dầu giảm và tác động của chiến tranh thương mại, nhưng không thiết lập một chuỗi giảm để khẳng định “tiếp tục”.",
+      "main_missing_information": "Mức giá và mức giảm của Brent, WTI, các yếu tố cung dầu cùng giá xăng dầu trong nước.",
+      "brief_reason": "Nêu đúng hướng biến động và một nguyên nhân, song từ “tiếp tục” chưa được SOURCE chứng minh; tóm tắt quá ngắn nên bỏ hầu hết số liệu và phần trong nước."
+    },
+    {
+      "sample_id": "test_020383",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Sản lượng Mỹ, tác động của chiến tranh thương mại và các mức giá xăng dầu trong nước sau điều chỉnh.",
+      "brief_reason": "Bao quát chính xác giá Brent, WTI và thỏa thuận ổn định thị trường; vẫn thiếu các áp lực cung-cầu quan trọng và toàn bộ phần giá nhiên liệu trong nước."
+    },
+    {
+      "sample_id": "test_020387",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Ukraina cấm nam công dân Nga 16-60 tuổi nhập cảnh, ban bố tình trạng chiến tranh và dự định chấm dứt các thỏa thuận với Nga.",
+      "brief_reason": "Sự kiện Nga bắt ba tàu và địa điểm được nêu đúng, nhưng “tuyên bố trên” không có tiền lệ và candidate chỉ kể bối cảnh, bỏ qua các quyết định chính."
+    },
+    {
+      "sample_id": "test_020387",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tình trạng chiến tranh 30 ngày, yêu cầu thả thủy thủ và kế hoạch chấm dứt khoảng 40 hợp đồng với Nga.",
+      "brief_reason": "Trình bày đúng vụ bắt tàu, mục đích hạn chế và nhóm nam công dân Nga 16-60 tuổi; thiếu các phản ứng quân sự, ngoại giao quan trọng về sau."
+    },
+    {
+      "sample_id": "test_020387",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "PREDICATE"
+      ],
+      "factual_error_evidence": "Candidate nói cấm toàn bộ người nước ngoài; SOURCE chỉ nêu hạn chế người nước ngoài, chủ yếu là không cho nam công dân Nga 16-60 tuổi nhập cảnh.",
+      "main_missing_information": "Đúng phạm vi hạn chế là nam công dân Nga 16-60 tuổi, cùng tình trạng chiến tranh, yêu cầu thả thủy thủ và việc xét lại thỏa thuận.",
+      "brief_reason": "Nắm được bối cảnh vụ bắt tàu nhưng mở rộng sai nghiêm trọng lệnh hạn chế thành cấm mọi người nước ngoài, đồng thời bỏ qua nhiều phản ứng tiếp theo."
+    },
+    {
+      "sample_id": "test_020387",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ATTRIBUTION",
+        "PREDICATE",
+        "RELATION"
+      ],
+      "factual_error_evidence": "SOURCE nói Poroshenko cảnh báo chiến tranh; Ukraina hạn chế nam công dân Nga; Nga mới là bên khẳng định tàu Ukraina vi phạm lãnh hải. Candidate trộn ba mệnh đề thành một.",
+      "main_missing_information": "Lệnh hạn chế nhập cảnh, vụ bắt tàu, tình trạng chiến tranh và kế hoạch chấm dứt các thỏa thuận song phương.",
+      "brief_reason": "Câu trộn sai chủ thể, phát ngôn và hành động, tạo một sự kiện không có trong SOURCE; vừa khó hiểu vừa không phản ánh trọng tâm bài."
+    },
+    {
+      "sample_id": "test_020556",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Vụ va chạm giữa xe bán tải và xe máy tại Dầu Tiếng, thời điểm xảy ra và việc công an điều tra nguyên nhân.",
+      "brief_reason": "Đúng và rõ về xe bán tải bốc cháy cùng thương vong, nhưng thiếu loại tai nạn, phương tiện còn lại, địa điểm, thời gian và hoạt động điều tra."
+    },
+    {
+      "sample_id": "test_020556",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Bao quát chính xác phương tiện, thương vong, thời gian, địa điểm, khám nghiệm và vụ cháy; hơi dài do giữ nhiều chi tiết địa chỉ nhưng vẫn tập trung."
+    },
+    {
+      "sample_id": "test_020556",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Tóm tắt đầy đủ và súc tích sự kiện cốt lõi: thời gian, địa điểm, hai phương tiện, thương vong và việc công an khám nghiệm để điều tra nguyên nhân."
+    },
+    {
+      "sample_id": "test_020556",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Xe bán tải va chạm với xe máy rồi bốc cháy, thời gian cụ thể và việc công an khám nghiệm điều tra.",
+      "brief_reason": "Nêu đúng địa điểm và hậu quả, nhưng cấu trúc “tai nạn giữa xe bán tải” bị khuyết vế; thiếu xe máy, vụ cháy, thời điểm và điều tra."
+    },
+    {
+      "sample_id": "test_020873",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Bản ghi nhớ USAID-BHXH, ba nhóm hỗ trợ, mục tiêu tự chủ tài chính cho HIV và lao cùng kết quả hợp tác trước đây.",
+      "brief_reason": "Nêu đúng dự án, bên tài trợ, đối tác và thời hạn bốn năm, nhưng chỉ có ý mở đầu nên thiếu phạm vi hỗ trợ, mục tiêu và thành quả hợp tác."
+    },
+    {
+      "sample_id": "test_020873",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "DATE_TIME",
+        "LOCATION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "SOURCE có lễ ký bản ghi nhớ giữa USAID và BHXH Việt Nam nhưng không nêu chiều 17-10 hay địa điểm Washington.",
+      "main_missing_information": "Dự án hỗ trợ kỹ thuật bốn năm, các lĩnh vực BHYT, mục tiêu tự chủ tài chính y tế và kết quả hỗ trợ điều trị HIV.",
+      "brief_reason": "Sự kiện ký kết và hai cơ quan là đúng, nhưng thêm ngày giờ, địa điểm không có trong SOURCE; nội dung hợp tác gần như bị bỏ trống."
+    },
+    {
+      "sample_id": "test_020873",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Việc ký bản ghi nhớ chính thức và các kết quả hợp tác trước đó về bao phủ BHYT, cơ sở điều trị HIV và thuốc ARV.",
+      "brief_reason": "Bao quát đúng thời hạn, tự chủ HIV-lao và ba lĩnh vực hỗ trợ, nhưng quá dài, liệt kê dày đặc và thiếu bối cảnh ký kết cùng thành quả trước đó."
+    },
+    {
+      "sample_id": "test_020873",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "RELATION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Candidate bịa “Cơ quan Bảo hiểm Xã hội Quốc tế Hoa Kỳ” và gán viết tắt USAID, rồi nói bản ghi nhớ giữa BHXH Việt Nam và BHYT; SOURCE là USAID ký với BHXH Việt Nam.",
+      "main_missing_information": "Dự án USAID hỗ trợ BHXH Việt Nam bốn năm, phạm vi hỗ trợ, mục tiêu tự chủ tài chính và kết quả hợp tác HIV.",
+      "brief_reason": "Sai các tổ chức và quan hệ ký kết, lặp USAID cho hai cơ quan khác nhau; không truyền đạt bất kỳ nội dung hợp tác thực tế nào."
+    },
+    {
+      "sample_id": "test_021083",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Bộ trưởng thừa nhận sai sót, Chính phủ yêu cầu tiếp thu góp ý, công khai bản thảo sớm và quy trình thẩm định sách giáo khoa.",
+      "brief_reason": "Câu dẫn nhập chính xác nhưng quá chung chung; không nêu phản ứng của Chính phủ, trách nhiệm Bộ trưởng, biện pháp công khai bản thảo hay kết quả thẩm định."
+    },
+    {
+      "sample_id": "test_021083",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 2
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "DATE_TIME",
+        "LOCATION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "SOURCE xác định Vũ Đức Đam là Phó Thủ tướng nhưng không nêu sáng 4/12 hay việc thông tin từ Văn phòng Chính phủ.",
+      "main_missing_information": "Toàn bộ nội dung về sai sót sách giáo khoa, trách nhiệm Bộ trưởng, yêu cầu tiếp thu góp ý và công khai bản thảo.",
+      "brief_reason": "Chỉ nêu metadata không được SOURCE hỗ trợ và cụm “đây là thông tin” thiếu tiền lệ; hoàn toàn không tóm tắt vấn đề sách giáo khoa."
+    },
+    {
+      "sample_id": "test_021083",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "RELATION"
+      ],
+      "factual_error_evidence": "SOURCE nói Phó Thủ tướng chỉ đạo Bộ GDĐT đưa bản thảo lên sớm; candidate chuyển đối tượng nhận yêu cầu thành cá nhân Bộ trưởng.",
+      "main_missing_information": "Bộ trưởng đã nhận trách nhiệm về sai sót, việc thay chủ tịch hội đồng và các thông tin về quy trình, kết quả thẩm định.",
+      "brief_reason": "Nêu đúng biện pháp công khai bản thảo để lấy góp ý, chỉ sai nhẹ đối tượng nhận chỉ đạo; vẫn thiếu trách nhiệm Bộ trưởng và bối cảnh thẩm định."
+    },
+    {
+      "sample_id": "test_021083",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Bộ trưởng thừa nhận sai sót, việc thay chủ tịch hội đồng, công khai bản thảo sớm và quy trình thẩm định sách giáo khoa lớp 1.",
+      "brief_reason": "Đúng về ý kiến đóng góp, mục tiêu đổi mới và trách nhiệm pháp lý của Bộ trưởng, nhưng dừng trước các phản ứng, biện pháp và kết quả thẩm định quan trọng."
+    }
+  ],
+  "completeness": {
+    "expected_samples": 10,
+    "expected_candidates": 40,
+    "returned_candidates": 40,
+    "missing": []
+  }
+}

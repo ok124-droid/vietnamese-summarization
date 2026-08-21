@@ -1,0 +1,692 @@
+{
+  "batch_id": "batch_17",
+  "results": [
+    {
+      "sample_id": "test_018565",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu việc NHNN yêu cầu rà soát quy trình, hướng dẫn nhận biết khách hàng, cảnh báo rủi ro và phối hợp giữa các ngân hàng.",
+      "brief_reason": "Nêu đúng đối tượng và nội dung hướng dẫn, nhưng quá khái quát, không nói chủ thể yêu cầu và bỏ gần hết các biện pháp chính."
+    },
+    {
+      "sample_id": "test_018565",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu yêu cầu tăng cường phối hợp, trao đổi thông tin giữa các ngân hàng thành viên Hiệp hội Ngân hàng.",
+      "brief_reason": "Trung thực và bao quát hầu hết yêu cầu của NHNN, song gần như sao chép dài nguồn và bỏ ý phối hợp liên ngân hàng."
+    },
+    {
+      "sample_id": "test_018565",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu yêu cầu rà soát, xây dựng quy trình phù hợp, cảnh báo rủi ro sử dụng và phối hợp giữa các ngân hàng.",
+      "brief_reason": "Các ý đều có căn cứ nhưng chỉ phản ánh khâu tuyên truyền, hướng dẫn giấy tờ; câu ghép sai khiến quan hệ giữa “hướng dẫn” và “khó khăn” thiếu rõ ràng."
+    },
+    {
+      "sample_id": "test_018565",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu tuyên truyền cho nhân viên, hướng dẫn về giấy tờ nhận biết khách hàng, cảnh báo rủi ro và phối hợp liên ngân hàng.",
+      "brief_reason": "Nêu chính xác chỉ đạo cốt lõi về rà soát và xây dựng quy trình, nhưng bỏ nhiều biện pháp triển khai quan trọng ở phần sau."
+    },
+    {
+      "sample_id": "test_018575",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu mục đích hưởng ứng lời kêu gọi hiến máu, đáp ứng nhu cầu cấp cứu và kết quả ngày hội trước đó.",
+      "brief_reason": "Tóm đúng sự kiện chính, thời gian, địa điểm, đơn vị tổ chức và số người đăng ký; chưa nêu mục đích cùng dữ kiện đối chiếu trước đó."
+    },
+    {
+      "sample_id": "test_018575",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "LOCATION"
+      ],
+      "factual_error_evidence": "Candidate đặt ngày hội tại “Khu Công nghệ cao và các Khu Công nghiệp Đà Nẵng”; source nêu địa điểm là Khu Công nghiệp Hòa Khánh, còn cụm kia thuộc tên đơn vị tổ chức.",
+      "main_missing_information": "Thiếu ngày 24.5, địa điểm chính xác, đơn vị tổ chức, mục đích và thông tin ngày hội ngày 1.3.",
+      "brief_reason": "Giữ đúng sự kiện và hơn 700 người đăng ký, nhưng chuyển tên phạm vi công đoàn thành địa điểm tổ chức và lược bỏ nhiều bối cảnh."
+    },
+    {
+      "sample_id": "test_018575",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu ngày hội 1.3 với hơn 1.000 người tham gia và 431 đơn vị máu thu được.",
+      "brief_reason": "Bao quát chính xác sự kiện ngày 24.5, quy mô và mục đích; chỉ bỏ phần thông tin nền về ngày hội hiến máu trước đó."
+    },
+    {
+      "sample_id": "test_018575",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 2
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu chính sự kiện hiến máu ngày 24.5 tại Hòa Khánh, hơn 700 người đăng ký và các kết quả liên quan.",
+      "brief_reason": "Chỉ nêu một mục đích phụ và dùng “Đây” không có tiền đề, nên không thể hiện độc lập sự kiện trung tâm dù thông tin không sai."
+    },
+    {
+      "sample_id": "test_018754",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu câu trả lời về mục đích chuyến thăm, tiến độ và nguồn tiền xây tường, cùng chủ trương biên giới của Joe Biden.",
+      "brief_reason": "Nêu đúng chuyến thăm và thời điểm cuối nhiệm kỳ, nhưng kết thúc bằng câu hỏi không trả lời, bỏ toàn bộ phần giải thích và chính sách."
+    },
+    {
+      "sample_id": "test_018754",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu thời điểm cuối nhiệm kỳ, lý do chuyến thăm, tiến độ và kinh phí bức tường, cùng kế hoạch dừng xây của Joe Biden.",
+      "brief_reason": "Thông tin chuyến thăm và địa điểm chính xác, nhưng quá ngắn so với bài phân tích dài, không nêu lý do hay các dữ kiện thiết yếu."
+    },
+    {
+      "sample_id": "test_018754",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu mục đích đánh dấu tiến độ bức tường, số liệu xây dựng, nguồn ngân sách Mỹ và chính sách sắp tới của Joe Biden.",
+      "brief_reason": "Tóm đúng chuyến thăm sát ngày kết thúc nhiệm kỳ, song chỉ phản ánh phần mở đầu và bỏ trọng tâm giải thích về bức tường."
+    },
+    {
+      "sample_id": "test_018754",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu thời điểm cuối nhiệm kỳ, lý do chuyến thăm, tiến độ và nguồn tiền xây tường, cùng định hướng của Joe Biden.",
+      "brief_reason": "Câu dẫn hoàn toàn chính xác và rõ ràng, nhưng chỉ nêu chuyến thăm, không bao phủ phần lớn nội dung phân tích của source."
+    },
+    {
+      "sample_id": "test_018882",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY"
+      ],
+      "factual_error_evidence": "Candidate gọi chương trình là “Vì những chiến binh áo xanh”; source nêu tên “VÌ NHỮNG CHIẾN BINH ÁO TRẮNG”.",
+      "main_missing_information": "Thiếu thông báo y tế khẩn về xe khách 15B.03684, tuyến đường, thời gian tiếp xúc và yêu cầu khai báo.",
+      "brief_reason": "Nêu đúng các đơn vị phát động nhưng sai tên trung tâm của chương trình, đồng thời bỏ hoàn toàn thông báo truy tìm người liên quan ca SARS-CoV-2."
+    },
+    {
+      "sample_id": "test_018882",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu hai số đường dây nóng hỗ trợ và phần phát động chương trình hỗ trợ cán bộ y tế.",
+      "brief_reason": "Trình bày chính xác, đầy đủ đối tượng, xe, tuyến và thời gian cần khai báo; chỉ bỏ thông tin liên hệ và phần kêu gọi hỗ trợ."
+    },
+    {
+      "sample_id": "test_018882",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ATTRIBUTION",
+        "LOCATION",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Source nói CDC Hải Phòng thông báo và tuyến Vĩnh Bảo (Hải Phòng)–Cây xăng 47 Bình Phước (TP.HCM); candidate gán thông báo cho CDC Thái Bình và viết “Vĩnh Bảo (TP.HCM)”.",
+      "main_missing_information": "Thiếu tuyến đường chính xác, nhóm tiếp xúc/nhận hàng từ 8.6 đến 22.6, yêu cầu khai báo và đường dây nóng.",
+      "brief_reason": "Có nhắc đúng ca dương tính và biển xe, nhưng sai cơ quan ra thông báo, làm sai địa điểm tuyến xe và lược bỏ hành động cần thiết."
+    },
+    {
+      "sample_id": "test_018882",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "NUMBER"
+      ],
+      "factual_error_evidence": "Candidate chỉ ghi biển số “15B”, trong khi source xác định đầy đủ là 15B.03684.",
+      "main_missing_information": "Thiếu biển số đầy đủ, tuyến xe, thời gian tiếp xúc 8.6–22.6, yêu cầu khai báo và số điện thoại hỗ trợ.",
+      "brief_reason": "Giữ đúng bối cảnh và cơ quan thông báo, nhưng bị cắt giữa định danh xe nên thiếu chính xác và bỏ phần hướng dẫn hành động quan trọng."
+    },
+    {
+      "sample_id": "test_018907",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 2
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ATTRIBUTION",
+        "UNSUPPORTED",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Source không ghi ông Trần Thanh Việt gọi vấn đề nào là “muôn thuở” và không đồng nhất “lực lượng lao động” với “CĐ”; candidate còn thiếu phát ngôn mà “như vậy” trỏ tới.",
+      "main_missing_information": "Thiếu nội dung hội nghị về nợ BHXH, kinh phí công đoàn, vướng mắc khởi kiện và cam kết chuyển kiến nghị tới Quốc hội.",
+      "brief_reason": "Khẳng định trung tâm không có căn cứ rõ trong source, dùng sai quan hệ khái niệm và không cung cấp đủ ngữ cảnh để hiểu sự kiện."
+    },
+    {
+      "sample_id": "test_018907",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu các vấn đề nợ BHXH, kinh phí công đoàn, trở ngại pháp lý khi khởi kiện và phản hồi của bà Nguyễn Thị Kim Bé.",
+      "brief_reason": "Đoạn mở đầu chính xác nhưng chỉ mô tả lời mời phát biểu và không khí hội nghị, chưa nêu những vấn đề hay giải pháp thực chất."
+    },
+    {
+      "sample_id": "test_018907",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "DATE_TIME",
+        "LOCATION",
+        "PREDICATE",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Source không nêu sáng 22.11 hay địa điểm TP.Rạch Giá, gọi đây là hội nghị tổng kết chứ không phải họp báo, và không đề cập nợ BHYT, BHTN.",
+      "main_missing_information": "Thiếu tranh luận về nợ BHXH, kinh phí công đoàn, khó khăn pháp lý trong khởi kiện và hướng xử lý qua kênh Quốc hội.",
+      "brief_reason": "Dựng sai loại sự kiện và bổ sung thời gian, địa điểm, nội dung không được source hỗ trợ; chỉ tên bà Kim Bé và chủ đề BHXH có liên quan."
+    },
+    {
+      "sample_id": "test_018907",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu nguyên nhân khiến công đoàn khó kiện doanh nghiệp nợ BHXH và cam kết tổng hợp, đưa kiến nghị vào nghị sự Quốc hội.",
+      "brief_reason": "Nêu đúng bối cảnh hội nghị cùng hai vấn đề nóng là nợ BHXH và kinh phí công đoàn, nhưng bỏ phần phân tích và hướng tháo gỡ."
+    },
+    {
+      "sample_id": "test_019026",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu các chỉ tiêu nhiệm kỳ mới và yêu cầu của Chủ tịch LĐLĐ tỉnh về tuyên truyền, thi đua, phát triển đoàn viên.",
+      "brief_reason": "Nêu chính xác kết quả nhân sự trung tâm, rõ và súc tích; chưa bao quát chương trình nhiệm kỳ và chỉ đạo tại đại hội."
+    },
+    {
+      "sample_id": "test_019026",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "LOCATION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Source không nêu “Tiền Hải (Thái Bình)” và chỉ gọi Trần Việt An là Chủ tịch LĐLĐ tỉnh, không nêu chức Ủy viên BCH Tổng LĐLĐVN.",
+      "main_missing_information": "Thiếu kết quả Vũ Thái Học được bầu làm Chủ tịch và toàn bộ chỉ tiêu trọng tâm của nhiệm kỳ 2018–2023.",
+      "brief_reason": "Sự kiện đại hội và việc Trần Việt An chỉ đạo có căn cứ, nhưng thêm địa điểm, chức danh ngoài source và bỏ kết quả bầu cử quan trọng nhất."
+    },
+    {
+      "sample_id": "test_019026",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "DATE_TIME",
+        "LOCATION",
+        "NUMBER"
+      ],
+      "factual_error_evidence": "Candidate thêm ngày 19-7, đặt Tiền Hải ở Quảng Nam và gọi đại hội lần II; source chỉ nêu đại hội khóa X, nhiệm kỳ 2018–2023, không có ngày hay địa điểm đó.",
+      "main_missing_information": "Thiếu việc Vũ Thái Học được bầu Chủ tịch, các chỉ tiêu nhiệm kỳ và chỉ đạo của Chủ tịch LĐLĐ tỉnh.",
+      "brief_reason": "Chỉ giữ đúng tên đơn vị và nhiệm kỳ; thời gian, địa điểm và số kỳ đại hội đều sai hoặc không được nguồn hỗ trợ."
+    },
+    {
+      "sample_id": "test_019026",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu phần Trần Việt An ghi nhận đóng góp và yêu cầu tăng tuyên truyền, thi đua, phát triển đoàn viên, xây dựng quan hệ lao động hài hòa.",
+      "brief_reason": "Chính xác và bao quát kết quả bầu chủ tịch cùng các chỉ tiêu nhiệm kỳ; chỉ bỏ phần phát biểu chỉ đạo và hơi nặng liệt kê số liệu."
+    },
+    {
+      "sample_id": "test_019243",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "LOCATION"
+      ],
+      "factual_error_evidence": "Candidate đặt bảng G ở khu vực “Châu Âu”; source không nêu điều này và các đối thủ được liệt kê là UAE, Malaysia, Thái Lan, Indonesia.",
+      "main_missing_information": "Thiếu việc lịch đấu bị hoãn, tuyển Việt Nam ổn định còn các đối thủ thay huấn luyện viên hoặc bổ sung cầu thủ nhập tịch.",
+      "brief_reason": "Kết luận Việt Nam còn cơ hội đi tiếp có căn cứ, nhưng gán sai khu vực, chứa ký tự lỗi và không tóm lược các thay đổi quyết định cục diện bảng."
+    },
+    {
+      "sample_id": "test_019243",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu sự ổn định của tuyển Việt Nam, các thay đổi nhân sự lớn của đối thủ và nhận định cuộc đua bảng G sẽ khốc liệt.",
+      "brief_reason": "Đúng hoàn toàn về kết quả lượt năm và lịch hoãn do COVID-19, nhưng chỉ tóm phần dẫn, chưa phản ánh trọng tâm so sánh lực lượng."
+    },
+    {
+      "sample_id": "test_019243",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "NUMBER"
+      ],
+      "factual_error_evidence": "Candidate nói đúng 14 tháng không thi đấu; source nêu “hơn 14 tháng”.",
+      "main_missing_information": "Thiếu nguyên nhân trì hoãn, sự ổn định của Việt Nam, những thay đổi nhân sự của UAE, Indonesia, Malaysia, Thái Lan và cơ hội đi tiếp.",
+      "brief_reason": "Hai dữ kiện chính đều gần đúng, nhưng làm tròn thời gian và ghép hai ý rời; phần lớn phân tích về biến động lực lượng bị bỏ."
+    },
+    {
+      "sample_id": "test_019243",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 2
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu kết quả lượt năm, việc hoãn lịch vì COVID-19, biến động lực lượng của các đội và triển vọng cuộc đua đi tiếp.",
+      "brief_reason": "Câu duy nhất đúng nhưng chỉ cho biết thời điểm các trận gần nhất, gần như không truyền đạt chủ đề hay diễn biến chính của bài."
+    },
+    {
+      "sample_id": "test_019374",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu việc hơn 300 cảnh sát bắt hai nghi phạm, nhận định pháp lý về hai tội danh và khuyến cáo an toàn cho tài xế.",
+      "brief_reason": "Phản ánh đúng hành vi giết tài xế rồi chiếm đoạt tài sản, nhưng diễn đạt lặp ý quyền sở hữu và bỏ tin bắt giữ cùng phần khuyến cáo."
+    },
+    {
+      "sample_id": "test_019374",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "ATTRIBUTION",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Source quy nhận định cho một luật sư Nguyễn Anh Thơm, không phải “các luật sư”; điểm g, n khoản 1 Điều 123 gắn với tội Giết người, không phải toàn bộ căn cứ định khung tài sản.",
+      "main_missing_information": "Thiếu diễn biến bắt hai nghi phạm bằng hơn 300 cảnh sát, nguy cơ tử hình và khuyến cáo phòng tránh cướp dành cho tài xế.",
+      "brief_reason": "Nêu đúng hai tội danh và vai trò của định giá tài sản, nhưng sai nhẹ chủ thể phát biểu và gắn các điều khoản pháp luật chưa chuẩn."
+    },
+    {
+      "sample_id": "test_019374",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu vụ giết, cướp tài sản của tài xế Grab, đánh giá pháp lý và những khuyến cáo giúp tài xế nhận diện khách đáng ngờ.",
+      "brief_reason": "Bao quát chính xác cuộc vây bắt, danh tính hai nghi phạm và thời điểm bắt; câu mở ghép tiêu đề hơi vụng và chưa nêu hành vi bị điều tra."
+    },
+    {
+      "sample_id": "test_019374",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu kết quả bắt giữ, vụ giết và cướp tài sản của tài xế Grab, phân tích tội danh và khuyến cáo an toàn.",
+      "brief_reason": "Thông tin huy động lực lượng và danh tính nghi phạm đúng, nhưng đoạn trích dừng sớm, ghép tiêu đề vụng và thiếu cả lý do lẫn kết quả vây bắt."
+    },
+    {
+      "sample_id": "test_019519",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu con số 158 người chết, miệng hố sâu 43 mét, hoạt động cứu hộ quốc tế và biểu tình đòi trừng phạt giới chức.",
+      "brief_reason": "Tóm chính xác thời điểm, sức nổ, nguyên nhân, số người bị thương và di dời; còn bỏ các hậu quả, cứu trợ và biểu tình quan trọng."
+    },
+    {
+      "sample_id": "test_019519",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "NUMBER"
+      ],
+      "factual_error_evidence": "Candidate nói ít nhất 6.000 người thiệt mạng; source nêu 158 người thiệt mạng và hơn 6.000 người bị thương.",
+      "main_missing_information": "Thiếu nguyên nhân từ đám cháy tại kho amoni nitrat, 300.000 người phải di dời, hố sâu 43 mét và các cuộc biểu tình.",
+      "brief_reason": "Súc tích và đúng sự kiện cùng số người bị thương, nhưng phóng đại nghiêm trọng số tử vong, làm sai quy mô hậu quả trung tâm."
+    },
+    {
+      "sample_id": "test_019519",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "RELATION"
+      ],
+      "factual_error_evidence": "Source nói miệng hố lớn hơn hậu quả của các vụ nổ trước; candidate đổi thành “vượt xa những gì người dân từng cảm nhận được”.",
+      "main_missing_information": "Thiếu thời điểm, nguyên nhân, sức nổ, số tử vong, bị thương, di dời và các cuộc biểu tình sau thảm họa.",
+      "brief_reason": "Nêu đúng độ sâu miệng hố và sự hỗ trợ của cứu hộ Pháp, nhưng so sánh sai nhẹ và chỉ chọn hai chi tiết phụ của sự kiện."
+    },
+    {
+      "sample_id": "test_019519",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu nguyên nhân từ kho amoni nitrat, thương vong và di dời, miệng hố 43 mét, cứu hộ quốc tế và biểu tình.",
+      "brief_reason": "Mô tả chính xác ngày và cường độ vụ nổ, nhưng chỉ phản ánh câu mở đầu, không nêu nguyên nhân hay hậu quả chủ yếu."
+    },
+    {
+      "sample_id": "test_019524",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu khoản hối lộ 356 tỉ đồng, việc Thái và Huy tìm thấy két sắt, sự sụp đổ của Trần Bạt và lịch phát sóng.",
+      "brief_reason": "Ý tập cuối làm rõ và xử lý các sai phạm được nguồn hỗ trợ, nhưng câu “đưa câu hỏi làm sáng tỏ” vụng và nội dung quá chung chung."
+    },
+    {
+      "sample_id": "test_019524",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu diễn biến tập 80: Thái và Huy tìm ra két tiền hối lộ trong hầm bí mật, cùng lịch phát sóng ngày 9.3.",
+      "brief_reason": "Tóm đúng nút thắt còn lại sau tập 79 và số tiền liên quan, nhưng bỏ phần hé lộ quan trọng về tập cuối."
+    },
+    {
+      "sample_id": "test_019524",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 1,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "DATE_TIME",
+        "PREDICATE",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Source đặt việc tìm thấy két ở tập 80 và chủ thể là Thái, Huy; candidate chuyển sang tập 79, viết Trần Bạt “sụp đổ két sắt” và thêm “Chí Nhân” ngoài source.",
+      "main_missing_information": "Thiếu nút thắt hối lộ 356 tỉ đồng, người tìm ra két, ý nghĩa đối với Trần Bạt và lịch phát sóng tập cuối.",
+      "brief_reason": "Sai tập phim, sai chủ thể và hành động, thêm thông tin không có nguồn; cấu trúc “sụp đổ két sắt” gần như không thể hiểu."
+    },
+    {
+      "sample_id": "test_019524",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu việc Thái và Huy tìm thấy két chứa tiền trong tập 80, Trần Bạt sụp đổ và lịch phát sóng ngày 9.3.",
+      "brief_reason": "Trình bày đầy đủ, chính xác tình trạng điều tra ở tập 79, nhưng chưa bao phủ diễn biến và thông tin phát sóng của tập cuối."
+    }
+  ],
+  "completeness": {
+    "expected_samples": 10,
+    "expected_candidates": 40,
+    "returned_candidates": 40,
+    "missing": []
+  }
+}

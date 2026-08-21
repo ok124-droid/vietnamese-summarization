@@ -1,0 +1,698 @@
+{
+  "batch_id": "batch_11",
+  "results": [
+    {
+      "sample_id": "test_014057",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Quy mô các suất quà, tổng giá trị hỗ trợ và nhóm lao động khó khăn được ưu tiên.",
+      "brief_reason": "Nội dung hoàn toàn đúng và đúng trọng tâm, nhưng mới nêu bối cảnh cùng kế hoạch, chưa phản ánh kết quả chăm lo Tết cụ thể."
+    },
+    {
+      "sample_id": "test_014057",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "LOCATION"
+      ],
+      "factual_error_evidence": "Candidate thêm “tỉnh Yên Bái”; SOURCE chỉ nêu huyện Yên Lập, không nêu tỉnh này.",
+      "main_missing_information": "Các hoạt động huy động nguồn lực, số suất quà, giá trị hỗ trợ và đối tượng ưu tiên.",
+      "brief_reason": "Tóm đúng hoạt động chung nhưng rất khái quát và thêm địa danh cấp tỉnh không được SOURCE hỗ trợ."
+    },
+    {
+      "sample_id": "test_014057",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 2
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Hoạt động chăm lo Tết Nhâm Dần 2022 và kết quả hỗ trợ đoàn viên, người lao động.",
+      "brief_reason": "Số liệu tổ chức công đoàn là đúng nhưng chỉ là bối cảnh, bỏ lỡ hoàn toàn sự kiện chăm lo Tết vốn là trọng tâm SOURCE."
+    },
+    {
+      "sample_id": "test_014057",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "LOCATION"
+      ],
+      "factual_error_evidence": "Candidate thêm “Phú Thọ” và “tỉnh Phú Thọ”; SOURCE không xác định tỉnh của huyện Yên Lập.",
+      "main_missing_information": "Số suất quà, tổng giá trị hỗ trợ và các nhóm lao động khó khăn được ưu tiên.",
+      "brief_reason": "Nêu đúng phương châm, chủ thể, hoạt động và dịp Tết, nhưng địa danh cấp tỉnh không được SOURCE hỗ trợ và thiếu kết quả cụ thể."
+    },
+    {
+      "sample_id": "test_014082",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "RELATION",
+        "NUMBER",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "SOURCE không nêu LĐLĐ phối hợp với ngân hàng tổ chức tập huấn hay có “gần 100” người tham dự.",
+      "main_missing_information": "Nội dung hướng dẫn trích nộp 2%, mở tài khoản và ý nghĩa của việc nâng hiệu quả thu kinh phí.",
+      "brief_reason": "Đúng chủ đề tập huấn nhưng tự thêm quan hệ đồng tổ chức và số người tham dự, đều là chi tiết quan trọng không có trong SOURCE."
+    },
+    {
+      "sample_id": "test_014082",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Ý nghĩa của việc thu nộp 2% và kỳ vọng tăng bảo vệ, chăm lo cho người lao động.",
+      "brief_reason": "Mô tả chính xác nội dung hướng dẫn tại tập huấn, nhưng bỏ phần phát biểu về ý nghĩa, giải đáp vướng mắc và lợi ích kỳ vọng."
+    },
+    {
+      "sample_id": "test_014082",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Phần kết về bảo vệ quyền lợi và chăm lo đời sống vật chất, tinh thần cho người lao động.",
+      "brief_reason": "Bao quát gần đầy đủ và trung thực; chỉ thiếu phần cuối của phát biểu, đồng thời kết thúc trích dẫn hơi đột ngột và dài hơn cần thiết."
+    },
+    {
+      "sample_id": "test_014082",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "DATE_TIME",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Candidate xác định “Sáng 15-7”, trong khi SOURCE không nêu ngày hoặc buổi diễn ra tập huấn.",
+      "main_missing_information": "Các nội dung hướng dẫn qua tài khoản Công đoàn Việt Nam và mục tiêu nâng hiệu quả thu kinh phí.",
+      "brief_reason": "Nêu đúng sự kiện và chủ đề tập huấn, nhưng tự gắn ngày giờ cụ thể không có trong SOURCE và thiếu phần nội dung, ý nghĩa."
+    },
+    {
+      "sample_id": "test_014172",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các ứng viên vaccine triển vọng, tiến độ thử nghiệm và hướng phát triển phương pháp điều trị.",
+      "brief_reason": "Tóm chính xác hai dự báo nổi bật và giữ đúng nguồn dẫn, nhưng chưa phản ánh các diễn biến quan trọng về vaccine và điều trị."
+    },
+    {
+      "sample_id": "test_014172",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các ứng viên vaccine triển vọng, tiến độ thử nghiệm và hướng phát triển phương pháp điều trị.",
+      "brief_reason": "Hai mốc dự báo đều được SOURCE hỗ trợ; bản tóm tắt vẫn chỉ bao phủ phần mở đầu, bỏ nhiều thông tin phát triển vaccine và điều trị."
+    },
+    {
+      "sample_id": "test_014172",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "LOCATION",
+        "PREDICATE",
+        "CAUSALITY",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "SOURCE không nói Châu Á “bùng nổ vaccine”, vaccine phát triển quá nhanh mà vô hiệu, hay Mỹ không thể can thiệp.",
+      "main_missing_information": "Dự báo vaccine hiệu quả khoảng 9.2021, giãn cách tại Mỹ đến cuối tháng 5 và các nỗ lực vaccine, điều trị.",
+      "brief_reason": "Hầu như toàn bộ nội dung là suy diễn không có trong SOURCE, sai trọng tâm và diễn đạt “bùng nổ vaccine” thiếu tự nhiên."
+    },
+    {
+      "sample_id": "test_014172",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tiến độ thử nghiệm Moderna-NIAID và nỗ lực tìm phương pháp điều trị COVID-19.",
+      "brief_reason": "Trung thực và bao quát dự báo cùng bối cảnh phát triển vaccine; còn thiếu tiến độ thử nghiệm, điều trị và hơi thiên về chi tiết quy trình."
+    },
+    {
+      "sample_id": "test_014268",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Kế hoạch giao nhận tại bãi mìn, cuộc họp vây bắt và lịch phát sóng tập 24.",
+      "brief_reason": "Nêu đúng diễn biến quan trọng về lô ma túy 2.000 bánh, nhưng chưa bao quát kế hoạch giao nhận, vây bắt và lịch phát sóng."
+    },
+    {
+      "sample_id": "test_014268",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 2,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "ATTRIBUTION"
+      ],
+      "factual_error_evidence": "SOURCE nói Đại úy Lâm đoán kế hoạch và nói với Long; candidate gán hành động, lời thoại cho Đại tá Hà.",
+      "main_missing_information": "Lô ma túy 2.000 bánh, giao dịch tại bãi mìn, kế hoạch vây bắt và lịch phát sóng.",
+      "brief_reason": "Trích đúng lời thoại nhưng nhầm nhân vật phát ngôn, đồng thời tập trung vào diễn biến phụ và bỏ các sự kiện chính của preview."
+    },
+    {
+      "sample_id": "test_014268",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Toàn bộ diễn biến preview tập 24: lô hàng 2.000 bánh, kế hoạch vây bắt và giờ phát sóng.",
+      "brief_reason": "Phần kể lại tập 23 hoàn toàn chính xác, nhưng chỉ là bối cảnh; bản tóm tắt bỏ trọng tâm preview và các diễn biến sắp tới."
+    },
+    {
+      "sample_id": "test_014268",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 2
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các diễn biến chính của preview tập 24, kế hoạch vây bắt đường dây 2.000 bánh và lịch phát sóng.",
+      "brief_reason": "Câu duy nhất đúng nhưng chỉ nhắc một chi tiết mở đầu của tập trước, quá ngắn và không thể hiện trọng tâm bài viết."
+    },
+    {
+      "sample_id": "test_014453",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 1,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "DATE_TIME",
+        "PREDICATE",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "SOURCE nêu 25.8 là ngày thi dự kiến, không phải chiều nhà trường ban hành kế hoạch; cũng không nêu ĐH Quốc gia Hà Nội.",
+      "main_missing_information": "Kỳ thi đợt 2 trực tuyến, 23 chỉ tiêu, điều kiện dự thi và yêu cầu chuẩn bị hai thiết bị.",
+      "brief_reason": "Biến ngày thi dự kiến thành thời điểm ban hành kế hoạch và thêm đơn vị chủ quản không được nêu; do đó sai sự kiện chính."
+    },
+    {
+      "sample_id": "test_014453",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "23 chỉ tiêu, điều kiện đủ tư cách dự thi và yêu cầu bắt buộc về hai thiết bị có camera, mic.",
+      "brief_reason": "Nêu chính xác hình thức, đợt thi và thời gian dự kiến, nhưng thiếu các điều kiện tuyển sinh và yêu cầu kỹ thuật quan trọng."
+    },
+    {
+      "sample_id": "test_014453",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Yêu cầu thí sinh chuẩn bị hai thiết bị kết nối mạng có camera, mic trong suốt quá trình thi.",
+      "brief_reason": "Bao quát đúng kỳ thi trực tuyến, thời gian, chỉ tiêu và đối tượng; chỉ thiếu yêu cầu kỹ thuật, hoàn lệ phí và hơi lặp điều kiện dự thi."
+    },
+    {
+      "sample_id": "test_014453",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "PREDICATE",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "SOURCE nói thí sinh đã nộp hồ sơ và số báo danh được đăng; không nói trường “công bố hồ sơ đăng ký dự thi”.",
+      "main_missing_information": "Kỳ thi đợt 2 trực tuyến ngày 25.8, chỉ tiêu, điều kiện dự thi và yêu cầu hai thiết bị.",
+      "brief_reason": "Câu sai quan hệ hành động, cấu trúc rối và chỉ nhắc website; hầu như không tóm được thông tin tuyển sinh cốt lõi."
+    },
+    {
+      "sample_id": "test_014476",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Yêu cầu khảo sát lại toàn bộ giáo viên, lịch khảo sát 1.180 người và cách chi trả kinh phí.",
+      "brief_reason": "Phản ánh đúng phản ứng hoang mang sau đề án, nhưng chưa giải thích nguyên nhân cụ thể, quy mô khảo sát và chính sách kinh phí."
+    },
+    {
+      "sample_id": "test_014476",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Quy định khảo sát năng lực giáo viên tiếng Anh, phản ứng của giáo viên, hai đợt khảo sát và kinh phí.",
+      "brief_reason": "Thông tin quyết định hoàn toàn chính xác nhưng chỉ là nền tảng, không nêu chính sách khảo sát lại gây tranh luận vốn là trọng tâm."
+    },
+    {
+      "sample_id": "test_014476",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "DATE_TIME",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Từ “vừa” hàm ý mới ban hành, trong khi SOURCE nêu quyết định ngày 17.9.2018 rồi có diễn biến ngày 13.2.2019.",
+      "main_missing_information": "Yêu cầu khảo sát lại giáo viên tiếng Anh, phản ứng, lịch khảo sát 1.180 người và quy định kinh phí.",
+      "brief_reason": "Nêu đúng cơ quan và đề án nhưng dùng mốc tương đối thiếu căn cứ, đồng thời chỉ phản ánh bối cảnh thay vì vấn đề khảo sát chính."
+    },
+    {
+      "sample_id": "test_014476",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Phản ứng của giáo viên, lịch khảo sát 1.180 người và việc tỉnh trả phí khảo sát nhưng giáo viên tự trả phí bồi dưỡng.",
+      "brief_reason": "Trình bày chính xác quyết định và yêu cầu khảo sát, bồi dưỡng; còn thiếu quy mô, phản ứng của giáo viên cùng giải đáp về kinh phí."
+    },
+    {
+      "sample_id": "test_014551",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "NUMBER",
+        "RELATION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "SOURCE chỉ gọi “ông Tri” và nói giá than TKV dự kiến tăng 5%; không khẳng định giá điện sẽ tăng khoảng 5%.",
+      "main_missing_information": "Thiếu than, phương án nhập khẩu và quy trình Bộ Công Thương xác định mức, thời điểm điều chỉnh giá điện.",
+      "brief_reason": "Đúng quan hệ chung giữa giá than và giá điện, nhưng tự bổ sung họ tên và chuyển mức tăng 5% của than thành mức tăng điện."
+    },
+    {
+      "sample_id": "test_014551",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ATTRIBUTION",
+        "PREDICATE",
+        "RELATION"
+      ],
+      "factual_error_evidence": "SOURCE dẫn lãnh đạo EVN, không phải TKV; thách thức là thiếu nước thủy điện, còn mức tăng tiếp diễn nói về nhu cầu điện, không phải giá.",
+      "main_missing_information": "Giá than TKV dự kiến tăng 5%, thiếu 8 triệu tấn than và quy trình lựa chọn mức, thời điểm tăng giá điện.",
+      "brief_reason": "Nhầm tổ chức phát ngôn, đánh tráo nguyên nhân của thách thức và biến tăng trưởng nhu cầu điện thành dự báo tăng giá, làm sai trọng tâm."
+    },
+    {
+      "sample_id": "test_014551",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Mức tăng giá than 5%, thiếu hụt nguồn cung, nhập khẩu bù thiếu và quy trình xác định giá điện.",
+      "brief_reason": "Thông tin đúng và liên quan trực tiếp, nhưng mới nêu tiêu đề cùng hai nhà cung cấp; thiếu số liệu, hệ quả và phương án điều hành giá."
+    },
+    {
+      "sample_id": "test_014551",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Giá than TKV dự kiến tăng 5%, tác động đến giá điện và quy trình lựa chọn mức, thời điểm điều chỉnh.",
+      "brief_reason": "Bao quát chính xác nhu cầu và thiếu hụt than, nhưng chưa giải thích bằng chứng tăng giá than hay cơ chế điều hành giá điện; phần mở đầu thiếu dấu ngắt."
+    },
+    {
+      "sample_id": "test_014612",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các yêu cầu không dùng người tiếp xúc ca bệnh, nhóm tối đa 10 người, bảo hộ, giãn cách và giám sát 24/24h.",
+      "brief_reason": "Chính xác nhưng mới nêu căn cứ và việc kê khai danh sách, dành nhiều dung lượng cho tên chỉ thị hơn các biện pháp phòng dịch chính."
+    },
+    {
+      "sample_id": "test_014612",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Yêu cầu sát khuẩn, giám sát công trường 24/24h và trách nhiệm khi xảy ra tai nạn.",
+      "brief_reason": "Bao quát đúng phần lớn biện pháp phòng dịch thiết yếu; chỉ thiếu một số yêu cầu giám sát, sát khuẩn và hơi dài do giữ nguyên căn cứ pháp lý."
+    },
+    {
+      "sample_id": "test_014612",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "DATE_TIME",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Candidate nêu ngày 27/3/2019, nhưng SOURCE không cung cấp ngày ban hành văn bản.",
+      "main_missing_information": "Các biện pháp cụ thể tại công trường: khai báo, loại người tiếp xúc ca bệnh, nhóm tối đa 10 người và giám sát 24/24h.",
+      "brief_reason": "Nêu đúng chủ đề văn bản nhưng tự thêm ngày cụ thể, diễn đạt địa điểm chưa rõ và không tóm các yêu cầu phòng dịch chính."
+    },
+    {
+      "sample_id": "test_014612",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thi công theo nhóm tối đa 10 người, giữ khoảng cách, đeo khẩu trang, đo thân nhiệt, sát khuẩn và giám sát 24/24h.",
+      "brief_reason": "Tóm đúng ba yêu cầu nền tảng và đúng chủ thể, nhưng bỏ nhiều biện pháp thi công an toàn; cụm “thi công trường” hơi thiếu tự nhiên."
+    },
+    {
+      "sample_id": "test_014880",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Chủ thể đề nghị là BHXH Khánh Hòa, mục tiêu phòng dịch và cách tiếp nhận, trả hồ sơ trực tuyến hoặc qua bưu điện.",
+      "brief_reason": "Nêu đúng khuyến nghị cốt lõi, nhưng quá khái quát, thiếu chủ thể, bối cảnh COVID-19 và các hướng dẫn thực hiện quan trọng."
+    },
+    {
+      "sample_id": "test_014880",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Tạm dừng nhận hồ sơ trực tiếp tại BHXH huyện, hoàn tiền qua giao dịch điện tử và khuyến nghị dùng Vss-ID.",
+      "brief_reason": "Trung thực, bao quát đề nghị, mục đích và 25 thủ tục trực tuyến; còn thiếu một số hướng dẫn khi giãn cách và hơi dài."
+    },
+    {
+      "sample_id": "test_014880",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Mục tiêu của giao dịch điện tử, 25 thủ tục mức độ 4, phương thức bưu điện và khuyến nghị dùng Vss-ID.",
+      "brief_reason": "Câu mở đầu tóm đúng chủ thể, đối tượng và đề nghị chính, nhưng chưa bao quát cách triển khai cùng các lưu ý hồ sơ khi giãn cách."
+    },
+    {
+      "sample_id": "test_014880",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "PREDICATE",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "SOURCE nêu BHXH tỉnh đề nghị giao dịch điện tử, không trực tiếp nói có văn bản vừa gửi các đối tượng này.",
+      "main_missing_information": "Giao dịch điện tử còn áp dụng cho BHYT, nhằm phòng dịch và gồm các thủ tục, phương thức tiếp nhận, trả kết quả cụ thể.",
+      "brief_reason": "Giữ được ý khuyến nghị chung nhưng thêm hình thức “văn bản gửi”, bỏ BHYT cùng hầu hết nội dung triển khai; cấu trúc câu thiếu tự nhiên."
+    },
+    {
+      "sample_id": "test_015009",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các công ty dầu mỏ đang chuyển hướng sang năng lượng tái tạo và khả năng chuyển đổi sang nguồn sạch hơn.",
+      "brief_reason": "Tóm chính xác luận điểm trung tâm, người phát biểu, bối cảnh và dự báo 30 năm; chỉ thiếu các phản ứng, triển vọng chuyển đổi của doanh nghiệp."
+    },
+    {
+      "sample_id": "test_015009",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Dự báo của Bill Gates rằng một số tập đoàn dầu mỏ sẽ có giá trị rất thấp sau 30 năm và hướng chuyển đổi.",
+      "brief_reason": "Nêu đúng xu thế và hệ quả chung, nhưng thiếu chủ thể nhận định, mốc dự báo 30 năm cùng các bằng chứng và chiến lược chuyển đổi."
+    },
+    {
+      "sample_id": "test_015009",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "CAUSALITY",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "SOURCE nêu riêng dự báo giảm giá trị và nhận định khó dẫn đầu công nghệ; không khẳng định quan hệ điều kiện-nguyên nhân giữa hai ý.",
+      "main_missing_information": "Bối cảnh thế giới rời nhiên liệu hóa thạch, phát biểu của Bill Gates và việc các hãng dầu đang chuyển hướng sang năng lượng sạch.",
+      "brief_reason": "Kết hợp hai ý có thật thành quan hệ nhân quả không chắc chắn; vẫn giữ được chủ đề và dự báo chính nhưng thiếu bối cảnh, attribution."
+    },
+    {
+      "sample_id": "test_015009",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Dự báo trung tâm rằng quá trình rời nhiên liệu hóa thạch có thể khiến một số tập đoàn dầu mỏ xuống giá trị rất thấp trong 30 năm.",
+      "brief_reason": "Thông tin chuyển hướng kinh doanh và attribution đều đúng, nhưng đây là ý hỗ trợ; candidate bỏ hoàn toàn dự báo suy giảm giá trị vốn là trọng tâm."
+    }
+  ],
+  "completeness": {
+    "expected_samples": 10,
+    "expected_candidates": 40,
+    "returned_candidates": 40,
+    "missing": []
+  }
+}

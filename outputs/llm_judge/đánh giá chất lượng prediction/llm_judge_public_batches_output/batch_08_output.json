@@ -1,0 +1,695 @@
+{
+  "batch_id": "batch_08",
+  "results": [
+    {
+      "sample_id": "test_009840",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các nguyên tắc cụ thể về số hợp đồng, bảo hiểm tự nguyện, hình thức bán và điều kiện đối với đại lý.",
+      "brief_reason": "Đúng khái quát về văn bản và phạm vi điều chỉnh, nhưng quá chung chung, chưa tóm lược các nguyên tắc cụ thể là nội dung chính."
+    },
+    {
+      "sample_id": "test_009840",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 2
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Toàn bộ các nguyên tắc tham gia và bán bảo hiểm bắt buộc trách nhiệm dân sự của chủ xe cơ giới.",
+      "brief_reason": "Chỉ là câu dẫn báo hiệu sẽ có thông tin, không cung cấp bất kỳ nguyên tắc hay sự kiện cụ thể nào nên gần như không có giá trị tóm tắt."
+    },
+    {
+      "sample_id": "test_009840",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Quy định không mua đồng thời nhiều hợp đồng cho một xe, quyền mua bảo hiểm tự nguyện và quy định bán qua đại lý.",
+      "brief_reason": "Nêu đúng nghĩa vụ bảo hiểm và nguyên tắc đầu tiên, nhưng lặp ý ở phần dẫn và bỏ phần lớn các nguyên tắc còn lại."
+    },
+    {
+      "sample_id": "test_009840",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các nguyên tắc cụ thể tại Điều 4 về số hợp đồng, bảo hiểm tự nguyện, cách bán và tiêu chuẩn đại lý.",
+      "brief_reason": "Thông tin trung thực và đúng trọng tâm chung, song quá ngắn, chỉ nêu nghĩa vụ bắt buộc mà không tóm tắt nội dung quy định chi tiết."
+    },
+    {
+      "sample_id": "test_009903",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Việc di dời trụ 6 và 7 cùng kết luận khác nhau về hành lang an toàn theo quy định đường thủy và công thương.",
+      "brief_reason": "Nêu đúng việc giãn trụ 4, 5 và yêu cầu bảo đảm luồng tàu, nhưng chưa bao quát toàn bộ phương án di dời và vấn đề hành lang an toàn."
+    },
+    {
+      "sample_id": "test_009903",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "NUMBER",
+        "PREDICATE"
+      ],
+      "factual_error_evidence": "Candidate nói “còn lại một trụ” di dời 50m; SOURCE nêu cả trụ 6 di dời 50m và trụ 7 di dời 23m.",
+      "main_missing_information": "Việc di dời trụ 7 vào bờ 23m, các biện pháp an toàn và kết luận về hành lang luồng, hành lang cột tháp gió.",
+      "brief_reason": "Tóm tắt được một phần phương án nhưng diễn đạt sai số trụ còn lại, bỏ trụ 7 và hầu hết bối cảnh an toàn dẫn đến việc di dời."
+    },
+    {
+      "sample_id": "test_009903",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Kết luận rằng các trụ không vi phạm luồng đường thủy nhưng trụ 6, 7 chưa bảo đảm hành lang an toàn theo quy định Bộ Công thương.",
+      "brief_reason": "Bao quát chính xác phương án với cả bốn trụ và yêu cầu bảo đảm tàu thuyền; chỉ thiếu phần đối chiếu quy định giải thích vấn đề an toàn."
+    },
+    {
+      "sample_id": "test_009903",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Di dời trụ 6, 7, yêu cầu bảo đảm tàu thuyền và các kết luận về hành lang an toàn.",
+      "brief_reason": "Câu viết đúng và rõ, nhưng chỉ nêu việc giãn trụ 4, 5 nên phản ánh một phần nhỏ của phương án cùng vấn đề an toàn được bài viết đề cập."
+    },
+    {
+      "sample_id": "test_009952",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "ATTRIBUTION",
+        "ENTITY"
+      ],
+      "factual_error_evidence": "Candidate gọi người phát biểu là “một nhà thầu”; SOURCE xác định đó là ông Shigeki Ihara, Giám đốc dự án của liên danh tổng thầu.",
+      "main_missing_information": "Diễn biến sự cố, thiệt hại, việc đang điều tra, trách nhiệm của SCC, biện pháp tạm thời và khẳng định không ảnh hưởng tiến độ.",
+      "brief_reason": "Chỉ nêu nhận định sự cố hiếm và nhỏ, lại gán người phát biểu mơ hồ; câu “nguyên nhân… là lần đầu tiên thấy” vụng và thiếu phần lớn diễn biến chính."
+    },
+    {
+      "sample_id": "test_009952",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nguyên nhân còn được làm rõ, SCC chịu trách nhiệm, đã thay gối tạm thời và sự cố không ảnh hưởng tiến độ chung.",
+      "brief_reason": "Mô tả đúng sự cố, vị trí và tổng thầu, nhưng dành nhiều chỗ cho mã vị trí trong khi bỏ kết quả kiểm tra, trách nhiệm, khắc phục và tác động tiến độ."
+    },
+    {
+      "sample_id": "test_009952",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Vị trí sự cố, trách nhiệm và biện pháp tạm thời của SCC, nguy cơ hư hỏng cùng khẳng định không ảnh hưởng tiến độ.",
+      "brief_reason": "Nêu chính xác sự cố gối cao su, hậu quả trực tiếp và hoạt động kiểm tra, nhưng chỉ dừng ở phần mở đầu nên còn thiếu nhiều thông tin xử lý quan trọng."
+    },
+    {
+      "sample_id": "test_009952",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "PREDICATE"
+      ],
+      "factual_error_evidence": "Candidate nói “Tuyến metro số 1… bị rớt”; SOURCE nói một gối cao su của dầm cầu cạn bị rớt, làm lệch đầu dầm và hỏng ray.",
+      "main_missing_information": "Chủ thể bị rớt là gối cao su, vị trí sự cố, việc điều tra nguyên nhân, trách nhiệm và biện pháp khắc phục.",
+      "brief_reason": "Gán hành động bị rớt cho cả tuyến metro thay vì gối cao su, làm sai hoàn toàn sự kiện trung tâm; câu quá ngắn và gây hiểu nhầm nghiêm trọng."
+    },
+    {
+      "sample_id": "test_010077",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "LOCATION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Candidate thêm địa danh “Nghệ An”; SOURCE chỉ nêu huyện Đô Lương, không nêu tỉnh.",
+      "main_missing_information": "Khoản đầu tư 8.000 viên gạch và phong trào góp 10.000 đồng mỗi đoàn viên để xây bốn nhà trong năm 2020.",
+      "brief_reason": "Tóm đúng sự kiện bàn giao và gắn biển, nhưng thêm tỉnh không có trong SOURCE và bỏ các đóng góp, phong trào hỗ trợ đoàn viên quan trọng."
+    },
+    {
+      "sample_id": "test_010077",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "LOCATION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Candidate thêm “Nghệ An”, trong khi SOURCE không nêu tỉnh của huyện Đô Lương.",
+      "main_missing_information": "Việc bàn giao nhà ăn, gắn biển công trình và phát động góp tiền xây bốn nhà cho đoàn viên khó khăn.",
+      "brief_reason": "Chỉ chọn chi tiết 8.000 viên gạch thay vì sự kiện bàn giao công trình và phong trào hỗ trợ; địa danh cấp tỉnh cũng không được SOURCE xác nhận."
+    },
+    {
+      "sample_id": "test_010077",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Phong trào góp 10.000 đồng mỗi cán bộ, đoàn viên để xây bốn nhà cho người khó khăn trong năm 2020.",
+      "brief_reason": "Bao quát đúng việc bàn giao, đầu tư gạch và hoàn thành công trình, nhưng lặp dài khẩu hiệu chào mừng và bỏ toàn bộ phong trào hỗ trợ nhà ở."
+    },
+    {
+      "sample_id": "test_010077",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Đầu tư 8.000 viên gạch và phát động góp 10.000 đồng mỗi người để xây bốn nhà cho đoàn viên khó khăn.",
+      "brief_reason": "Nêu đúng sự kiện chính, súc tích; tuy nhiên cụm “chào mừng” bị lặp vụng và hai hoạt động đóng góp đáng kể đều không được đề cập."
+    },
+    {
+      "sample_id": "test_010177",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Đặc điểm nạn nhân, tình trạng bộ xương, thời gian tử vong khoảng một năm và việc tiếp tục điều tra.",
+      "brief_reason": "Nêu chính xác thông báo truy tìm danh tính và nơi phát hiện, nhưng chỉ có câu dẫn, chưa cung cấp các đặc điểm giúp nhận dạng hay diễn biến phát hiện."
+    },
+    {
+      "sample_id": "test_010177",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Việc người dân phát hiện bộ xương tại chân cầu cạn số 4 và vụ việc vẫn đang được điều tra.",
+      "brief_reason": "Tóm đúng thông báo truy tìm cùng các đặc điểm nhận dạng quan trọng về giới tính, tuổi, chiều dài và thời gian tử vong; chỉ thiếu bối cảnh phát hiện, điều tra."
+    },
+    {
+      "sample_id": "test_010177",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "LOCATION",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Candidate xác định “xã Phú Xuân… tỉnh Thanh Hoá”; SOURCE chỉ nêu xóm Đồng Tiến, chân cầu cạn số 4 và huyện Phú Lương.",
+      "main_missing_information": "Công an phát thông báo truy tìm danh tính; nạn nhân là nam khoảng 30 tuổi và vụ việc đang được điều tra.",
+      "brief_reason": "Có đúng việc phát hiện bộ xương và hai thông số, nhưng tự thêm địa chỉ cụ thể không được SOURCE hỗ trợ, đồng thời bỏ mục tiêu truy tìm danh tính."
+    },
+    {
+      "sample_id": "test_010177",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "PREDICATE",
+        "ATTRIBUTION"
+      ],
+      "factual_error_evidence": "Candidate nói Công an huyện phát hiện thi thể; SOURCE nói người dân xóm Đồng Tiến phát hiện bộ xương, còn công an ra thông báo truy tìm danh tính.",
+      "main_missing_information": "Thông báo truy tìm danh tính, việc người dân phát hiện bộ xương, các đặc điểm nhận dạng và tình trạng điều tra.",
+      "brief_reason": "Đổi sai chủ thể phát hiện và làm mất hành động chính của công an là truy tìm danh tính; chỉ giữ đúng giới tính, tuổi ước đoán."
+    },
+    {
+      "sample_id": "test_010229",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Hệ quả U23 Thái Lan có thể mất suất dự giải và kế hoạch AFC kiểm tra sân vào tháng 10 trước quyết định cuối cùng.",
+      "brief_reason": "Đúng cảnh báo, điều kiện, thời gian và bốn sân dự kiến, nhưng lặp lại cùng cảnh báo và chưa nêu hệ quả thể thao cùng bước kiểm tra quyết định."
+    },
+    {
+      "sample_id": "test_010229",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Bốn sân phải đạt yêu cầu, hệ quả với suất dự giải của U23 Thái Lan và cuộc kiểm tra tháng 10 trước quyết định cuối.",
+      "brief_reason": "Trình bày chính xác và súc tích cảnh báo có điều kiện của AFC, song chưa bao quát căn cứ, hệ quả nếu bị tước quyền và quy trình quyết định."
+    },
+    {
+      "sample_id": "test_010229",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Yêu cầu đối với bốn sân, nguy cơ U23 Thái Lan mất suất và đợt thị sát tháng 10 trước quyết định cuối cùng.",
+      "brief_reason": "Giữ đúng trọng tâm cảnh báo có điều kiện và nguồn tin, nhưng thiếu các hệ quả, mốc kiểm tra; cách đặt dấu cách trước dấu hai chấm hơi vụng."
+    },
+    {
+      "sample_id": "test_010229",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "PREDICATE",
+        "NEGATION"
+      ],
+      "factual_error_evidence": "Candidate nói AFC “đã quyết định tước”; SOURCE chỉ nêu cảnh báo có thể tước và tháng 10 mới kiểm tra trước khi quyết định cuối cùng.",
+      "main_missing_information": "Tính điều kiện của cảnh báo, yêu cầu cải tạo bốn sân, hậu quả với U23 Thái Lan và đợt kiểm tra tháng 10.",
+      "brief_reason": "Biến nguy cơ có điều kiện thành quyết định đã xảy ra, đảo ngược trạng thái cốt lõi của sự kiện; câu rõ nhưng hoàn toàn sai kết luận chính."
+    },
+    {
+      "sample_id": "test_010311",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Lời xin lỗi và thừa nhận sai phạm, việc bị xóa tên trên nền tảng, nghi vấn phong sát và nguy cơ các dự án không thể phát sóng.",
+      "brief_reason": "Nêu đúng án phạt, phản ứng của người hâm mộ và việc Đặng Luân đăng bài, nhưng bỏ nội dung xin lỗi cùng những hậu quả nghề nghiệp là trọng tâm lớn."
+    },
+    {
+      "sample_id": "test_010311",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Đặng Luân xin lỗi và nhận trách nhiệm, bị gỡ hồ sơ và tên phim, có nguy cơ phong sát, khiến các dự án chưa ra mắt bị ảnh hưởng.",
+      "brief_reason": "Câu trung thực, rõ và nêu nguyên nhân khởi phát, nhưng quá ngắn so với bài, không phản ánh phản hồi của nam diễn viên hay hậu quả nghiêm trọng."
+    },
+    {
+      "sample_id": "test_010311",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Lời xin lỗi, việc chấp nhận trách nhiệm và các dấu hiệu bị gỡ tên, phong sát cùng nguy cơ phim không thể phát sóng.",
+      "brief_reason": "Chỉ lặp lại thông tin mở đầu về mức phạt và dư luận; hoàn toàn đúng nhưng chưa đủ để tóm tắt diễn biến phản hồi và hệ quả nghề nghiệp."
+    },
+    {
+      "sample_id": "test_010311",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "NUMBER"
+      ],
+      "factual_error_evidence": "Candidate khẳng định mức phạt “380 tỉ đồng”; SOURCE nêu con số ước lượng “khoảng 380 tỉ đồng”.",
+      "main_missing_information": "Lời xin lỗi, thừa nhận sai phạm, việc bị xóa tên trên nền tảng và nguy cơ phong sát, ảnh hưởng các phim chưa ra mắt.",
+      "brief_reason": "Nêu đúng sự kiện cốt lõi nhưng biến mức phạt ước lượng thành con số tuyệt đối và không bao quát phản hồi, dấu hiệu phong sát hay hậu quả dự án."
+    },
+    {
+      "sample_id": "test_010631",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiết kế không có lan can, lý do chậm do bàn giao nhân sự, việc thành phố xem xét bổ sung và kế hoạch đặt biển, giăng dây.",
+      "brief_reason": "Phản ánh đúng tình trạng thiếu lan can, cảnh báo và mong muốn của dân, nhưng hơi lặp mục tiêu an toàn và chưa có giải thích, phương án của cơ quan quản lý."
+    },
+    {
+      "sample_id": "test_010631",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Khu vực chưa được cảnh báo, nguyên nhân thiết kế và bàn giao nhân sự, kế hoạch bổ sung lan can, biển báo và dây cảnh báo.",
+      "brief_reason": "Nêu đúng và gọn vấn đề trung tâm sau vụ tử vong, nhưng chỉ có hiện trạng, thiếu kiến nghị của dân cùng phản hồi, kế hoạch xử lý của chính quyền."
+    },
+    {
+      "sample_id": "test_010631",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Việc chưa giăng dây, nhu cầu đèn chiếu sáng, lý do chưa có lan can và kế hoạch cảnh báo, bổ sung hạng mục của cơ quan quản lý.",
+      "brief_reason": "Tóm đúng hiện trạng quan trọng, nêu được địa bàn và hậu quả trước đó, nhưng chưa phản ánh nguyên nhân chậm trễ, phản hồi hay biện pháp sắp tới."
+    },
+    {
+      "sample_id": "test_010631",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "NEGATION",
+        "PREDICATE"
+      ],
+      "factual_error_evidence": "Candidate nói “sau khi thi công xây dựng lan can và gắn đèn”; SOURCE khẳng định lan can chưa được xây, đèn chưa có và người dân đang đề nghị làm.",
+      "main_missing_information": "Hiện trạng chưa có lan can, đèn và cảnh báo; nguyên nhân, phản hồi của cơ quan quản lý và biện pháp an toàn dự kiến.",
+      "brief_reason": "Đảo ngược hiện trạng thành đã thi công rồi lại nói dân muốn làm lan can, tạo mâu thuẫn nội bộ và làm sai hoàn toàn vấn đề chính."
+    },
+    {
+      "sample_id": "test_010652",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nga đã đẩy lùi 13 máy bay không người lái và phản hồi của Mỹ rằng công nghệ có thể mua dễ dàng, từng được IS sử dụng.",
+      "brief_reason": "Trình bày đúng nghi vấn của Nga, máy bay Mỹ xuất hiện và nhận định về công nghệ vũ khí; thiếu kết quả đẩy lùi cùng phản hồi đối lập của Mỹ."
+    },
+    {
+      "sample_id": "test_010652",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Máy bay trinh sát Mỹ xuất hiện đúng thời điểm, nhận định về công nghệ tiên tiến, việc Nga đẩy lùi 13 máy bay và phản hồi của Mỹ.",
+      "brief_reason": "Nêu đúng sự kiện tấn công và thái độ nghi ngờ của Mátxcơva, nhưng không giải thích sự trùng hợp, thiếu diễn biến chính; dấu ngoặc kép mở không được đóng."
+    },
+    {
+      "sample_id": "test_010652",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "PREDICATE",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Candidate khiến máy bay trinh sát Mỹ thành chủ thể tấn công; SOURCE nói căn cứ bị máy bay không người lái của phiến binh tấn công, máy bay Mỹ chỉ xuất hiện gần đó.",
+      "main_missing_information": "Cuộc tấn công bằng 13 máy bay không người lái của phiến binh, nghi vấn của Nga về sự trùng hợp, việc đẩy lùi và phản hồi của Mỹ.",
+      "brief_reason": "Đảo lộn quan hệ giữa các chủ thể, biến máy bay trinh sát Mỹ xuất hiện gần đó thành bên tấn công; câu cũng sai ngữ pháp và không truyền đạt được diễn biến."
+    },
+    {
+      "sample_id": "test_010652",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ATTRIBUTION",
+        "RELATION",
+        "PREDICATE"
+      ],
+      "factual_error_evidence": "Candidate khẳng định vũ khí “được Mỹ sử dụng”; SOURCE nói Nga không chỉ đích danh thủ phạm, chỉ nêu vũ khí thuộc nước có công nghệ tiên tiến và máy bay Mỹ ở gần.",
+      "main_missing_information": "Tính chất nghi vấn chứ chưa cáo buộc, máy bay trinh sát Mỹ xuất hiện cùng thời điểm, 13 máy bay phiến binh bị đẩy lùi và phản hồi Mỹ.",
+      "brief_reason": "Biến suy đoán thận trọng về công nghệ và sự hiện diện của máy bay Mỹ thành cáo buộc Mỹ trực tiếp dùng vũ khí tấn công, sai nghiêm trọng kết luận."
+    },
+    {
+      "sample_id": "test_011023",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Đội hình rệu rã Ten Hag phải xây lại, một số cầu thủ muốn Pochettino, yêu cầu chứng tỏ năng lực và lộ trình thanh lọc qua nhiều kỳ chuyển nhượng.",
+      "brief_reason": "Đúng về hiệu ứng tinh thần của việc bổ nhiệm và tình trạng mất vé Champions League, nhưng chưa tóm tắt các thách thức tái thiết là phần lớn nội dung bài."
+    },
+    {
+      "sample_id": "test_011023",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "SOURCE gọi Rangnick là người cao tuổi; không hề nói Ten Hag có thể cao tuổi nhất lịch sử Premier League của Manchester United.",
+      "main_missing_information": "Việc bổ nhiệm Ten Hag, hiệu ứng với cầu thủ và toàn bộ thách thức tái thiết đội hình Manchester United.",
+      "brief_reason": "Khẳng định duy nhất vừa gán nhầm mô tả của Rangnick cho Ten Hag vừa thêm so sánh “nhất lịch sử” không có nguồn; không phản ánh chủ đề bài."
+    },
+    {
+      "sample_id": "test_011023",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "RELATION",
+        "PREDICATE"
+      ],
+      "factual_error_evidence": "Candidate nói Ten Hag thay Pochettino; SOURCE nói Ten Hag tiếp quản sau Rangnick, còn Pochettino chỉ là người một số cầu thủ mong muốn.",
+      "main_missing_information": "Ten Hag được bổ nhiệm thay Rangnick, đội hình đang rệu rã, sự hoài nghi trong phòng thay đồ và yêu cầu tái thiết qua nhiều kỳ chuyển nhượng.",
+      "brief_reason": "Nhầm hoàn toàn quan hệ giữa Ten Hag, Rangnick và Pochettino, đồng thời diễn đạt sai đánh giá về giai đoạn sa sút; không nêu đúng thách thức chính."
+    },
+    {
+      "sample_id": "test_011023",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Một số cầu thủ muốn Pochettino, Ten Hag phải chứng minh năng lực và việc thanh lọc đội hình cần ít nhất ba kỳ chuyển nhượng.",
+      "brief_reason": "Bao quát đúng việc bổ nhiệm, tác động tinh thần và thách thức tiếp quản đội hình vụn vỡ; chỉ thiếu các trở ngại cụ thể trong phòng thay đồ, nhân sự."
+    }
+  ],
+  "completeness": {
+    "expected_samples": 10,
+    "expected_candidates": 40,
+    "returned_candidates": 40,
+    "missing": []
+  }
+}

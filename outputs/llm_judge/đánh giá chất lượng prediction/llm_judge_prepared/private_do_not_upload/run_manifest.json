@@ -1,0 +1,232 @@
+{
+  "created_at_utc": "2026-08-19T16:07:02.153524+00:00",
+  "prompt_version": "llm_judge_chat_v1",
+  "seed": 42,
+  "shuffle_sample_order": false,
+  "expected_samples": 200,
+  "batch_size": 10,
+  "batch_count": 20,
+  "candidate_labels": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "position_counts": {
+    "A": {
+      "vit5": 50,
+      "lead3": 50,
+      "scratch_transformer": 50,
+      "lead1": 50
+    },
+    "B": {
+      "lead3": 50,
+      "lead1": 50,
+      "vit5": 50,
+      "scratch_transformer": 50
+    },
+    "C": {
+      "scratch_transformer": 50,
+      "lead1": 50,
+      "lead3": 50,
+      "vit5": 50
+    },
+    "D": {
+      "lead1": 50,
+      "scratch_transformer": 50,
+      "vit5": 50,
+      "lead3": 50
+    }
+  },
+  "input_files": {
+    "sample": {
+      "filename": "llm_judge_sample_200.jsonl",
+      "sha256": "fa80fede4e89f8e52ccf1756c74efcac691079f6b7bc171dd7cf28edf286f422"
+    },
+    "predictions": {
+      "lead1": {
+        "filename": "lead1.jsonl",
+        "sha256": "6218c62bf55974b1296b6065faf9024adedb6caa47a994b9ef39d5c69b177d89"
+      },
+      "lead3": {
+        "filename": "lead3.jsonl",
+        "sha256": "1e2e8a8c1b9a677f6b1968573fc281db5138cfc3b02717b20f28faf854c72fca"
+      },
+      "scratch_transformer": {
+        "filename": "scratch_transformer_test_core_2000.jsonl",
+        "sha256": "a4c0199d207c5fe4cd9323ae1f1cb67be150289349482a60e81cef149aece8ce"
+      },
+      "vit5": {
+        "filename": "vit5_test_core_2000.jsonl",
+        "sha256": "913c8056ff09c0328d9dee76260eb674a10f64d582453a5a0f69b120bfaf71ae"
+      }
+    }
+  },
+  "public_batches": [
+    {
+      "batch_id": "batch_01",
+      "sample_count": 10,
+      "candidate_count": 40,
+      "characters": 39098,
+      "bytes": 50594,
+      "sha256": "2cc5a2d2a2e314828e9957c56ff4bc60bf4fa43b19c0fc2e76d0e9d168baae89"
+    },
+    {
+      "batch_id": "batch_02",
+      "sample_count": 10,
+      "candidate_count": 40,
+      "characters": 39738,
+      "bytes": 51275,
+      "sha256": "6399368ee6a0425d72dafa3c3123cfbdd1ca5ed4ff073afcef086429afecf625"
+    },
+    {
+      "batch_id": "batch_03",
+      "sample_count": 10,
+      "candidate_count": 40,
+      "characters": 37193,
+      "bytes": 47963,
+      "sha256": "f52351d3b0823bcb616e53d42273262ef62fe76a18f32766cdaebb0ddcebc248"
+    },
+    {
+      "batch_id": "batch_04",
+      "sample_count": 10,
+      "candidate_count": 40,
+      "characters": 39507,
+      "bytes": 50901,
+      "sha256": "29a6a744cf4b4014aca2c7129470868e2390868e9a726d5a16b54842238ec3d6"
+    },
+    {
+      "batch_id": "batch_05",
+      "sample_count": 10,
+      "candidate_count": 40,
+      "characters": 34484,
+      "bytes": 44531,
+      "sha256": "f22cfe302f79bb086e944b25b78dd91c4c474da0cf0d5fe126165c1f6d23e0d4"
+    },
+    {
+      "batch_id": "batch_06",
+      "sample_count": 10,
+      "candidate_count": 40,
+      "characters": 43228,
+      "bytes": 56518,
+      "sha256": "676b75626f8eccd2a952fe4ea0b4c445a8fc7dba406d2e1a4a426688d992175c"
+    },
+    {
+      "batch_id": "batch_07",
+      "sample_count": 10,
+      "candidate_count": 40,
+      "characters": 32166,
+      "bytes": 41458,
+      "sha256": "e27846f18b05f5e8a0df4fce4049e3918dc69aaeb0ef7e7b442da003e926d945"
+    },
+    {
+      "batch_id": "batch_08",
+      "sample_count": 10,
+      "candidate_count": 40,
+      "characters": 33044,
+      "bytes": 42336,
+      "sha256": "0b5c0e03a91718b2a19be059df6afe138dbd2908af91cfbcb02c66cd51a7cf1a"
+    },
+    {
+      "batch_id": "batch_09",
+      "sample_count": 10,
+      "candidate_count": 40,
+      "characters": 35723,
+      "bytes": 45972,
+      "sha256": "528cee402f5f0d72cb14f534561da3f998af791b4e45ce0c9f3ae3d30598b9b5"
+    },
+    {
+      "batch_id": "batch_10",
+      "sample_count": 10,
+      "candidate_count": 40,
+      "characters": 35502,
+      "bytes": 45812,
+      "sha256": "8dd58ee4716feb00fae6d4881d1a3884e20b1b4f32fb22f4feab2ea1bdf50646"
+    },
+    {
+      "batch_id": "batch_11",
+      "sample_count": 10,
+      "candidate_count": 40,
+      "characters": 38853,
+      "bytes": 50304,
+      "sha256": "36e3dde3dd44b64a1ae2d7ac97d57529791efe0606a44333773f36a2f4974bd5"
+    },
+    {
+      "batch_id": "batch_12",
+      "sample_count": 10,
+      "candidate_count": 40,
+      "characters": 34628,
+      "bytes": 44918,
+      "sha256": "4ce8d08fb4baa9355c6d6aba76bc696fdf42f3098095e7aeb86b8bc042f85da0"
+    },
+    {
+      "batch_id": "batch_13",
+      "sample_count": 10,
+      "candidate_count": 40,
+      "characters": 42969,
+      "bytes": 55827,
+      "sha256": "3b6d0c0ce00e74cb9df0f8efbc2a6b109d1336bf1725476ba7a8f7d9014ea7fd"
+    },
+    {
+      "batch_id": "batch_14",
+      "sample_count": 10,
+      "candidate_count": 40,
+      "characters": 40429,
+      "bytes": 51245,
+      "sha256": "aee90b279211221eae1b132429b3a5591cefceb1b996dc755e27ac6519fcc230"
+    },
+    {
+      "batch_id": "batch_15",
+      "sample_count": 10,
+      "candidate_count": 40,
+      "characters": 37690,
+      "bytes": 48068,
+      "sha256": "dd34d3cf95991ef0145671e57e01994039b9f0dfde94651c69624cd8417ac4e9"
+    },
+    {
+      "batch_id": "batch_16",
+      "sample_count": 10,
+      "candidate_count": 40,
+      "characters": 33828,
+      "bytes": 43746,
+      "sha256": "eb627f4799a3d6101340acaf62bd9a2f97235611b890714059b16f9a0c463c26"
+    },
+    {
+      "batch_id": "batch_17",
+      "sample_count": 10,
+      "candidate_count": 40,
+      "characters": 36970,
+      "bytes": 47877,
+      "sha256": "069a17966e8dd707d86eba491042c8b2fb2be1f950e702cfb66514a55d3165ee"
+    },
+    {
+      "batch_id": "batch_18",
+      "sample_count": 10,
+      "candidate_count": 40,
+      "characters": 42680,
+      "bytes": 55366,
+      "sha256": "d796189af8741eecc24a5ce2878ba77092424c3b03ffba2e383d5c7374bf19cb"
+    },
+    {
+      "batch_id": "batch_19",
+      "sample_count": 10,
+      "candidate_count": 40,
+      "characters": 38114,
+      "bytes": 48988,
+      "sha256": "fc92551b10d3c913832e0343db3ba7ffe798ad264a3d1093918e97bda665b74e"
+    },
+    {
+      "batch_id": "batch_20",
+      "sample_count": 10,
+      "candidate_count": 40,
+      "characters": 38257,
+      "bytes": 49658,
+      "sha256": "0cc67377bad47b1c6093693e851aaaa1e0745fd2b1a47c893ff05b6902f09552"
+    }
+  ],
+  "mapping_file": {
+    "filename": "llm_judge_mapping_secret.jsonl",
+    "rows": 200,
+    "sha256": "f7f164705bcac89a0c2c63847f5dde22bed7b342e56a49be208dc9110a240983"
+  }
+}

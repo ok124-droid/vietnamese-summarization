@@ -1,0 +1,651 @@
+{
+  "batch_id": "batch_09",
+  "results": [
+    {
+      "sample_id": "test_011170",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu sự tăng trưởng thanh toán số cùng các số liệu thẻ, ví điện tử và mức độ cởi mở với dịch vụ tài chính số.",
+      "brief_reason": "Nêu đúng tác động của COVID-19 làm mua sắm trực tuyến tăng, nhưng mới bao quát một phần bài và câu hơi gượng."
+    },
+    {
+      "sample_id": "test_011170",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["RELATION", "CAUSALITY"],
+      "factual_error_evidence": "Candidate nói người Việt ở mức thấp nhất và gây thay đổi thói quen; SOURCE nói độ cởi mở chỉ sau Thái Lan và COVID-19 làm thay đổi hành vi.",
+      "main_missing_information": "Bỏ lỡ toàn bộ trọng tâm về mua sắm trực tuyến, thanh toán số tăng mạnh và mức độ cởi mở cao của người Việt.",
+      "brief_reason": "Đảo ngược vị trí của người tiêu dùng Việt và gán sai nguyên nhân, nên nội dung chính không trung thực và không thể hiện trọng tâm."
+    },
+    {
+      "sample_id": "test_011170",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu các mức tăng thanh toán trực tuyến, giao dịch qua NAPAS và MoMo, cùng kết quả khảo sát về dịch vụ tài chính số.",
+      "brief_reason": "Trình bày chính xác sự gia tăng mua sắm trực tuyến và vai trò của thương mại điện tử khi giãn cách, nhưng bỏ hai mảng lớn còn lại."
+    },
+    {
+      "sample_id": "test_011170",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Chưa nêu mua sắm trực tuyến tăng mạnh, thanh toán số tăng trưởng và kết quả khảo sát về mức độ cởi mở của người tiêu dùng Việt.",
+      "brief_reason": "Thông tin đúng nhưng quá khái quát, chỉ nói thói quen mua sắm thay đổi mà chưa nêu diễn biến và số liệu cốt lõi."
+    },
+    {
+      "sample_id": "test_011396",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": ["UNSUPPORTED"],
+      "factual_error_evidence": "SOURCE chỉ xác định chị Phùng Thị Ng đang thuê trọ, không nói nhiều lao động kiếm thêm đều là người thuê trọ tại Hà Nội.",
+      "main_missing_information": "Thiếu mức giá thuê tăng gấp 2-2,5 lần và biến động nguồn cung lao động do COVID-19, người lao động muốn về quê.",
+      "brief_reason": "Tóm đúng nhu cầu cận Tết và mục tiêu kiếm thêm thu nhập, nhưng khái quát quá mức về nhóm lao động thuê trọ và thiếu diễn biến giá."
+    },
+    {
+      "sample_id": "test_011396",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu mức giá tăng gấp 2-2,5 lần, tình trạng nguồn lao động biến động và việc người làm tranh thủ tăng thu nhập.",
+      "brief_reason": "Anecdote về bà Bốn phản ánh đúng nhu cầu đặt dọn nhà tăng, nhưng chưa khái quát đầy đủ thị trường dịch vụ cận Tết."
+    },
+    {
+      "sample_id": "test_011396",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu giá thuê tăng gấp 2-2,5 lần và nguyên nhân nguồn cung lao động bị xáo trộn dịp Tết.",
+      "brief_reason": "Nêu đúng nhu cầu thuê theo giờ và cơ hội kiếm thêm của lao động, song chưa có giá tăng và nguyên nhân thiếu nguồn cung; diễn đạt hơi gượng."
+    },
+    {
+      "sample_id": "test_011396",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu xu hướng nhu cầu tăng vọt, mức giá gấp 2-2,5 lần, biến động nguồn cung và thu nhập của người lao động.",
+      "brief_reason": "Chi tiết về bà Bốn hoàn toàn đúng nhưng quá ngắn và chỉ phản ánh một trường hợp, chưa tóm được bức tranh dịch vụ cận Tết."
+    },
+    {
+      "sample_id": "test_011471",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["DATE_TIME", "RELATION"],
+      "factual_error_evidence": "Ngày 19.12 không xuất hiện trong SOURCE; 57,05 triệu đồng/lượng chỉ là giá bán SJC, trong khi giá mua là 56,45 triệu.",
+      "main_missing_information": "Thiếu tỷ giá trung tâm, tỷ giá mua-bán cụ thể và diễn biến USD quốc tế lên đỉnh hai tháng cùng các nguyên nhân hỗ trợ.",
+      "brief_reason": "Có một mức giá vàng đúng nhưng gắn ngày không được nguồn nêu và trình bày giá bán như mức giá chung; phạm vi bao quát hẹp."
+    },
+    {
+      "sample_id": "test_011471",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu tỷ giá Vietcombank, các ngoại tệ khác, diễn biến USD quốc tế tăng mạnh và giá vàng trong nước, quốc tế.",
+      "brief_reason": "Nêu chính xác tỷ giá trung tâm và USD chợ đen, rõ ràng, gọn, nhưng chỉ bao phủ phần đầu của bản tin thị trường."
+    },
+    {
+      "sample_id": "test_011471",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 1
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Không cung cấp bất kỳ tỷ giá, diễn biến USD hay giá vàng nào được nêu trong SOURCE.",
+      "brief_reason": "Chỉ lặp lại một câu hỏi mà không đưa câu trả lời hay thông tin tóm tắt, nên gần như không có giá trị bao quát."
+    },
+    {
+      "sample_id": "test_011471",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": ["PREDICATE"],
+      "factual_error_evidence": "Candidate nói tỷ giá USD ngân hàng biến động nhẹ; SOURCE nói tỷ giá USD/VND tại Vietcombank không đổi ở cả hai chiều.",
+      "main_missing_information": "Thiếu các mức tỷ giá cụ thể, nguyên nhân USD quốc tế tăng và thông tin giá vàng.",
+      "brief_reason": "Phân biệt được thị trường trong nước với đà tăng quốc tế, nhưng mô tả sai tỷ giá ngân hàng và thiếu số liệu, nguyên nhân chính."
+    },
+    {
+      "sample_id": "test_011474",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 2
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu ba lý do quan trọng khác: cơ hội danh hiệu, gia đình ổn định tại Madrid và vị thế lớn hơn của Modric sau khi Ronaldo rời đi.",
+      "brief_reason": "Thông tin hợp đồng và mức lương đúng, nhưng lặp lại gần như cùng một ý hai lần và chỉ nêu lý do tài chính."
+    },
+    {
+      "sample_id": "test_011474",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["ENTITY", "RELATION"],
+      "factual_error_evidence": "Candidate nói Real Madrid đề nghị chính Real Madrid; SOURCE nói Real Madrid đề nghị Modric hợp đồng mới với lương ngang Gareth Bale.",
+      "main_missing_information": "Thiếu đúng đối tượng nhận đề nghị và toàn bộ các lý do khiến Modric có thể ở lại Real Madrid.",
+      "brief_reason": "Nhầm nghiêm trọng đối tượng nhận đề nghị khiến câu gần như vô nghĩa, đồng thời không tóm tắt bất kỳ lý do nào của bài."
+    },
+    {
+      "sample_id": "test_011474",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["RELATION"],
+      "factual_error_evidence": "Candidate biến nội dung thành các lý do Real Madrid muốn trả lương; SOURCE liệt kê các lý do để Modric ở lại Real Madrid.",
+      "main_missing_information": "Không nêu hợp đồng mới, cơ hội danh hiệu, yếu tố gia đình hay vị thế quan trọng hơn của Modric.",
+      "brief_reason": "Mức lương được nêu đúng nhưng câu hỏi trung tâm bị đổi quan hệ, và candidate không cung cấp bất kỳ lý do thực tế nào."
+    },
+    {
+      "sample_id": "test_011474",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu các lý do cụ thể gồm hợp đồng mới, cơ hội danh hiệu, gia đình tại Madrid và vai trò lớn hơn trong đội.",
+      "brief_reason": "Nêu đúng việc Real sẵn sàng trả Modric 11 triệu euro mỗi mùa, nhưng chỉ là phần dẫn nhập và chưa trả lời câu hỏi về các lý do."
+    },
+    {
+      "sample_id": "test_011524",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu kết quả đề nghị ba doanh nghiệp truy nộp hơn 60 triệu đồng kinh phí công đoàn.",
+      "brief_reason": "Bao quát chính xác hầu hết hoạt động giải quyết đơn và kiểm tra, nhưng quá dài, nhiều chi tiết và bỏ kết quả truy nộp quan trọng."
+    },
+    {
+      "sample_id": "test_011524",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": ["ENTITY"],
+      "factual_error_evidence": "SOURCE không xác định đây là Liên đoàn Lao động tỉnh Tuyên Quang; tên Tuyên Quang chỉ xuất hiện trong tên một công ty.",
+      "main_missing_information": "Thiếu việc giải quyết, hướng dẫn các khiếu nại; 70 cuộc kiểm tra điều lệ, 49 cuộc kiểm tra tài chính và khoản truy nộp hơn 60 triệu đồng.",
+      "brief_reason": "Nêu đúng hoạt động kiểm tra ba doanh nghiệp nhưng tự gắn tỉnh Tuyên Quang và chỉ phản ánh một phần nhỏ kết quả công tác."
+    },
+    {
+      "sample_id": "test_011524",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["DATE_TIME", "ENTITY", "NUMBER", "RELATION"],
+      "factual_error_evidence": "SOURCE không có ngày 25-4 hay Nghệ An; chỉ 1 đơn BHXH tại Công ty CP Chế biến lâm sản, còn Gang thép Tuyên Quang liên quan chấm dứt hợp đồng.",
+      "main_missing_information": "Bỏ lỡ các hoạt động kiểm tra điều lệ, tài chính, giải quyết đơn đúng đối tượng và yêu cầu truy nộp kinh phí công đoàn.",
+      "brief_reason": "Sai thời điểm, địa phương, số đơn và công ty liên quan, làm biến đổi gần như toàn bộ sự kiện dù câu văn rõ."
+    },
+    {
+      "sample_id": "test_011524",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu 70 cuộc kiểm tra điều lệ, 49 cuộc kiểm tra tài chính, kiểm tra ba doanh nghiệp và đề nghị truy nộp hơn 60 triệu đồng.",
+      "brief_reason": "Hai hoạt động giải quyết, hướng dẫn khiếu nại được nêu chính xác, nhưng câu dài và bỏ phần lớn kết quả kiểm tra tài chính, điều lệ."
+    },
+    {
+      "sample_id": "test_011727",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu các biện pháp kiểm soát COVID-19, quy định không rời cabin, xét nghiệm hằng tuần, thù lao và số liệu xuất nhập khẩu.",
+      "brief_reason": "Số lượng và điều kiện cư trú của lái xe đều đúng, nhưng lặp địa danh và chỉ bao quát phần mở đầu của bài."
+    },
+    {
+      "sample_id": "test_011727",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu điều kiện cư trú, cơ chế giám sát và xét nghiệm, quy định trong cabin, thù lao cùng số liệu hàng hóa qua cửa khẩu.",
+      "brief_reason": "Con số 276 lái xe chính xác, nhưng một số liệu đơn lẻ là quá ngắn để đại diện cho nội dung về tổ trung chuyển và kiểm soát dịch."
+    },
+    {
+      "sample_id": "test_011727",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": ["NEGATION"],
+      "factual_error_evidence": "Candidate nêu lệnh cấm tuyệt đối; SOURCE cho phép rời cabin trong trường hợp đặc biệt.",
+      "main_missing_information": "Thiếu quy mô tổ lái xe, điều kiện cư trú, điểm danh, xét nghiệm hằng tuần, mức trả công và thống kê xuất nhập khẩu.",
+      "brief_reason": "Nêu đúng quy tắc chính về ở trong cabin nhưng bỏ ngoại lệ, đồng thời chỉ chọn một biện pháp trong toàn bộ quy trình kiểm soát."
+    },
+    {
+      "sample_id": "test_011727",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu quy định không rời cabin, xét nghiệm COVID-19 hằng tuần, mức trả công và các số liệu giao thương qua cửa khẩu.",
+      "brief_reason": "Tóm đúng quy mô, tiêu chuẩn cư trú và việc điểm danh để kiểm soát lái xe, nhưng chưa bao quát nhiều quy định và kết quả giao thương."
+    },
+    {
+      "sample_id": "test_011897",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu việc Thanh tra Chính phủ được giao rà soát, xác minh các tố cáo và phải báo cáo Thủ tướng trước ngày 1.5.",
+      "brief_reason": "Nêu đúng bối cảnh họp báo và thời gian vụ việc kéo dài, nhưng chưa có nội dung xử lý trọng tâm hay thời hạn báo cáo."
+    },
+    {
+      "sample_id": "test_011897",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu yêu cầu phân loại, xác minh các nội dung chưa giải quyết đúng và báo cáo Thủ tướng trước ngày 1.5.",
+      "brief_reason": "Bao quát đúng quá trình hai năm, các cuộc thanh tra và quyết định rà soát tổng thể; tuy nhiên hơi dài và thiếu yêu cầu xử lý, thời hạn."
+    },
+    {
+      "sample_id": "test_011897",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu việc vụ việc kéo dài hai năm, các cơ quan đã thanh tra và hạn báo cáo Thủ tướng trước ngày 1.5.",
+      "brief_reason": "Nêu chính xác và súc tích quyết định trung tâm là rà soát tố cáo tài chính, nhưng thiếu lịch sử vụ việc và thời hạn giải quyết."
+    },
+    {
+      "sample_id": "test_011897",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu kết luận giao Thanh tra Chính phủ rà soát, xác minh tố cáo và báo cáo trước ngày 1.5.",
+      "brief_reason": "Phản ánh đúng vụ việc quản lý tài chính kéo dài hai năm, nhưng dừng ở bối cảnh và bỏ hoàn toàn biện pháp giải quyết trọng tâm."
+    },
+    {
+      "sample_id": "test_012215",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu hành động cán bộ lội nước, đi xuồng phát tiền trực tiếp cho người bị cô lập và quy mô hơn 10.000 người hưởng chế độ.",
+      "brief_reason": "Thời gian, địa điểm và nhiệm vụ chi trả đều đúng, nhưng đại từ “chúng tôi” thiếu chủ thể độc lập và chưa nêu nỗ lực nổi bật trong lũ."
+    },
+    {
+      "sample_id": "test_012215",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu bối cảnh ngập lụt và việc cán bộ BHXH, bưu điện lội nước, đi xuồng để chi trả cho người dân vùng bị cô lập.",
+      "brief_reason": "Số người được chi trả hàng tháng và người phát ngôn đều chính xác, nhưng bỏ sự kiện chính về phục vụ người dân giữa vùng ngập."
+    },
+    {
+      "sample_id": "test_012215",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu chi tiết 62 người tại Nam Phương Tiến và việc phát trực tiếp cho các trường hợp ở vùng lụt sâu, bị cô lập.",
+      "brief_reason": "Bao quát đúng quy mô, mạng lưới chi trả và nỗ lực lội nước, đi xuồng; chỉ thiếu một số chi tiết triển khai tại vùng ngập sâu."
+    },
+    {
+      "sample_id": "test_012215",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu quy mô hơn 10.000 người hưởng lương hưu, trợ cấp và các chi tiết tổ chức chi trả tại Nam Phương Tiến.",
+      "brief_reason": "Nêu đúng, rõ và rất gọn sự kiện cốt lõi là cán bộ vượt vùng ngập để bảo đảm chi trả, chỉ thiếu quy mô và chi tiết địa phương."
+    },
+    {
+      "sample_id": "test_012332",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["ATTRIBUTION", "DATE_TIME", "UNSUPPORTED"],
+      "factual_error_evidence": "SOURCE không nêu Trung tâm Dự báo Khí tượng Thuỷ văn Trung ương hay việc đón Noel; ngày dự báo là 18.5, không có bối cảnh Noel.",
+      "main_missing_information": "Không nêu nhiệt độ, mưa nắng tại Hà Nội hay dự báo cho bất kỳ vùng nào trong SOURCE.",
+      "brief_reason": "Gán nguồn không có và đưa chi tiết đón Noel hoàn toàn vô căn cứ, khiến câu không phản ánh bản tin thời tiết ngày 18.5."
+    },
+    {
+      "sample_id": "test_012332",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu dự báo cho Tây Bắc Bộ, Đông Bắc Bộ, Trung Bộ, Tây Nguyên và Nam Bộ, gồm cả cảnh báo dông mạnh.",
+      "brief_reason": "Các mức nhiệt và trạng thái thời tiết Hà Nội đều chính xác, nhưng bản tin bao quát toàn quốc còn candidate chỉ nêu một khu vực."
+    },
+    {
+      "sample_id": "test_012332",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 2
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu nhiệt độ cao nhất, tình trạng mây mưa của Hà Nội và toàn bộ dự báo, cảnh báo cho các vùng khác.",
+      "brief_reason": "Chỉ đưa nhiệt độ thấp nhất của Hà Nội nên tuy đúng và dễ hiểu, nội dung quá ngắn, gần như không tóm được bản tin toàn vùng."
+    },
+    {
+      "sample_id": "test_012332",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["NUMBER", "PREDICATE"],
+      "factual_error_evidence": "Bắc Bộ không phải đều không mưa; Tây Bắc và Đông Bắc có mưa vài nơi. 22°C là mức thấp, còn nhiệt độ cao nhất là 26-30°C tùy vùng.",
+      "main_missing_information": "Thiếu dự báo cho Trung Bộ và Tây Nguyên; mô tả Nam Bộ cũng bỏ tính rải rác, cục bộ của mưa vừa, mưa to.",
+      "brief_reason": "Có ý đúng về Nam Bộ và cảnh báo dông, nhưng sai nghiêm trọng tình trạng mưa và nhiệt độ cao nhất ở Bắc Bộ, đồng thời thiếu nhiều vùng."
+    },
+    {
+      "sample_id": "test_012491",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu vai trò, quy mô và thu nhập công nhân, mục tiêu Tháng Công nhân cùng việc tôn vinh, hỗ trợ nhà và tặng quà.",
+      "brief_reason": "Phần phát biểu khai mạc được thuật lại chính xác, nhưng chỉ là một chi tiết dẫn nhập và chưa nêu hoạt động, kết quả chính của buổi lễ."
+    },
+    {
+      "sample_id": "test_012491",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["DATE_TIME", "LOCATION", "ENTITY", "UNSUPPORTED"],
+      "factual_error_evidence": "SOURCE không nêu sáng 23/5, năm 2018 hay địa điểm buổi lễ; đối tượng được tôn vinh là 23 công nhân lao động tiêu biểu, không phải 23 tập thể, cá nhân.",
+      "main_missing_information": "Thiếu nội dung phát biểu, mục tiêu Tháng Công nhân, các số liệu lao động và hỗ trợ 10 nhà, 31 suất quà.",
+      "brief_reason": "Nhận ra hoạt động Tháng Công nhân và con số 23, nhưng tự thêm thời gian, địa điểm và đổi sai đối tượng được tôn vinh."
+    },
+    {
+      "sample_id": "test_012491",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 3,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 3
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thiếu mục tiêu Tháng Công nhân và việc tôn vinh 23 công nhân, hỗ trợ 10 Mái ấm công đoàn, tặng quà cho 31 người khó khăn.",
+      "brief_reason": "Các phát biểu và số liệu lao động đều đúng, nhưng dành nhiều chỗ cho bối cảnh, chưa nêu hoạt động chăm lo, tôn vinh quan trọng."
+    },
+    {
+      "sample_id": "test_012491",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": ["DATE_TIME", "UNSUPPORTED"],
+      "factual_error_evidence": "SOURCE chỉ nêu lễ phát động trước đó vào 27.4, không có sáng 28.4, năm 2022 hay Tháng hành động về an toàn vệ sinh lao động.",
+      "main_missing_information": "Bỏ toàn bộ phát biểu, số liệu lao động, mục tiêu Tháng Công nhân và các hoạt động tôn vinh, hỗ trợ công nhân tại buổi lễ.",
+      "brief_reason": "Chỉ giữ được tên đơn vị và Tháng Công nhân; thời gian cùng sự kiện an toàn vệ sinh lao động đều không được nguồn hỗ trợ."
+    }
+  ],
+  "completeness": {
+    "expected_samples": 10,
+    "expected_candidates": 40,
+    "returned_candidates": 40,
+    "missing": []
+  }
+}

@@ -1,0 +1,684 @@
+{
+  "batch_id": "batch_10",
+  "results": [
+    {
+      "sample_id": "test_012734",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Ông Huân đã nhận hình thức kỷ luật; ông Thắng mới là người hành hung và bị phạt 3,6 triệu đồng.",
+      "brief_reason": "Các chi tiết đều đúng nguồn và nêu được dấu hiệu vi phạm, nhưng mở đầu bằng tham chiếu mơ hồ, câu trích dẫn chưa khép và thiếu kết quả kỷ luật."
+    },
+    {
+      "sample_id": "test_012734",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Bối cảnh ông Huân xuất hiện trong clip, hành vi cầm ghế và việc ông nhận kỷ luật.",
+      "brief_reason": "Lời thừa nhận được nguồn hỗ trợ, nhưng câu chuyển đột ngột từ ngôi thứ ba sang “tôi” và chỉ phản ánh một phần vụ việc."
+    },
+    {
+      "sample_id": "test_012734",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 1,
+        "focus_relevance": 1,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 2
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Toàn bộ sự việc ông Huân bị xác định có hành xử không phù hợp và nhận kỷ luật trong vụ hành hung bác sĩ.",
+      "brief_reason": "Câu đúng nguyên văn nhưng “Thông tin trên” không có đối tượng tham chiếu, nên không truyền đạt được sự kiện hay trọng tâm của nguồn."
+    },
+    {
+      "sample_id": "test_012734",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Ông Huân đã nhận hình thức kỷ luật; ông Thắng là người hành hung bác sĩ và bị xử phạt.",
+      "brief_reason": "Tóm tắt đúng, rõ và tập trung vào hành xử vi phạm của Chủ tịch phường, nhưng chưa nêu kết quả kỷ luật và phân biệt người trực tiếp hành hung."
+    },
+    {
+      "sample_id": "test_012753",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "ATTRIBUTION"
+      ],
+      "factual_error_evidence": "Candidate gán chức danh “nguyên giáo viên... THPT chuyên Chu Văn An” cho Phạm Hữu Cường; nguồn gán chức danh này cho TS Trịnh Thu Tuyết.",
+      "main_missing_information": "Quan điểm của cô Lệ Hằng, TS Trịnh Thu Tuyết và ưu điểm kích thích sáng tạo mà TS Cường thừa nhận.",
+      "brief_reason": "Nêu đúng phê bình của TS Cường nhưng gán cho ông chức danh của TS Trịnh Thu Tuyết, làm sai danh tính người được dẫn."
+    },
+    {
+      "sample_id": "test_012753",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "UNSUPPORTED",
+        "ATTRIBUTION"
+      ],
+      "factual_error_evidence": "Nguồn không nói đây là thi tuyển sinh lớp 10 của THPT Việt Đức; nhận xét “tính giáo dục không cao” là của TS Cường, không phải cô Lệ Hằng.",
+      "main_missing_information": "Nội dung cụ thể của đề hóa thân vào Chi Pu và các lập luận đánh giá của ba nhà giáo.",
+      "brief_reason": "Câu trôi chảy nhưng tự thêm loại và đơn vị tổ chức kỳ thi, đồng thời gán sai nhận xét trọng yếu cho cô Lệ Hằng."
+    },
+    {
+      "sample_id": "test_012753",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các chuyên gia đánh giá đề có ưu điểm sáng tạo nhưng hạn chế về giáo dục, sư phạm và tính mô phạm.",
+      "brief_reason": "Mô tả chính xác đề bài và đủ rõ, song chưa phản ánh trọng tâm tranh luận là những nhận xét, đặc biệt các phê bình của giới chuyên môn."
+    },
+    {
+      "sample_id": "test_012753",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các hạn chế giáo dục, sư phạm, tính mô phạm cùng quan điểm phản đối của cô Lệ Hằng và TS Trịnh Thu Tuyết.",
+      "brief_reason": "Phần mô tả đề và ưu điểm đều trung thực, nhưng bản tóm tắt dừng trước các phê bình quan trọng nên tạo bức tranh đánh giá chưa cân bằng."
+    },
+    {
+      "sample_id": "test_012902",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Vũ Thị Mừng cũng kháng cáo, xin giảm tội che giấu và phủ nhận tội xâm phạm thi thể; các mức án sơ thẩm.",
+      "brief_reason": "Nêu chính xác và súc tích việc Cao Tài Năng kháng cáo xin giảm án, nhưng bỏ toàn bộ phần kháng cáo quan trọng của Vũ Thị Mừng."
+    },
+    {
+      "sample_id": "test_012902",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Nội dung kháng cáo của Vũ Thị Mừng và các bản án sơ thẩm đối với hai bị cáo.",
+      "brief_reason": "Thông tin về thời điểm, nơi nhận đơn và yêu cầu giảm án của Năng đều đúng, song mới bao phủ một trong hai bị cáo kháng cáo."
+    },
+    {
+      "sample_id": "test_012902",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Mức án sơ thẩm tử hình đối với Năng và 6 năm 6 tháng tù đối với Mừng.",
+      "brief_reason": "Bao quát đúng đơn kháng cáo của cả Năng và Mừng cùng căn cứ Mừng đưa ra; chỉ thiếu bối cảnh các mức án sơ thẩm."
+    },
+    {
+      "sample_id": "test_012902",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ATTRIBUTION",
+        "PREDICATE",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Nguồn nói Vũ Thị Mừng phủ nhận tham gia chôn, đốt xác; candidate gán lời này cho Cao Tài Năng và tự thêm “Sau khi trả hồ sơ”.",
+      "main_missing_information": "Năng kháng cáo xin giảm án; Mừng cũng kháng cáo và phủ nhận tội xâm phạm thi thể sau bản án sơ thẩm.",
+      "brief_reason": "Nội dung chính bị gán nhầm từ Mừng sang Năng và thêm sự kiện trả hồ sơ không có trong nguồn, nên không phản ánh đúng các đơn kháng cáo."
+    },
+    {
+      "sample_id": "test_013501",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các yêu cầu cụ thể của Nga và phản hồi của Mỹ, NATO đối với những đề xuất an ninh.",
+      "brief_reason": "Trình bày đúng yêu cầu bảo đảm an ninh ràng buộc, nhiệm vụ Putin giao và bối cảnh căng thẳng; phần diễn biến đàm phán sau đó chưa được đề cập."
+    },
+    {
+      "sample_id": "test_013501",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Putin yêu cầu theo đuổi các bảo đảm an ninh toàn diện, ràng buộc pháp lý từ Mỹ và NATO cùng các nội dung đàm phán.",
+      "brief_reason": "Câu đúng nguồn nhưng ưu tiên chi tiết chúc mừng mang tính bối cảnh, bỏ mất trọng tâm là yêu cầu bảo đảm an ninh pháp lý của Nga."
+    },
+    {
+      "sample_id": "test_013501",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các yêu cầu chi tiết của Mátxcơva và phản hồi gần như bác bỏ của Washington, Brussels.",
+      "brief_reason": "Nêu đúng hành động của Putin và yêu cầu cốt lõi với NATO, dù cách viết “yêu cầu nước này nhận được” hơi gượng và thiếu diễn biến phản hồi."
+    },
+    {
+      "sample_id": "test_013501",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các đề xuất cụ thể của Nga và phản hồi của Mỹ, NATO.",
+      "brief_reason": "Tóm tắt chính xác, rõ và rất tập trung vào tuyên bố trung tâm của Putin; thiếu các yêu cầu cụ thể và phản ứng ngoại giao phía sau."
+    },
+    {
+      "sample_id": "test_013544",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Bệnh viện vượt đánh giá để trở thành cơ sở thực hành xuất sắc; Ngân hàng Sữa mẹ Quảng Ninh là thứ ba cả nước, đầu tiên miền Bắc.",
+      "brief_reason": "Các lời đánh giá và số liệu đều chính xác, cho thấy rõ tiến bộ của bệnh viện; bản tóm tắt hơi dài và thiếu hai thành tựu định danh quan trọng."
+    },
+    {
+      "sample_id": "test_013544",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 1,
+        "coverage": 1,
+        "focus_relevance": 2,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "DATE_TIME",
+        "ENTITY",
+        "PREDICATE",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "Nguồn không nêu ngày 23/8, không có đơn vị “Ngân hàng sữa mẹ khu vực Đông Nam Á” và không nói tổ chức “lễ xuất quân”.",
+      "main_missing_information": "Tiến bộ về thực hành nuôi con bằng sữa mẹ, kết quả đánh giá bệnh viện và vị thế của Ngân hàng Sữa mẹ Quảng Ninh.",
+      "brief_reason": "Hầu hết sự kiện, thời gian và đơn vị phối hợp đều được tự thêm hoặc diễn đạt sai, nên câu không tóm tắt được nội dung nguồn."
+    },
+    {
+      "sample_id": "test_013544",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "PREDICATE",
+        "RELATION"
+      ],
+      "factual_error_evidence": "Nguồn nói Ngân hàng Sữa mẹ Quảng Ninh là ngân hàng thứ ba cả nước; candidate lại gọi bệnh viện thực hành là “thứ ba” và tự thêm “lễ xuất sắc”.",
+      "main_missing_information": "Các số liệu cải thiện, đánh giá của Bộ Y tế và việc bệnh viện vượt qua quy trình đánh giá toàn diện.",
+      "brief_reason": "Câu lẫn lộn bệnh viện với ngân hàng sữa mẹ, thêm sự kiện không có và dùng cụm từ khó hiểu, dù giữ đúng chi tiết đầu tiên ở miền Bắc."
+    },
+    {
+      "sample_id": "test_013544",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các kết quả cải thiện cụ thể, danh hiệu bệnh viện thực hành xuất sắc và Ngân hàng Sữa mẹ đầu tiên ở miền Bắc.",
+      "brief_reason": "Nhận xét của Thứ trưởng hoàn toàn đúng và rõ, nhưng quá khái quát, không nêu thành tựu nào giải thích sự đánh giá cao của Bộ Y tế."
+    },
+    {
+      "sample_id": "test_013586",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Việc miễn giảm học phí, 28 suất học bổng trị giá 100 triệu đồng và chương trình vaccine cho công nhân nghèo.",
+      "brief_reason": "Các loại quà, số lượng, giá trị xe đạp và đối tượng nhận đều đúng; bản tóm tắt mới phản ánh một phần hoạt động hỗ trợ."
+    },
+    {
+      "sample_id": "test_013586",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "DATE_TIME"
+      ],
+      "factual_error_evidence": "Candidate nêu “Ngày 31.5” nhưng SOURCE không cung cấp ngày diễn ra chương trình trao học bổng.",
+      "main_missing_information": "Quà cho học sinh Trường Ngôi Sao Nhỏ, miễn giảm học phí và chương trình quyên góp vaccine cho công nhân nghèo.",
+      "brief_reason": "Sự kiện trao 28 học bổng và đối tượng thụ hưởng là đúng, nhưng ngày 31.5 không được nguồn hỗ trợ và phạm vi bao phủ còn hẹp."
+    },
+    {
+      "sample_id": "test_013586",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "DATE_TIME"
+      ],
+      "factual_error_evidence": "Việc hai đơn vị phát động chương trình có trong nguồn, nhưng ngày 27/5/2019 hoàn toàn không được SOURCE nêu.",
+      "main_missing_information": "Hoạt động tặng quà, miễn giảm học phí và trao 28 học bổng cho con công nhân khó khăn tại Bình Dương.",
+      "brief_reason": "Nêu đúng tổ chức và tên chương trình vaccine, nhưng gắn một ngày cụ thể không có căn cứ và bỏ phần lớn hoạt động hỗ trợ học sinh."
+    },
+    {
+      "sample_id": "test_013586",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Miễn giảm học phí, 28 suất học bổng trị giá 100 triệu đồng và chương trình vaccine cho công nhân nghèo.",
+      "brief_reason": "Thông tin quà tặng, địa điểm trường và hoàn cảnh học sinh đều chính xác, nhưng phần bối cảnh chiếm nhiều chỗ trong khi các hỗ trợ khác bị bỏ."
+    },
+    {
+      "sample_id": "test_013608",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Văn bản chỉ đạo của Bộ trưởng và chủ trương không cho giáo viên vi phạm đứng lớp, đưa trường hợp nghiêm trọng ra khỏi ngành.",
+      "brief_reason": "Danh sách các vụ việc đều đúng và cho thấy bối cảnh, nhưng tóm tắt chưa nêu phản ứng cùng giải pháp chính của Bộ Giáo dục và Đào tạo."
+    },
+    {
+      "sample_id": "test_013608",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Bối cảnh nhiều vụ vi phạm và yêu cầu thanh tra, rà soát, xử lý kịp thời tại các cơ sở giáo dục.",
+      "brief_reason": "Nêu đúng, rõ và súc tích chủ trương xử lý mạnh giáo viên vi phạm; thiếu nguyên nhân ban hành chỉ đạo và các biện pháp kiểm tra cụ thể."
+    },
+    {
+      "sample_id": "test_013608",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các yêu cầu thanh tra, rà soát và chủ trương không bố trí đứng lớp hoặc loại khỏi ngành người vi phạm nghiêm trọng.",
+      "brief_reason": "Bao quát chính xác chuỗi vụ việc, tác động xã hội và văn bản của Bộ trưởng; chưa nêu nội dung xử lý then chốt và hơi dài vì liệt kê."
+    },
+    {
+      "sample_id": "test_013608",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Các vụ việc dẫn tới văn bản và biện pháp không bố trí đứng lớp, đưa trường hợp vi phạm nghiêm trọng ra khỏi ngành.",
+      "brief_reason": "Nêu chính xác hành động trung tâm của Bộ trưởng, rõ ràng và tập trung, nhưng chưa cho biết bối cảnh cũng như nội dung chỉ đạo xử lý."
+    },
+    {
+      "sample_id": "test_013643",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Đây là điểm chuẩn năm 2020; Logistics và Quản lý chuỗi cung ứng cao nhất trong các ngành thang 30 với 28 điểm.",
+      "brief_reason": "Khoảng điểm được nêu chính xác và rất súc tích, nhưng thiếu năm tuyển sinh, ngành có điểm cao nhất cùng thông tin chỉ tiêu và phương thức xét tuyển."
+    },
+    {
+      "sample_id": "test_013643",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 5,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "",
+      "brief_reason": "Tóm tắt chính xác thông báo điểm chuẩn năm 2020, khoảng điểm và ngành dẫn đầu theo thang 30; các chi tiết tuyển sinh còn lại chỉ là thông tin phụ."
+    },
+    {
+      "sample_id": "test_013643",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 2,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 2,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "NUMBER",
+        "PREDICATE"
+      ],
+      "factual_error_evidence": "Candidate nói trường “lấy điểm chuẩn 30”; nguồn nêu khoảng 24,5-35,6 và Logistics cao nhất trong nhóm thang 30 là 28 điểm.",
+      "main_missing_information": "Khoảng điểm chuẩn thực tế 24,5-35,6 và ý nghĩa đúng của thang điểm 30.",
+      "brief_reason": "Nhầm thang điểm thành mức điểm chuẩn 30 làm sai thông tin trung tâm và còn tạo mâu thuẫn với mệnh đề Logistics cao nhất chỉ 28 điểm."
+    },
+    {
+      "sample_id": "test_013643",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Khoảng điểm 24,5-35,6, ngành Logistics và Quản lý chuỗi cung ứng đạt 28 điểm cùng các phương thức tuyển sinh.",
+      "brief_reason": "Câu thông báo đúng và rõ nhưng quá khái quát, không cung cấp bất kỳ kết quả điểm chuẩn cụ thể nào nên giá trị tóm tắt hạn chế."
+    },
+    {
+      "sample_id": "test_013652",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": true,
+      "factual_error_types": [
+        "ENTITY",
+        "UNSUPPORTED"
+      ],
+      "factual_error_evidence": "SOURCE chỉ gọi hệ thống là “áp thấp nhiệt đới”, không hề nêu tên Kajiki; hướng, tốc độ và khả năng mạnh thêm thì đúng.",
+      "main_missing_information": "Khả năng mạnh thành bão trong 24-48 giờ, cấp gió dự báo, mưa lớn và các nguy cơ lũ quét, sạt lở, ngập úng.",
+      "brief_reason": "Dự báo chuyển động được nêu đúng, nhưng tự đặt tên Kajiki cho áp thấp là lỗi nhận dạng đáng kể và phần tác động nguy hiểm bị bỏ."
+    },
+    {
+      "sample_id": "test_013652",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Dự báo áp thấp di chuyển, mạnh thành bão và gây mưa lớn, lũ quét, sạt lở, ngập úng ở nhiều khu vực.",
+      "brief_reason": "Tất cả thời điểm, tọa độ, khoảng cách và cấp gió ban đầu đều chính xác, nhưng thiên về số liệu hiện trạng và thiếu toàn bộ diễn biến, cảnh báo."
+    },
+    {
+      "sample_id": "test_013652",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Vị trí, cường độ hiện tại, khả năng mạnh thành bão trong 24-48 giờ và cảnh báo mưa lũ, sạt lở, ngập úng.",
+      "brief_reason": "Nêu đúng và gọn dự báo 24 giờ đầu, nhưng nguồn còn nhiều thông tin thiết yếu về cường độ, quá trình thành bão và rủi ro trên biển, đất liền."
+    },
+    {
+      "sample_id": "test_013652",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 2,
+        "focus_relevance": 3,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Cường độ áp thấp, dự báo di chuyển và mạnh thành bão, cùng cảnh báo gió, sóng, mưa lớn, lũ quét và sạt lở.",
+      "brief_reason": "Vị trí và thời điểm được chép chính xác, song chỉ là một dữ kiện hiện trạng, chưa phản ánh diễn biến hay cảnh báo chính của bản tin."
+    },
+    {
+      "sample_id": "test_014021",
+      "candidate_id": "A",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 3,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Trường hợp MC Quyền Linh bị ghép hình, tiếng để quảng cáo thuốc và hướng dẫn kiểm tra trang giả trước khi mua hàng.",
+      "brief_reason": "Tường thuật đầy đủ, chính xác trường hợp Thúy Diễm và lời cảnh báo của cô, nhưng mới bao phủ một ví dụ trong vấn đề giả mạo rộng hơn."
+    },
+    {
+      "sample_id": "test_014021",
+      "candidate_id": "B",
+      "scores": {
+        "faithfulness": 4,
+        "coverage": 2,
+        "focus_relevance": 4,
+        "coherence_fluency": 4,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "PREDICATE"
+      ],
+      "factual_error_evidence": "Nguồn nói các trang cá nhân, fanpage bị giả mạo; cụm “hình ảnh giả mạo trang cá nhân” diễn đạt lệch đối tượng và không rõ nghĩa.",
+      "main_missing_information": "Hai trường hợp cụ thể của Thúy Diễm, Quyền Linh và lời khuyên kiểm tra dấu tick, nội dung, bình luận, thông tin đối chiếu.",
+      "brief_reason": "Nắm được hiện tượng giả mạo người nổi tiếng nhưng diễn đạt lẫn hình ảnh với trang Facebook, quá chung chung và bỏ mục đích lừa bán hàng cùng cách phòng tránh."
+    },
+    {
+      "sample_id": "test_014021",
+      "candidate_id": "C",
+      "scores": {
+        "faithfulness": 5,
+        "coverage": 4,
+        "focus_relevance": 5,
+        "coherence_fluency": 5,
+        "conciseness_nonredundancy": 4
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [],
+      "factual_error_evidence": "",
+      "main_missing_information": "Thủ đoạn ghép hình, ghép tiếng và các cách nhận diện, đối chiếu trang giả trước khi mua hàng.",
+      "brief_reason": "Bao quát chính xác cả hai trường hợp mạo danh nổi bật và lời phủ nhận bán hàng, quảng cáo; chỉ thiếu thủ đoạn kỹ thuật cùng hướng dẫn phòng tránh."
+    },
+    {
+      "sample_id": "test_014021",
+      "candidate_id": "D",
+      "scores": {
+        "faithfulness": 3,
+        "coverage": 3,
+        "focus_relevance": 4,
+        "coherence_fluency": 3,
+        "conciseness_nonredundancy": 5
+      },
+      "has_major_factual_error": false,
+      "factual_error_types": [
+        "UNSUPPORTED",
+        "PREDICATE"
+      ],
+      "factual_error_evidence": "Nguồn chỉ nêu khẩu trang của Thúy Diễm bị rao giá cao; không nói hàng trong mọi vụ giả mạo đều giá cao. Cụm “người tiêu dùng... bán hàng” sai quan hệ hành động.",
+      "main_missing_information": "Hai nạn nhân cụ thể, việc họ phủ nhận kinh doanh/quảng cáo và các bước kiểm tra để nhận diện trang giả.",
+      "brief_reason": "Nêu đúng nguy cơ mạo danh để lừa người mua nhưng khái quát quá mức về thuốc, giá cao và có câu cuối nhập nhằng chủ thể, hành động."
+    }
+  ],
+  "completeness": {
+    "expected_samples": 10,
+    "expected_candidates": 40,
+    "returned_candidates": 40,
+    "missing": []
+  }
+}
