@@ -1,0 +1,9 @@
+{
+  "config_id": "greedy",
+  "strategy": "greedy",
+  "num_beams": 1,
+  "length_penalty": 1.0,
+  "no_repeat_ngram_size": 0,
+  "max_new_tokens": 96,
+  "min_new_tokens": 10
+}

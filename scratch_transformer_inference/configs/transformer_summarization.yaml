@@ -1,0 +1,181 @@
+project:
+  name: vietnamese_transformer_summarization
+  task: abstractive_summarization
+  language: vi
+  seed: 42
+
+paths:
+  train_path: data/processed/train.jsonl
+  valid_path: data/processed/valid.jsonl
+  test_path: data/processed/test.jsonl
+
+  tokenizer_model: data/tokenizer/vietnamese_spm.model
+
+  tokenized_train_path: data/bin/train_token_id.jsonl
+  tokenized_valid_path: data/bin/valid_token_id.jsonl
+  tokenized_test_path: data/bin/test_token_id.jsonl
+
+  checkpoint_dir: checkpoints/transformer_base
+  output_dir: outputs/transformer_base
+  log_dir: logs/transformer_base
+
+data:
+  source_column: Contents
+  target_column: Summary
+
+  # Source = Contents/article
+  # Target = Summary/abstract
+  max_source_length: 768
+  max_target_length: 96
+
+  # Source dài hơn max_source_length sẽ bị cắt phần cuối.
+  # Khi build dataset:
+  # source_ids = source_core_ids[:max_source_length - 1] + [eos_id]
+  source_truncation: true
+  source_truncation_strategy: keep_first
+
+  # Target dài hơn max_target_core_length sẽ bị loại.
+  # Vì:
+  # decoder_input_ids = [bos] + target_core_ids
+  # labels = target_core_ids + [eos]
+  # Nên nếu max_target_length = 96 thì len(target_core_ids) tối đa là 95.
+  drop_long_target: true
+  max_target_core_length: 95
+
+  # Padding nên làm động trong collate_fn, không padding cứng khi lưu dataset.
+  dynamic_padding: true
+
+tokenizer:
+  type: sentencepiece
+  model_type: unigram
+  vocab_size: 16000
+
+  pad_token: "<pad>"
+  unk_token: "<unk>"
+  bos_token: "<bos>"
+  eos_token: "<eos>"
+
+  pad_id: 0
+  unk_id: 1
+  bos_id: 2
+  eos_id: 3
+
+model:
+  architecture: transformer_seq2seq_from_scratch
+
+  vocab_size: 16000
+  pad_id: 0
+
+  d_model: 384
+  num_encoder_layers: 6
+  num_decoder_layers: 6
+  num_heads: 6
+  d_ff: 1536
+  dropout: 0.1
+
+  max_source_length: 768
+  max_target_length: 96
+
+  positional_encoding: sinusoidal
+  activation: gelu
+
+  # Pre-Norm thường ổn định hơn khi tự train Transformer từ đầu.
+  norm_type: pre_norm
+
+  # Chia sẻ trọng số giữa target embedding và output projection.
+  # Giúp giảm tham số và thường có lợi cho seq2seq.
+  tie_embeddings: true
+
+training:
+  device: cuda
+  use_amp: true
+
+  # Cấu hình Multi-GPU DDP (2 GPU T4)
+  use_ddp: true
+  batch_size_per_device: 32
+  gradient_accumulation_steps: 1
+
+  # Effective batch size: 32 * 2 * 1 = 64
+  epochs: 20
+  steps_per_epoch: 1515
+  total_steps: 30300
+
+  num_workers: 2
+  pin_memory: true
+
+  max_grad_norm: 1.0
+  label_smoothing: 0.05
+
+  # Loss phải ignore pad_id.
+  ignore_index: 0
+
+optimizer:
+  name: adamw
+  learning_rate: 0.0003
+  weight_decay: 0.01
+  beta1: 0.9
+  beta2: 0.98
+  eps: 0.000000001
+
+scheduler:
+  name: cosine_with_warmup
+  warmup_steps: 3030
+  min_learning_rate: 0.000001
+
+
+
+validation:
+  eval_every_epochs: 1
+  generate_every_epochs: 2
+
+  # Trong quá trình train, có thể chỉ decode một phần nhỏ validation để tiết kiệm thời gian.
+  generate_during_validation: true
+  num_samples_to_generate: 20
+
+  metrics:
+    - val_loss
+    - perplexity
+    - rouge1
+    - rouge2
+    - rougeL
+
+early_stopping:
+  enabled: true
+  monitor: val_loss
+  mode: min
+  min_delta: 0.001
+  patience: 4
+  start_from_epoch: 5
+  restore_best_checkpoint: true
+
+decoding:
+  max_length: 96
+  min_length: 10
+
+  # Greedy dùng để debug, beam search dùng cho kết quả báo cáo.
+  decoding_strategy: beam_search
+  beam_size: 4
+  length_penalty: 1.0
+  no_repeat_ngram_size: 3
+
+checkpointing:
+  save_best_val_loss: true
+  save_best_rougeL: true
+  save_last: true
+  keep_last_n: 3
+
+  best_checkpoint_name: best_val_loss.pt
+  last_checkpoint_name: last.pt
+
+logging:
+  log_every_steps: 100
+  use_tensorboard: true
+  use_wandb: false
+
+experiment:
+  name: transformer_base_768_96_spm16k
+  description: >
+    Transformer encoder-decoder trained from scratch for Vietnamese news summarization.
+    SentencePiece unigram tokenizer with vocab size 16000.
+    Source max length 768, target max length 96.
+    Long source is truncated, long target is dropped.
