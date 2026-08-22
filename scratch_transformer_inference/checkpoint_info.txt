@@ -1,0 +1,45 @@
+Scratch Transformer checkpoint
+==============================
+
+Checkpoint path:
+checkpoints/transformer_base/best_val_loss.pt
+
+SHA-256:
+1fad56e683fe6c3c91f05cc103033aa5414970dddb2c34a5b2362c5303af26b9
+
+Checkpoint contents:
+- Full trusted PyTorch training checkpoint.
+- Top-level model/optimizer/scheduler/config metadata.
+- Saved at epoch 17.
+- Model state_dict is read from the top-level "model" field.
+
+Compatibility confirmed from static checkpoint metadata:
+- vocab_size: 16000
+- d_model: 384
+- encoder layers: 6
+- decoder layers: 6
+- attention heads: 6
+- d_ff: 1536
+- max source length: 768
+- max target length: 96
+- shared encoder/decoder embeddings and tied output projection
+
+Tokenizer:
+data/tokenizer/vietnamese_spm.model
+SHA-256: 97d9074002191fed0054ab2be7c59726e06d54ee1da858ecd50c5a7d7b344733
+
+Model config:
+configs/transformer_summarization.yaml
+SHA-256: 13c52af7eb7431b93a8454f9747334ebb9b4cbbbe7424ca0ceb391df0098cc7b
+
+Download URL: https://drive.google.com/drive/folders/1a0av9ply94D64jfaShy4ssQb_0osaTxa?usp=sharing
+Download instructions:
+Download best_val_loss.pt and place it at:
+checkpoints/transformer_base/best_val_loss.pt
+
+The checkpoint is intentionally excluded from Git because of its size.
+
+Known packaging discrepancy:
+The original CHECKSUMS.sha256 referenced a missing model_inference.pt file with a
+different hash. The path and checksum above describe the checkpoint that is
+actually present. Do not substitute another checkpoint without team approval.
